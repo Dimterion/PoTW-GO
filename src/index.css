@@ -1,0 +1,15 @@
+.text {
+  white-space: pre-line;
+}
+
+.options {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.option {
+  cursor: pointer;
+  width: 250px;
+  max-width: 90vw;
+  margin: 5px auto;
+}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { nanoid } from "nanoid";
 import GameComponent from "../components/GameComponent";
 import gameContents from "../utils/gameContents";
@@ -16,7 +17,12 @@ function GameScreen() {
     );
   });
 
-  return <section>{contents[optionId]}</section>;
+  return (
+    <section>
+      <Link to="/">Start Screen</Link>
+      {contents[optionId]}
+    </section>
+  );
 }
 
 export default GameScreen;
