@@ -16,7 +16,7 @@ function GameComponent({ content, setOptionId }) {
 
   return (
     <article>
-      {content.subText && <p>{content.subText}</p>}
+      {content.subText && <p className="subText">{content.subText}</p>}
       <p className="text">{content.text}</p>
       <div className="options">{buttons}</div>
     </article>

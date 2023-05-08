@@ -1,5 +1,11 @@
 .text {
+  font-size: 1.2rem;
   white-space: pre-line;
+}
+
+.subText {
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 .options {
@@ -9,7 +15,8 @@
 
 .option {
   cursor: pointer;
-  width: 250px;
-  max-width: 90vw;
+  font-size: 1.2rem;
   margin: 5px auto;
+  max-width: 90vw;
+  width: 250px;
 }
