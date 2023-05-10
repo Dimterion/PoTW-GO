@@ -60,7 +60,7 @@ const gameContents = [
         nextText: 3,
       },
       {
-        text: `“About the arena…”`,
+        text: `“Writer’s Fights…”`,
         nextText: 5,
       },
     ],
@@ -74,8 +74,92 @@ const gameContents = [
 
     Arika suddenly turns to you, looking straight into your eyes.
 
-    “But I had to do that, Soai. I needed to see how it looks and feels out there. Despite all the desperate landscape, as weird as it sounds, it gives me hope. Maybe there’s a way to fix it all and be there again.” - She points down. - “To breathe fresh air, to step on the soil, feeling it with your bare feet. I wonder how it is. Being born in the tower, I can only imagine such things. Makes two of us, right?”`,
-    options: [],
+    “But I had to do that, Soai. I needed to see how it looks and feels out there. Despite all the desperate landscape and all the rest, as weird as it sounds, it gives me hope. Maybe there’s a way to fix it all and be there again.” - She points down. - “To breathe fresh air, to step on the soil, feeling it with your bare feet. I wonder how it is. Being born in the tower, I can only imagine such things. Makes two of us, right?”`,
+    options: [
+      {
+        text: `“Why are we here?”`,
+        nextText: 4,
+      },
+      {
+        text: `“I guess you’re right.”`,
+        nextText: 6,
+      },
+    ],
+  },
+  {
+    id: 4,
+    subText: `“Why did you bring me here? After the arena fight we just disappeared and went straight to this place. I never managed to travel like that before. You did something, right? Don’t get me wrong, that’s all impressive, but I think there’s something else.”`,
+    text: `After a pause Arika replies.
+
+    “I saw you in the Mnemonic bar many times, sitting there, looking at the window. I bet each time you were wondering what life looks like outside. Well, here it is. Also, while it’s all breathtaking, take a look at the tower itself. It’s not as pretty and solid as you might think.”
+
+    You realize that all that time you were more focussed on the view below and in front of you, rather than above and behind. You turn your head and see the tower’s wall. It’s all covered in rust, with some sections barely holding. Metal dust is flying all around with each blow of the wind. The bar you’re sitting on is shaking like a tree branch ready to break and fall down.
+
+    “Believe me, this one is not as bad as some of the others.” - Arika produces a sad chuckle. - “I’ve been to places, so I’ve seen some tremendously grim… states of affairs. Many of the towers are barely holding. A few have been destroyed already. They don’t tell us that. The Builders Council, I mean. Frankly speaking, they don’t talk much in general. It’s as if they have just forgotten about us. Here are your lifescrapers, take them and live in them, the rest is not of our concern. Feels weird, to say the least.”
+
+    Arika gets silent for a moment, looking away, then continues.
+
+    “There is a chance for us to do something about it, Soai. I can travel between the towers, to some extent. I know that’s possible. I know there’s a way to reach the Pillar. I want to find out what’s happening out there. I want to understand why they don’t do anything, why they isolate themselves there. But I can’t do it alone. Not anymore. Especially since Deo has gone.”
+
+    She stops talking and stares in front of her, her head sunk in her shoulders.`,
+    options: [
+      {
+        text: `“What happened to Deo?”`,
+        nextText: 7,
+      },
+      {
+        text: `“Got any plan in mind?”`,
+        nextText: 8,
+      },
+    ],
+  },
+  {
+    id: 5,
+    subText: `“Writer’s Fights have just lost a whole bunch of value for me, to be honest. Going to other levels, sure, but doing all the arena stuff feels kinda pointless.”`,
+    text: `“Don’t stress about it. Such feelings come and go.” - Arika nudges you with her elbow. - “You might yet find some interest in doing a bit of writing here and there. You want to feel more human? Learn how to relax and waste your time… from time to time.” - Arika laughs happily, then continues. - “As for going to other levels, you sir, came to the right person. In fact, that’s the reason I’ve brought you here. I saw you in the Mnemonic bar many times, sitting there, looking at the window. I bet each time you were wondering what life looks like outside. Well, here it is. Also, while it’s all breathtaking, take a look at the tower itself. It’s not as pretty and solid as you might think.”
+
+    You realize that all that time you were more focussed on the view below and in front of you, rather than above and behind. You turn your head and see the tower’s wall. It’s all covered in rust, with some sections barely holding. Metal dust is flying all around with each blow of the wind. The bar you’re sitting on is shaking like a tree branch ready to break and fall down.
+
+    “Believe me, this one is not as bad as some of the others.” - Arika produces a sad chuckle. - “I’ve been to places, so I’ve seen some tremendously grim… states of affairs. Many of the towers are barely holding. A few have been destroyed already. They don’t tell us that. The Builders Council, I mean. Frankly speaking, they don’t talk much in general. It’s as if they have just forgotten about us. Here are your lifescrapers, take them and live in them, the rest is not of our concern. Feels weird, to say the least.”
+
+    Arika gets silent for a moment, looking away, then continues.
+
+    “There is a chance for us to do something about it, Soai. I can travel between the towers, to some extent. I know that’s possible. I know there’s a way to reach the Pillar. I want to find out what’s happening out there. I want to understand why they don’t do anything, why they isolate themselves there. But I can’t do it alone. Not anymore. Especially since Deo has gone.”
+
+    She stops talking and stares in front of her, her head sunk in her shoulders.`,
+    options: [
+      {
+        text: `“What happened to Deo?”`,
+        nextText: 7,
+      },
+      {
+        text: `“Got any plan in mind?”`,
+        nextText: 8,
+      },
+    ],
+  },
+  {
+    id: 6,
+    subText: `“I guess you’re right. Though, I’m not sure if I ever get the chance for breathing and feeling.”`,
+    text: `Arika purses her lips pondering.
+
+    “Well, who knows, perhaps one day we’ll find a way. But I’d suggest focusing on the matter at hand.” - She points at the tower’s walls behind, and you realize who old and rusty they are. - “If you think this one is in a sorry condition, you should see some of the others. Trust me, I’ve been to places and seen some degraded state. A few towers have collapsed already. And the Builders Council says nothing. They barely talk to us, and I want to know what is going on over there, in the Pillar.”
+
+    She sighs, looking at the distance.
+
+    “I tried to reach it, but didn’t manage. It’s rather far away in the real world and quite well protected in zerOne. Deo was able to approach it once, but all he saw was a blurry silhouette. Now he’s gone, Soai, and I need all the help I can get to try again. I want to find out what’s happening out there. I want to understand why they don’t do anything, why they isolate themselves there while the whole world is on its final countdown.”
+    
+    She stops talking and stares in front of her, her head sunk in her shoulders.`,
+    options: [
+      {
+        text: `“What happened to Deo?”`,
+        nextText: 7,
+      },
+      {
+        text: `“Got any plan in mind?”`,
+        nextText: 8,
+      },
+    ],
   },
 ];
 
