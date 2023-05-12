@@ -161,6 +161,25 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 7,
+    subText: `“What happened to Deo? He didn’t tell me much. To add to that, it wasn’t really him who talked to me. Some digital copy? My distant, less sophisticated relative? Never mind. I’m more interested in the old man himself.”`,
+    text: `“He got too close to the sun.” - Arika smiles sadly. - “Meaning, to the Pillar. He bypassed their firewalls and almost reached it. In the virtual world of course. I’m the one who was obsessed with the real one, Deo was surfing the digital waves non-stop. He planned to log into the Pillar’s network to get access to their systems, see what’s going on, talk to them and so on. They caught him and sent him down. To the first level. I found out too late. Stubborn old pickle decided not to tell me that. No idea why. Perhaps he had his reasons. So, we kept doing what we did before: he was jumping from one tower to another virtually, gathering data to make and improve you, and I was doing kinda the same but in both worlds. Well, as long as I could though…”
+
+    Arika suddenly gets quiet, as if she doesn’t want to tell you something, then continues.
+    
+    “Then I finally got the news about him reaching the bottom. So I moved back here, to the Bridge and some time after we met at the arena at last. Voila.”`,
+    options: [
+      {
+        text: `“Got any plan in mind?”`,
+        nextText: 8,
+      },
+      {
+        text: `“How did you meet him?”`,
+        nextText: 9,
+      },
+    ],
+  },
 ];
 
 export default gameContents;
