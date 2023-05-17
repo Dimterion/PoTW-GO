@@ -180,6 +180,38 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 8,
+    subText: `“You got any plan in mind? This seems to be quite an undertaking. Even the old man ended up being… done. So, I'm open to all possible suggestions, as I can't say I have much on my side.”`,
+    text: `“I might.” - Arika smiles mysteriously. - “Though, can’t say it has an abundance of details in it. I’d say, we could pay Deo a visit. Well, not him directly, for obvious reasons, but we can visit the place he ended up being in the end. There could be something for us to learn. You probably know that I’ve been at the first levels already. Last time it was the one here, in the Bridge. Was trying to reach the old man, even though he surely didn’t want that. But now it doesn’t matter anymore, so I suggest making our descent and trying to find where he lived. Both virtually and in reality.”`,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 9,
+    subText: `“How did you meet Deo? It seems you knew each other for quite some time.”`,
+    text: `“Maybe quite some, maybe less so.” - Arika shrugs, somewhat indifferent. - “Can’t say I’ve been keeping a good track of time recently. As for the how part, Deo was appearing on various Writers Fights every now and then, watching the participants, talking to some of them, trying to find those who would, let’s say, join his cause.”
+
+    Arika glances at you.
+
+    “He was constantly searching, never giving up, looking for like-minded folk. You might be surprised to know that there are lots and lots of personalities integrated into you, not only Deo’s. You, sir, are an absolute remix of a whole bunch of music of all possible genres and styles.”
+
+    She giggles, then continues.
+
+    “Sorry, got a bit distracted. About meeting the grumpy genius. You’ve probably guessed it already. It happened during one of the Writers Fights. I was doing the arena, or better say, messing around. Didn’t aim at winning. Was just, dunno, having fun if you can say so. Knocked out one dude, then stopped, went back and healed him up, pushed forward again, that kind of stuff. The one that makes everyone else angry. I was just bored. Was sitting at the finish line after the arena, looking at the empty track, when Deo approached me. Word by word he dragged me in. Once I realized what he was aiming at, I made up my mind and asked him if I could join. Hearing no objections from the old fellow, I’ve begun helping him with all that.” - Arika waved her hand at you. - “Though at last he got quite a secretive companion, so I got more time on my own and kept irritating folk in various arenas. That’s a short version for ya, my newly acquired friend.”
+
+    Arika chuckles and looks away.`,
+    options: [
+      {
+        text: `“Got any plan in mind?”`,
+        nextText: 8,
+      },
+    ],
+  },
 ];
 
 export default gameContents;
