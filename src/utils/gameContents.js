@@ -186,8 +186,8 @@ const gameContents = [
     text: `“I might.” - Arika smiles mysteriously. - “Though, can’t say it has an abundance of details in it. I’d say, we could pay Deo a visit. Well, not him directly, for obvious reasons, but we can visit the place he ended up being in the end. There could be something for us to learn. You probably know that I’ve been at the first levels already. Last time it was the one here, in the Bridge. Was trying to reach the old man, even though he surely didn’t want that. But now it doesn’t matter anymore, so I suggest making our descent and trying to find where he lived. Both virtually and in reality.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“Sure, let’s do this.”`,
+        nextText: 10,
       },
     ],
   },
@@ -209,6 +209,34 @@ const gameContents = [
       {
         text: `“Got any plan in mind?”`,
         nextText: 8,
+      },
+    ],
+  },
+  {
+    id: 10,
+    subText: `“Alright, any action is better than no action at all. How do we get out of here and get over there?”`,
+    text: `Arika gets up, balancing on the narrow metal bar, and spreads her arms wide.
+
+    “Why, that is as easy as snapping my fin…”
+
+    She suddenly stops talking, and her virtual character image starts glitching like an old recording, tearing into pieces and falling down into pixels of various colors. Her voice turns into an incomprehensible buzzing, as if it was shred by a grinder. That scene lasts for a few seconds, after which Arika disappears completely.
+
+    You sit alone, hanging above the yellow and green abyss beneath you. Arika’s umbrella is slowly falling into it, turning like a spinning top in the air.`,
+    options: [
+      {
+        text: `What happened?`,
+        nextText: 11,
+      },
+    ],
+  },
+  {
+    id: 11,
+    subText: `“Arika? You’re there?”`,
+    text: `Completely lost, you turn your head around, observing the place once again. Yet, there’s nothing new, except for the fact that there’s nobody nearby. What’s more, you have no idea how Arika brought you here and how to get out.`,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
       },
     ],
   },
