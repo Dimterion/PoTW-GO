@@ -219,7 +219,7 @@ const gameContents = [
 
     “Why, that is as easy as snapping my fin…”
 
-    She suddenly stops talking, and her virtual character image starts glitching like an old recording, tearing into pieces and falling down into pixels of various colors. Her voice turns into an incomprehensible buzzing, as if it was shred by a grinder. That scene lasts for a few seconds, after which Arika disappears completely.
+    She suddenly stops talking, and her virtual character image starts glitching like an old recording, tearing into pieces and falling down into pixels of various colors. Her voice turns into an incomprehensible buzzing, as if it’s being shred by a grinder. That scene lasts for a few seconds, after which Arika disappears completely.
 
     You sit alone, hanging above the yellow and green abyss beneath you. Arika’s umbrella is slowly falling into it, turning like a spinning top in the air.`,
     options: [
@@ -233,6 +233,32 @@ const gameContents = [
     id: 11,
     subText: `“Arika? You’re there?”`,
     text: `Completely lost, you turn your head around, observing the place once again. Yet, there’s nothing new, except for the fact that there’s nobody nearby. What’s more, you have no idea how Arika brought you here and how to get out.`,
+    options: [
+      {
+        text: `Jump off the bar.`,
+        nextText: 12,
+      },
+      {
+        text: `Climb up the wall.`,
+        nextText: 13,
+      },
+      {
+        text: `Cry and scream.`,
+        nextText: 14,
+      },
+    ],
+  },
+  {
+    id: 12,
+    text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
+
+    You get up, close your eyes and take a step into the emptiness in front of you.
+
+    Having a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from it. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times, when you finally manage to grab the bar and sit on it.
+
+    A bit shaken by the experience, you begin to understand that the whole place is similar to the Deo’s rabbit hole you visited during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
+
+    There must be some other way out.`,
     options: [
       {
         text: ``,
