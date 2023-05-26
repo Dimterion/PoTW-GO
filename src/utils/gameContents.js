@@ -261,8 +261,50 @@ const gameContents = [
     There must be some other way out.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `Climb up the wall.`,
+        nextText: 15,
+      },
+      {
+        text: `Cry and scream.`,
+        nextText: 17,
+      },
+    ],
+  },
+  {
+    id: 13,
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
+
+    Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
+
+    You try jumping a few times, but that also didn’t really bring any results except for metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant, like a nail scratching the glass slowly and firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.`,
+    options: [
+      {
+        text: `Jump off the bar.`,
+        nextText: 19,
+      },
+      {
+        text: `Cry and scream.`,
+        nextText: 21,
+      },
+    ],
+  },
+  {
+    id: 14,
+    text: `You feel lonely, completely lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
+
+    You scream like a madman, sounds coming out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
+
+    What else is there to do? Who should be your guide, to light your path and show which one is right?
+
+    You understand that all the shouting and existential questions won’t do you much good. Cry all you want, but in the virtual space no one can hear your scream. Everyone’s busy with their own ones.`,
+    options: [
+      {
+        text: `Jump off the bar.`,
+        nextText: 23,
+      },
+      {
+        text: `Climb up the wall.`,
+        nextText: 25,
       },
     ],
   },
