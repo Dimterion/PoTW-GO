@@ -403,6 +403,40 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 21,
+    text: `You feel lonely, completely lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
+
+    You scream like a madman, sounds coming out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
+
+    What else is there to do? Who should be your guide, to light your path and show which one is right?
+    
+    You understand that all the shouting and existential questions won’t do you much good. Cry all you want, but in the virtual space no one can hear your scream. Everyone’s busy with their own ones.`,
+    options: [
+      {
+        text: `Jump off the bar.`,
+        nextText: 22,
+      },
+    ],
+  },
+  {
+    id: 22,
+    text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
+
+    You get up, close your eyes and take a step into the emptiness in front of you.
+
+    Having a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from it. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times, when you finally manage to grab the bar and sit on it.
+
+    A bit shaken by the experience, you begin to understand that the whole place is similar to the Deo’s rabbit hole you visited during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
+
+    There must be some other way out.`,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
 ];
 
 export default gameContents;
