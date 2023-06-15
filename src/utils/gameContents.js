@@ -437,6 +437,70 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 23,
+    text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
+
+    You get up, close your eyes and take a step into the emptiness in front of you.
+
+    Having a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from it. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times, when you finally manage to grab the bar and sit on it.
+
+    A bit shaken by the experience, you begin to understand that the whole place is similar to the Deo’s rabbit hole you visited during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
+
+    There must be some other way out.`,
+    options: [
+      {
+        text: `Climb up the wall.`,
+        nextText: 24,
+      },
+    ],
+  },
+  {
+    id: 24,
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
+
+    Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
+
+    You try jumping a few times, but that also didn’t really bring any results except for metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant, like a nail scratching the glass slowly and firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.`,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 25,
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
+
+    Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
+
+    You try jumping a few times, but that also didn’t really bring any results except for metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant, like a nail scratching the glass slowly and firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.`,
+    options: [
+      {
+        text: `Jump off the bar.`,
+        nextText: 26,
+      },
+    ],
+  },
+  {
+    id: 26,
+    text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
+
+    You get up, close your eyes and take a step into the emptiness in front of you.
+
+    Having a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from it. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times, when you finally manage to grab the bar and sit on it.
+
+    A bit shaken by the experience, you begin to understand that the whole place is similar to the Deo’s rabbit hole you visited during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
+
+    There must be some other way out.`,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
 ];
 
 export default gameContents;
