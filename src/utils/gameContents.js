@@ -521,6 +521,23 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 28,
+    subText: `“What do you mean you are a part of me?”`,
+    text: `Even flies around you and keeps talking.
+
+    “Well, what do you think I mean? Exactly what you’re hearing. Deo integrated me into you when you were created. I was just sort of turned off, you know. And now I am on all the way. So, that’s what it is. We’re one cute little Soai, seeking our place in the world, trying to figure out how much of a human we are. I'm just more on the knowledgebase and analyzing side.”
+
+    After another spin around you Even continues.
+    
+    “Feels good to be finally out. And, by the way, I’ve no idea what our task is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
+    options: [
+      {
+        text: `“What’s with all the names?”`,
+        nextText: 0,
+      },
+    ],
+  },
 ];
 
 export default gameContents;
