@@ -538,6 +538,19 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 29,
+    subText: `“You’re really obsessed with the names, aren’t you?”`,
+    text: `Even flies closer to you, looking into your eyes.
+
+    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering on the various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. Some personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
+    options: [
+      {
+        text: `“”`,
+        nextText: 30,
+      },
+    ],
+  },
 ];
 
 export default gameContents;
