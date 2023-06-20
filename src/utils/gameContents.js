@@ -519,6 +519,10 @@ const gameContents = [
         text: `“What’s with all the names?”`,
         nextText: 29,
       },
+      {
+        text: `“So, what’s next?”`,
+        nextText: 30,
+      },
     ],
   },
   {
@@ -534,7 +538,11 @@ const gameContents = [
     options: [
       {
         text: `“What’s with all the names?”`,
-        nextText: 0,
+        nextText: 31,
+      },
+      {
+        text: `“So, what’s next?”`,
+        nextText: 30,
       },
     ],
   },
@@ -546,7 +554,52 @@ const gameContents = [
     “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering on the various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. Some personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
     options: [
       {
+        text: `“A part of me?”`,
+        nextText: 32,
+      },
+      {
+        text: `“So, what’s next?”`,
+        nextText: 30,
+      },
+    ],
+  },
+  {
+    id: 30,
+    subText: `“Well, frankly speaking, I’m not surprised at all. Nice to meet you, Even. Any idea on how we can proceed? I’m feeling some terrible lack of further ideas on my side at the moment.”`,
+    text: ``,
+    options: [
+      {
         text: `“”`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 31,
+    subText: `“You’re really obsessed with the names, aren’t you?”`,
+    text: `Even flies closer to you, looking into your eyes.
+
+    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering on the various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. Some personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
+    options: [
+      {
+        text: `“So, what’s next?”`,
+        nextText: 30,
+      },
+    ],
+  },
+  {
+    id: 32,
+    subText: `“What do you mean you are a part of me?”`,
+    text: `Even flies around you and keeps talking.
+
+    “Well, what do you think I mean? Exactly what you’re hearing. Deo integrated me into you when you were created. I was just sort of turned off, you know. And now I am on all the way. So, that’s what it is. We’re one cute little Soai, seeking our place in the world, trying to figure out how much of a human we are. I'm just more on the knowledgebase and analyzing side.”
+
+    After another spin around you Even continues.
+    
+    “Feels good to be finally out. And, by the way, I’ve no idea what our task is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
+    options: [
+      {
+        text: `“So, what’s next?”`,
         nextText: 30,
       },
     ],
