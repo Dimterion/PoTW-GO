@@ -566,11 +566,29 @@ const gameContents = [
   {
     id: 30,
     subText: `“Well, frankly speaking, I’m not surprised at all. Nice to meet you, Even. Any idea on how we can proceed? I’m feeling some terrible lack of further ideas on my side at the moment.”`,
-    text: ``,
+    text: `Even tilts its head, watching you closely.
+
+    “Am I supposed to do everything for you, buddy? Like in some sort of a game tutorial?”
+
+    Then it waves its hand and smiles.
+
+    “Just kidding. I suggest getting out of here. Should be enough sightseeing for us both. I had some fun watching you trying all directions. And when you run out of options, it’s a good indicator that you need to make a pause, take a deep breath and focus on the situation at hand.”
+
+    Even points at the bar you’re sitting on.
+
+    “Long story short, there’s an exit button, right under your nose.”
+
+    You look at the metal bar and see glowing words forming the phrase “To the place you !belong”.
+
+    Even chuckles.
+
+    “Yep, it’s been there all that time. When you’re stuck, the most straightforward solution is usually the right one. Shall we?”
+
+    Even nods at the glowing words.`,
     options: [
       {
-        text: `“”`,
-        nextText: 0,
+        text: `Press the button.`,
+        nextText: 33,
       },
     ],
   },
@@ -603,6 +621,11 @@ const gameContents = [
         nextText: 30,
       },
     ],
+  },
+  {
+    id: 33,
+    text: `To be continued...`,
+    options: [],
   },
 ];
 
