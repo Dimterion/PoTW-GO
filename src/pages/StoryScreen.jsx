@@ -4,7 +4,7 @@ function StoryScreen() {
   return (
     <section>
       <h2>The story you know so far</h2>
-      <p className="text">
+      <p className="intro">
         You found out that you are not a human being, but a character made
         during one of the Writers Fights some time ago by a poet Deo. He then
         turned you into a free artificial creation browsing zerOne. A digital
