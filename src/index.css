@@ -22,7 +22,7 @@ body {
 /* Start Screen */
 .startScreen-section {
   text-align: center;
-  background-color: var(--startScreen-section--primary);
+  background: radial-gradient(circle, var(--startScreen-section--primary) 0%, var(--startScreen-section--tertiary) 45%, var(--startScreen-section--primary) 100%);
   position: fixed;
   top: 0;
   left: 0;
@@ -54,7 +54,7 @@ body {
 .startScreen-section-subTitle,
 .startScreen-section-closingTitle {
   color: var(--startScreen-section--sub);
-  text-shadow: 2px 2px var(--startScreen-section--tertiary);
+  text-shadow: 1px 1px var(--startScreen-section--secondary);
   margin-top: 1vh;
   position: relative;
 }
@@ -66,6 +66,7 @@ body {
 }
 
 .startScreen-section-buttons-btn {
+  position: relative;
   font-family: "Ysabeau SC", sans-serif;
   font-size: 2rem;
   color: var(--startScreen-section--secondary);
@@ -75,11 +76,46 @@ body {
   margin: 10px auto;
   width: 150px;
   height: 50px;
+  transition: 0.3s ease-in-out;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s ease-in-out;
+  }
+
+  &::before {
+    top: -5px;
+    left: -5px;
+    border-top: 1px solid var(--startScreen-section--secondary);
+    border-left: 1px solid var(--startScreen-section--secondary);
+  }
+
+  &::after {
+    right: -5px;
+    bottom: -5px;
+    border-bottom: 1px solid var(--startScreen-section--secondary);
+    border-right: 1px solid var(--startScreen-section--secondary);
+  }
+
+  &:hover::before,
+  &:hover::after {
+    width: calc(100% + 9px);
+    height: calc(100% + 9px);
+  }
 }
 
 .startScreen-section-buttons-btn:hover {
   color: var(--startScreen-section--sub);
   border: 1px solid var(--startScreen-section--sub);
+  transition: 0.3s ease-in-out;
+}
+
+.startScreen-section-buttons-btn:active {
+  scale: 0.9;
 }
 
 .startScreen-section-closingTitle {
