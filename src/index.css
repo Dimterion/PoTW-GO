@@ -1,6 +1,75 @@
-body {
-  padding: 1vw;
+/* Fonts - Title */
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap");
+
+/* Fonts - Text */
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;700&display=swap");
+
+/* Variables - Colors */
+:root {
+  --startScreen-section--primary: #01012b;
+  --startScreen-section--secondary: #05d9e8;
+  --startScreen-section--tertiary: #005678;
+  --startScreen-section--additional: #d1f7ff;
+  --startScreen-section--sub: #ff2a6d;
 }
+
+/* All pages styles */
+html,
+body {
+  margin: 0;
+}
+
+/* Start Screen */
+.startScreen-section {
+  text-align: center;
+  background-color: var(--startScreen-section--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  padding: 5vh 0;
+}
+
+.startScreen-section h1 {
+  font-family: "Tektur", cursive;
+  font-size: 2.5rem;
+  color: var(--startScreen-section--secondary);
+  text-shadow: 3px 3px var(--startScreen-section--tertiary);
+  letter-spacing: 2px;
+}
+
+.startScreen-section img {
+  max-height: 50vh;
+  max-width: 90vw;
+  border: 2px solid var(--startScreen-section--secondary);
+  padding: 2px;
+  background-color: var(--startScreen-section--sub);
+}
+
+.startScreen-section--buttons {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.startScreen-section--buttons a {
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 2rem;
+  color: var(--startScreen-section--additional);
+  text-decoration: none;
+  border: 1px solid var(--startScreen-section--additional);
+  margin: 5px auto;
+  width: 150px;
+  height: 50px;
+}
+
+.startScreen-section--buttons a:hover {
+  color: var(--startScreen-section--sub);
+  border: 1px solid var(--startScreen-section--sub);
+}
+
+/*  */
 
 .intro {
   font-size: 1.2rem;
