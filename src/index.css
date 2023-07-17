@@ -9,7 +9,7 @@
   --startScreen-section--primary: #01012b;
   --startScreen-section--secondary: #05d9e8;
   --startScreen-section--tertiary: #005678;
-  --startScreen-section--additional: #d1f7ff;
+  --startScreen-section--additional: #092047;
   --startScreen-section--sub: #ff2a6d;
 }
 
@@ -29,44 +29,62 @@ body {
   bottom: 0;
   right: 0;
   overflow: auto;
-  padding: 5vh 0;
+  padding: 5vh 0 0;
 }
 
-.startScreen-section h1 {
+.startScreen-section-img {
+  max-height: 50vh;
+  max-width: 90vw;
+  border: 2px solid var(--startScreen-section--sub);
+  padding: 2px;
+  background-color: var(--startScreen-section--secondary);
+}
+
+.startScreen-section-title,
+.startScreen-section-subTitle,
+.startScreen-section-closingTitle {
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
   color: var(--startScreen-section--secondary);
-  text-shadow: 3px 3px var(--startScreen-section--tertiary);
+  text-shadow: 1px 1px var(--startScreen-section--sub);
   letter-spacing: 2px;
+  margin-bottom: 0;
 }
 
-.startScreen-section img {
-  max-height: 50vh;
-  max-width: 90vw;
-  border: 2px solid var(--startScreen-section--secondary);
-  padding: 2px;
-  background-color: var(--startScreen-section--sub);
+.startScreen-section-subTitle,
+.startScreen-section-closingTitle {
+  color: var(--startScreen-section--sub);
+  text-shadow: 2px 2px var(--startScreen-section--tertiary);
+  margin-top: 1vh;
+  position: relative;
 }
 
-.startScreen-section--buttons {
+.startScreen-section-buttons {
   display: flex;
   flex-flow: column nowrap;
+  margin-top: 1rem;
 }
 
-.startScreen-section--buttons a {
+.startScreen-section-buttons-btn {
   font-family: "Ysabeau SC", sans-serif;
   font-size: 2rem;
-  color: var(--startScreen-section--additional);
+  color: var(--startScreen-section--secondary);
+  background-color: var(--startScreen-section--additional);
   text-decoration: none;
-  border: 1px solid var(--startScreen-section--additional);
-  margin: 5px auto;
+  border: 1px solid var(--startScreen-section--secondary);
+  margin: 10px auto;
   width: 150px;
   height: 50px;
 }
 
-.startScreen-section--buttons a:hover {
+.startScreen-section-buttons-btn:hover {
   color: var(--startScreen-section--sub);
   border: 1px solid var(--startScreen-section--sub);
+}
+
+.startScreen-section-closingTitle {
+  position: relative;
+  right: 7.25rem;
 }
 
 /*  */
