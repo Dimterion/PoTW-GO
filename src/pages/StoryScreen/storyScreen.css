@@ -1,0 +1,47 @@
+.storyScreen-section {
+  font-family: "Tektur", cursive;
+  text-align: center;
+  color: var(--storyScreen-section--secondary);
+  background: linear-gradient(
+    90deg,
+    var(--storyScreen-section--tertiary) 0%,
+    var(--storyScreen-section--primary) 50%,
+    var(--storyScreen-section--tertiary) 100%
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  padding: 5vh 0 0;
+}
+
+.storyScreen-section-img {
+  height: 1024px;
+  width: 1024px;
+  max-height: 40vh;
+  max-width: 90vw;
+  object-fit: cover;
+  padding: 3px;
+  border: 3px solid var(--storyScreen-section--secondary);
+  background-color: var(--storyScreen-section--sub);
+}
+
+.storyScreen-section-title {
+  font-size: 2rem;
+  text-shadow: 3px 3px var(--storyScreen-section--primary);
+  letter-spacing: 1px;
+}
+
+.storyScreen-section-article {
+  font-size: 1.25rem;
+  width: 1024px;
+  max-width: 90vw;
+  margin: auto;
+}
+
+.storyScreen-section-article-paragraph {
+  text-shadow: 3px 3px var(--storyScreen-section--primary);
+  letter-spacing: 0.5px;
+}

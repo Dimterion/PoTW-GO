@@ -1,10 +1,10 @@
 .aboutScreen-section {
   font-family: "Ysabeau SC", sans-serif;
   text-align: center;
-  background: linear-gradient(
-    180deg,
+  background: radial-gradient(
+    circle,
     var(--aboutScreen-section--primary) 0%,
-    var(--aboutScreen-section--secondary) 50%,
+    var(--aboutScreen-section--tertiary) 45%,
     var(--aboutScreen-section--primary) 100%
   );
   position: fixed;
@@ -13,12 +13,12 @@
   bottom: 0;
   right: 0;
   overflow: auto;
-  padding: 10vh 0 0;
+  padding: 10vh 2vw 0;
 }
 
 .aboutScreen-section-title {
-  color: var(--aboutScreen-section--tertiary);
-  text-shadow: 2px 2px var(--aboutScreen-section--additional);
+  color: var(--aboutScreen-section--secondary);
+  text-shadow: 1px 1px var(--aboutScreen-section--sub);
 }
 
 .aboutScreen-section-title,
@@ -26,28 +26,29 @@
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
   letter-spacing: 2px;
+  margin: 1vh 0 auto;
 }
 
 .aboutScreen-section-subTitle {
-  color: var(--aboutScreen-section--additional);
-  text-shadow: 2px 2px var(--aboutScreen-section--tertiary);
+  color: var(--aboutScreen-section--sub);
+  text-shadow: 1px 1px var(--aboutScreen-section--secondary);
 }
 
 .aboutScreen-section-additionalTitle {
   font-size: 2rem;
-  color: var(--aboutScreen-section--tertiary);
+  color: var(--aboutScreen-section--secondary);
 }
 
 .aboutScreen-section-article {
   font-size: 1.5rem;
-  color: var(--aboutScreen-section--tertiary);
-  border-top: 5px solid var(--aboutScreen-section--sub);
-  border-bottom: 5px solid var(--aboutScreen-section--sub);
+  color: var(--aboutScreen-section--secondary);
+  border-top: 1px solid var(--aboutScreen-section--sub);
+  border-bottom: 1px solid var(--aboutScreen-section--sub);
   width: fit-content;
   margin: auto;
   padding-bottom: 2.5rem;
 }
 
 .aboutScreen-section-article-link {
-  color: var(--aboutScreen-section--additional);
+  color: var(--aboutScreen-section--sub);
 }

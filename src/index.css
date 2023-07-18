@@ -12,11 +12,17 @@
   --startScreen-section--additional: #092047;
   --startScreen-section--sub: #ff2a6d;
 
-  --aboutScreen-section--primary: #092047;
-  --aboutScreen-section--secondary: #0b468c;
-  --aboutScreen-section--tertiary: #b7c1de;
-  --aboutScreen-section--additional: #ac61b9;
-  --aboutScreen-section--sub: #63345e;
+  --aboutScreen-section--primary: #01012b;
+  --aboutScreen-section--secondary: #05d9e8;
+  --aboutScreen-section--tertiary: #005678;
+  --aboutScreen-section--additional: #092047;
+  --aboutScreen-section--sub: #ff2a6d;
+
+  --storyScreen-section--primary: #01012b;
+  --storyScreen-section--secondary: #05d9e8;
+  --storyScreen-section--tertiary: #005678;
+  --storyScreen-section--additional: #092047;
+  --storyScreen-section--sub: #ff2a6d;
 }
 
 /* All pages styles */
