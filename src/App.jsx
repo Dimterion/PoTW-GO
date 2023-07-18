@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import StartScreen from "./pages/StartScreen";
-import GameScreen from "./pages/GameScreen";
-import StoryScreen from "./pages/StoryScreen";
-import AboutScreen from "./pages/AboutScreen";
+import StartScreen from "./pages/StartScreen/StartScreen";
+import GameScreen from "./pages/GameScreen/GameScreen";
+import StoryScreen from "./pages/StoryScreen/StoryScreen";
+import AboutScreen from "./pages/AboutScreen/AboutScreen";
 
 function App() {
   return (

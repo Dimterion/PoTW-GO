@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { nanoid } from "nanoid";
+import "./gameComponent.css";
 
 function GameComponent({ content, setOptionId }) {
   const buttons = content.options.map((option) => {

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import StartScreenLoader from "../components/Loaders/StartScreenLoader/StartScreenLoader";
+import StartScreenLoader from "../../components/Loaders/StartScreenLoader/StartScreenLoader";
+import "./startScreen.css";
 
 function StartScreen() {
   const [loading, setLoading] = useState(false);

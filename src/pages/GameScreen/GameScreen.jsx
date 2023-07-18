@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { nanoid } from "nanoid";
-import GameComponent from "../components/GameComponent";
-import gameContents from "../utils/gameContents";
+import GameComponent from "../../components/GameComponent/GameComponent";
+import gameContents from "../../utils/gameContents";
 
 function GameScreen() {
   // LOCAL STORAGE SAVE TO ADD LATER
