@@ -53,6 +53,8 @@
 }
 
 .startScreen-section-title {
+  color: var(--startScreen-section--secondary);
+  text-shadow: 1px 1px var(--startScreen-section--sub);
   animation: startScreen-section-title-load 300ms ease-in 600ms;
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -64,8 +66,6 @@
 .startScreen-section-closingTitle {
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
-  color: var(--startScreen-section--secondary);
-  text-shadow: 1px 1px var(--startScreen-section--sub);
   letter-spacing: 2px;
   margin: 3vh auto 0;
   width: fit-content;
