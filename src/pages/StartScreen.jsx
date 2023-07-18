@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
-import startScreenImg from "../assets/images/start_screen_image.jpg";
 
 function StartScreen() {
   return (
     <section className="startScreen-section">
-      <img
-        src={startScreenImg}
-        alt="Futuristic Towers"
-        className="startScreen-section-img"
-      />
+      <ul className="startScreen-section-slides">
+        <li className="startScreen-section-slides-slide"></li>
+        <li className="startScreen-section-slides-slide"></li>
+        <li className="startScreen-section-slides-slide"></li>
+      </ul>
       <h1 className="startScreen-section-title">Poets of Tomorrow’s World:</h1>
       <h1 className="startScreen-section-subTitle">gameOn(e) {"{"}</h1>
       <div className="startScreen-section-buttons">
