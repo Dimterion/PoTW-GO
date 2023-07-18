@@ -103,6 +103,10 @@ body {
   width: 150px;
   height: 50px;
   transition: 0.3s ease-in-out;
+  animation: btn-load 500ms ease-in 900ms;
+  animation-fill-mode: forwards;
+  transform: translateY(50px);
+  opacity: 0;
 
   &::before,
   &::after {
@@ -211,11 +215,6 @@ body {
     transform: translateX(-100%);
   }
 
-  90% {
-    transform: translateX(5%);
-    opacity: 0.9;
-  }
-
   100% {
     transform: translateX(0);
     opacity: 1;
@@ -227,13 +226,20 @@ body {
     transform: translateX(1000%);
   }
 
-  90% {
-    transform: translateX(-100%);
-    opacity: 0.9;
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes btn-load {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
   }
 
   100% {
-    transform: translateX(0);
+    transform: translateY(0px);
     opacity: 1;
   }
 }
