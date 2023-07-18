@@ -1,0 +1,22 @@
+.startScreenLoader {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  color: gold;
+  border: 1px solid gold;
+  animation: startScreenLoader 1.5s ease-in;
+  animation-fill-mode: forwards;
+  position: relative;
+  top: 45%;
+}
+
+@keyframes startScreenLoader {
+  0% {
+    box-shadow: 0 0 inset;
+  }
+
+  100% {
+    box-shadow: 25px 0 inset;
+    transform: rotate(45deg) scale(1.5);
+  }
+}

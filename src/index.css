@@ -11,10 +11,6 @@
   --startScreen-section--tertiary: #005678;
   --startScreen-section--additional: #092047;
   --startScreen-section--sub: #ff2a6d;
-
-  /* Variables - Time */
-  --img-load-time: 400ms;
-  --section-title-load-delay: 500ms;
 }
 
 /* All pages styles */
@@ -50,7 +46,7 @@ body {
   position: relative;
   margin: auto;
   border: 1px solid var(--startScreen-section--secondary);
-  animation: img-load var(--img-load-time) ease-in;
+  animation: img-load 500ms ease-in;
 }
 
 .startScreen-section-slides-slide {
@@ -78,7 +74,7 @@ body {
 }
 
 .startScreen-section-title {
-  animation: section-title-load 300ms ease-in var(--section-title-load-delay);
+  animation: section-title-load 300ms ease-in 600ms;
   animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
@@ -105,8 +101,7 @@ body {
 }
 
 .startScreen-section-subTitle {
-  animation: startScreen-section-subTitle-load 500ms ease-in
-    var(--section-title-load-delay);
+  animation: startScreen-section-subTitle-load 500ms ease-in 600ms;
   animation-fill-mode: forwards;
   transform: translateX(-1000%);
   opacity: 0;
@@ -178,8 +173,7 @@ body {
 .startScreen-section-closingTitle {
   position: relative;
   right: 7.25rem;
-  animation: startScreen-section-closingTitle-load 500ms ease-in
-    var(--section-title-load-delay);
+  animation: startScreen-section-closingTitle-load 500ms ease-in 600ms;
   animation-fill-mode: forwards;
   transform: translateX(1000%);
   opacity: 0;
@@ -272,10 +266,6 @@ body {
 }
 
 @keyframes imgAnimation {
-  0% {
-    opacity: 0.1;
-  }
-
   25% {
     opacity: 1;
   }
