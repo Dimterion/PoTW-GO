@@ -104,10 +104,14 @@ function StoryScreen() {
         )}
       </article>
       <h2 className="storyScreen-section-title">What will you do now, poet?</h2>
-      <Link to="/game">Jump in</Link>
+      <Link className="storyScreen-section-gameScreenLink" to="/game">
+        Jump in
+      </Link>
       <br></br>
       <br></br>
-      <Link to="/">Start Screen</Link>
+      <Link className="storyScreen-section-startScreenLink" to="/">
+        Start Screen
+      </Link>
     </section>
   );
 }

@@ -168,6 +168,33 @@
   letter-spacing: 0.5px;
   white-space: pre-line;
   margin: 0 auto 1.5rem;
+  background-color: var(--storyScreen-section--primary);
+  padding: 10px;
+  border: 1px solid var(--storyScreen-section--secondary);
+  animation: storyScreen-section-article-paragraph-load 700ms ease-in-out;
+}
+
+.storyScreen-section-gameScreenLink {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  color: var(--storyScreen-section--secondary);
+  border: 1px solid var(--storyScreen-section--secondary);
+  text-shadow: 0 0 15px var(--storyScreen-section--secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+}
+
+.storyScreen-section-gameScreenLink:hover {
+  transition: 0.5s;
+  color: var(--storyScreen-section--sub);
+  border: 1px solid var(--storyScreen-section--sub);
+  box-shadow: 0 0 0px var(--storyScreen-section--sub);
+}
+
+.storyScreen-section-startScreenLink {
+  color: var(--storyScreen-section--secondary);
 }
 
 /* Animations */
@@ -178,5 +205,15 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes storyScreen-section-article-paragraph-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
