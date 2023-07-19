@@ -1,8 +1,13 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import storyScreenImage from "../../assets/images/story_screen_image.jpg";
+import { storyScreenMainText } from "../../utils/additionalTexts";
+import { storyScreenDialogText } from "../../utils/additionalTexts";
 import "./storyScreen.css";
 
 function StoryScreen() {
+  const [dialog, setDialog] = useState(false);
+
   return (
     <section className="storyScreen-section">
       <img
@@ -14,21 +19,41 @@ function StoryScreen() {
         The story you know so far...
       </h2>
       <article className="storyScreen-section-article">
+        <button
+          className="storyScreen-section-article-btn"
+          onClick={() => setDialog(!dialog)}
+        >
+          &#10033;
+        </button>
+        <dialog className="storyScreen-section-article-dialog" open={dialog}>
+          <button
+            className="storyScreen-section-article-dialog-xBtn"
+            onClick={() => setDialog(false)}
+          >
+            &#10006;
+          </button>
+          <p>{storyScreenDialogText}</p>
+          <div>
+            <b>P.S.</b> Previous story is{" "}
+            <a
+              href="https://poets-of-tomorrows-world.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="storyScreen-section-article-dialog-div-a"
+            >
+              here
+            </a>
+            . Just saying. No pressure...
+          </div>
+          <button
+            className="storyScreen-section-article-dialog-btn"
+            onClick={() => setDialog(false)}
+          >
+            CLOSE
+          </button>
+        </dialog>
         <p className="storyScreen-section-article-paragraph">
-          You found out that you are not a human being, but a character made
-          during one of the Writers Fights some time ago by a poet Deo. He then
-          turned you into a free artificial creation browsing zerOne. A digital
-          conscious being thinking of itself as of a real person. You had been
-          stuck in a loop of taking part in Writers Fights on the second level
-          of the Bridge until you found that all out. After that you almost won
-          the last Fight, but decided to stop, to break that loop and get out of
-          it. Another poet, Arika, who you met shortly before the Fight, got the
-          first place. She somehow knew a lot about you and took you away
-          somewhere, once the Fight was over. Now this is all you know. You
-          don’t have any clear direction or path to follow. Your past is a
-          blurry notion which has never been yours, and your future has not yet
-          come. Present moment is all you can be sure of. And even that is not
-          certain.
+          {storyScreenMainText}
         </p>
       </article>
       <h2 className="storyScreen-section-title">What will you do now, poet?</h2>
