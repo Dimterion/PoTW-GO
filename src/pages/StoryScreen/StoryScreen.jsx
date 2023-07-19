@@ -79,7 +79,6 @@ function StoryScreen() {
           </button>
         </dialog>
         <br></br>
-        <br></br>
         <button
           className="storyScreen-section-article-menuBtn"
           onClick={mainText}
@@ -91,7 +90,6 @@ function StoryScreen() {
             {storyScreenMainText}
           </p>
         )}
-        <br></br>
         <br></br>
         <button
           className="storyScreen-section-article-menuBtn"
