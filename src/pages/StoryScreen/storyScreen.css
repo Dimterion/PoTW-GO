@@ -44,12 +44,11 @@
 .storyScreen-section-article-btn {
   height: 26px;
   width: 27px;
-  border-radius: 0;
   background: linear-gradient(
     90deg,
-    var(--storyScreen-section--tertiary) 0%,
-    var(--storyScreen-section--secondary) 50%,
-    var(--storyScreen-section--tertiary) 100%
+    var(--storyScreen-section--primary) 0%,
+    var(--storyScreen-section--tertiary) 50%,
+    var(--storyScreen-section--primary) 100%
   );
   color: var(--storyScreen-section--sub);
   border: 1px solid var(--storyScreen-section--sub);
@@ -128,9 +127,38 @@
   scale: 0.9;
 }
 
+.storyScreen-section-article-menuBtn {
+  height: 2.5rem;
+  width: 10rem;
+  background: linear-gradient(
+    90deg,
+    var(--storyScreen-section--primary) 0%,
+    var(--storyScreen-section--tertiary) 50%,
+    var(--storyScreen-section--primary) 100%
+  );
+  color: var(--storyScreen-section--sub);
+  border: 1px solid var(--storyScreen-section--sub);
+  cursor: pointer;
+  box-shadow: 2px 2px 1px var(--storyScreen-section--tertiary);
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.storyScreen-section-article-menuBtn:hover {
+  scale: 0.9;
+  transition: 0.5s;
+}
+
+.storyScreen-section-article-menuBtn:active {
+  scale: 0.8;
+  transition: 0.5s;
+}
+
 .storyScreen-section-article-paragraph {
   text-shadow: 3px 3px var(--storyScreen-section--primary);
   letter-spacing: 0.5px;
+  white-space: pre-line;
 }
 
 /* Animations */
