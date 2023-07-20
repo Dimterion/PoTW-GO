@@ -85,7 +85,7 @@ function StoryScreen() {
           }`}
           onClick={mainText}
         >
-          WORLD STATE
+          {state.mainText && "✖"} WORLD STATE
         </button>
         {state.mainText && (
           <p className="storyScreen-section-article-paragraph">
@@ -99,22 +99,25 @@ function StoryScreen() {
           }`}
           onClick={subText}
         >
-          WHO YOU ARE
+          {state.subText && "✖"} WHO YOU ARE
         </button>
         {state.subText && (
           <p className="storyScreen-section-article-paragraph">
             {storyScreenSubText}
           </p>
         )}
+        <div className="storyScreen-section-article-div-startScreenLink">
+          <Link
+            className="storyScreen-section-article-div-startScreenLink-a"
+            to="/"
+          >
+            ➤
+          </Link>
+        </div>
       </article>
       <h2 className="storyScreen-section-title">What will you do now, poet?</h2>
       <Link className="storyScreen-section-gameScreenLink" to="/game">
         Jump in
-      </Link>
-      <br></br>
-      <br></br>
-      <Link className="storyScreen-section-startScreenLink" to="/">
-        Start Screen
       </Link>
     </section>
   );
