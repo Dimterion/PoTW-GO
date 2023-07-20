@@ -80,7 +80,9 @@ function StoryScreen() {
         </dialog>
         <br></br>
         <button
-          className="storyScreen-section-article-menuBtn"
+          className={`storyScreen-section-article-menuBtn ${
+            state.mainText && "storyScreen-btnActive"
+          }`}
           onClick={mainText}
         >
           WORLD STATE
@@ -92,7 +94,9 @@ function StoryScreen() {
         )}
         <br></br>
         <button
-          className="storyScreen-section-article-menuBtn"
+          className={`storyScreen-section-article-menuBtn ${
+            state.subText && "storyScreen-btnActive"
+          }`}
           onClick={subText}
         >
           WHO YOU ARE

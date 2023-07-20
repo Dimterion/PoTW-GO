@@ -2,11 +2,11 @@
   font-family: "Ysabeau SC", sans-serif;
   text-align: center;
   color: var(--storyScreen-section--secondary);
-  background: linear-gradient(
-    90deg,
-    var(--storyScreen-section--tertiary) 0%,
-    var(--storyScreen-section--primary) 50%,
-    var(--storyScreen-section--tertiary) 100%
+  background: radial-gradient(
+    circle,
+    var(--startScreen-section--primary) 0%,
+    var(--startScreen-section--tertiary) 45%,
+    var(--startScreen-section--primary) 100%
   );
   position: fixed;
   top: 0;
@@ -14,7 +14,7 @@
   bottom: 0;
   right: 0;
   overflow: auto;
-  padding: 5vh 0 0;
+  padding: 2vh 0 0;
 }
 
 .storyScreen-section-img {
@@ -23,15 +23,13 @@
   max-height: 40vh;
   max-width: 90vw;
   object-fit: cover;
-  padding: 3px;
-  border: 3px solid var(--storyScreen-section--secondary);
-  background-color: var(--storyScreen-section--sub);
+  border: 1px solid var(--storyScreen-section--secondary);
   margin-bottom: 1.5rem;
 }
 
 .storyScreen-section-title {
   font-size: 2rem;
-  text-shadow: 3px 3px var(--storyScreen-section--primary);
+  text-shadow: 1px 1px var(--storyScreen-section--sub);
   letter-spacing: 1px;
   margin-top: 0;
 }
@@ -44,8 +42,8 @@
 }
 
 .storyScreen-section-article-btn {
-  height: 26px;
-  width: 27px;
+  height: 30px;
+  width: 31px;
   background: linear-gradient(
     90deg,
     var(--storyScreen-section--primary) 0%,
@@ -54,24 +52,23 @@
   );
   color: var(--storyScreen-section--secondary);
   border: 1px solid var(--storyScreen-section--secondary);
-  opacity: 0.8;
   cursor: pointer;
   transition: 0.5s;
-  box-shadow: 2px 2px 1px var(--storyScreen-section--sub);
   font-family: "Ysabeau SC", sans-serif;
   margin-bottom: 1.5rem;
+  border-radius: 50%;
 }
 
 .storyScreen-section-article-btn:hover {
-  transform: rotate(45deg);
-  opacity: 1;
-  scale: 1.1;
+  transform: rotate(180deg);
+  scale: 0.9;
+  color: var(--storyScreen-section--sub);
+  border: 1px solid var(--storyScreen-section--sub);
   transition: 0.5s;
-  box-shadow: 2px 1px 1px var(--storyScreen-section--sub);
 }
 
 .storyScreen-section-article-btn:active {
-  scale: 0.7;
+  scale: 0.8;
 }
 
 .storyScreen-section-article-dialog {
@@ -84,6 +81,7 @@
   color: var(--storyScreen-section--secondary);
   padding-top: 0;
   animation: storyScreen-section-article-dialog-load 700ms ease-in-out;
+  z-index: 1;
 }
 
 .storyScreen-section-article-dialog-xBtn {
@@ -134,8 +132,8 @@
 }
 
 .storyScreen-section-article-menuBtn {
-  height: 40px;
-  width: 180px;
+  height: 50px;
+  width: 150px;
   background: linear-gradient(
     90deg,
     var(--storyScreen-section--primary) 0%,
@@ -145,7 +143,6 @@
   color: var(--storyScreen-section--secondary);
   border: 1px solid var(--storyScreen-section--secondary);
   cursor: pointer;
-  box-shadow: 2px 2px 1px var(--storyScreen-section--sub);
   font-size: 1rem;
   font-weight: bold;
   font-family: "Ysabeau SC", sans-serif;
@@ -156,10 +153,19 @@
 .storyScreen-section-article-menuBtn:hover {
   scale: 0.9;
   transition: 0.5s;
+  color: var(--storyScreen-section--sub);
+  border: 1px solid var(--storyScreen-section--sub);
 }
 
 .storyScreen-section-article-menuBtn:active {
   scale: 0.8;
+  transition: 0.5s;
+}
+
+.storyScreen-btnActive {
+  scale: 0.9;
+  color: var(--storyScreen-section--sub);
+  border: 1px solid var(--storyScreen-section--sub);
   transition: 0.5s;
 }
 
@@ -170,7 +176,7 @@
   margin: 0 auto 1.5rem;
   background-color: var(--storyScreen-section--primary);
   padding: 10px;
-  border: 1px solid var(--storyScreen-section--secondary);
+  border: 1px solid var(--storyScreen-section--sub);
   animation: storyScreen-section-article-paragraph-load 700ms ease-in-out;
 }
 

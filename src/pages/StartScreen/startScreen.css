@@ -96,7 +96,12 @@
   font-family: "Ysabeau SC", sans-serif;
   font-size: 2rem;
   color: var(--startScreen-section--secondary);
-  background-color: var(--startScreen-section--additional);
+  background: linear-gradient(
+    90deg,
+    var(--storyScreen-section--primary) 0%,
+    var(--storyScreen-section--tertiary) 50%,
+    var(--storyScreen-section--primary) 100%
+  );
   text-decoration: none;
   border: 1px solid var(--startScreen-section--secondary);
   margin: 10px auto;
