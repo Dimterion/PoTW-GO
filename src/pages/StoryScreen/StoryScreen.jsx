@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import StartGameBtn from "../../components/Buttons/StartGameBtn/StartGameBtn";
 import storyScreenImage from "../../assets/images/story_screen_image.jpg";
 import { storyScreenMainText } from "../../utils/additionalTexts";
 import { storyScreenSubText } from "../../utils/additionalTexts";
@@ -133,9 +134,7 @@ function StoryScreen() {
         <br></br>
       </article>
       <h2 className="storyScreen-section-title">What will you do now, poet?</h2>
-      <Link className="storyScreen-section-gameScreenLink" to="/game">
-        Jump in
-      </Link>
+      <StartGameBtn />
     </section>
   );
 }

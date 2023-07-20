@@ -1,0 +1,157 @@
+.startGameBtn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px 12px;
+  color: var(--storyScreen-section--secondary);
+  background: radial-gradient(
+    circle,
+    var(--storyScreen-section--primary) 0%,
+    var(--storyScreen-section--tertiary) 30%,
+    var(--storyScreen-section--primary) 100%
+  );
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 1s;
+  letter-spacing: 5px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 1px solid var(--storyScreen-section--primary);
+  box-shadow: 2px 2px 2px var(--storyScreen-section--primary);
+}
+
+.startGameBtn:hover {
+  background: var(--storyScreen-section--secondary);
+  color: var(--storyScreen-section--sub);
+  box-shadow: 0 0 5px var(--storyScreen-section--secondary),
+    0 0 25px var(--storyScreen-section--secondary),
+    0 0 50px var(--storyScreen-section--secondary),
+    0 0 200px var(--storyScreen-section--secondary);
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, var(--storyScreen-section--primary));
+  transition: 1s;
+  border: 1px solid transparent;
+}
+
+.startGameBtn:active {
+  scale: 0.9;
+}
+
+.startGameBtn span {
+  position: absolute;
+  display: block;
+}
+
+.startGameBtn span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    var(--storyScreen-section--secondary)
+  );
+  animation: animateTop 3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.startGameBtn span:nth-child(2) {
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    var(--storyScreen-section--secondary)
+  );
+  animation: animateRight 3s ease-in-out infinite;
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+.startGameBtn span:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--storyScreen-section--secondary),
+    transparent 50%
+  );
+  animation: animateBottom 3s ease-in-out infinite;
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.startGameBtn span:nth-child(4) {
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    var(--storyScreen-section--secondary),
+    transparent 70%
+  );
+  animation: animateLeft 3s ease-in-out infinite;
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}

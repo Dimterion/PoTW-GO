@@ -14,7 +14,7 @@
   bottom: 0;
   right: 0;
   overflow: auto;
-  padding: 2vh 2vw;
+  padding: 2vh 2vw 8vh;
 }
 
 .storyScreen-section-img {
@@ -42,8 +42,8 @@
 }
 
 .storyScreen-section-article-btn {
-  height: 30px;
-  width: 31px;
+  height: 33px;
+  width: 34px;
   background: linear-gradient(
     90deg,
     var(--storyScreen-section--primary) 0%,
@@ -55,7 +55,6 @@
   cursor: pointer;
   transition: 0.5s;
   margin-bottom: 1.1rem;
-  border-radius: 50%;
 }
 
 .storyScreen-section-article-btn:hover {
@@ -196,8 +195,8 @@
 }
 
 .storyScreen-section-article-resetBtn {
-  height: 30px;
-  width: 31px;
+  height: 33px;
+  width: 34px;
   background: linear-gradient(
     90deg,
     var(--storyScreen-section--primary) 0%,
@@ -209,7 +208,6 @@
   cursor: pointer;
   transition: 0.5s;
   margin-bottom: 1.5rem;
-  border-radius: 50%;
   rotate: -90deg;
   font-weight: bold;
 }
@@ -235,7 +233,6 @@
   );
   border: 1px solid var(--storyScreen-section--secondary);
   transition: 0.5s;
-
   text-decoration: none;
   color: var(--storyScreen-section--secondary);
 }
@@ -244,25 +241,6 @@
   border: 1px solid var(--storyScreen-section--sub);
   color: var(--storyScreen-section--sub);
   transition: 0.5s;
-}
-
-.storyScreen-section-gameScreenLink {
-  padding: 15px 30px;
-  font-size: 1.5rem;
-  color: var(--storyScreen-section--secondary);
-  border: 1px solid var(--storyScreen-section--secondary);
-  text-shadow: 0 0 15px var(--storyScreen-section--secondary);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  transition: 0.5s;
-}
-
-.storyScreen-section-gameScreenLink:hover {
-  transition: 0.5s;
-  color: var(--storyScreen-section--sub);
-  border: 1px solid var(--storyScreen-section--sub);
-  box-shadow: 0 0 0px var(--storyScreen-section--sub);
 }
 
 /* Animations */

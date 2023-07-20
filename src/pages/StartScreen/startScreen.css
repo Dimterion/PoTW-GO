@@ -12,7 +12,7 @@
   bottom: 0;
   right: 0;
   overflow: auto;
-  padding: 5vh 0 0;
+  padding: 5vh 0 1vh;
 }
 
 .startScreen-section-slides {
