@@ -54,7 +54,7 @@
   border: 1px solid var(--storyScreen-section--secondary);
   cursor: pointer;
   transition: 0.5s;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
   border-radius: 50%;
 }
 
@@ -195,7 +195,7 @@
   animation: storyScreen-section-article-paragraph-load 1s ease-in-out;
 }
 
-.storyScreen-section-article-div-startScreenLink {
+.storyScreen-section-article-resetBtn {
   height: 30px;
   width: 31px;
   background: linear-gradient(
@@ -204,29 +204,46 @@
     var(--storyScreen-section--tertiary) 50%,
     var(--storyScreen-section--primary) 100%
   );
+  color: var(--storyScreen-section--secondary);
   border: 1px solid var(--storyScreen-section--secondary);
   cursor: pointer;
   transition: 0.5s;
-  margin: 0 auto 1.5rem;
+  margin-bottom: 1.5rem;
   border-radius: 50%;
-  transform: rotate(-90deg);
+  rotate: -90deg;
+  font-weight: bold;
 }
 
-.storyScreen-section-article-div-startScreenLink:hover {
-  transform: rotate(-180deg);
+.storyScreen-section-article-resetBtn:hover {
   scale: 0.9;
+  color: var(--storyScreen-section--sub);
+  border: 1px solid var(--storyScreen-section--sub);
   transition: 0.5s;
 }
 
-.storyScreen-section-article-div-startScreenLink:active {
+.storyScreen-section-article-resetBtn:active {
   scale: 0.8;
 }
 
-.storyScreen-section-article-div-startScreenLink-a {
+.storyScreen-section-article-startScreenLink {
+  padding: 3px 7px 3px 5px;
+  background: linear-gradient(
+    90deg,
+    var(--storyScreen-section--primary) 0%,
+    var(--storyScreen-section--tertiary) 50%,
+    var(--storyScreen-section--primary) 100%
+  );
+  border: 1px solid var(--storyScreen-section--secondary);
+  transition: 0.5s;
+
   text-decoration: none;
   color: var(--storyScreen-section--secondary);
-  font-weight: bold;
-  font-size: 1rem;
+}
+
+.storyScreen-section-article-startScreenLink:hover {
+  border: 1px solid var(--storyScreen-section--sub);
+  color: var(--storyScreen-section--sub);
+  transition: 0.5s;
 }
 
 .storyScreen-section-gameScreenLink {

@@ -34,6 +34,14 @@ function StoryScreen() {
     }));
   }
 
+  function reset() {
+    setState({
+      dialog: false,
+      mainText: false,
+      subText: false,
+    });
+  }
+
   return (
     <section className="storyScreen-section">
       <img
@@ -106,14 +114,23 @@ function StoryScreen() {
             {storyScreenSubText}
           </p>
         )}
-        <div className="storyScreen-section-article-div-startScreenLink">
-          <Link
-            className="storyScreen-section-article-div-startScreenLink-a"
-            to="/"
-          >
-            ➤
-          </Link>
-        </div>
+        {(state.mainText || state.subText) && (
+          <>
+            <br></br>
+            <button
+              className="storyScreen-section-article-resetBtn"
+              onClick={reset}
+            >
+              &#10148;
+            </button>
+          </>
+        )}
+        <br></br>
+        <Link className="storyScreen-section-article-startScreenLink" to="/">
+          &#10094;&#10094;
+        </Link>
+        <br></br>
+        <br></br>
       </article>
       <h2 className="storyScreen-section-title">What will you do now, poet?</h2>
       <Link className="storyScreen-section-gameScreenLink" to="/game">
