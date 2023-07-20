@@ -25,6 +25,17 @@
   object-fit: cover;
   border: 1px solid var(--storyScreen-section--secondary);
   margin-bottom: 1.5rem;
+  animation: storyScreen-section-img-load 600ms ease-in;
+}
+
+@keyframes storyScreen-section-img-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .storyScreen-section-title {
@@ -32,6 +43,19 @@
   text-shadow: 1px 1px var(--storyScreen-section--sub);
   letter-spacing: 1px;
   margin-top: 0;
+  animation: storyScreen-section-title-load 600ms ease-in;
+}
+
+@keyframes storyScreen-section-title-load {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 .storyScreen-section-article {
