@@ -9,15 +9,20 @@
   top: 45%;
 }
 
-.startScreenLoader:after{
-  content: '';
+.startScreenLoader:after {
+  content: "";
   position: absolute;
   inset: 5px;
-  background: var(--secondary);
+  background: radial-gradient(
+    circle,
+    var(--primary) 0%,
+    var(--tertiary) 45%,
+    var(--primary) 100%
+  );
 }
 
-.startScreenLoader:before{
-  content: '';
+.startScreenLoader:before {
+  content: "";
   position: absolute;
   inset: -15px;
   background: var(--sub);
@@ -25,11 +30,13 @@
 }
 
 @keyframes startScreenLoader {
-  0%  ,10% {
-    transform: translate(-50px , -50px) rotate(-45deg)
+  0%,
+  10% {
+    transform: translate(-50px, -50px) rotate(-45deg);
   }
-  
-  90% , 100% {
-    transform: translate(0px , 0px) rotate(-45deg)
+
+  90%,
+  100% {
+    transform: translate(0px, 0px) rotate(-45deg);
   }
 }
