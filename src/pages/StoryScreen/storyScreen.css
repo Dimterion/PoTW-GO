@@ -43,7 +43,7 @@
   text-shadow: 1px 1px var(--storyScreen-section--sub);
   letter-spacing: 1px;
   margin-top: 0;
-  animation: storyScreen-section-title-load 600ms ease-in;
+  animation: storyScreen-section-title-load 800ms ease-in;
 }
 
 @keyframes storyScreen-section-title-load {

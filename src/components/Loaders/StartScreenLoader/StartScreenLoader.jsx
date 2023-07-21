@@ -1,7 +1,7 @@
 import "./startScreenLoader.css";
 
 function StartScreenLoader() {
-  return <span className="startScreenLoader"></span>;
+  return <div className="startScreenLoader"></div>;
 }
 
 export default StartScreenLoader;

@@ -10,7 +10,7 @@ function StartScreen() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1700);
+    }, 1500);
   }, []);
 
   return (
