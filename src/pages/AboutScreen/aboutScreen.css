@@ -3,9 +3,9 @@
   text-align: center;
   background: radial-gradient(
     circle,
-    var(--aboutScreen-section--primary) 0%,
-    var(--aboutScreen-section--tertiary) 45%,
-    var(--aboutScreen-section--primary) 100%
+    var(--primary) 0%,
+    var(--tertiary) 45%,
+    var(--primary) 100%
   );
   position: fixed;
   top: 0;
@@ -17,8 +17,8 @@
 }
 
 .aboutScreen-section-title {
-  color: var(--aboutScreen-section--secondary);
-  text-shadow: 1px 1px var(--aboutScreen-section--sub);
+  color: var(--secondary);
+  text-shadow: 1px 1px var(--sub);
 }
 
 .aboutScreen-section-title,
@@ -30,25 +30,25 @@
 }
 
 .aboutScreen-section-subTitle {
-  color: var(--aboutScreen-section--sub);
-  text-shadow: 1px 1px var(--aboutScreen-section--secondary);
+  color: var(--sub);
+  text-shadow: 1px 1px var(--secondary);
 }
 
 .aboutScreen-section-additionalTitle {
   font-size: 2rem;
-  color: var(--aboutScreen-section--secondary);
+  color: var(--secondary);
 }
 
 .aboutScreen-section-article {
   font-size: 1.5rem;
-  color: var(--aboutScreen-section--secondary);
-  border-top: 1px solid var(--aboutScreen-section--sub);
-  border-bottom: 1px solid var(--aboutScreen-section--sub);
+  color: var(--secondary);
+  border-top: 1px solid var(--sub);
+  border-bottom: 1px solid var(--sub);
   width: fit-content;
   margin: auto;
   padding-bottom: 2.5rem;
 }
 
 .aboutScreen-section-article-link {
-  color: var(--aboutScreen-section--sub);
+  color: var(--sub);
 }

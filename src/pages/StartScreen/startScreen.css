@@ -2,9 +2,9 @@
   text-align: center;
   background: radial-gradient(
     circle,
-    var(--startScreen-section--primary) 0%,
-    var(--startScreen-section--tertiary) 45%,
-    var(--startScreen-section--primary) 100%
+    var(--primary) 0%,
+    var(--tertiary) 45%,
+    var(--primary) 100%
   );
   position: fixed;
   top: 0;
@@ -23,7 +23,7 @@
   overflow: hidden;
   position: relative;
   margin: auto;
-  border: 1px solid var(--startScreen-section--secondary);
+  border: 1px solid var(--secondary);
   animation: startScreen-section-slides-load 500ms ease-in;
 }
 
@@ -52,8 +52,8 @@
 }
 
 .startScreen-section-title {
-  color: var(--startScreen-section--secondary);
-  text-shadow: 1px 1px var(--startScreen-section--sub);
+  color: var(--secondary);
+  text-shadow: 1px 1px var(--sub);
   animation: startScreen-section-title-load 300ms ease-in 600ms;
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -72,8 +72,8 @@
 
 .startScreen-section-subTitle,
 .startScreen-section-closingTitle {
-  color: var(--startScreen-section--sub);
-  text-shadow: 1px 1px var(--startScreen-section--secondary);
+  color: var(--sub);
+  text-shadow: 1px 1px var(--secondary);
   margin-top: 1vh;
   position: relative;
 }
@@ -95,15 +95,15 @@
   position: relative;
   font-family: "Ysabeau SC", sans-serif;
   font-size: 2rem;
-  color: var(--startScreen-section--secondary);
+  color: var(--secondary);
   background: linear-gradient(
     90deg,
-    var(--storyScreen-section--primary) 0%,
-    var(--storyScreen-section--tertiary) 50%,
-    var(--storyScreen-section--primary) 100%
+    var(--primary) 0%,
+    var(--tertiary) 50%,
+    var(--primary) 100%
   );
   text-decoration: none;
-  border: 1px solid var(--startScreen-section--secondary);
+  border: 1px solid var(--secondary);
   margin: 10px auto;
   width: 150px;
   height: 50px;
@@ -125,15 +125,15 @@
   &::before {
     top: -5px;
     left: -5px;
-    border-top: 1px solid var(--startScreen-section--secondary);
-    border-left: 1px solid var(--startScreen-section--secondary);
+    border-top: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary);
   }
 
   &::after {
     right: -5px;
     bottom: -5px;
-    border-bottom: 1px solid var(--startScreen-section--secondary);
-    border-right: 1px solid var(--startScreen-section--secondary);
+    border-bottom: 1px solid var(--secondary);
+    border-right: 1px solid var(--secondary);
   }
 
   &:hover::before,
@@ -144,8 +144,8 @@
 }
 
 .startScreen-section-buttons-btn:hover {
-  color: var(--startScreen-section--sub);
-  border: 1px solid var(--startScreen-section--sub);
+  color: var(--sub);
+  border: 1px solid var(--sub);
   transition: 0.3s ease-in-out;
 }
 

@@ -1,28 +1,16 @@
 /* Fonts - Title */
 @import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap");
 
-/* Fonts - Text */
+/* Fonts - Main */
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;700&display=swap");
 
 :root {
   /* Variables - Colors */
-  --startScreen-section--primary: #01012b;
-  --startScreen-section--secondary: #05d9e8;
-  --startScreen-section--tertiary: #005678;
-  --startScreen-section--additional: #092047;
-  --startScreen-section--sub: #ff2a6d;
-
-  --aboutScreen-section--primary: #01012b;
-  --aboutScreen-section--secondary: #05d9e8;
-  --aboutScreen-section--tertiary: #005678;
-  --aboutScreen-section--additional: #092047;
-  --aboutScreen-section--sub: #ff2a6d;
-
-  --storyScreen-section--primary: #01012b;
-  --storyScreen-section--secondary: #05d9e8;
-  --storyScreen-section--tertiary: #005678;
-  --storyScreen-section--additional: #092047;
-  --storyScreen-section--sub: #ff2a6d;
+  --primary: #01012b;
+  --secondary: #05d9e8;
+  --tertiary: #005678;
+  --additional: #092047;
+  --sub: #ff2a6d;
 }
 
 /* All pages styles */

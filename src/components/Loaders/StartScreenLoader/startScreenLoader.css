@@ -2,7 +2,7 @@
   position: relative;
   width: 50px;
   height: 50px;
-  background-color: var(--startScreen-section--primary);
+  background-color: var(--primary);
   transform: rotate(45deg);
   overflow: hidden;
   margin: auto;
@@ -13,14 +13,14 @@
   content: '';
   position: absolute;
   inset: 5px;
-  background: var(--startScreen-section--secondary);
+  background: var(--secondary);
 }
 
 .startScreenLoader:before{
   content: '';
   position: absolute;
   inset: -15px;
-  background: var(--startScreen-section--sub);
+  background: var(--sub);
   animation: startScreenLoader 1s linear;
 }
 

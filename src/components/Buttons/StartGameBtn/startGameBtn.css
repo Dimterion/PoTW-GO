@@ -2,12 +2,12 @@
   position: relative;
   display: inline-block;
   padding: 10px 15px 12px;
-  color: var(--storyScreen-section--secondary);
+  color: var(--secondary);
   background: radial-gradient(
     circle,
-    var(--storyScreen-section--primary) 0%,
-    var(--storyScreen-section--tertiary) 30%,
-    var(--storyScreen-section--primary) 100%
+    var(--primary) 0%,
+    var(--tertiary) 30%,
+    var(--primary) 100%
   );
   text-decoration: none;
   text-transform: uppercase;
@@ -16,19 +16,19 @@
   overflow: hidden;
   font-weight: bold;
   font-size: 1.5rem;
-  border: 1px solid var(--storyScreen-section--primary);
-  box-shadow: 2px 2px 2px var(--storyScreen-section--primary);
+  border: 1px solid var(--primary);
+  box-shadow: 2px 2px 2px var(--primary);
 }
 
 .startGameBtn:hover {
-  background: var(--storyScreen-section--secondary);
-  color: var(--storyScreen-section--sub);
-  box-shadow: 0 0 5px var(--storyScreen-section--secondary),
-    0 0 25px var(--storyScreen-section--secondary),
-    0 0 50px var(--storyScreen-section--secondary),
-    0 0 200px var(--storyScreen-section--secondary);
+  background: var(--secondary);
+  color: var(--sub);
+  box-shadow: 0 0 5px var(--secondary),
+    0 0 25px var(--secondary),
+    0 0 50px var(--secondary),
+    0 0 200px var(--secondary);
   -webkit-box-reflect: below 1px
-    linear-gradient(transparent, var(--storyScreen-section--primary));
+    linear-gradient(transparent, var(--primary));
   transition: 1s;
   border: 1px solid transparent;
 }
@@ -50,7 +50,7 @@
   background: linear-gradient(
     90deg,
     transparent 50%,
-    var(--storyScreen-section--secondary)
+    var(--secondary)
   );
   animation: animateTop 3s ease-in-out infinite;
 }
@@ -75,7 +75,7 @@
   background: linear-gradient(
     180deg,
     transparent 30%,
-    var(--storyScreen-section--secondary)
+    var(--secondary)
   );
   animation: animateRight 3s ease-in-out infinite;
 }
@@ -105,7 +105,7 @@
   height: 2px;
   background: linear-gradient(
     90deg,
-    var(--storyScreen-section--secondary),
+    var(--secondary),
     transparent 50%
   );
   animation: animateBottom 3s ease-in-out infinite;
@@ -136,7 +136,7 @@
   height: 0;
   background: linear-gradient(
     180deg,
-    var(--storyScreen-section--secondary),
+    var(--secondary),
     transparent 70%
   );
   animation: animateLeft 3s ease-in-out infinite;
