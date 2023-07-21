@@ -1,4 +1,4 @@
-export const storyScreenDialogText = `Oh, hi. You clicked me. Nice!
+export const storyScreenIntroText = `Oh, hi. You clicked me. Nice!
 
 So, listen, a couple of clarifications before we start. This is sort of a continuation of the story I’ve made before. I’ve no idea if you read it or not, thus allow me to point out a few things.
 

@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import StoryScreenLoader from "../../components/Loaders/StoryScreenLoader/StoryScreenLoader";
 import StartGameBtn from "../../components/Buttons/StartGameBtn/StartGameBtn";
 import storyScreenImage from "../../assets/images/story_screen_image.jpg";
+import { storyScreenIntroText } from "../../utils/additionalTexts";
 import { storyScreenMainText } from "../../utils/additionalTexts";
 import { storyScreenSubText } from "../../utils/additionalTexts";
-import { storyScreenDialogText } from "../../utils/additionalTexts";
 import "./storyScreen.css";
 
 function StoryScreen() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
-  const [state, setState] = useState({
-    dialog: false,
+  const [text, setText] = useState({
+    introText: false,
     mainText: false,
     subText: false,
   });
@@ -24,30 +24,30 @@ function StoryScreen() {
     }, 1500);
   }, []);
 
-  function dialog() {
-    setState((prevState) => ({
-      ...prevState,
-      dialog: !state.dialog,
+  function introText() {
+    setText((prevText) => ({
+      ...prevText,
+      introText: !text.introText,
     }));
   }
 
   function mainText() {
-    setState((prevState) => ({
-      ...prevState,
-      mainText: !state.mainText,
+    setText((prevText) => ({
+      ...prevText,
+      mainText: !text.mainText,
     }));
   }
 
   function subText() {
-    setState((prevState) => ({
-      ...prevState,
-      subText: !state.subText,
+    setText((prevText) => ({
+      ...prevText,
+      subText: !text.subText,
     }));
   }
 
-  function reset() {
-    setState({
-      dialog: false,
+  function resetText() {
+    setText({
+      introText: false,
       mainText: false,
       subText: false,
     });
@@ -70,21 +70,21 @@ function StoryScreen() {
           <article className="storyScreen-section-article">
             <button
               className="storyScreen-section-article-btn"
-              onClick={dialog}
+              onClick={introText}
             >
               &#10033;
             </button>
             <dialog
               className="storyScreen-section-article-dialog"
-              open={state.dialog}
+              open={text.introText}
             >
               <button
                 className="storyScreen-section-article-dialog-xBtn"
-                onClick={dialog}
+                onClick={introText}
               >
                 &#10006;
               </button>
-              <p>{storyScreenDialogText}</p>
+              <p>{storyScreenIntroText}</p>
               <div>
                 <b>P.S.</b> Previous story is{" "}
                 <a
@@ -99,7 +99,7 @@ function StoryScreen() {
               </div>
               <button
                 className="storyScreen-section-article-dialog-btn"
-                onClick={dialog}
+                onClick={introText}
               >
                 CLOSE
               </button>
@@ -107,13 +107,13 @@ function StoryScreen() {
             <br></br>
             <button
               className={`storyScreen-section-article-menuBtn ${
-                state.mainText && "storyScreen-btnActive"
+                text.mainText && "storyScreen-btnActive"
               }`}
               onClick={mainText}
             >
-              {state.mainText && "✖"} WORLD STATE
+              {text.mainText && "✖"} WORLD STATE
             </button>
-            {state.mainText && (
+            {text.mainText && (
               <p className="storyScreen-section-article-paragraph">
                 {storyScreenMainText}
               </p>
@@ -121,23 +121,23 @@ function StoryScreen() {
             <br></br>
             <button
               className={`storyScreen-section-article-menuBtn ${
-                state.subText && "storyScreen-btnActive"
+                text.subText && "storyScreen-btnActive"
               }`}
               onClick={subText}
             >
-              {state.subText && "✖"} WHO YOU ARE
+              {text.subText && "✖"} WHO YOU ARE
             </button>
-            {state.subText && (
+            {text.subText && (
               <p className="storyScreen-section-article-paragraph">
                 {storyScreenSubText}
               </p>
             )}
-            {(state.mainText || state.subText) && (
+            {(text.mainText || text.subText) && (
               <>
                 <br></br>
                 <button
                   className="storyScreen-section-article-resetBtn"
-                  onClick={reset}
+                  onClick={resetText}
                 >
                   &#10148;
                 </button>

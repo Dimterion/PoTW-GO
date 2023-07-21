@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import StartScreen from "./pages/StartScreen/StartScreen";
-import GameScreen from "./pages/GameScreen/GameScreen";
 import StoryScreen from "./pages/StoryScreen/StoryScreen";
+import GameScreen from "./pages/GameScreen/GameScreen";
 import AboutScreen from "./pages/AboutScreen/AboutScreen";
 
 function App() {
