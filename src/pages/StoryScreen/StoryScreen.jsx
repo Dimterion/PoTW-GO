@@ -24,24 +24,10 @@ function StoryScreen() {
     }, 1500);
   }, []);
 
-  function introText() {
+  function showText(e) {
     setText((prevText) => ({
       ...prevText,
-      introText: !text.introText,
-    }));
-  }
-
-  function mainText() {
-    setText((prevText) => ({
-      ...prevText,
-      mainText: !text.mainText,
-    }));
-  }
-
-  function subText() {
-    setText((prevText) => ({
-      ...prevText,
-      subText: !text.subText,
+      [e]: !text[e],
     }));
   }
 
@@ -70,7 +56,7 @@ function StoryScreen() {
           <article className="storyScreen-section-article">
             <button
               className="storyScreen-section-article-btn"
-              onClick={introText}
+              onClick={() => showText("introText")}
             >
               &#10033;
             </button>
@@ -80,7 +66,7 @@ function StoryScreen() {
             >
               <button
                 className="storyScreen-section-article-dialog-xBtn"
-                onClick={introText}
+                onClick={() => showText("introText")}
               >
                 &#10006;
               </button>
@@ -99,7 +85,7 @@ function StoryScreen() {
               </div>
               <button
                 className="storyScreen-section-article-dialog-btn"
-                onClick={introText}
+                onClick={() => showText("introText")}
               >
                 CLOSE
               </button>
@@ -109,7 +95,7 @@ function StoryScreen() {
               className={`storyScreen-section-article-menuBtn ${
                 text.mainText && "storyScreen-btnActive"
               }`}
-              onClick={mainText}
+              onClick={() => showText("mainText")}
             >
               {text.mainText && "✖"} WORLD STATE
             </button>
@@ -123,7 +109,7 @@ function StoryScreen() {
               className={`storyScreen-section-article-menuBtn ${
                 text.subText && "storyScreen-btnActive"
               }`}
-              onClick={subText}
+              onClick={() => showText("subText")}
             >
               {text.subText && "✖"} WHO YOU ARE
             </button>
