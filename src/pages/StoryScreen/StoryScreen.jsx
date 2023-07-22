@@ -65,7 +65,7 @@ function StoryScreen() {
                 ✖
               </button>
               <p>{storyScreenIntroText}</p>
-              <div>
+              <p>
                 <b>P.S.</b> Previous story is{" "}
                 <a
                   href="https://poets-of-tomorrows-world.vercel.app/"
@@ -76,7 +76,7 @@ function StoryScreen() {
                   here
                 </a>
                 . Just saying. No pressure...
-              </div>
+              </p>
               <button
                 className="storyScreen-closeBtn"
                 onClick={() => showText("introText")}
@@ -84,7 +84,6 @@ function StoryScreen() {
                 CLOSE
               </button>
             </dialog>
-            <br></br>
             <button
               className={`storyScreen-mainBtn ${
                 text.mainText && "storyScreen-mainBtnActive"
@@ -96,7 +95,6 @@ function StoryScreen() {
             {text.mainText && (
               <p className="storyScreen-text">{storyScreenMainText}</p>
             )}
-            <br></br>
             <button
               className={`storyScreen-mainBtn ${
                 text.subText && "storyScreen-mainBtnActive"
@@ -110,13 +108,11 @@ function StoryScreen() {
             )}
             {(text.mainText || text.subText) && (
               <>
-                <br></br>
                 <button className="storyScreen-resetBtn" onClick={resetText}>
                   ➤
                 </button>
               </>
             )}
-            <br></br>
             <Link className="storyScreen-startScreenLink" to="/">
               ❰❰
             </Link>

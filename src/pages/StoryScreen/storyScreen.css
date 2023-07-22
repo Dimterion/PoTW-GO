@@ -64,6 +64,9 @@
   max-width: 90vw;
   margin: auto;
   padding-bottom: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .storyScreen-introTextBtn {
@@ -79,7 +82,7 @@
   border: 1px solid var(--secondary);
   cursor: pointer;
   transition: 0.5s;
-  margin-bottom: 1.1rem;
+  margin-bottom: 1.25rem;
   animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
@@ -161,7 +164,7 @@
   font-weight: bold;
   font-size: 1rem;
   transition: 0.5s;
-  margin-top: 3vh;
+  margin: 0.5rem auto 0.75rem;
   padding: 1px 10px 4px;
 }
 
@@ -192,7 +195,7 @@
   font-weight: bold;
   font-family: "Ysabeau SC", sans-serif;
   transition: 0.5s;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
@@ -219,7 +222,7 @@
   text-shadow: 3px 3px var(--primary);
   letter-spacing: 0.5px;
   white-space: pre-line;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1.25rem;
   background: linear-gradient(
     90deg,
     var(--tertiary) 0%,
@@ -254,20 +257,15 @@
   border: 1px solid var(--secondary);
   cursor: pointer;
   transition: 0.5s;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   rotate: -90deg;
   font-weight: bold;
 }
 
 .storyScreen-resetBtn:hover {
-  scale: 0.9;
   color: var(--sub);
   border: 1px solid var(--sub);
   transition: 0.5s;
-}
-
-.storyScreen-resetBtn:active {
-  scale: 0.8;
 }
 
 .storyScreen-startScreenLink {
