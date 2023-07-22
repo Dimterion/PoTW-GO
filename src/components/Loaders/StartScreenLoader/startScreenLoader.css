@@ -26,7 +26,7 @@
   position: absolute;
   inset: -15px;
   background: var(--sub);
-  animation: startScreenLoader 1s linear;
+  animation: startScreenLoader 1.1s linear infinite;
 }
 
 @keyframes startScreenLoader {

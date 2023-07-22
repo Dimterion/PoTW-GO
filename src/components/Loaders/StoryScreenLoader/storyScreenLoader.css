@@ -15,7 +15,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  animation: storyScreenLoader 1s ease-in-out alternate;
+  animation: storyScreenLoader 1.1s ease-in-out alternate infinite;
 }
 
 .storyScreenLoader::after {

@@ -4,10 +4,9 @@ import StartScreenLoader from "../../components/Loaders/StartScreenLoader/StartS
 import "./startScreen.css";
 
 function StartScreen() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 1500);

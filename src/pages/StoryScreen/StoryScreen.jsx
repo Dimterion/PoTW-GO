@@ -9,7 +9,7 @@ import { storyScreenSubText } from "../../utils/additionalTexts";
 import "./storyScreen.css";
 
 function StoryScreen() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const [text, setText] = useState({
     introText: false,
@@ -18,7 +18,6 @@ function StoryScreen() {
   });
 
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 1500);
