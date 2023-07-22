@@ -18,17 +18,27 @@
   font-size: 1.5rem;
   border: 1px solid var(--primary);
   box-shadow: 2px 2px 2px var(--primary);
+  animation: startGameBtn-load 1s ease-in;
+}
+
+@keyframes startGameBtn-load {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 .startGameBtn:hover {
   background: var(--secondary);
   color: var(--sub);
-  box-shadow: 0 0 5px var(--secondary),
-    0 0 25px var(--secondary),
-    0 0 50px var(--secondary),
-    0 0 200px var(--secondary);
-  -webkit-box-reflect: below 1px
-    linear-gradient(transparent, var(--primary));
+  box-shadow: 0 0 5px var(--secondary), 0 0 25px var(--secondary),
+    0 0 50px var(--secondary), 0 0 200px var(--secondary);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, var(--primary));
   transition: 1s;
   border: 1px solid transparent;
 }
@@ -47,11 +57,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(
-    90deg,
-    transparent 50%,
-    var(--secondary)
-  );
+  background: linear-gradient(90deg, transparent 50%, var(--secondary));
   animation: animateTop 3s ease-in-out infinite;
 }
 
@@ -72,11 +78,7 @@
   right: 0;
   width: 2px;
   height: 0;
-  background: linear-gradient(
-    180deg,
-    transparent 30%,
-    var(--secondary)
-  );
+  background: linear-gradient(180deg, transparent 30%, var(--secondary));
   animation: animateRight 3s ease-in-out infinite;
 }
 
@@ -103,11 +105,7 @@
   right: 0;
   bottom: 0;
   height: 2px;
-  background: linear-gradient(
-    90deg,
-    var(--secondary),
-    transparent 50%
-  );
+  background: linear-gradient(90deg, var(--secondary), transparent 50%);
   animation: animateBottom 3s ease-in-out infinite;
 }
 
@@ -134,11 +132,7 @@
   bottom: 0;
   width: 2px;
   height: 0;
-  background: linear-gradient(
-    180deg,
-    var(--secondary),
-    transparent 70%
-  );
+  background: linear-gradient(180deg, var(--secondary), transparent 70%);
   animation: animateLeft 3s ease-in-out infinite;
 }
 

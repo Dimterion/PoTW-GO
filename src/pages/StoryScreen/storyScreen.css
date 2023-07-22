@@ -1,4 +1,4 @@
-.storyScreen-section {
+.storyScreen-container {
   font-family: "Ysabeau SC", sans-serif;
   text-align: center;
   color: var(--secondary);
@@ -17,7 +17,7 @@
   padding: 2vh 2vw 8vh;
 }
 
-.storyScreen-section-img {
+.storyScreen-img {
   height: 1024px;
   width: 1024px;
   max-height: 40vh;
@@ -25,10 +25,10 @@
   object-fit: cover;
   border: 1px solid var(--secondary);
   margin-bottom: 1.5rem;
-  animation: storyScreen-section-img-load 600ms ease-in;
+  animation: storyScreen-imgLoad 600ms ease-in;
 }
 
-@keyframes storyScreen-section-img-load {
+@keyframes storyScreen-imgLoad {
   0% {
     transform: translateY(-100%);
   }
@@ -38,15 +38,15 @@
   }
 }
 
-.storyScreen-section-title {
+.storyScreen-title {
   font-size: 2rem;
   text-shadow: 1px 1px var(--sub);
   letter-spacing: 1px;
   margin-top: 0;
-  animation: storyScreen-section-title-load 800ms ease-in;
+  animation: storyScreen-titleLoad 800ms ease-in;
 }
 
-@keyframes storyScreen-section-title-load {
+@keyframes storyScreen-titleLoad {
   0% {
     transform: translateY(30px);
     opacity: 0;
@@ -58,14 +58,14 @@
   }
 }
 
-.storyScreen-section-article {
+.storyScreen-mainContent {
   font-size: 1.25rem;
   width: 1024px;
   max-width: 90vw;
   margin: auto;
 }
 
-.storyScreen-section-article-btn {
+.storyScreen-introTextBtn {
   height: 33px;
   width: 34px;
   background: linear-gradient(
@@ -79,10 +79,10 @@
   cursor: pointer;
   transition: 0.5s;
   margin-bottom: 1.1rem;
-  animation: storyScreen-section-article-buttons-load 1.5s ease-in-out;
+  animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
-.storyScreen-section-article-btn:hover {
+.storyScreen-introTextBtn:hover {
   transform: rotate(180deg);
   scale: 0.9;
   color: var(--sub);
@@ -90,11 +90,11 @@
   transition: 0.5s;
 }
 
-.storyScreen-section-article-btn:active {
+.storyScreen-introTextBtn:active {
   scale: 0.8;
 }
 
-.storyScreen-section-article-dialog {
+.storyScreen-introText {
   font-size: 1rem;
   width: 700px;
   max-width: 80vw;
@@ -108,11 +108,21 @@
   );
   color: var(--secondary);
   padding-top: 0;
-  animation: storyScreen-section-article-dialog-load 700ms ease-in-out;
+  animation: storyScreen-introTextLoad 700ms ease-in-out;
   z-index: 1;
 }
 
-.storyScreen-section-article-dialog-xBtn {
+@keyframes storyScreen-introTextLoad {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.storyScreen-xBtn {
   background-color: transparent;
   color: var(--sub);
   border: none;
@@ -124,19 +134,19 @@
   opacity: 0.5;
 }
 
-.storyScreen-section-article-dialog-xBtn:hover {
+.storyScreen-xBtn:hover {
   opacity: 1;
 }
 
-.storyScreen-section-article-dialog-xBtn:active {
+.storyScreen-xBtn:active {
   scale: 0.9;
 }
 
-.storyScreen-section-article-dialog-div-a {
+.storyScreen-introTextLink {
   color: var(--sub);
 }
 
-.storyScreen-section-article-dialog-btn {
+.storyScreen-closeBtn {
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
@@ -154,18 +164,18 @@
   padding: 1px 10px 4px;
 }
 
-.storyScreen-section-article-dialog-btn:hover {
+.storyScreen-closeBtn:hover {
   background-color: var(--primary);
   color: var(--sub);
   border: 1px solid var(--sub);
   transition: 0.5s;
 }
 
-.storyScreen-section-article-dialog-btn:active {
+.storyScreen-closeBtn:active {
   scale: 0.9;
 }
 
-.storyScreen-section-article-menuBtn {
+.storyScreen-mainBtn {
   height: 50px;
   width: 150px;
   background: linear-gradient(
@@ -182,29 +192,29 @@
   font-family: "Ysabeau SC", sans-serif;
   transition: 0.5s;
   margin-bottom: 1.5rem;
-  animation: storyScreen-section-article-buttons-load 1.5s ease-in-out;
+  animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
-.storyScreen-section-article-menuBtn:hover {
+.storyScreen-mainBtn:hover {
   scale: 0.9;
   transition: 0.5s;
   color: var(--sub);
   border: 1px solid var(--sub);
 }
 
-.storyScreen-section-article-menuBtn:active {
+.storyScreen-mainBtn:active {
   scale: 0.8;
   transition: 0.5s;
 }
 
-.storyScreen-btnActive {
+.storyScreen-mainBtnActive {
   scale: 0.9;
   color: var(--sub);
   border: 1px solid var(--sub);
   transition: 0.5s;
 }
 
-.storyScreen-section-article-paragraph {
+.storyScreen-text {
   text-shadow: 3px 3px var(--primary);
   letter-spacing: 0.5px;
   white-space: pre-line;
@@ -217,10 +227,20 @@
   );
   padding: 10px;
   border: 1px solid var(--sub);
-  animation: storyScreen-section-article-paragraph-load 1s ease-in-out;
+  animation: storyScreen-textLoad 1s ease-in-out;
 }
 
-.storyScreen-section-article-resetBtn {
+@keyframes storyScreen-textLoad {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.storyScreen-resetBtn {
   height: 33px;
   width: 34px;
   background: linear-gradient(
@@ -238,19 +258,19 @@
   font-weight: bold;
 }
 
-.storyScreen-section-article-resetBtn:hover {
+.storyScreen-resetBtn:hover {
   scale: 0.9;
   color: var(--sub);
   border: 1px solid var(--sub);
   transition: 0.5s;
 }
 
-.storyScreen-section-article-resetBtn:active {
+.storyScreen-resetBtn:active {
   scale: 0.8;
 }
 
-.storyScreen-section-article-startScreenLink {
-  padding: 3px 7px 3px 5px;
+.storyScreen-startScreenLink {
+  padding: 3px 6px;
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
@@ -261,42 +281,21 @@
   transition: 0.5s;
   text-decoration: none;
   color: var(--secondary);
-  animation: storyScreen-section-article-buttons-load 1.5s ease-in-out;
+  animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
-.storyScreen-section-article-startScreenLink:hover {
+@keyframes storyScreen-btnLoad {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.storyScreen-startScreenLink:hover {
   border: 1px solid var(--sub);
   color: var(--sub);
   transition: 0.5s;
-}
-
-/* Animations */
-@keyframes storyScreen-section-article-dialog-load {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes storyScreen-section-article-paragraph-load {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes storyScreen-section-article-buttons-load {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }

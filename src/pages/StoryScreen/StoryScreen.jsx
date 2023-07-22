@@ -39,7 +39,7 @@ function StoryScreen() {
   }
 
   return (
-    <section className="storyScreen-section">
+    <section className="storyScreen-container">
       {loading ? (
         <StoryScreenLoader />
       ) : (
@@ -47,24 +47,19 @@ function StoryScreen() {
           <img
             src={storyScreenImage}
             alt="Futuristic towers"
-            className="storyScreen-section-img"
+            className="storyScreen-img"
           />
-          <h2 className="storyScreen-section-title">
-            The story you know so far...
-          </h2>
-          <article className="storyScreen-section-article">
+          <h2 className="storyScreen-title">The story you know so far...</h2>
+          <article className="storyScreen-mainContent">
             <button
-              className="storyScreen-section-article-btn"
+              className="storyScreen-introTextBtn"
               onClick={() => showText("introText")}
             >
               &#10033;
             </button>
-            <dialog
-              className="storyScreen-section-article-dialog"
-              open={text.introText}
-            >
+            <dialog className="storyScreen-introText" open={text.introText}>
               <button
-                className="storyScreen-section-article-dialog-xBtn"
+                className="storyScreen-xBtn"
                 onClick={() => showText("introText")}
               >
                 &#10006;
@@ -76,14 +71,14 @@ function StoryScreen() {
                   href="https://poets-of-tomorrows-world.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="storyScreen-section-article-dialog-div-a"
+                  className="storyScreen-introTextLink"
                 >
                   here
                 </a>
                 . Just saying. No pressure...
               </div>
               <button
-                className="storyScreen-section-article-dialog-btn"
+                className="storyScreen-closeBtn"
                 onClick={() => showText("introText")}
               >
                 CLOSE
@@ -91,56 +86,44 @@ function StoryScreen() {
             </dialog>
             <br></br>
             <button
-              className={`storyScreen-section-article-menuBtn ${
-                text.mainText && "storyScreen-btnActive"
+              className={`storyScreen-mainBtn ${
+                text.mainText && "storyScreen-mainBtnActive"
               }`}
               onClick={() => showText("mainText")}
             >
               {text.mainText && "✖"} WORLD STATE
             </button>
             {text.mainText && (
-              <p className="storyScreen-section-article-paragraph">
-                {storyScreenMainText}
-              </p>
+              <p className="storyScreen-text">{storyScreenMainText}</p>
             )}
             <br></br>
             <button
-              className={`storyScreen-section-article-menuBtn ${
-                text.subText && "storyScreen-btnActive"
+              className={`storyScreen-mainBtn ${
+                text.subText && "storyScreen-mainBtnActive"
               }`}
               onClick={() => showText("subText")}
             >
               {text.subText && "✖"} WHO YOU ARE
             </button>
             {text.subText && (
-              <p className="storyScreen-section-article-paragraph">
-                {storyScreenSubText}
-              </p>
+              <p className="storyScreen-text">{storyScreenSubText}</p>
             )}
             {(text.mainText || text.subText) && (
               <>
                 <br></br>
-                <button
-                  className="storyScreen-section-article-resetBtn"
-                  onClick={resetText}
-                >
+                <button className="storyScreen-resetBtn" onClick={resetText}>
                   &#10148;
                 </button>
               </>
             )}
             <br></br>
-            <Link
-              className="storyScreen-section-article-startScreenLink"
-              to="/"
-            >
+            <Link className="storyScreen-startScreenLink" to="/">
               &#10094;&#10094;
             </Link>
             <br></br>
             <br></br>
           </article>
-          <h2 className="storyScreen-section-title">
-            What will you do now, poet?
-          </h2>
+          <h2 className="storyScreen-title">What will you do now, poet?</h2>
           <StartGameBtn />
         </>
       )}
