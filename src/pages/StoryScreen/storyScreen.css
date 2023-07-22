@@ -63,6 +63,7 @@
   width: 1024px;
   max-width: 90vw;
   margin: auto;
+  padding-bottom: 1.5rem;
 }
 
 .storyScreen-introTextBtn {
@@ -241,7 +242,7 @@
 }
 
 .storyScreen-resetBtn {
-  height: 33px;
+  height: 34px;
   width: 34px;
   background: linear-gradient(
     90deg,
@@ -270,7 +271,7 @@
 }
 
 .storyScreen-startScreenLink {
-  padding: 3px 6px;
+  padding: 3px 8px 4px;
   background: linear-gradient(
     90deg,
     var(--primary) 0%,

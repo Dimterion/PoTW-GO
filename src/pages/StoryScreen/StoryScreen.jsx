@@ -55,14 +55,14 @@ function StoryScreen() {
               className="storyScreen-introTextBtn"
               onClick={() => showText("introText")}
             >
-              &#10033;
+              ✱
             </button>
             <dialog className="storyScreen-introText" open={text.introText}>
               <button
                 className="storyScreen-xBtn"
                 onClick={() => showText("introText")}
               >
-                &#10006;
+                ✖
               </button>
               <p>{storyScreenIntroText}</p>
               <div>
@@ -112,16 +112,14 @@ function StoryScreen() {
               <>
                 <br></br>
                 <button className="storyScreen-resetBtn" onClick={resetText}>
-                  &#10148;
+                  ➤
                 </button>
               </>
             )}
             <br></br>
             <Link className="storyScreen-startScreenLink" to="/">
-              &#10094;&#10094;
+              ❰❰
             </Link>
-            <br></br>
-            <br></br>
           </article>
           <h2 className="storyScreen-title">What will you do now, poet?</h2>
           <StartGameBtn />
