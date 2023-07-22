@@ -3,27 +3,27 @@ import "./aboutScreen.css";
 
 function AboutScreen() {
   return (
-    <section className="aboutScreen-section">
-      <h1 className="aboutScreen-section-title">Poets of Tomorrow’s World:</h1>
-      <h1 className="aboutScreen-section-subTitle">gameOn(e)</h1>
-      <h2 className="aboutScreen-section-additionalTitle">
+    <section className="aboutScreen-container">
+      <h1 className="aboutScreen-title">Poets of Tomorrow’s World:</h1>
+      <h1 className="aboutScreen-subTitle">gameOn(e)</h1>
+      <h2 className="aboutScreen-additionalTitle">
         Interactive Text Adventure
       </h2>
-      <article className="aboutScreen-section-article">
+      <article className="aboutScreen-mainContent">
         <h3>
           The next chapter of the story which began{" "}
           <a
             href="https://poets-of-tomorrows-world.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="aboutScreen-section-article-link"
+            className="aboutScreen-link"
           >
             here
           </a>
           .
         </h3>
         <h3>WORK IN PROGRESS</h3>
-        <Link className="aboutScreen-section-article-link" to="/">
+        <Link className="aboutScreen-link" to="/">
           START SCREEN
         </Link>
       </article>

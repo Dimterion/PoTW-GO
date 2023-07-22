@@ -13,29 +13,27 @@ function StartScreen() {
   }, []);
 
   return (
-    <section className="startScreen-section">
+    <section className="startScreen-container">
       {loading ? (
         <StartScreenLoader />
       ) : (
         <>
-          <ul className="startScreen-section-slides">
-            <li className="startScreen-section-slides-slide"></li>
-            <li className="startScreen-section-slides-slide"></li>
-            <li className="startScreen-section-slides-slide"></li>
+          <ul className="startScreen-slides">
+            <li className="startScreen-slide"></li>
+            <li className="startScreen-slide"></li>
+            <li className="startScreen-slide"></li>
           </ul>
-          <h1 className="startScreen-section-title">
-            Poets of Tomorrow’s World:
-          </h1>
-          <h1 className="startScreen-section-subTitle">gameOn(e) {"{"}</h1>
-          <div className="startScreen-section-buttons">
-            <Link className="startScreen-section-buttons-btn" to="/story">
+          <h1 className="startScreen-title">Poets of Tomorrow’s World:</h1>
+          <h1 className="startScreen-subTitle">gameOn(e) {"{"}</h1>
+          <nav className="startScreen-buttons">
+            <Link className="startScreen-btn" to="/story">
               START
             </Link>
-            <Link className="startScreen-section-buttons-btn" to="/about">
+            <Link className="startScreen-btn" to="/about">
               ABOUT
             </Link>
-          </div>
-          <h1 className="startScreen-section-closingTitle">{"}"}</h1>
+          </nav>
+          <h1 className="startScreen-closingTitle">{"}"}</h1>
         </>
       )}
     </section>

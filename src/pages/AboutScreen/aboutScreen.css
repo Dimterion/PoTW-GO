@@ -1,4 +1,4 @@
-.aboutScreen-section {
+.aboutScreen-container {
   font-family: "Ysabeau SC", sans-serif;
   text-align: center;
   background: radial-gradient(
@@ -16,30 +16,30 @@
   padding: 10vh 2vw 0;
 }
 
-.aboutScreen-section-title {
+.aboutScreen-title {
   color: var(--secondary);
   text-shadow: 1px 1px var(--sub);
 }
 
-.aboutScreen-section-title,
-.aboutScreen-section-subTitle {
+.aboutScreen-title,
+.aboutScreen-subTitle {
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
   letter-spacing: 2px;
   margin: 1vh 0 auto;
 }
 
-.aboutScreen-section-subTitle {
+.aboutScreen-subTitle {
   color: var(--sub);
   text-shadow: 1px 1px var(--secondary);
 }
 
-.aboutScreen-section-additionalTitle {
+.aboutScreen-additionalTitle {
   font-size: 2rem;
   color: var(--secondary);
 }
 
-.aboutScreen-section-article {
+.aboutScreen-mainContent {
   font-size: 1.5rem;
   color: var(--secondary);
   border-top: 1px solid var(--sub);
@@ -49,6 +49,6 @@
   padding-bottom: 2.5rem;
 }
 
-.aboutScreen-section-article-link {
+.aboutScreen-link {
   color: var(--sub);
 }
