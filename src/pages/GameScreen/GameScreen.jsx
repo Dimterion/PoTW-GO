@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { nanoid } from "nanoid";
+import MenuModal from "../../components/Modals/MenuModal/MenuModal";
 import GameComponent from "../../components/GameComponent/GameComponent";
 import gameContents from "../../utils/gameContents";
 
@@ -14,7 +15,7 @@ function GameScreen() {
   // localStorage.setItem("optionId", optionId);
   // <---
   // + TO ADD: BUTTONS TO SAVE/RESET PROGRESS (SET STATE TO THE INITIAL ONE); REPLACE STATE ON THE LINE BELOW WITH THIS ONE
-
+  const [menu, setMenu] = useState(false);
   const [optionId, setOptionId] = useState(gameContents[0].id);
 
   const contents = gameContents.map((content) => {
@@ -29,7 +30,10 @@ function GameScreen() {
 
   return (
     <section>
-      <Link to="/">Start Screen</Link>
+      <button onClick={() => setMenu(true)}>Menu</button>
+      <MenuModal title="Menu" openMenu={menu} closeMenu={() => setMenu(false)}>
+        <Link to="/">Start Screen</Link>
+      </MenuModal>
       {contents[optionId]}
     </section>
   );
