@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import { nanoid } from "nanoid";
+import PropTypes from "prop-types";
 import "./gameComponent.css";
 
 function GameComponent({ content, setOptionId }) {
@@ -23,5 +23,10 @@ function GameComponent({ content, setOptionId }) {
     </article>
   );
 }
+
+GameComponent.propTypes = {
+  content: PropTypes.object,
+  setOptionId: PropTypes.func,
+};
 
 export default GameComponent;
