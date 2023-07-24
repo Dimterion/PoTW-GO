@@ -16,10 +16,10 @@ function MenuModal({ title, openMenu, closeMenu, children }) {
   return (
     <dialog ref={ref} onCancel={closeMenu} className="menuModal-container">
       <nav>
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         {children}
         <button onClick={closeMenu} className="menuModal-closeBtn">
-          Close
+          Close (esc)
         </button>
       </nav>
     </dialog>

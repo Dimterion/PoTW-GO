@@ -36,6 +36,7 @@ function GameComponent({ content, setOptionId }) {
         >
           <Link to="/">Start Screen</Link>
           <Link to="/about">About Screen</Link>
+          <Link to="/story">Story Screen</Link>
         </MenuModal>
       </nav>
       <img

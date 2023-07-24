@@ -1,10 +1,18 @@
 .menuModal-container {
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--prologuePrimary);
+  color: var(--prologueTertiary);
   width: 300px;
   max-width: 80vw;
   height: 350px;
   max-height: 80vh;
+  margin-top: 30vh;
+  padding-top: 1vh;
+}
+
+@media (max-height: 700px) {
+  .menuModal-container {
+    margin-top: 10px;
+  }
 }
 
 .menuModal-container::backdrop {
@@ -17,13 +25,24 @@
   align-items: center;
 }
 
-.menuModal-container nav a {
-  color: var(--secondary);
-  margin: 20px 0;
+.menuModal-title {
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+.menuModal-container nav a, .menuModal-closeBtn {
+  width: 200px;
+  max-width: 85vw;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--prologueTertiary);
+  margin: 10px auto;
+  padding: 3px 0 6px;
   text-decoration: none;
+  border: 1px solid var(--prologueTertiary);
 }
 
 .menuModal-closeBtn {
-  position: relative;
-  top: 125px;
+  font-family: "Ysabeau SC", sans-serif;
+  background-color: var(--prologuePrimary);
+  cursor: pointer;
 }
