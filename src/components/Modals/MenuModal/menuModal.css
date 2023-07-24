@@ -1,0 +1,10 @@
+.menuModal-container {
+  width: 300px;
+  max-width: 80vw;
+  height: 350px;
+  max-height: 80vh;
+}
+
+.menuModal-container::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}

@@ -20,6 +20,18 @@
   overflow: auto;
 }
 
+.gameComponent-menuBtn--prologue {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.gameComponent-menuBtn--prologue:hover {
+  opacity: 1;
+}
+
 .gameComponent-mainImage--prologue {
   width: 1024px;
   max-width: 90vw;
@@ -32,7 +44,7 @@
 .gameComponent-mainContent--prologue {
   width: 1024px;
   max-width: 90vw;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   border: 1px solid var(--prologueAdditional);
 }
 
@@ -53,4 +65,30 @@
 
 .gameComponent-text--prologue {
   padding: 0 1.5rem;
+}
+
+.gameComponent-buttons--prologue {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1024px;
+  max-width: 90vw;
+  margin-bottom: 1rem;
+  padding: 1vh 0;
+  border: 1px solid var(--prologueAdditional);
+}
+
+.gameComponent-btn--prologue {
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  background-color: var(--prologuePrimary);
+  color: var(--prologueTertiary);
+  width: 200px;
+  max-width: 90vw;
+  height: 50px;
+  margin: 0.75rem;
+  padding-bottom: 5px;
+  border: 1px solid var(--prologueTertiary);
+  cursor: pointer;
 }

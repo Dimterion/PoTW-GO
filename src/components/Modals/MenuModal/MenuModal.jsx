@@ -14,7 +14,7 @@ function MenuModal({ title, openMenu, closeMenu, children }) {
   }, [openMenu]);
 
   return (
-    <dialog ref={ref} onCancel={closeMenu}>
+    <dialog ref={ref} onCancel={closeMenu} className="menuModal-container">
       <h3>{title}</h3>
       {children}
       <button onClick={closeMenu}>Close</button>

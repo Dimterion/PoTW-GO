@@ -11,7 +11,7 @@ function GameComponent({ content, setOptionId }) {
   const buttons = content.options.map((option) => {
     return (
       <button
-        className="option"
+        className={`gameComponent-btn--${content.style}`}
         key={nanoid()}
         onClick={() => setOptionId(option.nextText)}
       >
@@ -23,7 +23,7 @@ function GameComponent({ content, setOptionId }) {
   return (
     <section className={`gameComponent-container--${content.style}`}>
       <nav>
-        <button onClick={() => setMenu(true)}>Menu</button>
+        <button className={`gameComponent-menuBtn--${content.style}`} onClick={() => setMenu(true)}>☰</button>
         <MenuModal
           title="Menu"
           openMenu={menu}
@@ -47,8 +47,8 @@ function GameComponent({ content, setOptionId }) {
           />
         )}
         <p className={`gameComponent-text--${content.style}`}>{content.text}</p>
-        <div>{buttons}</div>
       </article>
+      <div className={`gameComponent-buttons--${content.style}`}>{buttons}</div>
     </section>
   );
 }
