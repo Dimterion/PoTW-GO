@@ -1,4 +1,6 @@
 .menuModal-container {
+  background-color: var(--primary);
+  color: var(--secondary);
   width: 300px;
   max-width: 80vw;
   height: 350px;
@@ -7,4 +9,21 @@
 
 .menuModal-container::backdrop {
   background: rgba(0, 0, 0, 0.5);
+}
+
+.menuModal-container nav {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.menuModal-container nav a {
+  color: var(--secondary);
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.menuModal-closeBtn {
+  position: relative;
+  top: 125px;
 }

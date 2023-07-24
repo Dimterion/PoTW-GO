@@ -23,13 +23,19 @@ function GameComponent({ content, setOptionId }) {
   return (
     <section className={`gameComponent-container--${content.style}`}>
       <nav>
-        <button className={`gameComponent-menuBtn--${content.style}`} onClick={() => setMenu(true)}>☰</button>
+        <button
+          className={`gameComponent-menuBtn--${content.style}`}
+          onClick={() => setMenu(true)}
+        >
+          ⚙
+        </button>
         <MenuModal
           title="Menu"
           openMenu={menu}
           closeMenu={() => setMenu(false)}
         >
           <Link to="/">Start Screen</Link>
+          <Link to="/about">About Screen</Link>
         </MenuModal>
       </nav>
       <img

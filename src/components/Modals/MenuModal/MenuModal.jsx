@@ -15,9 +15,13 @@ function MenuModal({ title, openMenu, closeMenu, children }) {
 
   return (
     <dialog ref={ref} onCancel={closeMenu} className="menuModal-container">
-      <h3>{title}</h3>
-      {children}
-      <button onClick={closeMenu}>Close</button>
+      <nav>
+        <h3>{title}</h3>
+        {children}
+        <button onClick={closeMenu} className="menuModal-closeBtn">
+          Close
+        </button>
+      </nav>
     </dialog>
   );
 }
@@ -26,7 +30,7 @@ MenuModal.propTypes = {
   title: PropTypes.string,
   openMenu: PropTypes.bool,
   closeMenu: PropTypes.func,
-  children: PropTypes.object,
+  children: PropTypes.array,
 };
 
 export default MenuModal;
