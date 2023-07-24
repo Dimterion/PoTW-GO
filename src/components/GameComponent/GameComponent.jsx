@@ -39,12 +39,14 @@ function GameComponent({ content, setOptionId }) {
       />
       <article className={`gameComponent-mainContent--${content.style}`}>
         {content.subText && <p>{content.subText}</p>}
-        <img
-        src={content.characterImage}
-        alt={content.characterImageAlt}
-        className={`gameComponent-characterImage--${content.style}`}
-      />
-        <p>{content.text}</p>
+        {content.characterImage && (
+          <img
+            src={content.characterImage}
+            alt={content.characterImageAlt}
+            className={`gameComponent-characterImage--${content.style}`}
+          />
+        )}
+        <p className={`gameComponent-text--${content.style}`}>{content.text}</p>
         <div>{buttons}</div>
       </article>
     </section>

@@ -1,10 +1,11 @@
 .gameComponent-container--prologue {
   background: linear-gradient(
     0deg,
-    var(--prologuePrimary) 0%,
-    var(--prologueTertiary) 50%,
-    var(--prologueSub) 100%
+    var(--prologueSub) 0%,
+    var(--prologuePrimary) 50%,
+    var(--prologueSecondary) 100%
   );
+  color: var(--prologueTertiary);
   white-space: pre-line;
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1.1rem;
@@ -24,16 +25,32 @@
   max-width: 90vw;
   max-height: 40vh;
   object-fit: cover;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--prologueAdditional);
 }
 
 .gameComponent-mainContent--prologue {
   width: 1024px;
   max-width: 90vw;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--prologueAdditional);
 }
 
 .gameComponent-characterImage--prologue {
   width: 200px;
+  max-width: 90vw;
   float: left;
-  margin-right: 1.25rem;
+  margin-right: 1rem;
+  border-right: 1px solid var(--prologueAdditional);
+  border-bottom: 1px solid var(--prologueAdditional);
+}
+
+@media (max-width: 600px) {
+  .gameComponent-characterImage--prologue {
+    max-width: 35vw;
+  }
+}
+
+.gameComponent-text--prologue {
+  padding: 0 1.5rem;
 }

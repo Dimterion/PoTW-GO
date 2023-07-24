@@ -5,18 +5,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;700&display=swap");
 
 :root {
-  /* Variables - Colors */
+  /* Variables - Main Colors */
   --primary: #01012b;
   --secondary: #05d9e8;
   --tertiary: #005678;
   --additional: #092047;
   --sub: #ff2a6d;
 
+  /* Variables - Prologue Colors */
   --prologuePrimary: #393f5f;
   --prologueSecondary: #6a7e6a;
   --prologueTertiary: #ffe69d;
   --prologueAdditional: #ff9760;
-  --prologueSub: #e96d5e;
+  --prologueSub: #361409;
 }
 
 /* All pages styles */
