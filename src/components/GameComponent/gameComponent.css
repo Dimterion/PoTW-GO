@@ -1,4 +1,39 @@
-.gameComponent-container--intro {
-  margin: 1rem;
+.gameComponent-container--prologue {
+  background: linear-gradient(
+    0deg,
+    var(--prologuePrimary) 0%,
+    var(--prologueTertiary) 50%,
+    var(--prologueSub) 100%
+  );
   white-space: pre-line;
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.gameComponent-mainImage--prologue {
+  width: 1024px;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.gameComponent-mainContent--prologue {
+  width: 1024px;
+  max-width: 90vw;
+}
+
+.gameComponent-characterImage--prologue {
+  width: 200px;
+  float: left;
+  margin-right: 1.25rem;
 }

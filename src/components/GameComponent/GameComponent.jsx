@@ -32,9 +32,21 @@ function GameComponent({ content, setOptionId }) {
           <Link to="/">Start Screen</Link>
         </MenuModal>
       </nav>
-      {content.subText && <p>{content.subText}</p>}
-      <p>{content.text}</p>
-      <div>{buttons}</div>
+      <img
+        src={content.mainImage}
+        alt={content.mainImageAlt}
+        className={`gameComponent-mainImage--${content.style}`}
+      />
+      <article className={`gameComponent-mainContent--${content.style}`}>
+        {content.subText && <p>{content.subText}</p>}
+        <img
+        src={content.characterImage}
+        alt={content.characterImageAlt}
+        className={`gameComponent-characterImage--${content.style}`}
+      />
+        <p>{content.text}</p>
+        <div>{buttons}</div>
+      </article>
     </section>
   );
 }

@@ -11,6 +11,12 @@
   --tertiary: #005678;
   --additional: #092047;
   --sub: #ff2a6d;
+
+  --prologuePrimary: #393f5f;
+  --prologueSecondary: #6a7e6a;
+  --prologueTertiary: #ffe69d;
+  --prologueAdditional: #ff9760;
+  --prologueSub: #e96d5e;
 }
 
 /* All pages styles */
