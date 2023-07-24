@@ -86,15 +86,49 @@
 }
 
 .gameComponent-buttons--prologue {
+  background: linear-gradient(
+    0deg,
+    var(--prologueSub) 0%,
+    var(--prologuePrimary) 50%,
+    var(--prologueSub) 100%
+  );
   position: relative;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 1024px;
+  width: 900px;
   max-width: 90vw;
   margin-bottom: 1rem;
   padding: 1vh 0;
   border: 1px solid var(--prologueAdditional);
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+  }
+
+  &::before {
+    width: calc(100% + 9px);
+    max-width: 95vw;
+    top: -7px;
+    left: -5px;
+    border-top: 1px solid var(--prologueAdditional);
+    border-right: 1px solid var(--prologueAdditional);
+    border-left: 1px solid var(--prologueAdditional);
+  }
+
+  &::after {
+    width: calc(100% + 9px);
+    max-width: 95vw;
+    right: -5px;
+    bottom: -6px;
+    border-bottom: 1px solid var(--prologueAdditional);
+    border-right: 1px solid var(--prologueAdditional);
+    border-left: 1px solid var(--prologueAdditional);
+  }
 }
 
 .gameComponent-btn--prologue {
