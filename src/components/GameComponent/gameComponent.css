@@ -83,8 +83,18 @@
   background: rgba(0, 0, 0, 0.3);
   width: 1024px;
   max-width: 90vw;
+  position: relative;
   margin-bottom: 1rem;
   border: 1px solid var(--prologueAdditional);
+
+  &::before {
+    content: "";
+    width: 95%;
+    position: absolute;
+    top: -10px;
+    left: 2.5%;
+    border-top: 2px solid var(--prologueAdditional);
+  }
 }
 
 .gameComponent-characterImage--prologue {
@@ -128,7 +138,7 @@
     content: "";
     position: absolute;
     width: 20px;
-    height: 20px;
+    height: 25px;
   }
 
   &::before {
@@ -144,7 +154,7 @@
   &::after {
     width: calc(100% + 9px);
     max-width: 95vw;
-    right: -5px;
+    right: -6px;
     bottom: -6px;
     border-bottom: 1px solid var(--prologueAdditional);
     border-right: 1px solid var(--prologueAdditional);

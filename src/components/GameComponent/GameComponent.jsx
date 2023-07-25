@@ -52,11 +52,13 @@ function GameComponent({ content, setOptionId }) {
           </Link>
         </MenuModal>
       </header>
-      <img
-        src={content.mainImage}
-        alt={content.mainImageAlt}
-        className={`gameComponent-mainImage--${content.style}`}
-      />
+      {content.mainImage && (
+        <img
+          src={content.mainImage}
+          alt={content.mainImageAlt}
+          className={`gameComponent-mainImage--${content.style}`}
+        />
+      )}
       <article className={`gameComponent-mainContent--${content.style}`}>
         {content.subText && <p>{content.subText}</p>}
         {content.characterImage && (
