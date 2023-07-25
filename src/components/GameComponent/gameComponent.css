@@ -80,6 +80,7 @@
 }
 
 .gameComponent-mainContent--prologue {
+  background: rgba(0, 0, 0, 0.3);
   width: 1024px;
   max-width: 90vw;
   margin-bottom: 1rem;
@@ -154,7 +155,8 @@
 .gameComponent-btn--prologue {
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1.25rem;
-  background-color: var(--prologuePrimary);
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.3);
   color: var(--prologueTertiary);
   width: 200px;
   max-width: 90vw;
@@ -163,4 +165,12 @@
   padding-bottom: 5px;
   border: 1px solid var(--prologueTertiary);
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.gameComponent-btn--prologue:hover {
+  background-color: var(--prologueTertiary);
+  color: var(--prologuePrimary);
+  border: 1px solid var(--prologuePrimary);
+  transition: 0.5s;
 }
