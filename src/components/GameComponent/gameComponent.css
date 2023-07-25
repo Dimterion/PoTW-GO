@@ -130,6 +130,14 @@
   }
 }
 
+.gameComponent-subText--prologue {
+  background: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  margin: 0;
+  padding: 1rem;
+  border-bottom: 1px solid var(--prologueAdditional);
+}
+
 .gameComponent-characterImage--prologue {
   width: 200px;
   max-width: 90vw;
@@ -146,7 +154,7 @@
 }
 
 .gameComponent-text--prologue {
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 .gameComponent-buttons--prologue {
@@ -210,7 +218,7 @@
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   color: var(--prologueTertiary);
   width: 200px;
   max-width: 90vw;

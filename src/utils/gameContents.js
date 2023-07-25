@@ -4,7 +4,7 @@ const gameContents = [
     style: "prologue",
     mainImage: prologueImage,
     characterImage: arikaPortrait,
-    mainImagealt: "Toxic clouds above the surface.",
+    mainImageAlt: "Toxic clouds above the surface.",
     characterImageAlt: "Futuristic girl with yellow hair.",
     text: `“The world is dying, Soai. Pathetic phrase, I know. And yet there is no better way of saying it. We’ve built the towers, scraping for life. We’ve hidden inside, while making them higher and higher. But the sky is our limit now. Literally. We’ve created zerOne to escape from reality. But this reality won’t go anywhere. It’ll soon reach us and hit us hard, no matter how many new writers there are, no matter if we code more or less. We can hide but we can’t run. There’s simply no place to run to. Do you see it?”
 
@@ -31,6 +31,12 @@ const gameContents = [
   {
     id: 1,
     style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“This place. So real… I mean, I myself am not much real, but it’s different than being in zerOne. Though, I guess I don’t know what it is to be real. All my life, however short or long it was, I thought I am a human like you. But, as it turns out, I am a bunch of code written by a dead man for some not quite clear purpose.”`,
     text: `Arika frowns at you.
 
@@ -637,5 +643,6 @@ const gameContents = [
 
 import prologueImage from "../assets/images/prologue_image.jpg";
 import arikaPortrait from "../assets/images/arika_portrait.jpg";
+import characterImage from "../assets/images/character_image.jpg";
 
 export default gameContents;
