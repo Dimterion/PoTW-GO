@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import "./menuModal.css";
 
-function MenuModal({ title, openMenu, closeMenu, children }) {
+function MenuModal({ title, openMenu, closeMenu, children, style }) {
   const ref = useRef();
 
   useEffect(() => {
@@ -14,14 +14,16 @@ function MenuModal({ title, openMenu, closeMenu, children }) {
   }, [openMenu]);
 
   return (
-    <dialog ref={ref} onCancel={closeMenu} className="menuModal-container">
-      <nav>
-        <h2>{title}</h2>
-        {children}
-        <button onClick={closeMenu} className="menuModal-closeBtn">
-          Close (esc)
-        </button>
-      </nav>
+    <dialog
+      ref={ref}
+      onCancel={closeMenu}
+      className={`menuModal-container--${style}`}
+    >
+      <h2>{title}</h2>
+      <nav className={`menuModal-nav--${style}`}>{children}</nav>
+      <button onClick={closeMenu} className={`menuModal-closeBtn--${style}`}>
+        Close (esc)
+      </button>
     </dialog>
   );
 }
@@ -31,6 +33,7 @@ MenuModal.propTypes = {
   openMenu: PropTypes.bool,
   closeMenu: PropTypes.func,
   children: PropTypes.array,
+  style: PropTypes.string,
 };
 
 export default MenuModal;

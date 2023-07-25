@@ -22,7 +22,7 @@ function GameComponent({ content, setOptionId }) {
 
   return (
     <section className={`gameComponent-container--${content.style}`}>
-      <nav>
+      <header>
         <button
           className={`gameComponent-menuBtn--${content.style}`}
           onClick={() => setMenu(true)}
@@ -33,12 +33,25 @@ function GameComponent({ content, setOptionId }) {
           title="Menu"
           openMenu={menu}
           closeMenu={() => setMenu(false)}
+          style={content.style}
         >
-          <Link to="/">Start Screen</Link>
-          <Link to="/about">About Screen</Link>
-          <Link to="/story">Story Screen</Link>
+          <Link className={`gameComponent-menuLink--${content.style}`} to="/">
+            Start Screen
+          </Link>
+          <Link
+            className={`gameComponent-menuLink--${content.style}`}
+            to="/about"
+          >
+            About Screen
+          </Link>
+          <Link
+            className={`gameComponent-menuLink--${content.style}`}
+            to="/story"
+          >
+            Story Screen
+          </Link>
         </MenuModal>
-      </nav>
+      </header>
       <img
         src={content.mainImage}
         alt={content.mainImageAlt}

@@ -50,6 +50,18 @@
   scale: 0.9;
 }
 
+.gameComponent-menuLink--prologue {
+  background-color: var(--prologuePrimary);
+  color: var(--prologueTertiary);
+  width: 200px;
+  max-width: 85vw;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  padding: 3px 0 6px;
+  text-decoration: none;
+  border: 1px solid var(--prologueTertiary);
+}
+
 .gameComponent-mainImage--prologue {
   width: 1024px;
   max-width: 90vw;
