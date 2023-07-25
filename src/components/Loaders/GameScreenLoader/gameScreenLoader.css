@@ -1,0 +1,39 @@
+.gameScreenLoader-container--prologue {
+  background: linear-gradient(
+    0deg,
+    var(--prologueSub) 0%,
+    var(--prologuePrimary) 50%,
+    var(--prologueSecondary) 100%
+  );
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.gameScreenLoader--prologue {
+  height: 20px;
+  width: 100px;
+  position: relative;
+  margin: auto;
+  background: var(--prologueTertiary);
+  border: 2px solid var(--prologueTertiary);
+}
+
+.gameScreenLoader--prologue:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background: var(--prologueAdditional);
+  animation: 1.5s gameScreenLoader ease-in infinite;
+}
+
+@keyframes gameScreenLoader {
+  to {
+    width: 100%;
+  }
+}
