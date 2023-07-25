@@ -33,6 +33,17 @@
   border: 1px solid var(--prologueSub);
   opacity: 0.5;
   cursor: pointer;
+  animation: gameComponent-menuBtnLoad 2.5s ease-in-out;
+}
+
+@keyframes gameComponent-menuBtnLoad {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
 }
 
 @media (max-width: 992px) {
@@ -77,6 +88,17 @@
   object-fit: cover;
   margin-bottom: 1rem;
   border: 1px solid var(--prologueAdditional);
+  animation: gameComponent-mainImageLoad 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-mainImageLoad {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .gameComponent-mainContent--prologue {
@@ -86,6 +108,7 @@
   position: relative;
   margin-bottom: 1rem;
   border: 1px solid var(--prologueAdditional);
+  animation: gameComponent-mainContentLoad 0.5s ease-in-out;
 
   &::before {
     content: "";
@@ -94,6 +117,16 @@
     top: -10px;
     left: 2.5%;
     border-top: 2px solid var(--prologueAdditional);
+  }
+}
+
+@keyframes gameComponent-mainContentLoad {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -132,6 +165,7 @@
   margin-bottom: 1rem;
   padding: 1vh 0;
   border: 1px solid var(--prologueAdditional);
+  animation: gameComponent-buttonsLoad 0.5s ease-in-out;
 
   &::before,
   &::after {
@@ -159,6 +193,16 @@
     border-bottom: 1px solid var(--prologueAdditional);
     border-right: 1px solid var(--prologueAdditional);
     border-left: 1px solid var(--prologueAdditional);
+  }
+}
+
+@keyframes gameComponent-buttonsLoad {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
 
