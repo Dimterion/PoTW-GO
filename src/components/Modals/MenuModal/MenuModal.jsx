@@ -19,7 +19,7 @@ function MenuModal({ title, openMenu, closeMenu, children, style }) {
       onCancel={closeMenu}
       className={`menuModal-container--${style}`}
     >
-      <h2>{title}</h2>
+      <h2 className={`menuModal-title--${style}`}>{title}</h2>
       <nav className={`menuModal-nav--${style}`}>{children}</nav>
       <button onClick={closeMenu} className={`menuModal-closeBtn--${style}`}>
         Close (esc)

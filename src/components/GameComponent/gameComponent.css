@@ -60,6 +60,14 @@
   padding: 3px 0 6px;
   text-decoration: none;
   border: 1px solid var(--prologueTertiary);
+  transition: 0.5s;
+}
+
+.gameComponent-menuLink--prologue:hover {
+  background-color: var(--prologueTertiary);
+  color: var(--prologuePrimary);
+  border: 1px solid var(--prologuePrimary);
+  transition: 0.5s;
 }
 
 .gameComponent-mainImage--prologue {

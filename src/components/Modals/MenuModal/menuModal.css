@@ -1,5 +1,10 @@
 .menuModal-container--prologue {
-  background-color: var(--prologuePrimary);
+  background: linear-gradient(
+    0deg,
+    var(--prologuePrimary) 0%,
+    var(--prologueSecondary) 50%,
+    var(--prologuePrimary) 100%
+  );
   color: var(--prologueTertiary);
   width: 300px;
   max-width: 80vw;
@@ -8,6 +13,17 @@
   margin-top: 30vh;
   padding-top: 1vh;
   text-align: center;
+  animation: menuModal-containerLoad 500ms ease-in-out;
+}
+
+@keyframes menuModal-containerLoad {
+  0% {
+    transform: translateY(-200%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @media (max-height: 700px) {
@@ -18,6 +34,10 @@
 
 .menuModal-container--prologue::backdrop {
   background: rgba(0, 0, 0, 0.5);
+}
+
+.menuModal-title--prologue {
+  text-shadow: 3px 3px 3px var(--prologueSub);
 }
 
 .menuModal-nav--prologue {
@@ -37,4 +57,12 @@
   text-decoration: none;
   border: 1px solid var(--prologueTertiary);
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.menuModal-closeBtn--prologue:hover {
+  background-color: var(--prologueTertiary);
+  color: var(--prologuePrimary);
+  border: 1px solid var(--prologuePrimary);
+  transition: 0.5s;
 }
