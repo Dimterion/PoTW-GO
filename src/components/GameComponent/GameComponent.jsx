@@ -76,7 +76,11 @@ function GameComponent({ content, setOptionId }) {
           <img
             src={content.characterImage}
             alt={content.characterImageAlt}
-            className={`gameComponent-characterImage--${content.style}`}
+            className={
+              content.effect
+                ? content.effect
+                : `gameComponent-characterImage--${content.style}`
+            }
           />
         )}
         <p className={`gameComponent-text--${content.style}`}>{content.text}</p>

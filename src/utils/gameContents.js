@@ -283,6 +283,7 @@ const gameContents = [
   {
     id: 10,
     style: "prologue",
+    effect: "disappearingImg-prologue",
     mainImage: prologueImage,
     characterImage: arikaPortrait,
     subImage: characterImage,

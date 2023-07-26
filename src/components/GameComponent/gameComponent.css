@@ -157,6 +157,31 @@
   border-bottom: 1px solid var(--prologueAdditional);
 }
 
+.disappearingImg-prologue {
+  width: 0;
+  max-width: 0;
+  float: left;
+  margin-right: 1rem;
+  border-right: 1px solid var(--prologueAdditional);
+  border-bottom: 1px solid var(--prologueAdditional);
+  opacity: 0;
+  animation: 3s disappearingImg-prologue ease-in;
+}
+
+@keyframes disappearingImg-prologue {
+  0% {
+    width: 200px;
+    max-width: 35vw;
+    opacity: 1;
+  }
+
+  100% {
+    width: 0;
+    max-width: 0;
+    opacity: 0;
+  }
+}
+
 .gameComponent-text--prologue {
   padding: 0 1rem;
 }
@@ -224,7 +249,7 @@
   font-weight: bold;
   background: rgba(0, 0, 0, 0.5);
   color: var(--prologueTertiary);
-  width: 215px;
+  width: 250px;
   max-width: 90vw;
   min-height: 50px;
   max-height: 20vh;
