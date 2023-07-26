@@ -58,6 +58,13 @@ const gameContents = [
   },
   {
     id: 2,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“What am I, Arika? Well, I know that I’m an artificial being, created by Deo. And I guess I’m sort of self-aware… But I still don’t feel like it. I don’t see any difference between me before the old man told me the truth and me after that. It’s like I’m still human Soai, a poet that’s trying to get good and climb to the higher levels.”`,
     text: `Arika smiles.
 
