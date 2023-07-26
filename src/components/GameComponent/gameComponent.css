@@ -26,13 +26,14 @@
   font-size: 1.25rem;
   font-weight: bold;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0.5px;
+  left: 0.5px;
   padding-bottom: 3px;
   padding: 1px 7px 3px;
   border: 1px solid var(--prologueSub);
   opacity: 0.5;
   cursor: pointer;
+  z-index: 1;
   animation: gameComponent-menuBtnLoad 2.5s ease-in-out;
 }
 
@@ -49,7 +50,7 @@
 @media (max-width: 900px) {
   .gameComponent-menuBtn--prologue {
     top: 1px;
-    left: 0.5vw;
+    left: 5%;
   }
 }
 
@@ -101,12 +102,6 @@
   }
 }
 
-@media (max-width: 900px) {
-  .gameComponent-mainImage--prologue {
-    max-width: 99vw;
-  }
-}
-
 .gameComponent-mainContent--prologue {
   background: rgba(0, 0, 0, 0.3);
   width: 1024px;
@@ -140,7 +135,7 @@
   background: rgba(0, 0, 0, 0.5);
   font-style: italic;
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-bottom: 1px solid var(--prologueAdditional);
 }
 
@@ -228,7 +223,8 @@
   color: var(--prologueTertiary);
   width: 200px;
   max-width: 90vw;
-  height: 50px;
+  min-height: 50px;
+  max-height: 20vh;
   margin: 0.75rem;
   padding-bottom: 5px;
   border: 1px solid var(--prologueTertiary);
