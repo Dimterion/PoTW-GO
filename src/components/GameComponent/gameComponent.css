@@ -131,6 +131,15 @@
   }
 }
 
+.gameComponent-subImage--prologue {
+  width: 200px;
+  max-width: 35vw;
+  float: right;
+  margin-left: 1rem;
+  border-left: 1px solid var(--prologueAdditional);
+  border-bottom: 1px solid var(--prologueAdditional);
+}
+
 .gameComponent-subText--prologue {
   background: rgba(0, 0, 0, 0.5);
   font-style: italic;
@@ -141,17 +150,11 @@
 
 .gameComponent-characterImage--prologue {
   width: 200px;
-  max-width: 90vw;
+  max-width: 35vw;
   float: left;
   margin-right: 1rem;
   border-right: 1px solid var(--prologueAdditional);
   border-bottom: 1px solid var(--prologueAdditional);
-}
-
-@media (max-width: 600px) {
-  .gameComponent-characterImage--prologue {
-    max-width: 35vw;
-  }
 }
 
 .gameComponent-text--prologue {

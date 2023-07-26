@@ -60,6 +60,13 @@ function GameComponent({ content, setOptionId }) {
         />
       )}
       <article className={`gameComponent-mainContent--${content.style}`}>
+        {content.subImage && (
+          <img
+            src={content.subImage}
+            alt={content.subImageAlt}
+            className={`gameComponent-subImage--${content.style}`}
+          />
+        )}
         {content.subText && (
           <p className={`gameComponent-subText--${content.style}`}>
             {content.subText}
