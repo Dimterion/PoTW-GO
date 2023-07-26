@@ -86,6 +86,13 @@ const gameContents = [
   },
   {
     id: 3,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“Wait a second. You went outside? Outside the tower? How is that possible?”`,
     text: `Arika avoids your gaze.
 
@@ -107,6 +114,13 @@ const gameContents = [
   },
   {
     id: 4,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“Why did you bring me here? After the arena fight we just disappeared and went straight to this place. I never managed to travel like that before. You did something, right? Don’t get me wrong, that’s all impressive, but I think there’s something else.”`,
     text: `After a pause Arika replies.
 
@@ -134,6 +148,13 @@ const gameContents = [
   },
   {
     id: 5,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“Writer’s Fights have just lost a whole bunch of value for me, to be honest. Going to other levels, sure, but doing all the arena stuff feels kinda pointless.”`,
     text: `“Don’t stress about it. Such feelings come and go.” - Arika nudges you with her elbow. - “You might yet find some interest in doing a bit of writing here and there. You want to feel more human? Learn how to relax and waste your time… from time to time.” - Arika laughs happily, then continues. - “As for going to other levels, you sir, came to the right person. In fact, that’s the reason I’ve brought you here. I saw you in the Mnemonic bar many times, sitting there, looking at the window. I bet each time you were wondering what life looks like outside. Well, here it is. Also, while it’s all breathtaking, take a look at the tower itself. It’s not as pretty and solid as you might think.”
 
@@ -159,6 +180,13 @@ const gameContents = [
   },
   {
     id: 6,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“I guess you’re right. Though, I’m not sure if I ever get the chance for breathing and feeling.”`,
     text: `Arika purses her lips pondering.
 
@@ -182,6 +210,13 @@ const gameContents = [
   },
   {
     id: 7,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“What happened to Deo? He didn’t tell me much. To add to that, it wasn’t really him who talked to me. Some digital copy? My distant, less sophisticated relative? Never mind. I’m more interested in the old man himself.”`,
     text: `“He got too close to the sun.” - Arika smiles sadly. - “Meaning, to the Pillar. He bypassed their firewalls and almost reached it. In the virtual world of course. I’m the one who was obsessed with the real one, Deo was surfing the digital waves non-stop. He planned to log into the Pillar’s network to get access to their systems, see what’s going on, talk to them and so on. They caught him and sent him down. To the first level. I found out too late. Stubborn old pickle decided not to tell me that. No idea why. Perhaps he had his reasons. So, we kept doing what we did before: he was jumping from one tower to another virtually, gathering data to make and improve you, and I was doing kinda the same but in both worlds. Well, as long as I could though…”
 
@@ -201,6 +236,13 @@ const gameContents = [
   },
   {
     id: 8,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“You got any plan in mind? This seems to be quite an undertaking. Even the old man ended up being… done. So, I'm open to all possible suggestions, as I can't say I have much on my side.”`,
     text: `“I might.” - Arika smiles mysteriously. - “Though, can’t say it has an abundance of details in it. I’d say, we could pay Deo a visit. Well, not him directly, for obvious reasons, but we can visit the place he ended up being in the end. There could be something for us to learn. You probably know that I’ve been at the first levels already. Last time it was the one here, in the Bridge. Was trying to reach the old man, even though he surely didn’t want that. But now it doesn’t matter anymore, so I suggest making our descent and trying to find where he lived. Both virtually and in reality.”`,
     options: [
@@ -212,6 +254,13 @@ const gameContents = [
   },
   {
     id: 9,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“How did you meet Deo? It seems you knew each other for quite some time.”`,
     text: `“Maybe quite some, maybe less so.” - Arika shrugs, somewhat indifferent. - “Can’t say I’ve been keeping a good track of time recently. As for the how part, Deo was appearing on various Writers Fights every now and then, watching the participants, talking to some of them, trying to find those who would, let’s say, join his cause.”
 
@@ -233,6 +282,13 @@ const gameContents = [
   },
   {
     id: 10,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: arikaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Futuristic girl with yellow hair.",
+    subImageAlt: "Man looking away.",
     subText: `“Alright, any action is better than no action at all. How do we get out of here and get over there?”`,
     text: `Arika gets up, balancing on the narrow metal bar, and spreads her arms wide.
 
@@ -250,6 +306,11 @@ const gameContents = [
   },
   {
     id: 11,
+    style: "prologue",
+    mainImage: prologueImage,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    subImageAlt: "Man looking away.",
     subText: `“Arika? You’re there?”`,
     text: `Completely lost, you turn your head around, observing the place once again. Yet, there’s nothing new, except for the fact that there’s nobody nearby. What’s more, you have no idea how Arika brought you here and how to get out.`,
     options: [
@@ -269,6 +330,9 @@ const gameContents = [
   },
   {
     id: 12,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
 
     You get up, close your eyes and take a step into the emptiness in front of you.
