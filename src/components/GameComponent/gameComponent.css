@@ -165,7 +165,7 @@
   border-right: 1px solid var(--prologueAdditional);
   border-bottom: 1px solid var(--prologueAdditional);
   opacity: 0;
-  animation: 3s disappearingImg-prologue ease-in;
+  animation: 5s disappearingImg-prologue ease;
 }
 
 @keyframes disappearingImg-prologue {
@@ -173,12 +173,21 @@
     width: 200px;
     max-width: 35vw;
     opacity: 1;
+    filter: blur(0) saturate(1);
+  }
+
+  50% {
+    width: 200px;
+    max-width: 35vw;
+    opacity: 1;
+    filter: blur(1px) saturate(5);
   }
 
   100% {
     width: 0;
     max-width: 0;
     opacity: 0;
+    filter: blur(5px) saturate(10);
   }
 }
 
