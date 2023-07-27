@@ -356,6 +356,9 @@ const gameContents = [
   },
   {
     id: 13,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
 
     Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
@@ -374,6 +377,9 @@ const gameContents = [
   },
   {
     id: 14,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You feel lonely, completely lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds coming out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
@@ -394,6 +400,9 @@ const gameContents = [
   },
   {
     id: 15,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
 
     Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
@@ -408,6 +417,9 @@ const gameContents = [
   },
   {
     id: 16,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You feel lonely, completely lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds coming out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
@@ -424,6 +436,9 @@ const gameContents = [
   },
   {
     id: 17,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You feel lonely, completely lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds coming out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
@@ -440,6 +455,9 @@ const gameContents = [
   },
   {
     id: 18,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
 
     Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
@@ -455,6 +473,9 @@ const gameContents = [
   },
   {
     id: 19,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
 
     You get up, close your eyes and take a step into the emptiness in front of you.
@@ -473,6 +494,9 @@ const gameContents = [
   },
   {
     id: 20,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You feel lonely, completely lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds coming out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
@@ -489,6 +513,9 @@ const gameContents = [
   },
   {
     id: 21,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You feel lonely, completely lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds coming out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
@@ -505,6 +532,9 @@ const gameContents = [
   },
   {
     id: 22,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
 
     You get up, close your eyes and take a step into the emptiness in front of you.
@@ -523,6 +553,9 @@ const gameContents = [
   },
   {
     id: 23,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
 
     You get up, close your eyes and take a step into the emptiness in front of you.
@@ -541,6 +574,9 @@ const gameContents = [
   },
   {
     id: 24,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
 
     Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
@@ -555,6 +591,9 @@ const gameContents = [
   },
   {
     id: 25,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The Tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch it, it gets flat and slippery like a block of ice.
 
     Seems like whoever designed this place, that individual made sure you won’t be able to go any higher.
@@ -569,6 +608,9 @@ const gameContents = [
   },
   {
     id: 26,
+    style: "prologue",
+    mainImage: prologueImage,
+    mainImageAlt: "Toxic clouds above the surface.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
 
     You get up, close your eyes and take a step into the emptiness in front of you.
@@ -587,6 +629,11 @@ const gameContents = [
   },
   {
     id: 27,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: evenPortrait,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `Seems like you’ve tried all of your options, and none of them worked. You stare into the abyss, thoughtless, hopeless, having no idea of what to do next.
 
     Suddenly you notice a movement nearby. You raise your eyes and see a strange creature floating in the air right next to you. It has some weird similarity to the rabbit you saw during the arena, in the loophole where you talked with Deo’s projection. Though, it looks more like a human this time. A bizarre and strange human, to be completely honest.
@@ -611,6 +658,13 @@ const gameContents = [
   },
   {
     id: 28,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: evenPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
     subText: `“What do you mean you are a part of me?”`,
     text: `Even flies around you and keeps talking.
 
@@ -632,6 +686,13 @@ const gameContents = [
   },
   {
     id: 29,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: evenPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
     subText: `“You’re really obsessed with the names, aren’t you?”`,
     text: `Even flies closer to you, looking into your eyes.
 
@@ -649,6 +710,13 @@ const gameContents = [
   },
   {
     id: 30,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: evenPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
     subText: `“Well, frankly speaking, I’m not surprised at all. Nice to meet you, Even. Any idea on how we can proceed? I’m feeling some terrible lack of further ideas on my side at the moment.”`,
     text: `Even tilts its head, watching you closely.
 
@@ -678,6 +746,13 @@ const gameContents = [
   },
   {
     id: 31,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: evenPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
     subText: `“You’re really obsessed with the names, aren’t you?”`,
     text: `Even flies closer to you, looking into your eyes.
 
@@ -691,6 +766,13 @@ const gameContents = [
   },
   {
     id: 32,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: evenPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
     subText: `“What do you mean you are a part of me?”`,
     text: `Even flies around you and keeps talking.
 
@@ -708,6 +790,13 @@ const gameContents = [
   },
   {
     id: 33,
+    style: "prologue",
+    mainImage: prologueImage,
+    characterImage: evenPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Toxic clouds above the surface.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
     text: `To be continued...`,
     options: [],
   },
@@ -716,5 +805,6 @@ const gameContents = [
 import prologueImage from "../assets/images/prologue_image.jpg";
 import arikaPortrait from "../assets/images/arika_portrait.jpg";
 import characterImage from "../assets/images/character_image.jpg";
+import evenPortrait from "../assets/images/even_portrait.jpg";
 
 export default gameContents;
