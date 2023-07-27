@@ -12,7 +12,7 @@
   bottom: 0;
   right: 0;
   overflow: auto;
-  padding: 5vh 0 1vh;
+  padding: 3vh 0 1vh;
 }
 
 .startScreen-slides {
@@ -34,6 +34,13 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+
+@media (max-height: 900px) {
+  .startScreen-slides {
+    height: 450px;
+    width: 450px;
   }
 }
 
@@ -103,8 +110,16 @@
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
   letter-spacing: 2px;
-  margin: 3vh auto 0;
+  margin: 2vh auto 0;
   width: fit-content;
+}
+
+@media (max-height: 900px) {
+  .startScreen-title,
+  .startScreen-subTitle,
+  .startScreen-closingTitle {
+    font-size: 2.25rem;
+  }
 }
 
 .startScreen-subTitle,
@@ -136,7 +151,7 @@
 .startScreen-buttons {
   display: flex;
   flex-flow: column nowrap;
-  margin-top: 1rem;
+  margin-top: 1vh;
 }
 
 .startScreen-btn {
@@ -200,6 +215,13 @@
   100% {
     transform: translateY(0px);
     opacity: 1;
+  }
+}
+
+@media (max-height: 900px) {
+  .startScreen-btn {
+    font-size: 1.75rem;
+    height: 41px;
   }
 }
 
