@@ -15,6 +15,12 @@
   padding: 3vh 0 1vh;
 }
 
+@media (max-width: 550px) {
+  .startScreen-container {
+    padding: 3vh 0 0;
+  }
+}
+
 .startScreen-slides {
   height: 500px;
   width: 500px;
@@ -41,6 +47,12 @@
   .startScreen-slides {
     height: 450px;
     width: 450px;
+  }
+}
+
+@media (max-width: 550px) {
+  .startScreen-slides {
+    max-height: 40vh;
   }
 }
 
@@ -119,6 +131,14 @@
   .startScreen-subTitle,
   .startScreen-closingTitle {
     font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .startScreen-title,
+  .startScreen-subTitle,
+  .startScreen-closingTitle {
+    font-size: 2rem;
   }
 }
 
@@ -237,7 +257,7 @@
 
 .startScreen-closingTitle {
   position: relative;
-  right: 7.25rem;
+  right: 3em;
   animation: startScreen-closingTitleLoad 500ms ease-in 600ms;
   animation-fill-mode: forwards;
   transform: translateX(1000%);
