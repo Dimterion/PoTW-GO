@@ -37,6 +37,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .startScreen-slides {
+    max-height: 40vh;
+  }
+}
+
 .startScreen-slide {
   background-size: cover;
   background-position: 50%;
@@ -79,6 +85,7 @@
 .startScreen-title {
   color: var(--secondary);
   text-shadow: 1px 1px var(--sub);
+  padding: 0 1vw;
   transform: translateY(-20px);
   opacity: 0;
   animation: startScreen-titleLoad 300ms ease-in 600ms forwards;
@@ -104,6 +111,14 @@
   letter-spacing: 2px;
   margin: 2vh auto 0;
   width: fit-content;
+}
+
+@media (max-width: 400px) {
+  .startScreen-title,
+  .startScreen-subTitle,
+  .startScreen-closingTitle {
+    font-size: 2.25rem;
+  }
 }
 
 .startScreen-subTitle,
