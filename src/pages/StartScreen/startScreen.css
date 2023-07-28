@@ -1,29 +1,29 @@
 .startScreen-container {
-  text-align: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  padding: 3vh 0 1vh;
   background: radial-gradient(
     circle,
     var(--primary) 0%,
     var(--tertiary) 45%,
     var(--primary) 100%
   );
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
-  padding: 3vh 0 1vh;
+  text-align: center;
 }
 
 .startScreen-slides {
-  height: 500px;
+  position: relative;
+  overflow: hidden;
   width: 500px;
+  height: 500px;
   max-width: 80vw;
   max-height: 50vh;
-  overflow: hidden;
-  position: relative;
-  margin: auto;
   border: 1px solid var(--secondary);
+  margin: auto;
   animation: startScreen-slidesLoad 500ms ease-in;
 }
 
