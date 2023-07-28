@@ -24,7 +24,7 @@
   max-width: 90vw;
   object-fit: cover;
   border: 1px solid var(--secondary);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1vh;
   animation: storyScreen-imgLoad 600ms ease-in;
 }
 
@@ -42,7 +42,7 @@
   font-size: 2rem;
   text-shadow: 1px 1px var(--sub);
   letter-spacing: 1px;
-  margin-top: 0;
+  margin: 0 auto 1vh;
   animation: storyScreen-titleLoad 800ms ease-in;
 }
 
@@ -59,11 +59,11 @@
 }
 
 .storyScreen-mainContent {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   width: 1024px;
   max-width: 90vw;
   margin: auto;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1vh;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
