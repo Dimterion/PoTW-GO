@@ -15,12 +15,6 @@
   padding: 3vh 0 1vh;
 }
 
-@media (max-width: 550px) {
-  .startScreen-container {
-    padding: 3vh 0 0;
-  }
-}
-
 .startScreen-slides {
   height: 500px;
   width: 500px;
@@ -40,19 +34,6 @@
 
   100% {
     transform: translateY(0);
-  }
-}
-
-@media (max-height: 900px) {
-  .startScreen-slides {
-    height: 450px;
-    width: 450px;
-  }
-}
-
-@media (max-width: 550px) {
-  .startScreen-slides {
-    max-height: 40vh;
   }
 }
 
@@ -98,10 +79,9 @@
 .startScreen-title {
   color: var(--secondary);
   text-shadow: 1px 1px var(--sub);
-  animation: startScreen-titleLoad 300ms ease-in 600ms;
-  animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
+  animation: startScreen-titleLoad 300ms ease-in 600ms forwards;
 }
 
 @keyframes startScreen-titleLoad {
@@ -126,22 +106,6 @@
   width: fit-content;
 }
 
-@media (max-height: 900px) {
-  .startScreen-title,
-  .startScreen-subTitle,
-  .startScreen-closingTitle {
-    font-size: 2.25rem;
-  }
-}
-
-@media (max-width: 550px) {
-  .startScreen-title,
-  .startScreen-subTitle,
-  .startScreen-closingTitle {
-    font-size: 2rem;
-  }
-}
-
 .startScreen-subTitle,
 .startScreen-closingTitle {
   color: var(--sub);
@@ -151,10 +115,9 @@
 }
 
 .startScreen-subTitle {
-  animation: startScreen-subTitleLoad 500ms ease-in 600ms;
-  animation-fill-mode: forwards;
   transform: translateX(-1000%);
   opacity: 0;
+  animation: startScreen-subTitleLoad 500ms ease-in 600ms forwards;
 }
 
 @keyframes startScreen-subTitleLoad {
@@ -188,13 +151,12 @@
   text-decoration: none;
   border: 1px solid var(--secondary);
   margin: 10px auto;
-  width: 150px;
-  height: 50px;
-  transition: 0.3s ease-in-out;
-  animation: startScreen-btnLoad 500ms ease-in 900ms;
-  animation-fill-mode: forwards;
+  width: 145px;
+  height: 45px;
   transform: translateY(50px);
   opacity: 0;
+  transition: 0.3s ease-in-out;
+  animation: startScreen-btnLoad 500ms ease-in 900ms forwards;
 
   &::before,
   &::after {
@@ -238,13 +200,6 @@
   }
 }
 
-@media (max-height: 900px) {
-  .startScreen-btn {
-    font-size: 1.75rem;
-    height: 41px;
-  }
-}
-
 .startScreen-btn:hover {
   color: var(--sub);
   border: 1px solid var(--sub);
@@ -258,10 +213,9 @@
 .startScreen-closingTitle {
   position: relative;
   right: 3em;
-  animation: startScreen-closingTitleLoad 500ms ease-in 600ms;
-  animation-fill-mode: forwards;
   transform: translateX(1000%);
   opacity: 0;
+  animation: startScreen-closingTitleLoad 500ms ease-in 600ms forwards;
 }
 
 @keyframes startScreen-closingTitleLoad {
