@@ -1,9 +1,9 @@
 .startScreen-container {
   position: fixed;
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   overflow: auto;
   padding: 3vh 0 1vh;
   background: radial-gradient(
@@ -44,12 +44,12 @@
 }
 
 .startScreen-slide {
-  background-size: cover;
-  background-position: 50%;
+  position: absolute;
   inset: 0;
   opacity: 0;
-  position: absolute;
   scale: 1.1;
+  background-position: 50%;
+  background-size: cover;
   animation: startScreen-slideSwitch 30s linear infinite;
 }
 
@@ -73,44 +73,44 @@
 }
 
 .startScreen-slide:nth-child(2) {
-  animation-delay: 10s;
   background-image: url("../../assets/images/start_screen_image_02.jpg");
+  animation-delay: 10s;
 }
 
 .startScreen-slide:nth-child(3) {
-  animation-delay: 20s;
   background-image: url("../../assets/images/start_screen_image_03.jpg");
+  animation-delay: 20s;
 }
 
 .startScreen-title {
+  opacity: 0;
+  transform: translateY(-20px);
+  padding: 0 1vw;
   color: var(--secondary);
   text-shadow: 1px 1px var(--sub);
-  padding: 0 1vw;
-  transform: translateY(-20px);
-  opacity: 0;
   animation: startScreen-titleLoad 300ms ease-in 600ms forwards;
 }
 
 @keyframes startScreen-titleLoad {
   0% {
-    transform: translateY(-20px);
     opacity: 0;
+    transform: translateY(-20px);
   }
 
   100% {
-    transform: translateY(0px);
     opacity: 1;
+    transform: translateY(0px);
   }
 }
 
 .startScreen-title,
 .startScreen-subTitle,
 .startScreen-closingTitle {
+  width: fit-content;
+  margin: 2vh auto 0;
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
   letter-spacing: 2px;
-  margin: 2vh auto 0;
-  width: fit-content;
 }
 
 @media (max-width: 400px) {
@@ -123,15 +123,15 @@
 
 .startScreen-subTitle,
 .startScreen-closingTitle {
+  position: relative;
+  margin-top: 1vh;
   color: var(--sub);
   text-shadow: 1px 1px var(--secondary);
-  margin-top: 1vh;
-  position: relative;
 }
 
 .startScreen-subTitle {
-  transform: translateX(-1000%);
   opacity: 0;
+  transform: translateX(-1000%);
   animation: startScreen-subTitleLoad 500ms ease-in 600ms forwards;
 }
 
@@ -141,8 +141,8 @@
   }
 
   100% {
-    transform: translateX(0);
     opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -154,22 +154,22 @@
 
 .startScreen-btn {
   position: relative;
-  font-family: "Ysabeau SC", sans-serif;
-  font-size: 2rem;
-  color: var(--secondary);
+  opacity: 0;
+  transform: translateY(50px);
+  width: 145px;
+  height: 45px;
+  border: 1px solid var(--secondary);
+  margin: 10px auto;
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
     var(--tertiary) 50%,
     var(--primary) 100%
   );
+  color: var(--secondary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 2rem;
   text-decoration: none;
-  border: 1px solid var(--secondary);
-  margin: 10px auto;
-  width: 145px;
-  height: 45px;
-  transform: translateY(50px);
-  opacity: 0;
   transition: 0.3s ease-in-out;
   animation: startScreen-btnLoad 500ms ease-in 900ms forwards;
 
@@ -192,8 +192,8 @@
   &::after {
     right: -5px;
     bottom: -5px;
-    border-bottom: 1px solid var(--secondary);
     border-right: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--secondary);
   }
 
   &:hover::before,
@@ -205,19 +205,19 @@
 
 @keyframes startScreen-btnLoad {
   0% {
-    transform: translateY(50px);
     opacity: 0;
+    transform: translateY(50px);
   }
 
   100% {
-    transform: translateY(0px);
     opacity: 1;
+    transform: translateY(0px);
   }
 }
 
 .startScreen-btn:hover {
-  color: var(--sub);
   border: 1px solid var(--sub);
+  color: var(--sub);
   transition: 0.3s ease-in-out;
 }
 
@@ -228,8 +228,8 @@
 .startScreen-closingTitle {
   position: relative;
   right: 3em;
-  transform: translateX(1000%);
   opacity: 0;
+  transform: translateX(1000%);
   animation: startScreen-closingTitleLoad 500ms ease-in 600ms forwards;
 }
 
@@ -239,7 +239,7 @@
   }
 
   100% {
-    transform: translateX(0);
     opacity: 1;
+    transform: translateX(0);
   }
 }
