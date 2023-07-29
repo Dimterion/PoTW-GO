@@ -1,27 +1,27 @@
 .storyScreen-container {
-  font-family: "Ysabeau SC", sans-serif;
-  text-align: center;
-  color: var(--secondary);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  padding: 2vh 2vw 8vh;
   background: radial-gradient(
     circle,
     var(--primary) 0%,
     var(--tertiary) 45%,
     var(--primary) 100%
   );
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
-  padding: 2vh 2vw 8vh;
+  color: var(--secondary);
+  font-family: "Ysabeau SC", sans-serif;
+  text-align: center;
 }
 
 .storyScreen-img {
-  height: 1024px;
   width: 1024px;
-  max-height: 40vh;
+  height: 1024px;
   max-width: 90vw;
+  max-height: 40vh;
   object-fit: cover;
   border: 1px solid var(--secondary);
   margin-bottom: 1vh;
@@ -39,39 +39,41 @@
 }
 
 .storyScreen-title {
-  font-size: 2rem;
-  text-shadow: 1px 1px var(--sub);
-  letter-spacing: 1px;
   margin: 0 auto 1vh;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px var(--sub);
   animation: storyScreen-titleLoad 800ms ease-in;
 }
 
 @keyframes storyScreen-titleLoad {
   0% {
-    transform: translateY(30px);
     opacity: 0;
+    transform: translateY(30px);
   }
 
   100% {
-    transform: translateY(0px);
     opacity: 1;
+    transform: translateY(0px);
   }
 }
 
 .storyScreen-mainContent {
-  font-size: 1.1rem;
-  width: 1024px;
-  max-width: 90vw;
-  margin: auto;
-  padding-bottom: 1vh;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  width: 1024px;
+  max-width: 90vw;
+  padding-bottom: 1vh;
+  margin: auto;
+  font-size: 1.1rem;
 }
 
 .storyScreen-introTextBtn {
-  height: 33px;
   width: 34px;
+  height: 33px;
+  border: 1px solid var(--secondary);
+  margin-bottom: 1.25rem;
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
@@ -79,18 +81,16 @@
     var(--primary) 100%
   );
   color: var(--secondary);
-  border: 1px solid var(--secondary);
   cursor: pointer;
   transition: 0.5s;
-  margin-bottom: 1.25rem;
   animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
 .storyScreen-introTextBtn:hover {
   transform: rotate(180deg);
   scale: 0.9;
-  color: var(--sub);
   border: 1px solid var(--sub);
+  color: var(--sub);
   transition: 0.5s;
 }
 
@@ -99,11 +99,11 @@
 }
 
 .storyScreen-introText {
-  font-size: 1rem;
+  z-index: 1;
+  top: 5%;
   width: 700px;
   max-width: 80vw;
-  white-space: pre-line;
-  top: 5%;
+  padding-top: 0;
   background: linear-gradient(
     90deg,
     var(--tertiary) 0%,
@@ -111,9 +111,9 @@
     var(--tertiary) 100%
   );
   color: var(--secondary);
-  padding-top: 0;
+  font-size: 1rem;
+  white-space: pre-line;
   animation: storyScreen-introTextLoad 700ms ease-in-out;
-  z-index: 1;
 }
 
 @keyframes storyScreen-introTextLoad {
@@ -127,15 +127,15 @@
 }
 
 .storyScreen-xBtn {
-  background-color: transparent;
-  color: var(--sub);
-  border: none;
-  cursor: pointer;
-  font-family: "Ysabeau SC", sans-serif;
-  font-size: 1rem;
   position: relative;
   left: 50.5%;
   opacity: 0.5;
+  border: none;
+  background: transparent;
+  color: var(--sub);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .storyScreen-xBtn:hover {
@@ -151,6 +151,9 @@
 }
 
 .storyScreen-closeBtn {
+  padding: 1px 10px 4px;
+  border: 1px solid var(--secondary);
+  margin: 0.5rem auto 0.75rem;
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
@@ -158,20 +161,16 @@
     var(--primary) 100%
   );
   color: var(--secondary);
-  border: 1px solid var(--secondary);
-  cursor: pointer;
   font-family: "Ysabeau SC", sans-serif;
-  font-weight: bold;
   font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
   transition: 0.5s;
-  margin: 0.5rem auto 0.75rem;
-  padding: 1px 10px 4px;
 }
 
 .storyScreen-closeBtn:hover {
-  background-color: var(--primary);
-  color: var(--sub);
   border: 1px solid var(--sub);
+  color: var(--sub);
   transition: 0.5s;
 }
 
@@ -180,8 +179,10 @@
 }
 
 .storyScreen-mainBtn {
-  height: 50px;
   width: 150px;
+  height: 50px;
+  border: 1px solid var(--secondary);
+  margin-bottom: 1.25rem;
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
@@ -189,21 +190,19 @@
     var(--primary) 100%
   );
   color: var(--secondary);
-  border: 1px solid var(--secondary);
-  cursor: pointer;
+  font-family: "Ysabeau SC", sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  font-family: "Ysabeau SC", sans-serif;
+  cursor: pointer;
   transition: 0.5s;
-  margin-bottom: 1.25rem;
   animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
 .storyScreen-mainBtn:hover {
   scale: 0.9;
-  transition: 0.5s;
-  color: var(--sub);
   border: 1px solid var(--sub);
+  color: var(--sub);
+  transition: 0.5s;
 }
 
 .storyScreen-mainBtn:active {
@@ -213,15 +212,14 @@
 
 .storyScreen-mainBtnActive {
   scale: 0.9;
-  color: var(--sub);
   border: 1px solid var(--sub);
+  color: var(--sub);
   transition: 0.5s;
 }
 
 .storyScreen-text {
-  text-shadow: 3px 3px var(--primary);
-  letter-spacing: 0.5px;
-  white-space: pre-line;
+  padding: 10px;
+  border: 1px solid var(--sub);
   margin: 0 auto 1.25rem;
   background: linear-gradient(
     90deg,
@@ -229,8 +227,9 @@
     var(--primary) 50%,
     var(--tertiary) 100%
   );
-  padding: 10px;
-  border: 1px solid var(--sub);
+  letter-spacing: 0.5px;
+  text-shadow: 3px 3px var(--primary);
+  white-space: pre-line;
   animation: storyScreen-textLoad 1s ease-in-out;
 }
 
@@ -245,8 +244,11 @@
 }
 
 .storyScreen-resetBtn {
-  height: 34px;
+  rotate: -90deg;
   width: 34px;
+  height: 34px;
+  border: 1px solid var(--secondary);
+  margin-bottom: 1.25rem;
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
@@ -254,32 +256,29 @@
     var(--primary) 100%
   );
   color: var(--secondary);
-  border: 1px solid var(--secondary);
+  font-weight: bold;
   cursor: pointer;
   transition: 0.5s;
-  margin-bottom: 1.25rem;
-  rotate: -90deg;
-  font-weight: bold;
 }
 
 .storyScreen-resetBtn:hover {
-  color: var(--sub);
   border: 1px solid var(--sub);
+  color: var(--sub);
   transition: 0.5s;
 }
 
 .storyScreen-startScreenLink {
   padding: 3px 8px 4px;
+  border: 1px solid var(--secondary);
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
     var(--tertiary) 50%,
     var(--primary) 100%
   );
-  border: 1px solid var(--secondary);
-  transition: 0.5s;
-  text-decoration: none;
   color: var(--secondary);
+  text-decoration: none;
+  transition: 0.5s;
   animation: storyScreen-btnLoad 1.5s ease-in-out;
 }
 
