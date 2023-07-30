@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   overflow: auto;
-  padding: 2vh 2vw 8vh;
+  padding: 3vh 0 8vh;
   background: radial-gradient(
     circle,
     var(--primary) 0%,
@@ -38,8 +38,14 @@
   }
 }
 
+@media (max-width: 400px) {
+  .storyScreen-img {
+    max-width: 95vw;
+  }
+}
+
 .storyScreen-title {
-  margin: 0 auto 1vh;
+  margin: 0 1vw 2vh;
   font-size: 2rem;
   letter-spacing: 1px;
   text-shadow: 1px 1px var(--sub);

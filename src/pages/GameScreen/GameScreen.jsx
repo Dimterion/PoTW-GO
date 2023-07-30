@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { nanoid } from "nanoid";
 import GameScreenLoader from "../../components/Loaders/GameScreenLoader/GameScreenLoader";
 import GameComponent from "../../components/GameComponent/GameComponent";
 import gameContents from "../../utils/gameContents";
@@ -24,19 +23,11 @@ function GameScreen() {
     }, 1500);
   }, []);
 
-  const contents = gameContents.map((content) => {
-    return loading ? (
-      <GameScreenLoader key={nanoid()} content={content} />
-    ) : (
-      <GameComponent
-        key={nanoid()}
-        content={content}
-        setOptionId={setOptionId}
-      />
-    );
-  });
-
-  return <>{contents[optionId]}</>;
+  return loading ? (
+    <GameScreenLoader content={gameContents[optionId]} />
+  ) : (
+    <GameComponent content={gameContents[optionId]} setOptionId={setOptionId} />
+  );
 }
 
 export default GameScreen;
