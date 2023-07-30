@@ -1,4 +1,10 @@
 .menuModal-container--prologue {
+  width: 300px;
+  height: 350px;
+  max-width: 80vw;
+  max-height: 80vh;
+  padding-top: 1vh;
+  margin-top: 30vh;
   background: linear-gradient(
     0deg,
     var(--prologuePrimary) 0%,
@@ -6,12 +12,6 @@
     var(--prologuePrimary) 100%
   );
   color: var(--prologueTertiary);
-  width: 300px;
-  max-width: 80vw;
-  height: 350px;
-  max-height: 80vh;
-  margin-top: 30vh;
-  padding-top: 1vh;
   text-align: center;
   animation: menuModal-containerLoad 500ms ease-in-out;
 }
@@ -46,23 +46,23 @@
 }
 
 .menuModal-closeBtn--prologue {
-  background-color: var(--prologuePrimary);
-  color: var(--prologueTertiary);
   width: 200px;
   max-width: 85vw;
+  padding: 3px 0 6px;
+  border: 1px solid var(--prologueTertiary);
+  margin: 10px auto;
+  background-color: var(--prologuePrimary);
+  color: var(--prologueTertiary);
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1.5rem;
-  margin: 10px auto;
-  padding: 3px 0 6px;
   text-decoration: none;
-  border: 1px solid var(--prologueTertiary);
   cursor: pointer;
   transition: 0.5s;
 }
 
 .menuModal-closeBtn--prologue:hover {
+  border: 1px solid var(--prologuePrimary);
   background-color: var(--prologueTertiary);
   color: var(--prologuePrimary);
-  border: 1px solid var(--prologuePrimary);
   transition: 0.5s;
 }
