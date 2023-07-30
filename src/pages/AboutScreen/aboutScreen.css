@@ -1,19 +1,25 @@
 .aboutScreen-container {
-  font-family: "Ysabeau SC", sans-serif;
-  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  padding: 10vh 2vw 0;
   background: radial-gradient(
     circle,
     var(--primary) 0%,
     var(--tertiary) 45%,
     var(--primary) 100%
   );
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
-  padding: 10vh 2vw 0;
+  font-family: "Ysabeau SC", sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .aboutScreen-container {
+    padding: 2vh 2vw 0;
+  }
 }
 
 .aboutScreen-title {
@@ -23,10 +29,18 @@
 
 .aboutScreen-title,
 .aboutScreen-subTitle {
+  margin: 1vh 0 auto;
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
   letter-spacing: 2px;
-  margin: 1vh 0 auto;
+}
+
+@media (max-width: 400px) {
+  .aboutScreen-title,
+  .aboutScreen-subTitle {
+    margin: auto;
+    font-size: 2rem;
+  }
 }
 
 .aboutScreen-subTitle {
@@ -35,18 +49,24 @@
 }
 
 .aboutScreen-additionalTitle {
-  font-size: 2rem;
   color: var(--secondary);
+  font-size: 2rem;
+}
+
+@media (max-width: 400px) {
+  .aboutScreen-additionalTitle {
+    font-size: 1.75rem;
+  }
 }
 
 .aboutScreen-mainContent {
-  font-size: 1.5rem;
-  color: var(--secondary);
+  width: fit-content;
+  padding-bottom: 2.5rem;
   border-top: 1px solid var(--sub);
   border-bottom: 1px solid var(--sub);
-  width: fit-content;
   margin: auto;
-  padding-bottom: 2.5rem;
+  color: var(--secondary);
+  font-size: 1.5rem;
 }
 
 .aboutScreen-link {
