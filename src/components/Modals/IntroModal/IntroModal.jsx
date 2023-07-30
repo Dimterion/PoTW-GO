@@ -1,27 +1,27 @@
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 
-function IntroModal({ openModal, closeModal, children, style }) {
+function IntroModal({ openIntro, closeIntro, children, style }) {
   const ref = useRef();
 
   useEffect(() => {
-    if (openModal) {
+    if (openIntro) {
       ref.current?.showModal();
     } else {
       ref.current?.close();
     }
-  }, [openModal]);
+  }, [openIntro]);
 
   return (
-    <dialog ref={ref} onCancel={closeModal} className={style}>
+    <dialog ref={ref} onCancel={closeIntro} className={style}>
       {children}
     </dialog>
   );
 }
 
 IntroModal.propTypes = {
-  openModal: PropTypes.bool,
-  closeModal: PropTypes.func,
+  openIntro: PropTypes.bool,
+  closeIntro: PropTypes.func,
   children: PropTypes.array,
   style: PropTypes.string,
 };

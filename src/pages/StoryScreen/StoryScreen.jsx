@@ -60,8 +60,8 @@ function StoryScreen() {
             </button>
             <IntroModal
               style="storyScreen-introText"
-              openModal={text.introText}
-              closeModal={() => showText("introText")}
+              openIntro={text.introText}
+              closeIntro={() => showText("introText")}
             >
               <button
                 className="storyScreen-xBtn"

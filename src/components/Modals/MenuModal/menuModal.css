@@ -51,7 +51,7 @@
   padding: 3px 0 6px;
   border: 1px solid var(--prologueTertiary);
   margin: 10px auto;
-  background-color: var(--prologuePrimary);
+  background: var(--prologuePrimary);
   color: var(--prologueTertiary);
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1.5rem;
@@ -62,7 +62,7 @@
 
 .menuModal-closeBtn--prologue:hover {
   border: 1px solid var(--prologuePrimary);
-  background-color: var(--prologueTertiary);
+  background: var(--prologueTertiary);
   color: var(--prologuePrimary);
   transition: 0.5s;
 }

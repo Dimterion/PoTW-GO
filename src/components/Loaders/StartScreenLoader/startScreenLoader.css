@@ -1,12 +1,12 @@
 .startScreenLoader {
   position: relative;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary);
+  top: 45%;
   transform: rotate(45deg);
   overflow: hidden;
+  width: 50px;
+  height: 50px;
   margin: auto;
-  top: 45%;
+  background: var(--primary);
 }
 
 .startScreenLoader:after {
