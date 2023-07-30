@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import StoryScreenLoader from "../../components/Loaders/StoryScreenLoader/StoryScreenLoader";
+import IntroModal from "../../components/Modals/IntroModal/IntroModal";
 import StartGameBtn from "../../components/Buttons/StartGameBtn/StartGameBtn";
 import storyScreenImage from "../../assets/images/story_screen_image.jpg";
 import { storyScreenIntroText } from "../../utils/additionalTexts";
@@ -57,7 +58,11 @@ function StoryScreen() {
             >
               ✱
             </button>
-            <dialog className="storyScreen-introText" open={text.introText}>
+            <IntroModal
+              style="storyScreen-introText"
+              openModal={text.introText}
+              closeModal={() => showText("introText")}
+            >
               <button
                 className="storyScreen-xBtn"
                 onClick={() => showText("introText")}
@@ -83,7 +88,7 @@ function StoryScreen() {
               >
                 CLOSE
               </button>
-            </dialog>
+            </IntroModal>
             <button
               className={`storyScreen-mainBtn ${
                 text.mainText && "storyScreen-mainBtnActive"

@@ -49,7 +49,7 @@
 @keyframes storyScreen-titleLoad {
   0% {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(15px);
   }
 
   100% {
@@ -100,7 +100,6 @@
 
 .storyScreen-introText {
   z-index: 1;
-  top: 5%;
   width: 700px;
   max-width: 80vw;
   padding-top: 0;
@@ -124,6 +123,10 @@
   100% {
     transform: translateY(0);
   }
+}
+
+.storyScreen-introText::backdrop {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .storyScreen-xBtn {
