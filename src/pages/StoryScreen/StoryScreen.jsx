@@ -112,11 +112,9 @@ function StoryScreen() {
               <p className="storyScreen-text">{storyScreenSubText}</p>
             )}
             {(text.mainText || text.subText) && (
-              <>
-                <button className="storyScreen-resetBtn" onClick={resetText}>
-                  ➤
-                </button>
-              </>
+              <button className="storyScreen-resetBtn" onClick={resetText}>
+                ➤
+              </button>
             )}
             <Link className="storyScreen-startScreenLink" to="/">
               ❰❰

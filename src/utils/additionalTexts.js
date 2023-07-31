@@ -1,4 +1,6 @@
-export const storyScreenIntroText = `Oh, hi. You’ve clicked me. Nice!
+export const storyScreenIntroText = `***
+
+Oh, hi. You’ve clicked me. Nice!
 
 So, listen, a couple of clarifications before we start, ok?
 
@@ -10,9 +12,13 @@ If you haven’t reached the end/haven’t read the previous story/etc, you can 
 
 If you’re still reading this, thank you again. I really appreciate it. Everyone’s time is precious, and I’m grateful you’ve spent a smidge of yours here. And just in case you intend to continue, cool! Hope you’ll like it… though, no promises, alright?
 
-Ok, it’s better if I stop talking. Cheers!`;
+Ok, it’s better if I stop talking. Cheers!
 
-export const storyScreenMainText = `In the distant future Earth's surface got fully toxic. The air became completely unbreathable. In a final desperate attempt to survive humans built lifescrapers - giant structures going high into the sky, the only place where it was still possible to live. They call them towers. The last attempt to save mankind which is fading away with each passing day.
+***`;
+
+export const storyScreenMainText = `- - -
+
+In the distant future Earth's surface got fully toxic. The air became completely unbreathable. In a final desperate attempt to survive humans built lifescrapers - giant structures going high into the sky, the only place where it was still possible to live. They call them towers. The last attempt to save mankind which is fading away with each passing day.
 
 Money and power are the two factors that define your fate in the tower. The more you have, the higher level of the lifescraper you can reach, increasing your chances for a longer life. The closer you are to the surface, the faster you die.
 
@@ -28,12 +34,20 @@ At the time not long before the towers era, most of the humans’ jobs had been 
 
 Manual labor had ceased to exist. Builders Council controls the production of the machines and AI development. Writers form guilds that compete for each sector where their skills are still being used. Coders manage machines work, fix bugs, develop new features and compete with AI, endlessly trying to prove that they are worth it. However, demand for them is significantly lower than supply. Each guild is always fully staffed, and within them only the best ones manage to stay and continue working there.
 
-Those who were not able to join the guilds search for any other source of income in zerOne. The most popular one is taking part in the Writers Fights, arenas where coders create and control artificial characters that fight each other in a special virtual space. Participants call themselves poets: for the majority every fight is the final frontier between lower and higher tower’s levels. They call it the Last Song: the fight after which you either go down or rise up.`;
+Those who were not able to join the guilds search for any other source of income in zerOne. The most popular one is taking part in the Writers Fights, arenas where coders create and control artificial characters that fight each other in a special virtual space. Participants call themselves poets: for the majority every fight is the final frontier between lower and higher tower’s levels. They call it the Last Song: the fight after which you either go down or rise up.
 
-export const storyScreenSubText = `You are Soai, one of the poets. It wasn’t your choice to become one, it was a necessity.
+- - -`;
+
+export const storyScreenSubText = `- - -
+
+You are Soai, one of the poets. It wasn’t your choice to become one, it was a necessity.
 
 The tower where you live is called the Bridge. It is divided into five levels. You are on the second one. One level below you won’t live long, one level above is a border between higher and lower society.
 
-You’ve managed to stay on the current level for a while and haven’t been able to move any higher. Your performance during the Writers Fights is mediocre, but you don’t lose hope to get good.
+You’ve managed to stay on the current level for a while, but haven’t been able to move any higher. Your performance during the Writers Fights is mediocre, but you don’t lose hope to get good.
 
-Later on you found out that you are not a human being, but a character made during one of the Writers Fights some time ago by a poet Deo. He then turned you into a free artificial creation browsing zerOne. A digital conscious being thinking of itself as of a real person. You had been stuck in a loop of taking part in Writers Fights on the second level of the Bridge until you found that all out. After that you almost won the last Fight, but decided to stop, to break that loop and get out of it. Another poet, Arika, who you met shortly before the Fight, got the first place. She somehow knew a lot about you and took you away somewhere, once the Fight was over. Now this is all you know. You don’t have any clear direction or path to follow. Your past is a blurry notion which has never been yours, and your future has not yet come. Present moment is all you can be sure of. And even that is not certain.`;
+Later on you found out that you are not a human, but a character made during one of the Writers Fights some time ago by a poet Deo. He then turned you into a free artificial creation browsing zerOne. A digital conscious being thinking of itself as of a real person. You had been stuck in a loop of taking part in Writers Fights on the second level of Bridge until you figured it all out with the help of the Event Horizon, some sort of a software installed into you by Nnif, Deo’s friend. After that you almost won the last Fight, but decided to stop, to break the loop and get out of it. Another poet, Arika, who you met shortly before the Fight, got the first place. She seemed to know a lot about you and took you away somewhere, once the Fight was over.
+
+This is all you know for now. You don’t have any clear direction or path to follow. Your past is a blurry notion which has never been yours, and your future has not yet come. Present moment is all you can be sure of. And even that is not certain.
+
+- - -`;
