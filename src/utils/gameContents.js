@@ -96,11 +96,11 @@ const gameContents = [
     subText: `“Wait a second. You went outside? Outside the tower? How is that possible?”`,
     text: `Arika avoids your gaze.
 
-    “Well… There are ways. Not for everyone, obviously. But with the right equipment and, first of all, enough credits, you can apply a bit of an open doors policy. Way too dangerous also. It’s one thing when rich folk fly between the towers using the machines, but going out wearing a protective suit all by yourself and, what’s more, jumping over the metal pieces like this one, that’s a completely different line of business.”
+    “Well… There are ways. Not for everyone, obviously. But with the right equipment and, first of all, enough credits, you can apply a bit of an open doors policy. Way too dangerous also. It’s one thing when rich folk fly between the towers using the machines, but going out wearing a protective suit all by yourself and, what’s more, jumping over the metal pieces like this one, that’s a completely different endeavor.”
 
-    Arika suddenly turns to you, looking straight into your eyes.
+    She suddenly turns to you, looking straight into your eyes.
 
-    “But I had to do that, Soai. I needed to see how it looks and feels out there. Despite all the desperate landscape and all the rest, as weird as it sounds, it gives me hope. Maybe there’s a way to fix it all and be there again.” - She points down. - “To breathe fresh air, to step on the soil, feeling it with your bare feet. I wonder how it is. Being born in the tower, I can only imagine such things. Makes two of us, right?”`,
+    “But I had to do that, Soai. I needed to see how it looks and feels out there. Despite all the bleak landscape and everything else there is, as weird as it sounds, it gave me hope. Maybe there’s a way to fix it all and be there once again.” - She points at the surface beneath. - “To breathe fresh air, step on the soil, touch it with your bare feet. I wonder how it is. Being born in the tower, spending most of the time in zerOne, I can only imagine such things. Makes two of us, right?”`,
     options: [
       {
         text: `“Why are we here?”`,
@@ -121,20 +121,20 @@ const gameContents = [
     mainImageAlt: "Toxic clouds above the surface.",
     characterImageAlt: "Futuristic girl with yellow hair.",
     subImageAlt: "Man looking away.",
-    subText: `“Why did you bring me here? After the arena fight we just disappeared and went straight to this place. I never managed to travel like that before. You did something, right? Don’t get me wrong, that’s all impressive, but I think there’s something else.”`,
+    subText: `“Why did you bring me here? After the arena we just disappeared and went straight to this place. I never managed to travel like that before. And yet, don’t get me wrong, it’s all impressive, but I think there’s something else.”`,
     text: `After a pause Arika replies.
 
-    “I saw you in the Mnemonic bar many times, sitting there, looking at the window. I bet each time you were wondering what life looks like outside. Well, here it is. Also, while it’s all breathtaking, take a look at the tower itself. It’s not as pretty and solid as you might think.”
+    “I saw you in the Mnemonic bar many times, sitting there, looking at the window. I bet each time you were wondering what it’s like outside. Well, here it is. Also, while the scenery is breathtaking, look at the tower itself. It’s not as pretty and solid as you might think.”
 
-    You realize that all that time you were more focussed on the view below and in front of you, rather than above and behind. You turn your head and see the tower’s wall. It’s all covered in rust, with some sections barely holding. Metal dust is flying all around with each blow of the wind. The bar you’re sitting on is shaking like a tree branch ready to break and fall down.
+    You realize all that time you were more focussed on the view below and in front of you, rather than above and behind. You turn your head and see the tower’s wall. It’s all covered in rust, with some sections barely holding. Metal dust is flying all around with each blow of the wind. The bar you’re sitting on is shaking like a tree branch ready to break and fall down.
 
-    “Believe me, this one is not as bad as some of the others.” - Arika produces a sad chuckle. - “I’ve been to places, so I’ve seen some tremendously grim… states of affairs. Many of the towers are barely holding. A few have been destroyed already. They don’t tell us that. The Builders Council, I mean. Frankly speaking, they don’t talk much in general. It’s as if they have just forgotten about us. Here are your lifescrapers, take them and live in them, the rest is not of our concern. Feels weird, to say the least.”
+    “Believe me, this one is not as bad as some of the others.” - Arika lets out a sad chuckle. - “I’ve been to places and seen some tremendously awful… states of affairs. Many of the towers are on their last legs, or bricks, if you prefer. A few have been destroyed already. They don’t tell us that. The Builders Council, I mean. Frankly speaking, they don’t talk much in general. It’s as if they have just forgotten about us. Here are your lifescrapers, take them and live in them, the rest is not of our concern. Feels weird, to say the least.”
 
     Arika gets silent for a moment, looking away, then continues.
 
-    “There is a chance for us to do something about it, Soai. I can travel between the towers, to some extent. I know that’s possible. I know there’s a way to reach the Pillar. I want to find out what’s happening out there. I want to understand why they don’t do anything, why they isolate themselves there. But I can’t do it alone. Not anymore. Especially since Deo has gone.”
+    “There is a chance for us to do something about it, Soai. I can travel between the towers, to some extent. I know there’s a way to reach the Pillar. I want to find out what’s happening out there. I need to understand why they don’t do anything, why they’ve isolated themselves. But I can’t do it alone. Not anymore. Especially since Deo has gone.”
 
-    She stops talking and stares in front of her, her head sunk in her shoulders.`,
+    She stops talking and stares in front of her, head sunk in her shoulders.`,
     options: [
       {
         text: `“What happened to Deo?”`,
