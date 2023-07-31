@@ -37,6 +37,7 @@
 }
 
 .menuModal-title--prologue {
+  margin: 20px auto;
   text-shadow: 3px 3px 3px var(--prologueSub);
 }
 
