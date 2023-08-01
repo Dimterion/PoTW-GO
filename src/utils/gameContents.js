@@ -261,16 +261,16 @@ const gameContents = [
     mainImageAlt: "Toxic clouds above the surface.",
     characterImageAlt: "Futuristic girl with yellow hair.",
     subImageAlt: "Man looking away.",
-    subText: `“How did you meet Deo? It seems you knew each other for quite some time.”`,
+    subText: `“How did you meet Deo? Seems like you knew each other for quite some time.”`,
     text: `“Maybe quite some, maybe less so.” - Arika shrugs, somewhat indifferent. - “Can’t say I’ve been keeping a good track of time recently. As for the how part, Deo was appearing on various Writers Fights every now and then, watching the participants, talking to some of them, trying to find those who would, let’s say, join his cause.”
 
-    Arika glances at you.
+    She glances at you.
 
     “He was constantly searching, never giving up, looking for like-minded folk. You might be surprised to know that there are lots and lots of personalities integrated into you, not only Deo’s. You, sir, are an absolute remix of a whole bunch of music of all possible genres and styles.”
 
-    She giggles, then continues.
+    Arika giggles, then continues.
 
-    “Sorry, got a bit distracted. About meeting the grumpy genius. You’ve probably guessed it already. It happened during one of the Writers Fights. I was doing the arena, or better say, messing around. Didn’t aim at winning. Was just, dunno, having fun if you can say so. Knocked out one dude, then stopped, went back and healed him up, pushed forward again, that kind of stuff. The one that makes everyone else angry. I was just bored. Was sitting at the finish line after the arena, looking at the empty track, when Deo approached me. Word by word he dragged me in. Once I realized what he was aiming at, I made up my mind and asked him if I could join. Hearing no objections from the old fellow, I’ve begun helping him with all that.” - Arika waved her hand at you. - “Though at last he got quite a secretive companion, so I got more time on my own and kept irritating folk in various arenas. That’s a short version for ya, my newly acquired friend.”
+    “Sorry, got a bit distracted. About meeting the grumpy genius. You’ve probably guessed it already. It happened during one of the Writers Fights. I was doing the arena, or, better say, messing around. Didn’t aim at winning. Was just, dunno, having fun maybe. Knocked out one dude, then stopped, went back and healed him up, pushed forward again, knocked out another one, that kind of stuff. The one that makes everyone else angry. I was just bored. Was sitting at the finish line after the arena, looking at the empty track, when Deo approached me. Word by word he dragged me in. Once I realized what he was aiming at, I made up my mind and asked if I could join. Hearing no objections from the old fellow, I’ve begun helping him with all that.” - She waves her hand at you. - “Though at last he became quite a secretive companion, so I got more time on my own and kept irritating folk in various arenas. That’s a short version for ya, my newly acquired friend.”
 
     Arika chuckles and looks away.`,
     options: [
@@ -291,16 +291,16 @@ const gameContents = [
     characterImageAlt: "Futuristic girl with yellow hair.",
     subImageAlt: "Man looking away.",
     subText: `“Alright, any action is better than no action at all. How do we get out of here and get over there?”`,
-    text: `Arika gets up, balancing on the narrow metal bar, and spreads her arms wide.
+    text: `Arika stands up and spreads her arms wide, balancing on the narrow metal bar.
 
     “Why, that is as easy as snapping my fin…”
 
-    She suddenly stops talking, and her virtual character image starts glitching like an old recording, tearing into pieces and falling down into pixels of various colors. Her voice turns into an incomprehensible buzzing, as if it’s being shred by a grinder. That scene lasts for a few seconds, after which Arika disappears completely.
+    She suddenly stops talking, and her virtual character image glitches like an old recording, falling apart, pixels of various colors flying down. Her voice turns into an incomprehensible buzzing, as if it’s distorted by some interference. That scene lasts for a few seconds, then Arika disappears completely.
 
-    You sit alone, hanging above the yellow and green abyss beneath you. Arika’s umbrella is slowly falling into it, turning like a spinning top in the air.`,
+    You sit alone, hanging above the yellow-green abyss beneath you. Arika’s umbrella is slowly falling into it, turning in the air like a spinning top.`,
     options: [
       {
-        text: `What happened?`,
+        text: `“What happened?”`,
         nextText: 11,
       },
     ],
@@ -312,8 +312,8 @@ const gameContents = [
     subImage: characterImage,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Man looking away.",
-    subText: `“Arika? You’re there?”`,
-    text: `Completely lost, you turn your head around, observing the place once again. Yet, there’s nothing new, except for the fact that there’s nobody nearby. What’s more, you have no idea how Arika brought you here and how to get out.`,
+    subText: `“Arika? Are you still here? Was that supposed to happen?”`,
+    text: `Completely lost, you look around, observing the place once again. Yet, there’s nothing new, except for the fact that there’s nobody nearby. What’s more, you have no idea how Arika brought you here and how to get out.`,
     options: [
       {
         text: `Jump off the bar.`,
