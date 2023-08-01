@@ -313,7 +313,9 @@ const gameContents = [
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Man looking away.",
     subText: `“Arika? Are you still here? Was that supposed to happen?”`,
-    text: `Completely lost, you look around, observing the place once again. Yet, there’s nothing new, except for the fact that there’s nobody nearby. What’s more, you have no idea how Arika brought you here and how to get out.`,
+    text: `Completely lost, you look around, observing the place once again. Yet, there’s nothing new, except for the fact that there’s nobody nearby. What’s more, you have no idea how Arika brought you here and how to get out.
+    
+    The raindrops pass through you as if you are not there, as if you don’t exist, don’t feel anything. A soul of AI stuck in the projection of the dying world with no one noticing it.`,
     options: [
       {
         text: `Jump off the bar.`,
