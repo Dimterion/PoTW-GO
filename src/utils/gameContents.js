@@ -218,18 +218,18 @@ const gameContents = [
     characterImageAlt: "Futuristic girl with yellow hair.",
     subImageAlt: "Man looking away.",
     subText: `“What happened to Deo? He didn’t tell me much. To add to that, it wasn’t really him who talked to me. Some digital copy? My distant, less sophisticated relative? Never mind. I’m more interested in the old man himself.”`,
-    text: `“He got too close to the sun.” - Arika smiles sadly. - “Meaning, to the Pillar. He bypassed their firewalls and almost reached it. In the virtual world of course. I’m the one who was obsessed with the real one, Deo was surfing the digital waves non-stop. He planned to log into the Pillar’s network to get access to their systems, see what’s going on, talk to them and so on. They caught him and sent him down. To the first level. I found out too late. Stubborn old pickle decided not to tell me that. No idea why. Perhaps he had his reasons. So, we kept doing what we did before: he was jumping from one tower to another virtually, gathering data to make and improve you, and I was doing kinda the same but in both worlds. Well, as long as I could though…”
+    text: `“He got too close to the sun.” - Arika smiles sadly. - “Meaning, to the Pillar. He bypassed their security and almost reached it. In zerOne of course. I’m the one who’s obsessed with the real world, Deo was surfing the digital waves non-stop. He planned to log into the Pillar’s network to get access to their systems, see what’s going on, talk to them and so on. They caught him and sent him down. To the first level. I found out too late. Stubborn old pickle decided not to tell me that, so I thought he was on the same level as before. No idea why he did that. Perhaps he had his reasons. So, we kept doing same old things: he was jumping from one tower to another virtually, gathering data to make and improve you, and I was doing kinda the same but in both worlds. Well, as long as I could though…”
 
     Arika suddenly gets quiet, as if she doesn’t want to tell you something, then continues.
-    
-    “Then I finally got the news about him reaching the bottom. So I moved back here, to the Bridge and some time after we met at the arena at last. Voila.”`,
+
+    “Later on I finally got the news about him reaching the bottom. So I moved back here, to the Bridge, and some time after we met at the arena at last. Voila.”`,
     options: [
       {
         text: `“Got any plan in mind?”`,
         nextText: 8,
       },
       {
-        text: `“How did you meet him?”`,
+        text: `“How did you meet Deo?”`,
         nextText: 9,
       },
     ],
@@ -243,8 +243,8 @@ const gameContents = [
     mainImageAlt: "Toxic clouds above the surface.",
     characterImageAlt: "Futuristic girl with yellow hair.",
     subImageAlt: "Man looking away.",
-    subText: `“You got any plan in mind? This seems to be quite an undertaking. Even the old man ended up being… done. So, I'm open to all possible suggestions, as I can't say I have much on my side.”`,
-    text: `“I might.” - Arika smiles mysteriously. - “Though, can’t say it has an abundance of details in it. I’d say, we could pay Deo a visit. Well, not him directly, for obvious reasons, but we can visit the place he ended up being in the end. There could be something for us to learn. You probably know that I’ve been at the first levels already. Last time it was the one here, in the Bridge. Was trying to reach the old man, even though he surely didn’t want that. But now it doesn’t matter anymore, so I suggest making our descent and trying to find where he lived. Both virtually and in reality.”`,
+    subText: `“You got any plan in mind? Reaching the Pillar seems to be quite an undertaking. Even the old man ended up being… done.”`,
+    text: `“I might have an idea of a plan.” - Arika smiles mysteriously. - “Though, can’t say it has an abundance of details in it. We could pay Deo a visit first. Well, not him directly, for obvious reasons, but we can check the place he ended up being in the end. There might be something for us to learn. I’ve been to a few first levels already. Last time it was here, in the Bridge. Was trying to reach the old man, even though he surely didn’t want that. But now it doesn’t matter anymore, so I suggest making our descent and trying to find where he lived. Both virtually and in reality.”`,
     options: [
       {
         text: `“Sure, let’s do this.”`,
