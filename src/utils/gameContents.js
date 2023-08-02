@@ -335,14 +335,16 @@ const gameContents = [
     id: 12,
     style: "prologue",
     mainImage: prologueImage,
+    subImage: prologueSubImage01,
     mainImageAlt: "Toxic clouds above the surface.",
-    text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code representation in a digital world.
-
+    subImageAlt: "Character falling down from the tower.",
+    text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code compilation in a digital world.
+    
     You get up, close your eyes and take a step into the emptiness in front of you.
 
-    Having a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from it. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times, when you finally manage to grab the bar and sit on it.
+    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times, when you finally manage to grab the bar and sit on it.
 
-    A bit shaken by the experience, you begin to understand that the whole place is similar to the Deo’s rabbit hole you visited during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
+    A bit shaken by such experience, you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
 
     There must be some other way out.`,
     options: [
@@ -808,5 +810,6 @@ import prologueImage from "../assets/images/prologue_image.jpg";
 import arikaPortrait from "../assets/images/arika_portrait.jpg";
 import characterImage from "../assets/images/character_image.jpg";
 import evenPortrait from "../assets/images/even_portrait.jpg";
+import prologueSubImage01 from "../assets/images/prologue_subImage_01.jpg";
 
 export default gameContents;
