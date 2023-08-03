@@ -9,19 +9,15 @@ function GameComponent({ content, setOptionId }) {
   const [menu, setMenu] = useState(false);
 
   const buttons = content.options.map((option) => {
-    let style;
-
-    if (option.optional) {
-      style = `gameComponent-${option.optional}Btn--${content.style}`;
-    } else if (option.btnEffect) {
-      style = `gameComponent-${option.btnEffect}Btn--${content.style}`;
-    } else {
-      style = `gameComponent-btn--${content.style}`;
-    }
-
     return (
       <button
-        className={style}
+        className={
+          option.optional
+            ? `gameComponent-${option.optional}Btn--${content.style}`
+            : option.btnEffect
+            ? `gameComponent-${option.btnEffect}Btn--${content.style}`
+            : `gameComponent-btn--${content.style}`
+        }
         key={nanoid()}
         onClick={() => setOptionId(option.nextText)}
       >
