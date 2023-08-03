@@ -11,7 +11,11 @@ function GameComponent({ content, setOptionId }) {
   const buttons = content.options.map((option) => {
     return (
       <button
-        className={`gameComponent-btn--${content.style}`}
+        className={
+          option.optional
+            ? `gameComponent-${option.optional}Btn--${content.style}`
+            : `gameComponent-btn--${content.style}`
+        }
         key={nanoid()}
         onClick={() => setOptionId(option.nextText)}
       >

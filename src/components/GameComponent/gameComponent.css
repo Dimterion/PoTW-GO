@@ -307,3 +307,27 @@
   color: var(--prologuePrimary);
   transition: 0.5s;
 }
+
+.gameComponent-optionalBtn--prologue {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--prologueAdditional);
+  margin: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--prologueAdditional);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gameComponent-optionalBtn--prologue:hover {
+  border: 1px solid var(--prologuePrimary);
+  background: var(--prologueAdditional);
+  color: var(--prologuePrimary);
+  transition: 0.5s;
+}

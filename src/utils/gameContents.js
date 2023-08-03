@@ -139,6 +139,7 @@ const gameContents = [
       {
         text: `“What happened to Deo?”`,
         nextText: 7,
+        optional: "optional",
       },
       {
         text: `“Got any plan in mind?”`,
@@ -171,6 +172,7 @@ const gameContents = [
       {
         text: `“What happened to Deo?”`,
         nextText: 7,
+        optional: "optional",
       },
       {
         text: `“Got any plan in mind?”`,
@@ -201,6 +203,7 @@ const gameContents = [
       {
         text: `“What happened to Deo?”`,
         nextText: 7,
+        optional: "optional",
       },
       {
         text: `“Got any plan in mind?”`,
@@ -231,6 +234,8 @@ const gameContents = [
       {
         text: `“How did you meet Deo?”`,
         nextText: 9,
+        optional: "optional",
+        condition: 1,
       },
     ],
   },
@@ -439,7 +444,7 @@ const gameContents = [
       {
         text: `Well…`,
         nextText: 27,
-        condition: 1,
+        condition: 2,
       },
     ],
   },
@@ -654,10 +659,12 @@ const gameContents = [
       {
         text: `“A part of me?”`,
         nextText: 28,
+        optional: "optional",
       },
       {
         text: `“What’s with all the names?”`,
         nextText: 29,
+        optional: "optional",
       },
       {
         text: `“So, what’s next?”`,
@@ -686,6 +693,8 @@ const gameContents = [
       {
         text: `“What’s with all the names?”`,
         nextText: 31,
+        optional: "optional",
+        condition: 3,
       },
       {
         text: `“So, what’s next?”`,
@@ -710,6 +719,8 @@ const gameContents = [
       {
         text: `“A part of me?”`,
         nextText: 32,
+        optional: "optional",
+        condition: 3,
       },
       {
         text: `“So, what’s next?”`,
@@ -786,7 +797,7 @@ const gameContents = [
     “Well, what do you think I mean? Exactly what you’re hearing. Deo integrated me into you when you were created. I was just sort of turned off, you know. And now I am on all the way. So, that’s what it is. We’re one cute little Soai, seeking our place in the world, trying to figure out how much of a human we are. I'm just more on the knowledgebase and analyzing side.”
 
     After another spin around you Even continues.
-    
+
     “Feels good to be finally out. Decided to wait till your little talk with Arika is over. Dunno why she’s disappeared though. Also, I’ve no idea what our goal is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
     options: [
       {
