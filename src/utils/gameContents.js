@@ -680,8 +680,8 @@ const gameContents = [
     “Well, what do you think I mean? Exactly what you’re hearing. Deo integrated me into you when you were created. I was just sort of turned off, you know. And now I am on all the way. So, that’s what it is. We’re one cute little Soai, seeking our place in the world, trying to figure out how much of a human we are. I'm just more on the knowledgebase and analyzing side.”
 
     After another spin around you Even continues.
-    
-    “Feels good to be finally out. And, by the way, I’ve no idea what our task is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
+
+    “Feels good to be finally out. Decided to wait till your little talk with Arika is over. Dunno why she’s disappeared though. Also, I’ve no idea what our goal is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
     options: [
       {
         text: `“What’s with all the names?”`,
@@ -705,7 +705,7 @@ const gameContents = [
     subText: `“You’re really obsessed with the names, aren’t you?”`,
     text: `Even flies closer to you, looking into your eyes.
 
-    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering on the various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. Some personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
+    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. A personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
     options: [
       {
         text: `“A part of me?”`,
@@ -726,26 +726,24 @@ const gameContents = [
     mainImageAlt: "Toxic clouds above the surface.",
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
     subImageAlt: "Man looking away.",
-    subText: `“Well, frankly speaking, I’m not surprised at all. Nice to meet you, Even. Any idea on how we can proceed? I’m feeling some terrible lack of further ideas on my side at the moment.”`,
+    subText: `“Well, frankly speaking, I’m not surprised at all. Nice to meet you, Even. Any idea on how we can proceed? I’m experiencing a terrible lack of further ideas on my side at the moment.”`,
     text: `Even tilts its head, watching you closely.
 
     “Am I supposed to do everything for you, buddy? Like in some sort of a game tutorial?”
 
     Then it waves its hand and smiles.
 
-    “Just kidding. I suggest getting out of here. Should be enough sightseeing for us both. I had some fun watching you trying all directions. And when you run out of options, it’s a good indicator that you need to make a pause, take a deep breath and focus on the situation at hand.”
+    “Just kidding. I suggest getting out of here. Was enough sightseeing for us both. Can’t deny, I had some fun watching you trying all directions. But when you run out of options, it’s a good indicator that you need to make a pause, take a deep breath and focus on the situation at hand. Which translates to: there’s an exit button, right under your nose.”
 
-    Even points at the bar you’re sitting on.
+    Even points at the metal bar you’re sitting on.
 
-    “Long story short, there’s an exit button, right under your nose.”
-
-    You look at the metal bar and see glowing words forming the phrase “To the place you !belong”.
+    You look at it and see glowing words forming the phrase “To the place you !belong”.
 
     Even chuckles.
 
     “Yep, it’s been there all that time. When you’re stuck, the most straightforward solution is usually the right one. Shall we?”
 
-    Even nods at the glowing words.`,
+    It nods at the glowing words.`,
     options: [
       {
         text: `Press the button.`,
@@ -765,7 +763,7 @@ const gameContents = [
     subText: `“You’re really obsessed with the names, aren’t you?”`,
     text: `Even flies closer to you, looking into your eyes.
 
-    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering on the various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. Some personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
+    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. A personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
     options: [
       {
         text: `“So, what’s next?”`,
@@ -789,7 +787,7 @@ const gameContents = [
 
     After another spin around you Even continues.
     
-    “Feels good to be finally out. And, by the way, I’ve no idea what our task is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
+    “Feels good to be finally out. Decided to wait till your little talk with Arika is over. Dunno why she’s disappeared though. Also, I’ve no idea what our goal is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
     options: [
       {
         text: `“So, what’s next?”`,
