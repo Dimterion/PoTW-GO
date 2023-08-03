@@ -757,8 +757,9 @@ const gameContents = [
     It nods at the glowing words.`,
     options: [
       {
-        text: `Press the button.`,
+        text: `To the place you !belong`,
         nextText: 33,
+        btnEffect: "glowing",
       },
     ],
   },
