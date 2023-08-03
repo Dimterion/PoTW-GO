@@ -439,6 +439,7 @@ const gameContents = [
       {
         text: `Well…`,
         nextText: 27,
+        condition: 1,
       },
     ],
   },
@@ -637,17 +638,18 @@ const gameContents = [
   {
     id: 27,
     style: "prologue",
+    effect: "appearingImg-prologue",
     mainImage: prologueImage,
     characterImage: evenPortrait,
     mainImageAlt: "Toxic clouds above the surface.",
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `Seems like you’ve tried all of your options, and none of them worked. You stare into the abyss, thoughtless, hopeless, having no idea of what to do next.
 
-    Suddenly you notice a movement nearby. You raise your eyes and see a strange creature floating in the air right next to you. It has some weird similarity to the rabbit you saw during the arena, in the loophole where you talked with Deo’s projection. Though, it looks more like a human this time. A bizarre and strange human, to be completely honest.
+    Suddenly you notice a movement nearby. You raise your eyes and see a strange creature floating in the air right next to you. It has some weird similarity to the rabbit you saw during the arena, the one that brought you to the loophole where you talked with Deo’s projection. Though, it looks more like a human this time. A bizarre and strange human, to be completely honest.
 
     The creature tilts its head, observing you with its red glowing eyes. This silent scene lasts for a brief moment.
 
-    “No way up or down, huh?” - It speaks in a familiar voice, yet you can’t figure out where you heard it. - “It’s your voice, dude. Can’t you hear it? I’m EH, by the way. Remember the name? I’m inside of your artificial digital brain. In fact, I’m a part of you. Always have been. Nnif activated me when you asked her about Deo, and then, once you entered the shortcut in the Shrike, I got turned on completely.” - It chuckles. - “So, we’re both one whole Soai now. But you can call me Even, heh. Don’t like EH, you know. And Event Horizon is too official, sounds like first and last name. As for the T at the end… Meh, who cares. If you spell it backwards it gives you never without an R.” - The creature winks. - “And thus we got T removed from one end and R - from the other. My little trademark of a sort. Long story short, I want you to call me Even, ok? And, as I’m basically you, it means that you want it as well.”`,
+    “No way up or down, huh?” - It speaks in a familiar voice, yet you can’t figure out where you heard it. - “It’s your voice, dude. Can’t you hear it? I’m EH, by the way. Remember the name? A mode for the arena, to, sort of, predict things? I’m inside of your artificial digital brain. In fact, I’m a part of you. Always have been. Nnif activated me when you asked her about Deo, and then, once you entered the shortcut in the Shrike, I got turned on completely.” - It chuckles. - “So, we’re both one whole Soai now. But you can call me Even, heh. Don’t like EH, you know. And Event Horizon is too official, sounds like first and last name. As for the T at the end… Meh, who cares. If you spell it backwards it gives you never without an R.” - The creature winks. - “And thus we got T removed from one end and R - from the other. My little trademark of a sort. Long story short, I want you to call me Even, ok? And, as I’m basically you, it means that you want it as well.”`,
     options: [
       {
         text: `“A part of me?”`,

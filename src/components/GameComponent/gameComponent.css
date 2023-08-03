@@ -190,6 +190,39 @@
   }
 }
 
+.appearingImg-prologue {
+  float: left;
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--prologueAdditional);
+  border-bottom: 1px solid var(--prologueAdditional);
+  margin-right: 1rem;
+  animation: 5s appearingImg-prologue ease;
+}
+
+@keyframes appearingImg-prologue {
+  0% {
+    opacity: 0;
+    width: 0;
+    max-width: 0;
+    filter: blur(5px);
+  }
+
+  50% {
+    opacity: 0;
+    width: 0;
+    max-width: 0;
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 1;
+    width: 200px;
+    max-width: 35vw;
+    filter: blur(0);
+  }
+}
+
 .gameComponent-text--prologue {
   padding: 0 1rem;
 }
