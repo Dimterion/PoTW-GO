@@ -33,10 +33,10 @@
   font-size: 1.25rem;
   font-weight: bold;
   cursor: pointer;
-  animation: gameComponent-menuBtnLoad 2.5s ease-in-out;
+  animation: gameComponent-menuBtn--prologue-load 2.5s ease-in-out;
 }
 
-@keyframes gameComponent-menuBtnLoad {
+@keyframes gameComponent-menuBtn--prologue-load {
   0% {
     opacity: 0;
   }
@@ -88,10 +88,10 @@
   object-fit: cover;
   border: 1px solid var(--prologueAdditional);
   margin-bottom: 1rem;
-  animation: gameComponent-mainImageLoad 0.5s ease-in-out;
+  animation: gameComponent-mainImage--prologue-load 0.5s ease-in-out;
 }
 
-@keyframes gameComponent-mainImageLoad {
+@keyframes gameComponent-mainImage--prologue-load {
   0% {
     transform: translateX(-100%);
   }
@@ -108,7 +108,7 @@
   border: 1px solid var(--prologueAdditional);
   margin-bottom: 1rem;
   background: rgba(0, 0, 0, 0.3);
-  animation: gameComponent-mainContentLoad 0.5s ease-in-out;
+  animation: gameComponent-mainContent--prologue-load 0.5s ease-in-out;
 
   &::before {
     content: "";
@@ -120,7 +120,7 @@
   }
 }
 
-@keyframes gameComponent-mainContentLoad {
+@keyframes gameComponent-mainContent--prologue-load {
   0% {
     transform: translateX(-100%);
   }
@@ -156,7 +156,7 @@
   margin-right: 1rem;
 }
 
-.disappearingImg-prologue {
+.disappearingImg--prologue {
   float: left;
   opacity: 0;
   width: 0;
@@ -164,10 +164,10 @@
   border-right: 1px solid var(--prologueAdditional);
   border-bottom: 1px solid var(--prologueAdditional);
   margin-right: 1rem;
-  animation: 5s disappearingImg-prologue ease;
+  animation: 5s disappearingImg--prologue ease;
 }
 
-@keyframes disappearingImg-prologue {
+@keyframes disappearingImg--prologue {
   0% {
     opacity: 1;
     width: 200px;
@@ -190,17 +190,17 @@
   }
 }
 
-.appearingImg-prologue {
+.appearingImg--prologue {
   float: left;
   width: 200px;
   max-width: 35vw;
   border-right: 1px solid var(--prologueAdditional);
   border-bottom: 1px solid var(--prologueAdditional);
   margin-right: 1rem;
-  animation: 5s appearingImg-prologue ease;
+  animation: 5s appearingImg--prologue ease;
 }
 
-@keyframes appearingImg-prologue {
+@keyframes appearingImg--prologue {
   0% {
     opacity: 0;
     width: 0;
@@ -243,7 +243,7 @@
     var(--prologuePrimary) 50%,
     var(--prologueSub) 100%
   );
-  animation: gameComponent-buttonsLoad 0.5s ease-in-out;
+  animation: gameComponent-buttons--prologue-load 0.5s ease-in-out;
 
   &::before,
   &::after {
@@ -274,7 +274,7 @@
   }
 }
 
-@keyframes gameComponent-buttonsLoad {
+@keyframes gameComponent-buttons--prologue-load {
   0% {
     transform: translateX(-100%);
   }
@@ -347,14 +347,14 @@
   font-weight: bold;
   cursor: pointer;
   transition: 0.5s;
-  animation: gameComponent-glowingBtn 2s linear infinite;
+  animation: gameComponent-glowingBtn--prologue 2s linear infinite;
 }
 
-@keyframes gameComponent-glowingBtn {
+@keyframes gameComponent-glowingBtn--prologue {
   0% {
     text-shadow: 0 0 0 var(--prologueTertiary);
   }
-  
+
   50% {
     text-shadow: 0 0 20px var(--prologueTertiary);
   }

@@ -58,10 +58,10 @@
   width: 0;
   height: 2px;
   background: linear-gradient(90deg, transparent 50%, var(--secondary));
-  animation: startGameBtnTop 3s ease-in-out infinite;
+  animation: startGameBtn-top 3s ease-in-out infinite;
 }
 
-@keyframes startGameBtnTop {
+@keyframes startGameBtn-top {
   25% {
     opacity: 1;
     width: 100%;
@@ -79,10 +79,10 @@
   width: 2px;
   height: 0;
   background: linear-gradient(180deg, transparent 30%, var(--secondary));
-  animation: startGameBtnRight 3s ease-in-out infinite;
+  animation: startGameBtn-right 3s ease-in-out infinite;
 }
 
-@keyframes startGameBtnRight {
+@keyframes startGameBtn-right {
   0%,
   25% {
     opacity: 0;
@@ -106,10 +106,10 @@
   bottom: 0;
   height: 2px;
   background: linear-gradient(90deg, var(--secondary), transparent 50%);
-  animation: startGameBtnBottom 3s ease-in-out infinite;
+  animation: startGameBtn-bottom 3s ease-in-out infinite;
 }
 
-@keyframes startGameBtnBottom {
+@keyframes startGameBtn-bottom {
   0%,
   50% {
     opacity: 0;
@@ -133,10 +133,10 @@
   width: 2px;
   height: 0;
   background: linear-gradient(180deg, var(--secondary), transparent 70%);
-  animation: startGameBtnLeft 3s ease-in-out infinite;
+  animation: startGameBtn-left 3s ease-in-out infinite;
 }
 
-@keyframes startGameBtnLeft {
+@keyframes startGameBtn-left {
   0%,
   75% {
     opacity: 0;

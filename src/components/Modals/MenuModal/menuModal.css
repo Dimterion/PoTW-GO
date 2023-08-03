@@ -13,10 +13,10 @@
   );
   color: var(--prologueTertiary);
   text-align: center;
-  animation: menuModal-containerLoad 500ms ease-in-out;
+  animation: menuModal-container--prologue-load 500ms ease-in-out;
 }
 
-@keyframes menuModal-containerLoad {
+@keyframes menuModal-container--prologue-load {
   0% {
     transform: translateY(-200%);
   }

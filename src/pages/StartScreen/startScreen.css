@@ -24,10 +24,10 @@
   max-height: 50vh;
   border: 1px solid var(--secondary);
   margin: auto;
-  animation: startScreen-slidesLoad 500ms ease-in;
+  animation: startScreen-slides-load 500ms ease-in;
 }
 
-@keyframes startScreen-slidesLoad {
+@keyframes startScreen-slides-load {
   0% {
     transform: translateY(-100%);
   }
@@ -50,10 +50,10 @@
   scale: 1.1;
   background-position: 50%;
   background-size: cover;
-  animation: startScreen-slideSwitch 30s linear infinite;
+  animation: startScreen-slide-switch 30s linear infinite;
 }
 
-@keyframes startScreen-slideSwitch {
+@keyframes startScreen-slide-switch {
   25% {
     opacity: 1;
   }
@@ -88,10 +88,10 @@
   padding: 0 1vw;
   color: var(--secondary);
   text-shadow: 1px 1px var(--sub);
-  animation: startScreen-titleLoad 300ms ease-in 600ms forwards;
+  animation: startScreen-title-load 300ms ease-in 600ms forwards;
 }
 
-@keyframes startScreen-titleLoad {
+@keyframes startScreen-title-load {
   0% {
     opacity: 0;
     transform: translateY(-20px);
@@ -132,10 +132,10 @@
 .startScreen-subTitle {
   opacity: 0;
   transform: translateX(-1000%);
-  animation: startScreen-subTitleLoad 500ms ease-in 600ms forwards;
+  animation: startScreen-subTitle-load 500ms ease-in 600ms forwards;
 }
 
-@keyframes startScreen-subTitleLoad {
+@keyframes startScreen-subTitle-load {
   0% {
     transform: translateX(-100%);
   }
@@ -171,7 +171,7 @@
   font-size: 2rem;
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  animation: startScreen-btnLoad 500ms ease-in 900ms forwards;
+  animation: startScreen-btn-load 500ms ease-in 900ms forwards;
 
   &::before,
   &::after {
@@ -203,7 +203,7 @@
   }
 }
 
-@keyframes startScreen-btnLoad {
+@keyframes startScreen-btn-load {
   0% {
     opacity: 0;
     transform: translateY(50px);
@@ -230,10 +230,10 @@
   right: 3em;
   opacity: 0;
   transform: translateX(1000%);
-  animation: startScreen-closingTitleLoad 500ms ease-in 600ms forwards;
+  animation: startScreen-closingTitle-load 500ms ease-in 600ms forwards;
 }
 
-@keyframes startScreen-closingTitleLoad {
+@keyframes startScreen-closingTitle-load {
   0% {
     transform: translateX(1000%);
   }

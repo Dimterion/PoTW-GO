@@ -288,7 +288,7 @@ const gameContents = [
   {
     id: 10,
     style: "prologue",
-    effect: "disappearingImg-prologue",
+    effect: "disappearingImg--prologue",
     mainImage: prologueImage,
     characterImage: arikaPortrait,
     subImage: characterImage,
@@ -643,7 +643,7 @@ const gameContents = [
   {
     id: 27,
     style: "prologue",
-    effect: "appearingImg-prologue",
+    effect: "appearingImg--prologue",
     mainImage: prologueImage,
     characterImage: evenPortrait,
     mainImageAlt: "Toxic clouds above the surface.",

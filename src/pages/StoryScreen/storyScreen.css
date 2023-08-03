@@ -25,10 +25,10 @@
   object-fit: cover;
   border: 1px solid var(--secondary);
   margin-bottom: 1vh;
-  animation: storyScreen-imgLoad 600ms ease-in;
+  animation: storyScreen-img-load 600ms ease-in;
 }
 
-@keyframes storyScreen-imgLoad {
+@keyframes storyScreen-img-load {
   0% {
     transform: translateY(-100%);
   }
@@ -49,10 +49,10 @@
   font-size: 2rem;
   letter-spacing: 1px;
   text-shadow: 1px 1px var(--sub);
-  animation: storyScreen-titleLoad 800ms ease-in;
+  animation: storyScreen-title-load 800ms ease-in;
 }
 
-@keyframes storyScreen-titleLoad {
+@keyframes storyScreen-title-load {
   0% {
     opacity: 0;
     transform: translateY(15px);
@@ -89,7 +89,7 @@
   color: var(--secondary);
   cursor: pointer;
   transition: 0.5s;
-  animation: storyScreen-btnLoad 1.5s ease-in-out;
+  animation: storyScreen-btn-load 1.5s ease-in-out;
 }
 
 .storyScreen-introTextBtn:hover {
@@ -118,10 +118,10 @@
   color: var(--secondary);
   font-size: 1rem;
   white-space: pre-line;
-  animation: storyScreen-introTextLoad 700ms ease-in-out;
+  animation: storyScreen-introText-load 700ms ease-in-out;
 }
 
-@keyframes storyScreen-introTextLoad {
+@keyframes storyScreen-introText-load {
   0% {
     transform: translateY(-100%);
   }
@@ -204,7 +204,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: 0.5s;
-  animation: storyScreen-btnLoad 1.5s ease-in-out;
+  animation: storyScreen-btn-load 1.5s ease-in-out;
 }
 
 .storyScreen-mainBtn:hover {
@@ -234,10 +234,10 @@
   letter-spacing: 0.5px;
   text-shadow: 3px 3px var(--primary);
   white-space: pre-line;
-  animation: storyScreen-textLoad 1s ease-in-out;
+  animation: storyScreen-text-load 1s ease-in-out;
 }
 
-@keyframes storyScreen-textLoad {
+@keyframes storyScreen-text-load {
   0% {
     opacity: 0;
   }
@@ -283,10 +283,10 @@
   color: var(--secondary);
   text-decoration: none;
   transition: 0.5s;
-  animation: storyScreen-btnLoad 1.5s ease-in-out;
+  animation: storyScreen-btn-load 1.5s ease-in-out;
 }
 
-@keyframes storyScreen-btnLoad {
+@keyframes storyScreen-btn-load {
   0% {
     opacity: 0;
   }
