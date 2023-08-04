@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { nanoid } from "nanoid";
 import PropTypes from "prop-types";
 import MenuModal from "../../components/Modals/MenuModal/MenuModal";
-import "./gameComponent.css";
+import "./Styles/gameComponentPrologue.css";
 
 function GameComponent({ content, setOptionId }) {
   const [menu, setMenu] = useState(false);

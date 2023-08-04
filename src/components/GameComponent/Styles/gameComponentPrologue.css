@@ -361,7 +361,6 @@
 }
 
 .gameComponent-glowingBtn--prologue:hover {
-  border: 1px solid var(--prologuePrimary);
   box-shadow: 0 0 20px var(--prologueTertiary);
   background: var(--prologueTertiary);
   color: var(--prologuePrimary);

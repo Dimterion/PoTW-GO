@@ -809,15 +809,20 @@ const gameContents = [
   },
   {
     id: 33,
-    style: "prologue",
-    mainImage: prologueImage,
-    characterImage: evenPortrait,
-    subImage: characterImage,
-    mainImageAlt: "Toxic clouds above the surface.",
-    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subImageAlt: "Man looking away.",
+    style: "",
+    mainImage: "",
+    characterImage: "",
+    subImage: "",
+    mainImageAlt: "",
+    characterImageAlt: "",
+    subImageAlt: "",
     text: `To be continued...`,
-    options: [],
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
   },
 ];
 
