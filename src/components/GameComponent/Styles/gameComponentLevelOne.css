@@ -1,0 +1,21 @@
+.gameComponent-container--levelOne {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  overflow: auto;
+  background: linear-gradient(
+    90deg,
+    var(--levelOnePrimary) 0%,
+    var(--levelOneSecondary) 50%,
+    var(--levelOnePrimary) 100%
+  );
+  color: var(--levelOneAdditional);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.1rem;
+  white-space: pre-line;
+}

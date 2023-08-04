@@ -18,6 +18,13 @@
   --prologueTertiary: #ffe69d;
   --prologueAdditional: #ff9760;
   --prologueSub: #361409;
+
+  /* Variables - Level One Colors */
+  --levelOnePrimary: #222035;
+  --levelOneSecondary: #575267;
+  --levelOneTertiary: #8d8980;
+  --levelOneAdditional: #65dc98;
+  --levelOneSub: #a0ffe3;
 }
 
 /* All pages styles */

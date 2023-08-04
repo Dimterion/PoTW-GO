@@ -809,7 +809,7 @@ const gameContents = [
   },
   {
     id: 33,
-    style: "",
+    style: "levelOne",
     mainImage: "",
     characterImage: "",
     subImage: "",
