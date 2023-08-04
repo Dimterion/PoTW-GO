@@ -809,7 +809,7 @@ const gameContents = [
   },
   {
     id: 33,
-    style: "levelOne",
+    style: "levelOneReal",
     mainImage: levelOne_image_01,
     characterImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
@@ -826,14 +826,23 @@ const gameContents = [
   },
   {
     id: 34,
-    style: "levelOne",
-    mainImage: "",
-    characterImage: "",
-    subImage: "",
-    mainImageAlt: "",
-    characterImageAlt: "",
-    subImageAlt: "",
-    text: `To be continued...`,
+    style: "levelOneReal",
+    mainImage: levelOne_image_01,
+    mainImageAlt: "Old rusty corridor.",
+    text: `In the real Bridge. I can bring you to zerOne.`,
+    options: [
+      {
+        text: `Check zerOne`,
+        nextText: 35,
+      },
+    ],
+  },
+  {
+    id: 35,
+    style: "levelOneVirtual",
+    mainImage: levelOne_image_02,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    text: `We are in zerOne.`,
     options: [
       {
         text: `Start screen`,
@@ -851,5 +860,6 @@ import prologueSubImage01 from "../assets/images/prologue_subImage_01.jpg";
 import prologueSubImage02 from "../assets/images/prologue_subImage_02.jpg";
 import prologueSubImage03 from "../assets/images/prologue_subImage_03.jpg";
 import levelOne_image_01 from "../assets/images/levelOne_image_01.jpg";
+import levelOne_image_02 from "../assets/images/levelOne_image_02.jpg";
 
 export default gameContents;

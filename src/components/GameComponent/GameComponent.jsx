@@ -4,7 +4,8 @@ import { nanoid } from "nanoid";
 import PropTypes from "prop-types";
 import MenuModal from "../../components/Modals/MenuModal/MenuModal";
 import "./Styles/gameComponentPrologue.css";
-import "./Styles/gameComponentLevelOne.css";
+import "./Styles/gameComponentLevelOneReal.css";
+import "./Styles/gameComponentLevelOneVirtual.css";
 
 function GameComponent({ content, setOptionId }) {
   const [menu, setMenu] = useState(false);

@@ -20,11 +20,18 @@
   --prologueSub: #361409;
 
   /* Variables - Level One Colors */
-  --levelOnePrimary: #575267;
-  --levelOneSecondary: #a0ffe3;
-  --levelOneTertiary: #65dc98;
-  --levelOneAdditional: #8d8980;
-  --levelOneSub: #222035;
+  --levelOneRealPrimary: #8f704b;
+  --levelOneRealSecondary: #d0902f;
+  --levelOneRealTertiary: #fff69f;
+  --levelOneRealAdditional: #fdd870;
+  --levelOneRealSub: #351409;
+
+  /* Variables - Level One - Virtual Colors */
+  --levelOneVirtualPrimary: #575267;
+  --levelOneVirtualSecondary: #a0ffe3;
+  --levelOneVirtualTertiary: #65dc98;
+  --levelOneVirtualAdditional: #8d8980;
+  --levelOneVirtualSub: #222035;
 }
 
 /* All pages styles */

@@ -1,0 +1,39 @@
+.gameScreenLoader-container--levelOneReal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    var(--levelOneRealSub) 0%,
+    var(--levelOneRealPrimary) 50%,
+    var(--levelOneRealSecondary) 100%
+  );
+}
+
+.gameScreenLoader--levelOneReal {
+  position: relative;
+  width: 100px;
+  height: 20px;
+  border: 2px solid var(--levelOneRealTertiary);
+  margin: auto;
+  background: var(--levelOneRealTertiary);
+}
+
+.gameScreenLoader--levelOneReal:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: var(--levelOneRealAdditional);
+  animation: 1.5s gameScreenLoader--levelOneReal ease-in infinite;
+}
+
+@keyframes gameScreenLoader--levelOneReal {
+  to {
+    width: 100%;
+  }
+}

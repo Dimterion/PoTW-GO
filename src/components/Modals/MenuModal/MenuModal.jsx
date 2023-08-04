@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import "./Styles/menuModalPrologue.css";
-import "./Styles/menuModalLevelOne.css";
+import "./Styles/menuModalLevelOneReal.css";
+import "./Styles/menuModalLevelOneVirtual.css";
 
 function MenuModal({ title, openMenu, closeMenu, children, style }) {
   const ref = useRef();

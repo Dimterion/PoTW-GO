@@ -1,0 +1,379 @@
+.gameComponent-container--levelOneVirtual {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  overflow: auto;
+  background: linear-gradient(
+    90deg,
+    var(--levelOneVirtualSub) 0%,
+    var(--levelOneVirtualPrimary) 50%,
+    var(--levelOneVirtualSub) 100%
+  );
+  color: var(--levelOneVirtualTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.1rem;
+  white-space: pre-line;
+  animation: gameComponent-container--levelOneVirtual-load 3s linear;
+}
+
+@keyframes gameComponent-container--levelOneVirtual-load {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.gameComponent-menuBtn--levelOneVirtual {
+  position: absolute;
+  z-index: 1;
+  top: 0.5px;
+  left: 0.5px;
+  opacity: 0.5;
+  padding: 1px 7px 3px;
+  border: 1px solid var(--levelOneVirtualSub);
+  background: var(--levelOneVirtualAdditional);
+  color: var(--levelOneVirtualSub);
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  animation: gameComponent-menuBtn--levelOneVirtual-load 2.5s ease-in-out;
+}
+
+@keyframes gameComponent-menuBtn--levelOneVirtual-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .gameComponent-menuBtn--levelOneVirtual {
+    top: 1px;
+    left: 5%;
+  }
+}
+
+.gameComponent-menuBtn--levelOneVirtual:hover {
+  opacity: 1;
+}
+
+.gameComponent-menuBtn--levelOneVirtual:active {
+  scale: 0.9;
+}
+
+.gameComponent-menuLink--levelOneVirtual {
+  width: 200px;
+  max-width: 85vw;
+  padding: 3px 0 6px;
+  border: 1px solid var(--levelOneVirtualTertiary);
+  margin: 10px auto;
+  background: var(--levelOneVirtualPrimary);
+  color: var(--levelOneVirtualTertiary);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.gameComponent-menuLink--levelOneVirtual:hover {
+  border: 1px solid var(--levelOneVirtualPrimary);
+  background: var(--levelOneVirtualTertiary);
+  color: var(--levelOneVirtualPrimary);
+  transition: 0.5s;
+}
+
+.gameComponent-mainImage--levelOneVirtual {
+  width: 1024px;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: cover;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-bottom: 1rem;
+  animation: gameComponent-mainImage--levelOneVirtual-load 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-mainImage--levelOneVirtual-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.gameComponent-mainContent--levelOneVirtual {
+  position: relative;
+  width: 1024px;
+  max-width: 90vw;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  animation: gameComponent-mainContent--levelOneVirtual-load 0.5s ease-in-out;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 2.5%;
+    width: 95%;
+    border-top: 2px solid var(--levelOneVirtualAdditional);
+  }
+}
+
+@keyframes gameComponent-mainContent--levelOneVirtual-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.gameComponent-subImage--levelOneVirtual {
+  float: right;
+  width: 200px;
+  max-width: 35vw;
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  border-left: 1px solid var(--levelOneVirtualAdditional);
+  margin-left: 1rem;
+}
+
+.gameComponent-subText--levelOneVirtual {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+.gameComponent-characterImage--levelOneVirtual {
+  float: left;
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 1rem;
+}
+
+.disappearingImg--levelOneVirtual {
+  float: left;
+  opacity: 0;
+  width: 0;
+  max-width: 0;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 1rem;
+  animation: 5s disappearingImg--levelOneVirtual ease;
+}
+
+@keyframes disappearingImg--levelOneVirtual {
+  0% {
+    opacity: 1;
+    width: 200px;
+    max-width: 35vw;
+    filter: blur(0) saturate(1);
+  }
+
+  50% {
+    opacity: 1;
+    width: 200px;
+    max-width: 35vw;
+    filter: blur(1px) saturate(5);
+  }
+
+  100% {
+    opacity: 0;
+    width: 0;
+    max-width: 0;
+    filter: blur(5px) saturate(10);
+  }
+}
+
+.appearingImg--levelOneVirtual {
+  float: left;
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 1rem;
+  animation: 5s appearingImg--levelOneVirtual ease;
+}
+
+@keyframes appearingImg--levelOneVirtual {
+  0% {
+    opacity: 0;
+    width: 0;
+    max-width: 0;
+    filter: blur(5px);
+  }
+
+  50% {
+    opacity: 0;
+    width: 0;
+    max-width: 0;
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 1;
+    width: 200px;
+    max-width: 35vw;
+    filter: blur(0);
+  }
+}
+
+.gameComponent-text--levelOneVirtual {
+  padding: 0 1rem;
+}
+
+.gameComponent-buttons--levelOneVirtual {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 900px;
+  max-width: 90vw;
+  padding: 1vh 0;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-bottom: 1rem;
+  background: linear-gradient(
+    0deg,
+    var(--levelOneVirtualSub) 0%,
+    var(--levelOneVirtualPrimary) 50%,
+    var(--levelOneVirtualSub) 100%
+  );
+  animation: gameComponent-buttons--levelOneVirtual-load 0.5s ease-in-out;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+  }
+
+  &::before {
+    top: -7px;
+    left: -5px;
+    width: calc(100% + 9px);
+    max-width: 95vw;
+    border-top: 1px solid var(--levelOneVirtualAdditional);
+    border-right: 1px solid var(--levelOneVirtualAdditional);
+    border-left: 1px solid var(--levelOneVirtualAdditional);
+  }
+
+  &::after {
+    right: -6px;
+    bottom: -6px;
+    width: calc(100% + 9px);
+    max-width: 95vw;
+    border-right: 1px solid var(--levelOneVirtualAdditional);
+    border-bottom: 1px solid var(--levelOneVirtualAdditional);
+    border-left: 1px solid var(--levelOneVirtualAdditional);
+  }
+}
+
+@keyframes gameComponent-buttons--levelOneVirtual-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.gameComponent-btn--levelOneVirtual {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneVirtualTertiary);
+  margin: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--levelOneVirtualTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gameComponent-btn--levelOneVirtual:hover {
+  border: 1px solid var(--levelOneVirtualPrimary);
+  background: var(--levelOneVirtualTertiary);
+  color: var(--levelOneVirtualPrimary);
+  transition: 0.5s;
+}
+
+.gameComponent-optionalBtn--levelOneVirtual {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--levelOneVirtualAdditional);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gameComponent-optionalBtn--levelOneVirtual:hover {
+  border: 1px solid var(--levelOneVirtualPrimary);
+  background: var(--levelOneVirtualAdditional);
+  color: var(--levelOneVirtualPrimary);
+  transition: 0.5s;
+}
+
+.gameComponent-glowingBtn--levelOneVirtual {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneVirtualTertiary);
+  margin: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--levelOneVirtualTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  animation: gameComponent-glowingBtn--levelOneVirtual 2s linear infinite;
+}
+
+@keyframes gameComponent-glowingBtn--levelOneVirtual {
+  0% {
+    text-shadow: 0 0 0 var(--levelOneVirtualTertiary);
+  }
+
+  50% {
+    text-shadow: 0 0 20px var(--levelOneVirtualTertiary);
+  }
+}
+
+.gameComponent-glowingBtn--levelOneVirtual:hover {
+  box-shadow: 0 0 20px var(--levelOneVirtualTertiary);
+  background: var(--levelOneVirtualTertiary);
+  color: var(--levelOneVirtualPrimary);
+  transition: 0.5s;
+}
