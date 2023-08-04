@@ -810,6 +810,23 @@ const gameContents = [
   {
     id: 33,
     style: "levelOne",
+    mainImage: levelOne_image_01,
+    characterImage: evenPortrait,
+    mainImageAlt: "Old rusty corridor.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `For a moment everything around fades, then something new starts to appear slowly. You stand in a narrow space, almost clamped by the old metal walls covered by suspiciously looking dirty tubes. The place looks quiet except for the constant buzzing sound coming from afar, water dripping from the tubes and ancient lamps clicking on the ceiling. Feeble flickering light barely allows you to see what’s going on.
+
+    “Seems like not much is going on.” - Even repeats your thoughts. - “Nice decor. As long as you don’t look at it… Or listen to it.” - It adds after a sudden clatter, as if a metal piece got torn off something and fell. - “At least we don’t need loading screens anymore. Feel the power of the new generation tech.”`,
+    options: [
+      {
+        text: `“Where are we?”`,
+        nextText: 34,
+      },
+    ],
+  },
+  {
+    id: 34,
+    style: "levelOne",
     mainImage: "",
     characterImage: "",
     subImage: "",
@@ -819,7 +836,7 @@ const gameContents = [
     text: `To be continued...`,
     options: [
       {
-        text: ``,
+        text: `Start screen`,
         nextText: 0,
       },
     ],
@@ -833,5 +850,6 @@ import evenPortrait from "../assets/images/even_portrait.jpg";
 import prologueSubImage01 from "../assets/images/prologue_subImage_01.jpg";
 import prologueSubImage02 from "../assets/images/prologue_subImage_02.jpg";
 import prologueSubImage03 from "../assets/images/prologue_subImage_03.jpg";
+import levelOne_image_01 from "../assets/images/levelOne_image_01.jpg";
 
 export default gameContents;

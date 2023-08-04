@@ -1,0 +1,69 @@
+.menuModal-container--levelOne {
+  width: 300px;
+  height: 350px;
+  max-width: 80vw;
+  max-height: 80vh;
+  padding-top: 1vh;
+  margin-top: 30vh;
+  background: linear-gradient(
+    0deg,
+    var(--levelOnePrimary) 0%,
+    var(--levelOneSecondary) 50%,
+    var(--levelOnePrimary) 100%
+  );
+  color: var(--levelOneTertiary);
+  text-align: center;
+  animation: menuModal-container--levelOne-load 500ms ease-in-out;
+}
+
+@keyframes menuModal-container--levelOne-load {
+  0% {
+    transform: translateY(-200%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-height: 700px) {
+  .menuModal-container--levelOne {
+    margin-top: 10px;
+  }
+}
+
+.menuModal-container--levelOne::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.menuModal-title--levelOne {
+  margin: 20px auto;
+  text-shadow: 3px 3px 3px var(--levelOneSub);
+}
+
+.menuModal-nav--levelOne {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menuModal-closeBtn--levelOne {
+  width: 200px;
+  max-width: 85vw;
+  padding: 3px 0 6px;
+  border: 1px solid var(--levelOneTertiary);
+  margin: 10px auto;
+  background: var(--levelOnePrimary);
+  color: var(--levelOneTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menuModal-closeBtn--levelOne:hover {
+  border: 1px solid var(--levelOnePrimary);
+  background: var(--levelOneTertiary);
+  color: var(--levelOnePrimary);
+  transition: 0.5s;
+}

@@ -20,11 +20,11 @@
   --prologueSub: #361409;
 
   /* Variables - Level One Colors */
-  --levelOnePrimary: #222035;
-  --levelOneSecondary: #575267;
-  --levelOneTertiary: #8d8980;
-  --levelOneAdditional: #65dc98;
-  --levelOneSub: #a0ffe3;
+  --levelOnePrimary: #575267;
+  --levelOneSecondary: #a0ffe3;
+  --levelOneTertiary: #65dc98;
+  --levelOneAdditional: #8d8980;
+  --levelOneSub: #222035;
 }
 
 /* All pages styles */
