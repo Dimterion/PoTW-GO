@@ -261,13 +261,13 @@
     content: "";
     position: absolute;
     width: 20px;
-    height: 25px;
+    height: 15px;
   }
 
   &::before {
-    top: -7px;
-    left: -5px;
-    width: calc(100% + 9px);
+    top: -0.3rem;
+    left: -0.3rem;
+    width: calc(100% + 0.5rem);
     max-width: 95vw;
     border-top: 1px solid var(--levelOneRealAdditional);
     border-right: 1px solid var(--levelOneRealAdditional);
@@ -275,9 +275,9 @@
   }
 
   &::after {
-    right: -6px;
-    bottom: -6px;
-    width: calc(100% + 9px);
+    right: -0.3rem;
+    bottom: -0.3rem;
+    width: calc(100% + 0.5rem);
     max-width: 95vw;
     border-right: 1px solid var(--levelOneRealAdditional);
     border-bottom: 1px solid var(--levelOneRealAdditional);
