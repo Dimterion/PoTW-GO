@@ -879,11 +879,77 @@ const gameContents = [
     id: 36,
     style: "levelOneReal",
     mainImage: levelOne_image_01,
+    characterImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
-    text: `To be continued.`,
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `Even seems to be puzzled and speaks in a mix of voices once more.
+
+    “I feel like some storage device, keeping stuff inside me but not knowing what’s actually there. Then, the moment I see something… or, we see something, it’s like I’ve known it all along. Some strange real world side effect or whatever.”
+
+    It gets quiet for a moment and you notice a man going through the corridor. He wears old-fashioned black glasses, has a beard, long hair and a never fading rebel-youth expression on his face despite the not so young age.
+
+    “Well, look at this individual.” - Even produces a sound of clicking its tongue. - “Una Ek, our one and only owner of the Mnemonic bar, exactly the same in both worlds. True to himself as ever.”
+
+    The man passes by you without any notice and goes further.`,
     options: [
       {
-        text: `Start anew.`,
+        text: `“Hey, Una!”`,
+        nextText: 37,
+      },
+      {
+        text: `“Let’s check our apartment.”`,
+        nextText: 38,
+      },
+    ],
+  },
+  {
+    id: 37,
+    style: "levelOneReal",
+    mainImage: levelOne_image_01,
+    characterImage: evenPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Old rusty corridor.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
+    subText: `“Hey, Una! What’s up? Nice to see you in the real world.”`,
+    text: `Una keeps going further, paying no attention to your words.
+
+    “Ahem.” - Even is looking at you skeptically. - “Must I remind you that we are not physically present here. You, and by you I mean us both, are not an actual human being and don’t have a body outside zerOne. Peeps don’t see us when we are here, we see them with the help of all the cameras and so on, ok? Wait a sec.” - Its red eyes flash for a moment, then it adds. - “Another piece of info has just popped up. They are all covered in implants, right? So connection to zerOne is constant, even if they are outside. If we switch to virtual, we can poke Una, he’ll notice then.”`,
+    options: [
+      {
+        text: `zerOne: true`,
+        nextText: 39,
+        btnEffect: "switch",
+      },
+      {
+        text: `“Let’s check our apartment.”`,
+        nextText: 38,
+      },
+    ],
+  },
+  {
+    id: 38,
+    style: "levelOneVirtual",
+    mainImage: levelOne_image_01,
+    mainImageAlt: "Old rusty corridor.",
+    subText: `“Let’s go check our apartment. Maybe we can find something useful there.”`,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 39,
+    style: "levelOneVirtual",
+    mainImage: levelOne_image_02,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    text: ``,
+    options: [
+      {
+        text: ``,
         nextText: 0,
       },
     ],

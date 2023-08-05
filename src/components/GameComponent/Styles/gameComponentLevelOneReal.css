@@ -18,7 +18,7 @@
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1.1rem;
   white-space: pre-line;
-  animation: gameComponent-container--levelOneReal-load 3s linear;
+  animation: gameComponent-container--levelOneReal-load 1.5s linear;
 }
 
 @keyframes gameComponent-container--levelOneReal-load {
