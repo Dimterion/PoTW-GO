@@ -14,9 +14,7 @@ function GameComponent({ content, setOptionId }) {
     return (
       <button
         className={
-          option.optional
-            ? `gameComponent-${option.optional}Btn--${content.style}`
-            : option.btnEffect
+          option.btnEffect
             ? `gameComponent-${option.btnEffect}Btn--${content.style}`
             : `gameComponent-btn--${content.style}`
         }

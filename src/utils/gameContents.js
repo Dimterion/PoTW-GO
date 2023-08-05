@@ -139,7 +139,7 @@ const gameContents = [
       {
         text: `“What happened to Deo?”`,
         nextText: 7,
-        optional: "optional",
+        btnEffect: "optional",
       },
       {
         text: `“Got any plan in mind?”`,
@@ -172,7 +172,7 @@ const gameContents = [
       {
         text: `“What happened to Deo?”`,
         nextText: 7,
-        optional: "optional",
+        btnEffect: "optional",
       },
       {
         text: `“Got any plan in mind?”`,
@@ -203,7 +203,7 @@ const gameContents = [
       {
         text: `“What happened to Deo?”`,
         nextText: 7,
-        optional: "optional",
+        btnEffect: "optional",
       },
       {
         text: `“Got any plan in mind?”`,
@@ -234,7 +234,7 @@ const gameContents = [
       {
         text: `“How did you meet Deo?”`,
         nextText: 9,
-        optional: "optional",
+        btnEffect: "optional",
         condition: 1,
       },
     ],
@@ -659,12 +659,12 @@ const gameContents = [
       {
         text: `“A part of me?”`,
         nextText: 28,
-        optional: "optional",
+        btnEffect: "optional",
       },
       {
         text: `“What’s with all the names?”`,
         nextText: 29,
-        optional: "optional",
+        btnEffect: "optional",
       },
       {
         text: `“So, what’s next?”`,
@@ -693,7 +693,7 @@ const gameContents = [
       {
         text: `“What’s with all the names?”`,
         nextText: 31,
-        optional: "optional",
+        btnEffect: "optional",
         condition: 3,
       },
       {
@@ -719,7 +719,7 @@ const gameContents = [
       {
         text: `“A part of me?”`,
         nextText: 32,
-        optional: "optional",
+        btnEffect: "optional",
         condition: 3,
       },
       {
