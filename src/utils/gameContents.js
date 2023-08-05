@@ -828,12 +828,28 @@ const gameContents = [
     id: 34,
     style: "levelOneReal",
     mainImage: levelOne_image_01,
+    characterImage: evenPortrait,
+    subImage: characterImage,
     mainImageAlt: "Old rusty corridor.",
-    text: `In the real Bridge. I can bring you to zerOne.`,
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subImageAlt: "Man looking away.",
+    subText: `“Any idea where we are, Even? This place looks strangely familiar, yet I don’t recall ever being here.”`,
+    text: `Even’s voice suddenly changes, it sounds like several different one’s mixed together.
+
+    “We are in the Bridge, Soai. The real Bridge, not the virtual one in zerOne. Every tower’s corner is surveilled, so cameras and all sorts of recording devices are everywhere, thus we can see it all.” - It gets quiet for a moment. - “Wait. How do I know this? It’s like it’s always been in my memory, I just didn’t need to access it. And once I needed it, it just popped out. Weird…”
+
+    Even keeps observing the surroundings, then adds.
+    
+    “Hm, there’s more. I can actually switch between real and virtual Bridge. Here.”
+
+    You see a new button in your UI.
+
+    “Wanna try?”`,
     options: [
       {
-        text: `Check zerOne`,
+        text: `zerOne: true`,
         nextText: 35,
+        btnEffect: "switch",
       },
     ],
   },
@@ -841,11 +857,33 @@ const gameContents = [
     id: 35,
     style: "levelOneVirtual",
     mainImage: levelOne_image_02,
+    characterImage: evenPortrait,
     mainImageAlt: "Yellow-green futuristic corridor.",
-    text: `We are in zerOne.`,
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `After pressing the button, everything once again fades for a moment and you see a new place.
+
+    “Not really new, buddy.” - You notice that Even speaks in your voice again. - “Same corridor, but with a touch of digital love now. Prettier, right? Unless you are an abstractionist by nature, which I doubt.” - It points at the end of the corridor. - “We’re near your place by the way. Technically, it’s Deo’s place, as you’ve been stuck in the loop and never actually been out, remember? Maybe we can check it. Though, one more thing.”
+
+    Another button appears in your UI.
+
+    “In case we need to face that hard reality of ours and switch back to the Bridge out there.”`,
     options: [
       {
-        text: `Start screen`,
+        text: `zerOne: false`,
+        nextText: 36,
+        btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 36,
+    style: "levelOneReal",
+    mainImage: levelOne_image_01,
+    mainImageAlt: "Old rusty corridor.",
+    text: `To be continued.`,
+    options: [
+      {
+        text: `Start anew.`,
         nextText: 0,
       },
     ],
