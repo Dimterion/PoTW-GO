@@ -10,6 +10,14 @@ import "./Styles/gameComponentLevelOneVirtual.css";
 function GameComponent({ content, setOptionId }) {
   const [menu, setMenu] = useState(false);
 
+  const scrollToTop = () => {
+    document.getElementById("gameComponent-container").scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
   const buttons = content.options.map((option) => {
     return (
       <button
@@ -19,7 +27,10 @@ function GameComponent({ content, setOptionId }) {
             : `gameComponent-btn--${content.style}`
         }
         key={nanoid()}
-        onClick={() => setOptionId(option.nextText)}
+        onClick={() => {
+          setOptionId(option.nextText);
+          scrollToTop();
+        }}
       >
         {option.text}
       </button>
@@ -27,7 +38,10 @@ function GameComponent({ content, setOptionId }) {
   });
 
   return (
-    <section className={`gameComponent-container--${content.style}`}>
+    <section
+      id="gameComponent-container"
+      className={`gameComponent-container--${content.style}`}
+    >
       <header>
         <button
           className={`gameComponent-menuBtn--${content.style}`}

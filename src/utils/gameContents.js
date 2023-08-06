@@ -929,7 +929,7 @@ const gameContents = [
   },
   {
     id: 38,
-    style: "levelOneVirtual",
+    style: "levelOneReal",
     mainImage: levelOne_image_01,
     mainImageAlt: "Old rusty corridor.",
     subText: `“Let’s go check our apartment. Maybe we can find something useful there.”`,
