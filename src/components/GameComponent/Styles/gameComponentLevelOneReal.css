@@ -319,6 +319,10 @@
   transition: 0.5s;
 }
 
+.gameComponent-btn--levelOneReal:active {
+  scale: 0.9;
+}
+
 .gameComponent-optionalBtn--levelOneReal {
   width: 250px;
   max-width: 90vw;
@@ -341,6 +345,10 @@
   background: var(--levelOneRealAdditional);
   color: var(--levelOneRealPrimary);
   transition: 0.5s;
+}
+
+.gameComponent-optionalBtn--levelOneReal:active {
+  scale: 0.9;
 }
 
 .gameComponent-glowingBtn--levelOneReal {
@@ -378,6 +386,10 @@
   transition: 0.5s;
 }
 
+.gameComponent-glowingBtn--levelOneReal:active {
+  scale: 0.9;
+}
+
 .gameComponent-switchBtn--levelOneReal {
   width: 250px;
   max-width: 90vw;
@@ -410,4 +422,8 @@
   );
   color: var(--levelOneVirtualSub);
   transition: 0.5s;
+}
+
+.gameComponent-switchBtn--levelOneReal:active {
+  scale: 0.9;
 }

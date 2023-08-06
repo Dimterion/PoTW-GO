@@ -308,6 +308,10 @@
   transition: 0.5s;
 }
 
+.gameComponent-btn--prologue:active {
+  scale: 0.9;
+}
+
 .gameComponent-optionalBtn--prologue {
   width: 250px;
   max-width: 90vw;
@@ -330,6 +334,10 @@
   background: var(--prologueAdditional);
   color: var(--prologuePrimary);
   transition: 0.5s;
+}
+
+.gameComponent-optionalBtn--prologue:active {
+  scale: 0.9;
 }
 
 .gameComponent-glowingBtn--prologue {
@@ -365,4 +373,8 @@
   background: var(--prologueTertiary);
   color: var(--prologuePrimary);
   transition: 0.5s;
+}
+
+.gameComponent-glowingBtn--prologue:active {
+  scale: 0.9;
 }
