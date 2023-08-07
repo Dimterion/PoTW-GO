@@ -816,7 +816,7 @@ const gameContents = [
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `For a moment everything around fades, then something new starts to appear slowly. You stand in a narrow space, almost clamped by the old metal walls covered by suspiciously looking dirty tubes. The place looks quiet except for the constant buzzing sound coming from afar, water dripping from the tubes and ancient lamps clicking on the ceiling. Feeble flickering light barely allows you to see what’s going on.
 
-    “Seems like not much is going on.” - Even repeats your thoughts. - “Nice decor. As long as you don’t look at it… Or listen to it.” - It adds after a sudden clatter, as if a metal piece got torn off something and fell. - “At least we don’t need loading screens anymore. Feel the power of the new generation tech.”`,
+    “Seems like not much is going on.” - Even repeats your thoughts. - “Nice decor. As long as you don’t look at it… Or listen to it.” - It adds after a sudden clatter, as if a metal piece got torn off something and fell. - “At least we don’t need loading screens to get here. Feel the next gen power.”`,
     options: [
       {
         text: `“Where are we?”`,
@@ -836,15 +836,15 @@ const gameContents = [
     subText: `“Any idea where we are, Even? This place looks strangely familiar, yet I don’t recall ever being here.”`,
     text: `Even’s voice suddenly changes, it sounds like several different one’s mixed together.
 
-    “We are in the Bridge, Soai. The real Bridge, not the virtual one in zerOne. Every tower’s corner is surveilled, so cameras and all sorts of recording devices are everywhere, thus we can see it all.” - It gets quiet for a moment. - “Wait. How do I know this? It’s like it’s always been in my memory, I just didn’t need to access it. And once I needed it, it just popped out. Weird…”
+    “We are in the Bridge, Soai. The real Bridge, not the virtual one in zerOne. Every tower’s corner is surveilled, so cameras and all sorts of recording devices are everywhere, thus we can see it all.” - It gets quiet for a moment. - “Wait. How do I know this? Like it’s always been in my memory, I just didn’t need to access it. And once I did, it just popped out. Weird…”
 
     Even keeps observing the surroundings, then adds.
-    
+
     “Hm, there’s more. I can actually switch between real and virtual Bridge. Here.”
 
     You see a new button in your UI.
 
-    “Wanna try?”`,
+    “Let’s give it a try.”`,
     options: [
       {
         text: `zerOne: true`,
@@ -860,9 +860,13 @@ const gameContents = [
     characterImage: evenPortrait,
     mainImageAlt: "Yellow-green futuristic corridor.",
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `After pressing the button, everything once again fades for a moment and you see a new place.
+    text: `After pressing the button everything fades for a moment once more and you see a new place.
 
-    “Not really new, buddy.” - You notice that Even speaks in your voice again. - “Same corridor, but with a touch of digital love now. Prettier, right? Unless you are an abstractionist by nature, which I doubt.” - It points at the end of the corridor. - “We’re near your place by the way. Technically, it’s Deo’s place, as you’ve been stuck in the loop and never actually been out, remember? Maybe we can check it. Though, one more thing.”
+    “Not really new, buddy.” - You notice that Even’s voice resembles yours again. - “Same corridor, but with a touch of digital love now.”
+
+    You realize that’s true. The place looks different, but it’s still a long narrow room, its walls and ceiling are illuminated by bright yellow-green lights. No rust or leaking tubes are visible.
+
+    “Prettier, right? Unless you are an abstractionist by nature and prefer life in brown shades, which I doubt.” - Even points at the end of the corridor. - “We’re near your place by the way. Technically, it’s Deo’s place, as you’ve been stuck in the loop, never actually been out and yada, yada, remember? Maybe we can check it. Though, one more thing.”
 
     Another button appears in your UI.
 
@@ -882,9 +886,9 @@ const gameContents = [
     characterImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `Even seems to be puzzled and speaks in a mix of voices once more.
+    text: `Even seems to be puzzled and talks in a mix of voices now.
 
-    “I feel like some storage device, keeping stuff inside me but not knowing what’s actually there. Then, the moment I see something… or, we see something, it’s like I’ve known it all along. Some strange real world side effect or whatever.”
+    “I feel like some storage device, keeping stuff inside me, but not knowing what’s actually there. Then, the moment I see something… or, we see something, it’s like I’ve known it all along. A strange real world side effect or whatever.”
 
     It gets quiet for a moment and you notice a man going through the corridor. He wears old-fashioned black glasses, has a beard, long hair and a never fading rebel-youth expression on his face despite the not so young age.
 
@@ -914,7 +918,7 @@ const gameContents = [
     subText: `“Hey, Una! What’s up? Nice to see you in the real world.”`,
     text: `Una keeps going further, paying no attention to your words.
 
-    “Ahem.” - Even is looking at you skeptically. - “Must I remind you that we are not physically present here. You, and by you I mean us both, are not an actual human being and don’t have a body outside zerOne. Peeps don’t see us when we are here, we see them with the help of all the cameras and so on, ok? Wait a sec.” - Its red eyes flash for a moment, then it adds. - “Another piece of info has just popped up. They are all covered in implants, right? So connection to zerOne is constant, even if they are outside. If we switch to virtual, we can poke Una, he’ll notice then.”`,
+    “Ahem.” - Even is looking at you skeptically. - “Must I remind you that we are not physically present here. You, and by you I mean us both, are not an actual human being and don’t have a body outside zerOne. Peeps don’t see us when we are here, we see them with the help of all the cameras and so on, ok? Wait a sec.” - Its red eyes flash for a moment, then it adds. - “Another piece of info has just popped up. They are basically all covered in implants, right? So the connection to zerOne is constant, even if they are outside. If we switch to virtual, we can poke Una, he’ll notice then.”`,
     options: [
       {
         text: `zerOne: true`,
