@@ -1069,6 +1069,94 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Even is right here, with us. I don’t think anyone except for me can see or hear it.”`,
+    text: `“Too bad.” - Una keeps playing the guitar. - “Don’t like invisible friends, makes me nervous.”
+
+    “Well, if it’s any consolation, I can’t do much about this either.” - Even shrugs. - “I wish I…”
+
+    “If it’s talking right now,” - Una unintentionally interrupts again. - “Tell it to shut up.”
+
+    “You shut up!” - Even stomps to the other side of the room, muttering. - “Ain’t gonna talk to some amateur musician anyway…”
+
+    “So, arena character, huh?” - Una briefly glances at the screen. - “Made by some no longer living poet? I knew something was off about you, virtual boy. You kept coming to Mnemonic, kept sitting there, so focused on Writers Fights, on winning. Day after day. Was just too much, even for a poet. Felt unreal, but when I’m in the unreal world, I tend not to ask too many questions. Everyone’s picking their own poison, I’m no judge for that.”`,
+    options: [
+      {
+        text: `“We all grind.”`,
+        nextText: 44,
+      },
+    ],
+  },
+  {
+    id: 44,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“We all grind. Having a routine helps sometimes. Take your apartment renovations for instance. Bet you’ve spent your fair share of hours making sure your digital place and your digital you look exactly the same as here, outside zerOne.”`,
+    text: `“You’ve got me there, pal.”
+
+    Una replies, lazily pulling the strings.
+
+    “I’m used to seeing people do the same stuff on repeat. And, yeah, my virtual life is identical to the real one. Grinding is part of the whole concept zerOne is built upon. Makes you stick to it, not wanting to come back to reality. As there’s nothing here anymore. Life is just a four-walled box to exist, while all the living is happening between zeros and ones.”
+
+    The music gets louder, it feels like Una is singing rather than talking.
+
+    “And now the numbers have managed to reach me even here, in my four-walled box.” - He nods at you. - “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I missed it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution for our planet’s little issue.”
+
+    Una stops talking for a moment, focusing on his guitar again.
+
+    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk, once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
+
+    He gets silent and rubs his forehead.
+
+    “Damn, I’m getting old… You made me talky, digital boy. What about you? Any plans now, since you’ve figured out who you are?”`,
+    options: [
+      {
+        text: `“No idea.”`,
+        nextText: 45,
+      },
+    ],
+  },
+  {
+    id: 45,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Honestly? No idea. I’m like a leaf on the wind. I guess I need to figure out what Deo wanted from me. And that girl, Arika… She disappeared somewhere.”`,
+    text: `“I wouldn’t be too worried about her. Based on what you’ve said, she’s one of the rich folk. Playing around with others just to entertain themselves. Then, the moment they get bored, poof…” - Una hits a guitar string, making a loud noise. - “They are outta here. But you do you, edge runner, don’t make the blades of my words stop you. I’m just an angry old fella, yelling at the digital sky, happy to be wrong, yet not having lots of hope.”
+
+    “Speaking of the old fellas…” - Una raises a brow, looking at you. - “That Deo article, eh? I guess you intend to make a little jump to the first level, since you’re not afraid of dying anymore, and he seems to have spent his final hours there. I’m not much of a hacker, but one day I was willing to visit the place myself. Ended up being too depressed for it, so gave up on the idea, but before that I had a little chat with our friendly Dixie’s shop owner, Nnif. She might know a thing or two on how to bypass the levels’ security and enter a wonderful world of those who are closer to the surface. I don’t know much more, so consider paying Nnif a visit. Maybe she’ll do you a favor.”
+
+    “Or,” - Una points his finger at you. - “Try to find that Goldilocks of yours and drive to the sunset. Perhaps, out of principle, she’ll be able to provide you with just the right amount of further choices.”`,
+    options: [
+      {
+        text: `“Thanks, Una.”`,
+        nextText: 46,
+      },
+    ],
+  },
+  {
+    id: 46,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: ``,
     text: `To be continued...`,
     options: [
