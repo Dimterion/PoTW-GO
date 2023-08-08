@@ -883,10 +883,12 @@ const gameContents = [
     id: 36,
     style: "levelOneReal",
     mainImage: levelOneImage01,
-    characterImage: evenPortrait,
+    additionalImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
-    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `Even seems to be puzzled and talks in a mix of voices now.
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `“Ok, and I’m gonna move to your UI now. After all I’m some kind of it anyway. Take a peek at the upper right corner, see me? I’m a cute little icon there, alright?”
+
+    Even seems to be puzzled and talks in a mix of voices now.    
 
     “I feel like some storage device, keeping stuff inside me, but not knowing what’s actually there. Then, the moment I see something… or, we see something, it’s like I’ve known it all along. A strange real world side effect or whatever.”
 
@@ -910,11 +912,11 @@ const gameContents = [
     id: 37,
     style: "levelOneReal",
     mainImage: levelOneImage01,
-    characterImage: evenPortrait,
     subImage: characterImage,
+    additionalImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
-    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
     subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Hey, Una! What’s up? Nice to see you in the real world.”`,
     text: `Una keeps going further, paying no attention to your words.
 
@@ -951,9 +953,9 @@ const gameContents = [
     id: 39,
     style: "levelOneVirtual",
     mainImage: levelOneImage02,
-    characterImage: evenPortrait,
+    additionalImage: evenPortrait,
     mainImageAlt: "Yellow-green futuristic corridor.",
-    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `You are in the virtual corridor again, no presence of Una here.
 
     “Cause he’s not in zerOne.” - Even sighs, as if it should’ve been obvious. - “I’ve heard people can make voice calls, you know, send messages to each other. The wonders of modern technologies. I wouldn’t dare tell you what to do… But as we are one…”
@@ -974,9 +976,11 @@ const gameContents = [
     mainImage: levelOneImage02,
     characterImage: unaPortrait,
     subImage: characterImage,
+    additionalImage: evenPortrait,
     mainImageAlt: "Yellow-green futuristic corridor.",
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Sup, Una! How’s life? I was just passing by your life-capsule. Mind if I come in for a sec?”`,
     text: `“Soai! Nice to hear you, champ.” - As always, Una’s in a good mood. - “I’ve never seen you around my place… Actually, I’ve just realized, I’ve never seen you at all. In real, I mean. We were always hanging out at my bar virtually. Will be nice to finally look at you.”
     
@@ -994,9 +998,77 @@ const gameContents = [
     mainImage: levelOneImage02,
     characterImage: unaPortrait,
     subImage: characterImage,
+    additionalImage: evenPortrait,
     mainImageAlt: "Yellow-green futuristic corridor.",
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“So, listen Una, there’s something I need to tell you first…”`,
+    text: `“What’s that?” - Una interrupts you. - “You are not real and have been sent here by some higher power?”
+
+    “Well, I’ve never thought of myself as of a higher power, but since he’s mentioned it.” - Even says thoughtfully in the middle of Una’s speech.
+
+    “You are an agent of the AI system that rules our world?”
+
+    “How does he know that?” - Even sounds surprised.
+
+    “You are going to make me an offer I can’t refuse?”
+
+    “Ok, I see, he’s joking.”
+
+    “Just kidding, man.” - Una laughs then notices your silence. - “Something’s wrong?”
+    
+    You tell Una everything. About you, Deo, Even, everything. A long pause hangs between the two of you.
+
+    “Come inside.” - He finally says in a hoarse voice. - “Ah, yeah, you can’t come… Fine, join the video call, I’m in no mood to log into zerOne at the moment. I’ll project you in front of my couch.”`,
+    options: [
+      {
+        text: `Enter Una’s apartment.`,
+        nextText: 42,
+        btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 42,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `You enter the apartment and see Una on the couch, holding an old-looking guitar in his hands, playing some simple tune.
+
+    The place is quite different from the corridor outside. Warm lights illuminate the room, everything is clean and the furniture is almost like new.
+
+    “Wow.” - Even glances around. - “How did he manage to get a life-capsule like this?”
+
+    “Knew a few gents back in my days.” - Focused on his guitar, Una says to you. - “Neighbor switched levels a while ago, nobody moved in, I pulled a string or two, broke the wall, made one small cubicle for myself, out of the two tiny ones.”
+
+    “Wait.” - Even moves closer to Una. - “You can hear me? I wanted to…”
+
+    “Join the call, Soai, I don’t like not seeing who I am talking to.” - Una nods at the screen in front of him and you appear there. - “Where’s your friend? The rabbit is going to join the conversation?”
+
+    “Ok, never mind, just a coincidence.” - Even sighs. - “I’m in your artificial head only.”`,
+    options: [
+      {
+        text: `“Even is right here.”`,
+        nextText: 43,
+      },
+    ],
+  },
+  {
+    id: 43,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: ``,
     text: `To be continued...`,
     options: [
@@ -1018,5 +1090,6 @@ import prologueSubImage03 from "../assets/images/prologue_subImage_03.jpg";
 import levelOneImage01 from "../assets/images/levelOne_image_01.jpg";
 import levelOneImage02 from "../assets/images/levelOne_image_02.jpg";
 import unaPortrait from "../assets/images/una_portrait.jpg";
+import unaApartment from "../assets/images/una_apartment.jpg";
 
 export default gameContents;

@@ -112,6 +112,34 @@
   }
 }
 
+.gameComponent-additionalImage--levelOneVirtual {
+  position: absolute;
+  z-index: 1;
+  top: 0.5px;
+  right: 0.5px;
+  width: 30px;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  animation: gameComponent-additionalImage--levelOneVirtual-load 2.5s
+    ease-in-out;
+}
+
+@keyframes gameComponent-additionalImage--levelOneVirtual-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .gameComponent-additionalImage--levelOneVirtual {
+    top: 1.5px;
+    right: 5.1%;
+  }
+}
+
 .gameComponent-mainContent--levelOneVirtual {
   position: relative;
   width: 1024px;

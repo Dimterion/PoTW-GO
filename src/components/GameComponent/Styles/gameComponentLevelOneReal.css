@@ -112,6 +112,33 @@
   }
 }
 
+.gameComponent-additionalImage--levelOneReal {
+  position: absolute;
+  z-index: 1;
+  top: 0.5px;
+  right: 0.5px;
+  width: 30px;
+  border: 1px solid var(--levelOneRealAdditional);
+  animation: gameComponent-additionalImage--levelOneReal-load 2.5s ease-in-out;
+}
+
+@keyframes gameComponent-additionalImage--levelOneReal-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .gameComponent-additionalImage--levelOneReal {
+    top: 1.5px;
+    right: 5.1%;
+  }
+}
+
 .gameComponent-mainContent--levelOneReal {
   position: relative;
   width: 1024px;

@@ -79,6 +79,17 @@ function GameComponent({ content, setOptionId }) {
           className={`gameComponent-mainImage--${content.style}`}
         />
       )}
+      {content.additionalImage && (
+        <img
+          src={content.additionalImage}
+          alt={content.additionalImageAlt}
+          className={
+            content.effect
+              ? content.effect
+              : `gameComponent-additionalImage--${content.style}`
+          }
+        />
+      )}
       <article className={`gameComponent-mainContent--${content.style}`}>
         {content.subImage && (
           <img
