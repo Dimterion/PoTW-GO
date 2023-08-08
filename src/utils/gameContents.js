@@ -810,7 +810,7 @@ const gameContents = [
   {
     id: 33,
     style: "levelOneReal",
-    mainImage: levelOne_image_01,
+    mainImage: levelOneImage01,
     characterImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
@@ -827,7 +827,7 @@ const gameContents = [
   {
     id: 34,
     style: "levelOneReal",
-    mainImage: levelOne_image_01,
+    mainImage: levelOneImage01,
     characterImage: evenPortrait,
     subImage: characterImage,
     mainImageAlt: "Old rusty corridor.",
@@ -856,7 +856,7 @@ const gameContents = [
   {
     id: 35,
     style: "levelOneVirtual",
-    mainImage: levelOne_image_02,
+    mainImage: levelOneImage02,
     characterImage: evenPortrait,
     mainImageAlt: "Yellow-green futuristic corridor.",
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
@@ -882,7 +882,7 @@ const gameContents = [
   {
     id: 36,
     style: "levelOneReal",
-    mainImage: levelOne_image_01,
+    mainImage: levelOneImage01,
     characterImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
     characterImageAlt: "Silver creature with red eyes and rabbit ears.",
@@ -909,7 +909,7 @@ const gameContents = [
   {
     id: 37,
     style: "levelOneReal",
-    mainImage: levelOne_image_01,
+    mainImage: levelOneImage01,
     characterImage: evenPortrait,
     subImage: characterImage,
     mainImageAlt: "Old rusty corridor.",
@@ -934,13 +934,15 @@ const gameContents = [
   {
     id: 38,
     style: "levelOneReal",
-    mainImage: levelOne_image_01,
+    mainImage: levelOneImage01,
+    subImage: characterImage,
     mainImageAlt: "Old rusty corridor.",
+    subImageAlt: "Man looking away.",
     subText: `“Let’s go check our apartment. Maybe we can find something useful there.”`,
-    text: ``,
+    text: `To be continued...`,
     options: [
       {
-        text: ``,
+        text: `Start anew.`,
         nextText: 0,
       },
     ],
@@ -948,12 +950,58 @@ const gameContents = [
   {
     id: 39,
     style: "levelOneVirtual",
-    mainImage: levelOne_image_02,
+    mainImage: levelOneImage02,
+    characterImage: evenPortrait,
     mainImageAlt: "Yellow-green futuristic corridor.",
-    text: ``,
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `You are in the virtual corridor again, no presence of Una here.
+
+    “Cause he’s not in zerOne.” - Even sighs, as if it should’ve been obvious. - “I’ve heard people can make voice calls, you know, send messages to each other. The wonders of modern technologies. I wouldn’t dare tell you what to do… But as we are one…”
+    
+    Seeing your face, it adds in a less mocking tone.
+
+    “Fine, fine. I’ll be less humoristic. Correction, I’ll try to be less humoristic. But seriously, ping him already. Or let’s go check our apartment here in zerOne, if you’ve changed your mind.”`,
     options: [
       {
-        text: ``,
+        text: `Call Una.`,
+        nextText: 40,
+      },
+    ],
+  },
+  {
+    id: 40,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    subText: `“Sup, Una! How’s life? I was just passing by your life-capsule. Mind if I come in for a sec?”`,
+    text: `“Soai! Nice to hear you, champ.” - As always, Una’s in a good mood. - “I’ve never seen you around my place… Actually, I’ve just realized, I’ve never seen you at all. In real, I mean. We were always hanging out at my bar virtually. Will be nice to finally look at you.”
+    
+    You notice a facepalm coming from Even’s side. - “See where this is going?” - It leans towards you and whispers. - “You either have to tell him the truth or find a reason to meet in zerOne as usual.”`,
+    options: [
+      {
+        text: `Come clean.`,
+        nextText: 41,
+      },
+    ],
+  },
+  {
+    id: 41,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    subText: ``,
+    text: `To be continued...`,
+    options: [
+      {
+        text: `Start anew.`,
         nextText: 0,
       },
     ],
@@ -967,7 +1015,8 @@ import evenPortrait from "../assets/images/even_portrait.jpg";
 import prologueSubImage01 from "../assets/images/prologue_subImage_01.jpg";
 import prologueSubImage02 from "../assets/images/prologue_subImage_02.jpg";
 import prologueSubImage03 from "../assets/images/prologue_subImage_03.jpg";
-import levelOne_image_01 from "../assets/images/levelOne_image_01.jpg";
-import levelOne_image_02 from "../assets/images/levelOne_image_02.jpg";
+import levelOneImage01 from "../assets/images/levelOne_image_01.jpg";
+import levelOneImage02 from "../assets/images/levelOne_image_02.jpg";
+import unaPortrait from "../assets/images/una_portrait.jpg";
 
 export default gameContents;
