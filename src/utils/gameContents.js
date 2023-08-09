@@ -1110,7 +1110,7 @@ const gameContents = [
 
     The music gets louder, it feels like Una is singing rather than talking.
 
-    “And now the numbers have managed to reach me even here, in my four-walled box.” - He nods at you. - “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I missed it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution for our planet’s little issue.”
+    “And now the numbers have managed to reach me even here, in my four-walled box.” - He nods at you. - “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I miss it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution for our planet’s little issue.”
 
     Una stops talking for a moment, focusing on his guitar again.
 
@@ -1162,7 +1162,7 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Thanks, Una. Appreciate your help. And… Well, sorry for all the AI stuff.”`,
+    subText: `“Thanks, Una. Appreciate the advice. And… Well, sorry for all the AI stuff.”`,
     text: `“Don’t mention it, pal.” - Una puts the guitar aside and looks at you. - “Being what you’re seems to be not your fault, so no skin off our digital backs here. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking with computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
 
     “Pf-f-f…” - Even glances over its shoulder. - “Whatever… He’s fine… at times.”
@@ -1200,26 +1200,164 @@ const gameContents = [
       {
         text: `Join the call.`,
         nextText: 48,
+        btnEffect: "switch",
       },
     ],
   },
   {
     id: 48,
-    style: "levelOneVirtual",
-    mainImage: levelOneImage02,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `You connect to the video call and enter the apartment. You see Una on the couch, holding an old-looking guitar in his hands, playing some simple tune.
+
+    The place is quite different from the corridor outside. Warm lights illuminate the room, everything is clean and the furniture is almost like new.
+
+    “Wow.” - Even glances around. - “How did he manage to get a life-capsule like this?”
+
+    “Knew a few gents back in my days.” - Focused on his guitar, Una says to you. - “Neighbor switched levels a while ago, nobody moved in, I pulled a string or two, broke the wall, made one small cubicle for myself, out of the two tiny ones.”
+
+    “Wait.” - Even moves closer to Una. - “You can hear me? I wanted to…”
+
+    “So, what’s new, Soai?” - Una pays no attention to Even’s words. - “I’ve heard you almost won the last Writers Fight, but kinda gave up. What happened?”
+
+    “Ok, never mind, just a coincidence.” - Even sighs. - “I’m in your artificial head only.”`,
+    options: [
+      {
+        text: `“Lost interest in Writers Fights.”`,
+        nextText: 49,
+      },
+      {
+        text: `“Need to find Arika.”`,
+        nextText: 53,
+      },
+    ],
+  },
+  {
+    id: 49,
+    style: "levelOneReal",
+    mainImage: unaApartment,
     characterImage: unaPortrait,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Yellow-green futuristic corridor.",
+    mainImageAlt: "A living room with a window, couch and closet.",
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: ``,
-    text: `To be continued...`,
+    subText: `“I guess, I’ve just realized I’m not really interested in winning anymore. Constant grind, hoping that it’ll bring me somewhere, but in the end it’s just more grinding. I felt… tired.”`,
+    text: `“Well, I surely didn’t expect that coming from you.” - Una replies, lazily pulling the strings. - “Seems like I’ve got too used to seeing people do the same stuff on repeat. Even me. Grinding is part of the whole concept zerOne is built upon. Makes you stick to it, not wanting to come back to reality. As there’s nothing here anymore. Life is just a four-walled box to exist, while all the living is happening between zeros and ones.”
+
+    The music gets louder, it feels like Una is singing rather than talking.
+
+    “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I miss it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution for our planet’s little issue.”
+
+    Una stops talking for a moment, focusing on his guitar again.
+
+    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk, once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
+
+    He gets silent and rubs his forehead.
+
+    “Damn, I’m getting old… You made me talky, Soai. What about you? Any plans now, since arenas got less attractive to you?”`,
     options: [
       {
-        text: `Start anew.`,
+        text: `“Need to find Arika.”`,
+        nextText: 50,
+      },
+    ],
+  },
+  {
+    id: 50,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“During the last fight there was a new participant. A girl named Arika. She… knew something about me. We talked for a bit, but then she disappeared. I need to try finding out what happened.”`,
+    text: `After you’ve described Arika to Una, he gets silent for a moment, playing the guitar.
+
+    “Want my opinion?” - He finally says. - “I wouldn’t be too worried about her. Based on what you’ve mentioned, she’s one of the rich folk. Playing around with others just to entertain themselves. Then, the moment they get bored, poof…” - Una hits a guitar string, making a loud noise. - “They are outta here. But you do you, edge runner, don’t make the blades of my words stop you. I’m just an angry old fella, yelling at the toxic sky, happy to be wrong, yet not having lots of hope.” - Una points his finger at you. - “Maybe you’ll find that Goldilocks of yours and drive to the sunset. Perhaps, out of principle, she’ll be able to provide you with just the right amount of further choices.”`,
+    options: [
+      {
+        text: `“Want to get to the first level.”`,
+        nextText: 51,
+      },
+    ],
+  },
+  {
+    id: 51,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“That might sound crazy, but I sort of need to visit the first level. Any idea how I can do that?”`,
+    text: `“You’re kidding, right?” - Una’s brows fly up. - “First level? What for? You’ll be breathing toxins and approaching the light at the end of the tunnel in no time if you go there.”
+
+    “Just a reminder,” - Even appears in front of you. - “He doesn’t know that we aren’t scared of breathing toxins anymore.”
+
+    “I mean…” - Una hesitates for a second. - “Have to be honest, I had the desire myself a while ago, but…” - It looks like he wants to tell you something but then just shakes his head. - “Nah, man, nevermind. Just don’t do it, ok? We’ve a little time to live, so we have to live a little.” - He starts playing the guitar again. - “Want some adventures? Go hang out with our mutual friend Sane Snacks. Haven’t seen the big dude recently. If you find him, tell him he still owes me for the deluxe tickets to the Soundcore of Mirror concert, ok? Actually, forget it, consider this my treat. The giant always lifts my mood up.”`,
+    options: [
+      {
+        text: `“Thanks, Una.”`,
+        nextText: 52,
+      },
+    ],
+  },
+  {
+    id: 52,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Thanks, Una. Appreciate the advice.”`,
+    text: `“No prob, mate. Go find some new hobby to live up to, since Writers Fights is not your jam anymore. I suggest going out. Checking what the real Bridge is. Can be hugely depressive, but also opens your eyes for a split second. There’s a huge dying world out there.”
+
+    Una waves towards the door.
+
+    “Right, I should stop with all the grim thoughts. Get outta here already or we’ll become a pair of doom sayers, screaming about the end and how nigh it is. And I say, nay, I need to chill a little before getting back to my bar. See you when I see you.”`,
+    options: [
+      {
+        text: `Leave Una’s apartment.`,
         nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 53,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Long story. Maybe I’ll tell you some other time. Wanted to ask you something else. During the last fight there was a new participant. A girl named Arika. She… knew something about me. We talked for a bit, but then she disappeared. I need to try finding out what happened.”`,
+    text: `After you’ve described Arika to Una, he gets silent for a moment, playing the guitar.
+
+    “Want my opinion?” - He finally says. - “I wouldn’t be too worried about her. Based on what you’ve mentioned, she’s one of the rich folk. Playing around with others just to entertain themselves. Then, the moment they get bored, poof…” - Una hits a guitar string, making a loud noise. - “They are outta here. But you do you, edge runner, don’t make the blades of my words stop you. I’m just an angry old fella, yelling at the toxic sky, happy to be wrong, yet not having lots of hope.” - Una points his finger at you. - “Maybe you’ll find that Goldilocks of yours and drive to the sunset. Perhaps, out of principle, she’ll be able to provide you with just the right amount of further choices. As for where to find her, sorry, not my area of expertise.”`,
+    options: [
+      {
+        text: `“Want to get to the first level.”`,
+        nextText: 51,
       },
     ],
   },
