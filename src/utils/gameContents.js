@@ -990,6 +990,10 @@ const gameContents = [
         text: `Come clean.`,
         nextText: 41,
       },
+      {
+        text: `“Can we talk virtually?”`,
+        nextText: 47,
+      },
     ],
   },
   {
@@ -1143,6 +1147,7 @@ const gameContents = [
       {
         text: `“Thanks, Una.”`,
         nextText: 46,
+        condition: 4,
       },
     ],
   },
@@ -1154,6 +1159,58 @@ const gameContents = [
     subImage: characterImage,
     additionalImage: evenPortrait,
     mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Thanks, Una. Appreciate your help. And… Well, sorry for all the AI stuff.”`,
+    text: `“Don’t mention it, pal.” - Una puts the guitar aside and looks at you. - “Being what you’re seems to be not your fault, so no skin off our digital backs here. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking with computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
+
+    “Pf-f-f…” - Even glances over its shoulder. - “Whatever… He’s fine… at times.”
+
+    “Right, now get outta here.” - Una waves towards the door. - “I need to meditate on the whole situation before getting back to my bar. Sooner or later we all end up in zerOne. See you when I see you.”`,
+    options: [
+      {
+        text: `Leave Una’s apartment.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 47,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Uhm, sorry, but I’m so used to spending most of my life in zerOne, that I feel nervous talking outside. Mind if we meet as usual?”`,
+    text: `“Nervous, huh?”
+
+    Una sounds a bit disappointed.
+
+    “Oh well, can’t blame you. Peeps nowadays are scared of reality and I get it. It’s killing us after all. Slowly but surely.”
+
+    He sighs, gets silent for a moment, then adds.
+
+    “Fine, join the video call, I’m in no mood to log into zerOne right now. I’ll project you in front of my couch.”`,
+    options: [
+      {
+        text: `Join the call.`,
+        nextText: 48,
+      },
+    ],
+  },
+  {
+    id: 48,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
