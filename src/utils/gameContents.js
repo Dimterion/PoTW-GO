@@ -1085,6 +1085,10 @@ const gameContents = [
     “So, arena character, huh?” - Una briefly glances at the screen. - “Made by some no longer living poet? I knew something was off about you, virtual boy. You kept coming to Mnemonic, kept sitting there, so focused on Writers Fights, on winning. Day after day. Was just too much, even for a poet. Felt unreal, but when I’m in the unreal world, I tend not to ask too many questions. Everyone’s picking their own poison, I’m no judge for that.”`,
     options: [
       {
+        text: `“Any advice?”`,
+        nextText: 54,
+      },
+      {
         text: `“We all grind.”`,
         nextText: 44,
       },
@@ -1358,6 +1362,54 @@ const gameContents = [
       {
         text: `“Want to get to the first level.”`,
         nextText: 51,
+      },
+    ],
+  },
+  {
+    id: 54,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I guess, my poison was picked for me… Since I’m here, any advice? This digital ocean has too many variables to take into account. I’m wondering what I should do next. Find Arika? Get more info on Deo’s plan?”`,
+    text: `“You’ve got the wrong guy to ask for directions, pal.” - Una glances at you above his glasses. - “If I were you, chances are, I’d just chill, looking at the tsunami coming right at me. But I’m not you. So, the options of finding Miss Yelloweyes or figuring out what kind of Frankenstein you are seem both relatively irrelevant to me. Besides, I don’t like telling folk what to do. You have to tell your own story, otherwise it’ll be someone else’s.”
+
+    Una stands up, puts his guitar aside and looks at you.
+
+    “Despite being what you’re, you still look like a nice guy, Soai. But I’m just too damn old and stubborn when it comes to giving counsel. Sorry, don’t have much else to say.”`,
+    options: [
+      {
+        text: `“Thanks anyway.”`,
+        nextText: 55,
+      },
+    ],
+  },
+  {
+    id: 55,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I see. Well, thanks anyway, Una. And… Well, sorry for all the AI stuff.”`,
+    text: `“Not your fault mate. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking with computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
+
+    “Pf-f-f…” - Even glances over its shoulder. - “Whatever… He’s fine… at times.”
+    
+    “Right, now get outta here.” - Una waves towards the door. - “I need to meditate on the whole situation before getting back to my bar. See you when I see you.”`,
+    options: [
+      {
+        text: `Leave Una’s apartment.`,
+        nextText: 0,
       },
     ],
   },
