@@ -1128,6 +1128,10 @@ const gameContents = [
         text: `“No idea.”`,
         nextText: 45,
       },
+      {
+        text: `“Want to check Deo’s place.”`,
+        nextText: 56,
+      },
     ],
   },
   {
@@ -1410,6 +1414,31 @@ const gameContents = [
       {
         text: `Leave Una’s apartment.`,
         nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 56,
+    style: "levelOneReal",
+    mainImage: unaApartment,
+    characterImage: unaPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "A living room with a window, couch and closet.",
+    characterImageAlt: "Bearded man with glasses.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“My… Well, Deo’s place is nearby. So, I’ll probably go check it now. Maybe I can find some answers or, at least, further directions there.”`,
+    text: `“Sounds legit.” - Una nods thoughtfully. - “Weird. I’ve never seen that Deo before, though his place is next to mine. I guess he was quite a hermit. Man, what have we become? There’s someone living right next door and we’ve no idea who that is. Another neighbor we don’t care about. Jokes on us though, as we’re also that same neighbor for the rest of the world.”
+
+    After a pause accompanied by a new tune, he keeps talking.
+    
+    “I assume you might have an intention to make a little jump to the first level, since you’re not afraid of dying anymore, and Deo seems to have spent his final hours there. I’m not much of a hacker, but one day I was willing to visit the place myself. Ended up being too depressed for it, so gave up on the idea, but before that I had a little chat with our friendly Dixie’s shop owner, Nnif. She might know a thing or two on how to bypass the levels’ security and enter a wonderful world of those who are closer to the surface. I don’t know much more, so consider paying Nnif a visit. Maybe she’ll do you a favor.”`,
+    options: [
+      {
+        text: `“Thanks, Una.”`,
+        nextText: 46,
+        condition: 4,
       },
     ],
   },
