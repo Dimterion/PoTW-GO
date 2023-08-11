@@ -938,14 +938,25 @@ const gameContents = [
     style: "levelOneReal",
     mainImage: levelOneImage01,
     subImage: characterImage,
+    additionalImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
     subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Let’s go check our apartment. Maybe we can find something useful there.”`,
-    text: `To be continued...`,
+    text: `“Welp, fine by me. It’s right there.” - Even points at one of the doors in the corridor. - “Our penthouse in all its glory.”
+
+    You look at the ancient piece of metal, barely holding on its hinges, corrosion stains covering its whole surface.
+
+    “I mean…” - Even rubs its chin thoughtfully. - “We can always enter it in zerOne. Unlike our human friends, we won’t be bothered by the thought that our actual body is still here. And, in case you’re wondering how we're gonna get inside when we’re not in zerOne, I feel bad for saying this, but so far I felt like I can access any camera in the Bridge, at least on the current level, so…” - You notice that Even sounds slightly embarrassed. - “We can watch everyone’s private affairs. Don’t judge me, ok? I was made this way. In other words, point the direction, and I’ll bring us there.”`,
     options: [
       {
-        text: `Start anew.`,
+        text: `Enter Deo's apartment.`,
+        nextText: 58,
+      },
+      {
+        text: `zerOne: true`,
         nextText: 0,
+        btnEffect: "switch",
       },
     ],
   },
@@ -1179,7 +1190,7 @@ const gameContents = [
     options: [
       {
         text: `Leave Una’s apartment.`,
-        nextText: 0,
+        nextText: 57,
       },
     ],
   },
@@ -1343,7 +1354,7 @@ const gameContents = [
     options: [
       {
         text: `Leave Una’s apartment.`,
-        nextText: 0,
+        nextText: 57,
       },
     ],
   },
@@ -1413,7 +1424,7 @@ const gameContents = [
     options: [
       {
         text: `Leave Una’s apartment.`,
-        nextText: 0,
+        nextText: 57,
       },
     ],
   },
@@ -1442,6 +1453,49 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 57,
+    style: "levelOneReal",
+    mainImage: levelOneImage01,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Old rusty corridor.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Always thought Una is in constant positivity mode. But in reality he sounds quite sad. Like he’s seen it all and doesn’t hope for any good outcome.”`,
+    text: `“It’s hard to be an analog man while living in a digital world, Soai.” - Even replies thoughtfully once you exit Una’s life-capsule. - “He wants to be the same in both worlds, but, as we saw, it’s only half-true. Try all you want, in zerOne you pretend to be someone else. The only difference with the rest is that he’s escaping from virtuality while they are running away from reality.”
+
+    Even looks around the corridor, then adds after a pause.
+
+    “Alright, one choice at a time. How shall we proceed, almighty user of mine?”`,
+    options: [
+      {
+        text: `“Let’s check our apartment.”`,
+        nextText: 38,
+      },
+      {
+        text: `zerOne: true`,
+        nextText: 0,
+        btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 58,
+    style: "levelOneReal",
+    mainImage: deoApartment,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
 ];
 
 import prologueImage from "../assets/images/prologue_image.jpg";
@@ -1455,5 +1509,6 @@ import levelOneImage01 from "../assets/images/levelOne_image_01.jpg";
 import levelOneImage02 from "../assets/images/levelOne_image_02.jpg";
 import unaPortrait from "../assets/images/una_portrait.jpg";
 import unaApartment from "../assets/images/una_apartment.jpg";
+import deoApartment from "../assets/images/deo_apartment.jpg";
 
 export default gameContents;
