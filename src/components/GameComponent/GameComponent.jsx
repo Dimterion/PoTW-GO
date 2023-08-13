@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { nanoid } from "nanoid";
 import PropTypes from "prop-types";
+import { scrollToTop, gameConditions } from "../../utils/gameCompFunctions";
 import MenuModal from "../../components/Modals/MenuModal/MenuModal";
 import "./Styles/gameComponentPrologue.css";
 import "./Styles/gameComponentLevelOneReal.css";
@@ -9,14 +10,7 @@ import "./Styles/gameComponentLevelOneVirtual.css";
 
 function GameComponent({ content, setOptionId }) {
   const [menu, setMenu] = useState(false);
-
-  const scrollToTop = () => {
-    document.getElementById("gameComponent-container").scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
-  };
+  const [conditions, setConditions] = useState([]);
 
   const buttons = content.options.map((option) => {
     return (
@@ -29,7 +23,9 @@ function GameComponent({ content, setOptionId }) {
         key={nanoid()}
         onClick={() => {
           setOptionId(option.nextText);
-          scrollToTop();
+          scrollToTop("gameComponent-container");
+          gameConditions(option, setConditions);
+          console.log(conditions);
         }}
       >
         {option.text}
