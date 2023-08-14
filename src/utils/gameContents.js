@@ -1600,6 +1600,187 @@ const gameContents = [
     options: [
       {
         text: `“We need to talk.”`,
+        nextText: 63,
+      },
+    ],
+  },
+  {
+    id: 63,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Sane, I need to tell you something…”`,
+    text: `You decide to tell Sane everything, but, the moment you start, he interrupts you with excitement.
+
+    “Cool! So, it finally happened.”
+
+    “That’s a strange reaction.” - Even squints at Sane. - “As if he’s been waiting for this.”
+
+    “I’ve been waiting for this.” - Young man keeps talking. - “Deo told me about you. Said, you might need my help at some point, but asked not to tell you anything and keep pretending that I don’t know your little secret.
+
+    “I wonder if he knows about me as well?” - Even glances at Sane with interest.
+
+    “Deo said you’ll have some kind of a virtual companion! Man, how cool is that! If I had one, it would be a giant black dragon! I bet you have something like that.”
+
+    “Well…” - Even rubs its little rabbit ear. - “In a way I’m also a beast…”
+
+    “Nevermind.” - Sane can’t stop talking. - “Dude, why are you not saying anything? I want to know more. How does it feel to be an arena character?”`,
+    options: [
+      {
+        text: `“How do you know Deo?”`,
+        nextText: 64,
+      },
+    ],
+  },
+  {
+    id: 64,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Wait a minute. You know Deo?”`,
+    text: `“Yeah, since he let me take this place.” - Sane replies as if it was obvious. - “I was… let’s say, in need of an apartment, this one wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can live here. I haven’t heard from him for a while. In fact, since you took part in the last Writers Fight. Perhaps, he was occupied with your tuning or whatever.”
+
+    “Soai…” - Even says quietly. - “He doesn’t know that Deo’s gone. I remember now. Same as with the projection you talked to in the arena loophole, once you’ve figured it all out and I was loaded into you, all Deo’s connections to the world have been cut off. In fact, I was the one doing the cutting, as it was no longer needed. In other words, Sane never talked to the real Deo. Old man probably left something similar to his arena version here. A projection of a sort, to keep an eye on the life-capsule. And now it’s also gone. I guess we should tell him.”`,
+    options: [
+      {
+        text: `“About Deo…”`,
+        nextText: 65,
+      },
+    ],
+  },
+  {
+    id: 65,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Sorry, Sane, but the truth is, Deo is long gone. We both talked to his virtual projection.”`,
+    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow, looking for an audience to listen to his endless stories. But it seems like this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I was able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wiped your daily loop and sent you to the beginning of it.”
+
+    “Heh, bet you still used it.” - Even adds in a mocking tone, looking at you. - “Or, at least, seriously considered it.”`,
+    options: [
+      {
+        text: `“You live alone?”`,
+        nextText: 66,
+      },
+    ],
+  },
+  {
+    id: 66,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“You live alone? No relatives or friends?”`,
+    text: `“Nah, man…” - Sane waves his hand. - “Well, except for you, Una… and Deo I guess. Have you seen the real Bridge? Everything is like some grim bunker with nobody inside. Once I settled here, I’ve been mostly hanging out with you in zerOne or figuring out how to not go further down to the first level. Speaking of the first level…” - Sane rubs his chin. - “Deo, or his projection, said that you might want to go there. Don’t know why exactly, he didn’t tell. What he did tell is to help you install an additional module to your companion.”
+
+    “That’s me, rabbit with a dragon soul.” - Even sounds wary. - “I already have enough of the unknown inside. What’s that supposed to be? Damn it,” - It adds at the end. - “keep forgetting that nobody except you sees or hears me.”
+
+    Having no notion of Even’s words, Sane keeps talking. - “I don’t know much, he just told me to show you this. Looks ancient.”
+
+    He snaps his fingers and you see a red square with a gray circle in the middle. It’s floating in front of you, slowly turning around.
+
+    “It’s called a floppy disc.” - Even explains to you. - “People used to store information on them in the old times. I mean, we are in zerOne, so it’s just a visual look. Old man had some strange way of expressing himself. Especially given the fact that he was born not even close to the time when this was still in use. Well, who cares. I don’t think we have any other option except for installing it. Go ahead.”`,
+    options: [
+      {
+        text: `Take the floppy disc.`,
+        nextText: 67,
+      },
+    ],
+  },
+  {
+    id: 67,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `The moment you touch the disc, your vision glitches and you see countless colorful artifacts around you. They look like a structure of a building, a skeleton without organs and muscles.
+
+    “Woah…” - Even exclaims. - “Here is our ticket to the first level. This thingy has just granted me access to the cameras there. So, we can watch the feed and do the same stuff as we do here, on the second level. Although…” - Even thinks about something for a moment. - “We still don’t have access to zerOne, so we won’t be able to switch to it or to interact with the others there.”
+
+    “You alright, Soai?” - Sane asks after seeing your puzzled look.`,
+    options: [
+      {
+        text: `“Anything else from Deo?”`,
+        nextText: 68,
+      },
+    ],
+  },
+  {
+    id: 68,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Did the old man leave anything else for me?”`,
+    text: `“No, nothing else.” - Sane shakes his head. - “Just this red square. He mentioned something about the rabbit though. I think his words were: “Tame the rabbit if you need to go deeper.”. He also said that you shouldn’t fully trust it. I didn’t get the meaning, but he insisted on telling you that.
+
+    “Great.” - Even flies around Sane’s character. - “Why do I need taming and why you shouldn’t trust me. I’m basically you. Do you trust yourself?” - It keeps talking while pacing through the virtual apartment. - “Maybe he meant me. Maybe you’re my rabbit and I should tame you, Soai. Should I trust you?”
+
+    Seeing that you’re silent, Sane adds. - “Also, Deo asked me to add that, if you don’t know where to go next, go to where it has begun.”
+
+    “Ok, I see.” - Even sounds slightly irritated. - “He wanted us to go to the arena again. To the loophole where we first met. Could’ve just said that, without any advice on trust. We can go right away. I should be able to open the shortcut for us. Maybe there’s a CD this time.” - Seeing your face, Even clarifies. - “Another ancient device to store data… Nevermind, I meant that there we might find a way to enter the first level’s zerOne.”`,
+    options: [
+      {
+        text: `“Need to go, Sane.”`,
+        nextText: 69,
+      },
+    ],
+  },
+  {
+    id: 69,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Thanks for your help, Sane. Sorry, but I need to go now.”`,
+    text: `“Already?”
+    
+    Sane sounds sad.
+    
+    “Oh well, if you must, then go, sure. Hope I helped a bit. I’d love to hang out one day, you know. Don’t need to pretend that I don’t know who you are anymore. Would be nice talking to the real you. Well, the real virtual you I guess.”
+    
+    He sighs.
+    
+    “Won’t be keeping you though. Maybe another time.”`,
+    options: [
+      {
+        text: `To be continued...`,
         nextText: 0,
       },
     ],
