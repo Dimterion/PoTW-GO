@@ -1499,6 +1499,7 @@ const gameContents = [
         text: `“You ok, Even?”`,
         nextText: 59,
         btnEffect: "optional",
+        condition: 5,
       },
       {
         text: `“This is Sane?”`,
@@ -1529,7 +1530,6 @@ const gameContents = [
       {
         text: `“This is Sane?”`,
         nextText: 60,
-        condition: 5,
       },
     ],
   },
@@ -1550,7 +1550,56 @@ const gameContents = [
     “I wonder what he’s doing here. Shall we wake him up? Connect to zerOne, ping him, you know the drill.”`,
     options: [
       {
-        text: ``,
+        text: `zerOne: true`,
+        nextText: 61,
+        btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 61,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `You are in your virtual apartment now.
+
+    “Well, everything is the same as when you were living your pre-eventful life.” - Even produces a satisfied chuckle. - “Notice what I did there?” - Seeing no reaction, it keeps talking. - “All seems to be as it was before. At least based on what I can check in your memory, as we were not together back then. Ever wonder how Deo put you in that repetitive state? The loop itself was more about your behavior rather than actually rewinding you each time, thus people you interacted with still know you. You just kept doing the same thing day after day, with some occasional contacts with the others. You simply never questioned the fact that you came out of nowhere and have no idea of who you are and where you came from. And the part where you were waking up every day and logging into zerOne was just loaded into you as a memory.” - Even shrugs. - “I mean, you don’t need to wake up and log in when you’re a part of it, right, so it was just a bit of a behavioral adjustment to create some sort of a daily routine looking like real life.”
+
+    You observe the zerOne version of your life-capsule and don’t notice any differences. Same place you’ve been living in, nothing new.
+
+    “I think old man just used a standard template for an apartment.” - Even says in the end. - “Doubt he was doing anything special here himself. Let’s call Sane or try to find something in the real version of the place.”`,
+    options: [
+      {
+        text: `Call Sane.`,
+        nextText: 62,
+      },
+    ],
+  },
+  {
+    id: 62,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `You call Sane. After a while he finally replies.
+
+    “Khm, hey Soai.”
+
+    For a moment you hear him talking in a thin, breaking voice.
+
+    “Oops… Sec.”
+
+    After a pause you hear Sane’s regular low roaring voice.
+
+    “Soai! My favorite friend! How are things, buddy? Heard you’ve given up on the arena fights. Nice! Glad to see you finally decided to be free of that vicious cycle. Wanna hang out? I’ve just uploaded a new version of There and Back Again with a few custom mods. How about a round or two?”`,
+    options: [
+      {
+        text: `“We need to talk.”`,
         nextText: 0,
       },
     ],
@@ -1569,5 +1618,7 @@ import levelOneImage02 from "../assets/images/levelOne_image_02.jpg";
 import unaPortrait from "../assets/images/una_portrait.jpg";
 import unaApartment from "../assets/images/una_apartment.jpg";
 import deoApartment from "../assets/images/deo_apartment.jpg";
+import deoVirtualApartment from "../assets/images/deo_virtual_apartment.jpg";
+import sanePortrait from "../assets/images/sane_portrait.jpg";
 
 export default gameContents;
