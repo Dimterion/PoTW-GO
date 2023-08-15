@@ -1249,6 +1249,7 @@ const gameContents = [
       {
         text: `“Lost interest in Writers Fights.”`,
         nextText: 49,
+        btnEffect: "optional",
       },
       {
         text: `“Need to find Arika.”`,
@@ -1554,6 +1555,12 @@ const gameContents = [
         nextText: 61,
         btnEffect: "switch",
       },
+      {
+        text: `“Let’s look around.”`,
+        nextText: 70,
+        btnEffect: "optional",
+        condition: 6,
+      },
     ],
   },
   {
@@ -1569,7 +1576,7 @@ const gameContents = [
 
     You observe the zerOne version of your life-capsule and don’t notice any differences. Same place you’ve been living in, nothing new.
 
-    “I think old man just used a standard template for an apartment.” - Even says in the end. - “Doubt he was doing anything special here himself. Let’s call Sane or try to find something in the real version of the place.”`,
+    “I think old man just used a standard template for an apartment.” - Even says in the end. - “Doubt he was doing anything special here himself. Let’s call Sane.”`,
     options: [
       {
         text: `Call Sane.`,
@@ -1598,6 +1605,12 @@ const gameContents = [
 
     “Soai! My favorite friend! How are things, buddy? Heard you’ve given up on the arena fights. Nice! Glad to see you finally decided to be free of that vicious cycle. Wanna hang out? I’ve just uploaded a new version of There and Back Again with a few custom mods. How about a round or two?”`,
     options: [
+      {
+        text: `“What’s new?”`,
+        nextText: 71,
+        btnEffect: "optional",
+        condition: 7,
+      },
       {
         text: `“We need to talk.”`,
         nextText: 63,
@@ -1781,6 +1794,51 @@ const gameContents = [
     options: [
       {
         text: `To be continued...`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 70,
+    style: "levelOneReal",
+    mainImage: deoApartment,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Let’s have a look around. See anything we could use here?”`,
+    text: `“Unless you’ve learnt how to grow a pair of material hands, no.” - Even walks around the room. - “One perfectly standard life-capsule. A place to sleep, eat and connect to zerOne. Everything one could wish for. As long as your wishes are related to living in a digital world.”
+
+    You observe the place, yet can’t find anything of use. Besides, as Even said, you are not able to physically interact with real objects.
+
+    “Apartments got slightly bigger several years ago.” - Even starts talking in a multitude of voices. - “They couldn’t fill them all anymore, so it was decided to increase the size to make levels look more populated. Can you imagine how small they were before? Anyway, based on the current state, they might need to consider a new wave of renovations. By rough calculation, less than half of the level is occupied.”
+
+    Even blinks a few times before continuing. - “Great. The farseer rabbit woke up again. Oh well, let us proceed.” - It gives the room one more glance. - “Nothing of interest here, Soai, we better move on.”`,
+    options: [
+      {
+        text: `zerOne: true`,
+        nextText: 61,
+        btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 71,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
+    text: `To be continued...`,
+    options: [
+      {
+        text: `Start anew.`,
         nextText: 0,
       },
     ],
