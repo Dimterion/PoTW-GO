@@ -1764,6 +1764,16 @@ const gameContents = [
     “Ok, I see.” - Even sounds slightly irritated. - “He wanted us to go to the arena again. To the loophole where we first met. Could’ve just said that, without any advice on trust. We can go right away. I should be able to open the shortcut for us. Maybe there’s a CD this time.” - Seeing your face, Even clarifies. - “Another ancient device to store data… Nevermind, I meant that there we might find a way to enter the first level’s zerOne.”`,
     options: [
       {
+        text: `“Never saw you here before.”`,
+        nextText: 76,
+        btnEffect: "optional",
+      },
+      {
+        text: `“Place looks the same as mine.”`,
+        nextText: 77,
+        btnEffect: "optional",
+      },
+      {
         text: `“Need to go, Sane.”`,
         nextText: 69,
       },
@@ -1943,6 +1953,106 @@ const gameContents = [
       {
         text: `Take the floppy disc.`,
         nextText: 67,
+      },
+    ],
+  },
+  {
+    id: 76,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I’ve just realized that I never saw you in my apartment before. Yet you’ve been living here the whole time.”`,
+    text: `“Well, it’s rather simple.” - Sane shrugs rather indifferently. - “I mean, Deo just stored your version of the apartment on a different layer. If he managed to make something like you, it should have been quite simple to bypass zerOne restrictions and add another apartment on top of this one. It’s all virtual after all, and you didn’t enter the real world back then and didn’t see me here.”
+
+    “I could’ve also explained that, you know. Trust issues already?” - Even adds resentfully. - “ Otherwise, yeah, basically what the young man said.”`,
+    options: [
+      {
+        text: `“Place looks the same as mine.”`,
+        nextText: 78,
+        btnEffect: "optional",
+        condition: 7,
+      },
+      {
+        text: `“Need to go, Sane.”`,
+        nextText: 69,
+      },
+    ],
+  },
+  {
+    id: 77,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Our zerOne places look the same. I thought you’d prefer changing yours.”`,
+    text: `“Meh…” - Sane glances around. - “Can’t say I care much about the look of it. Same for the real world and zerOne. I’m fine being in both, there’s just not much to do in the Bridge, so I have to stay on my big virtual guy most of the time.” - He points at his chest with his thumb. - “That’s my one exception. Spent quite some time choosing appearance and voice. Looks nothing like the real me. Wanted to be bigger, you know. Growing muscles is not really an option nowadays.”
+
+    “He’s right actually.” - Even adds. - “Passive way of life and lack of exercises are compensated by extremely basic rations provided by the towers. Barely enough to keep the somewhat normal body functioning. Not the best time to become a bodybuilder. A literal no pain, no gain.”`,
+    options: [
+      {
+        text: `“Never saw you here before.”`,
+        nextText: 79,
+        btnEffect: "optional",
+        condition: 7,
+      },
+      {
+        text: `“Need to go, Sane.”`,
+        nextText: 69,
+      },
+    ],
+  },
+  {
+    id: 78,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Our zerOne places look the same. I thought you’d prefer changing yours.”`,
+    text: `“Meh…” - Sane glances around. - “Can’t say I care much about the look of it. Same for the real world and zerOne. I’m fine being in both, there’s just not much to do in the Bridge, so I have to stay on my big virtual guy most of the time.” - He points at his chest with his thumb. - “That’s my one exception. Spent quite some time choosing appearance and voice. Looks nothing like the real me. Wanted to be bigger, you know. Growing muscles is not really an option nowadays.”
+
+    “He’s right actually.” - Even adds. - “Passive way of life and lack of exercises are compensated by extremely basic rations provided by the towers. Barely enough to keep the somewhat normal body functioning. Not the best time to become a bodybuilder. A literal no pain, no gain.”`,
+    options: [
+      {
+        text: `“Need to go, Sane.”`,
+        nextText: 69,
+      },
+    ],
+  },
+  {
+    id: 79,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I’ve just realized that I never saw you in my apartment before. Yet you’ve been living here the whole time.”`,
+    text: `“Well, it’s rather simple.” - Sane shrugs rather indifferently. - “I mean, Deo just stored your version of the apartment on a different layer. If he managed to make something like you, it should have been quite simple to bypass zerOne restrictions and add another apartment on top of this one. It’s all virtual after all, and you didn’t enter the real world back then and didn’t see me here.”
+
+    “I could’ve also explained that, you know. Trust issues already?” - Even adds resentfully. - “ Otherwise, yeah, basically what the young man said.”`,
+    options: [
+      {
+        text: `“Need to go, Sane.”`,
+        nextText: 69,
       },
     ],
   },
