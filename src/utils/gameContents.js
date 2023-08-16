@@ -955,7 +955,7 @@ const gameContents = [
       },
       {
         text: `zerOne: true`,
-        nextText: 0,
+        nextText: 82,
         btnEffect: "switch",
       },
     ],
@@ -978,6 +978,10 @@ const gameContents = [
       {
         text: `Call Una.`,
         nextText: 40,
+      },
+      {
+        text: `Check the apartment.`,
+        nextText: 82,
       },
     ],
   },
@@ -1488,7 +1492,7 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Tiny futuristic apartment.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `You go inside the apartment. To the contrary to Una’s life-capsule, this one looks closer to what you’d expect based on the exterior in the corridor. The place is tiny, cramped and old.
+    text: `You go inside the apartment. The place looks quite close to what you’d expect based on the exterior in the corridor. It is tiny, cramped and old.
 
     “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
 
@@ -1802,8 +1806,8 @@ const gameContents = [
     “Won’t be keeping you though. Maybe another time.”`,
     options: [
       {
-        text: `To be continued...`,
-        nextText: 0,
+        text: `“Wanna come with me?”`,
+        nextText: 80,
       },
     ],
   },
@@ -2053,6 +2057,195 @@ const gameContents = [
       {
         text: `“Need to go, Sane.”`,
         nextText: 69,
+      },
+    ],
+  },
+  {
+    id: 80,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I’m heading to the arena actually. Wanna come, visit Shrike with me?”`,
+    text: `“Yeah! Sure, man, I can tag along.” - Sane exclaims happily.
+
+    “Friendly reminder.” - Even raises a finger. - “We can’t visit it in real, ok? There’s no actual Shrike arena in the Bridge. Too big for it to fit in. Hence, we’re making a digital voyage.”
+
+    “What’s up, Soai?” - Sane asks after seeing that you just stand still silently.
+
+    “What is up is that my feelings are down!” - Even throws up its hands in the air. - “I have a million things to say and but a single listener. Common, tell him something already and let us go, oh let us go, the keeper of my artificial gates.”`,
+    options: [
+      {
+        text: `“It’s Even talking.”`,
+        nextText: 81,
+      },
+    ],
+  },
+  {
+    id: 81,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Remember the companion you mentioned? I’m talking to him. Nobody else can see or hear it. Its name is Even and it looked like a rabbit once. Now it’s more like a distant humanoid-type relative of a rabbit.”`,
+    text: `“Now wait a second!” - Even crosses its arms on its chest. - “What do you mean by that humanoid relative comparison?” - It looks at its hands. - “Oh… I thought I had paws… Hm… Have I performed a digital mutation?”
+
+    “Awesome!” - Sane can’t hide his excitement. - “Not as cool as a dragon, but still nice!”
+
+    “And you cared to mention this only now?” - Even is fully focussed on watching its body. - “Seriously, Soai, let me know if I turn into something new, ok? At least my ears are still there.” - It says with a sigh of relief.
+
+    “I wish I had a pet.” - Sane says thoughtfully.
+
+    “I am not a pet! Tell him I’m not a pet!”
+
+    “Those you can get in zerOne are kinda boring. Bet yours is much more advanced.”
+
+    “Of course I am! And I am not a pet!” - Seeing your smile, Even tilts its head. - “Enjoying yourself, aren’t you? Not gonna tell him that I’m not a pet, don’t you? Fine, fine… I’m not angry… Not angry at all!”
+
+    “Well, I guess we can go now.” - Sane looks around. - “I don’t think there’s much left to do at my place.”`,
+    options: [
+      {
+        text: `To be continued...`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 82,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `You are in your virtual apartment now.
+
+    “Well, everything is the same as when you were living your pre-eventful life.” - Even produces a satisfied chuckle. - “Notice what I did there?” - Seeing no reaction, it keeps talking. - “All seems to be as it was before. At least based on what I can check in your memory, as we were not together back then. Ever wonder how Deo put you in that repetitive state? The loop itself was more about your behavior rather than actually rewinding you each time, thus people you interacted with still know you. You just kept doing the same thing day after day, with some occasional contacts with the others. You simply never questioned the fact that you came out of nowhere and have no idea of who you are and where you came from. And the part where you were waking up every day and logging into zerOne was just loaded into you as a memory.” - Even shrugs. - “I mean, you don’t need to wake up and log in when you’re a part of it, right, so it was just a bit of a behavioral adjustment to create some sort of a daily routine looking like real life.”
+
+    You observe the zerOne version of your life-capsule and don’t notice any differences. Same place you’ve been living in, nothing new.
+
+    “I think old man just used a standard template for an apartment.” - Even says in the end. - “Doubt he was doing anything special here himself. Guess we should check the real version now.”`,
+    options: [
+      {
+        text: `zerOne: false`,
+        nextText: 83,
+        btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 83,
+    style: "levelOneReal",
+    mainImage: deoApartment,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `The place looks quite close to what you’d expect based on the exterior in the corridor. It is tiny, cramped and old.
+
+    “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
+
+    Even notices your puzzled face. - “No? Not a little clue? Hah! Wait for it, dude. I’m gonna enjoy the moment.”
+
+    It keeps grinning and finally answers your silent question. - “Sane Snacks, buddy! It’s him, in the flesh. Your favorite friend.” - It gets serious for a moment. - “It’s happening again. I know things I didn’t know a moment ago. Why does this info keep coming in and out of me?”`,
+    options: [
+      {
+        text: `“You ok, Even?”`,
+        nextText: 84,
+        btnEffect: "optional",
+        condition: 5,
+      },
+      {
+        text: `“This is Sane?”`,
+        nextText: 85,
+      },
+    ],
+  },
+  {
+    id: 84,
+    style: "levelOneReal",
+    mainImage: deoApartment,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Are you ok, Even? You act differently while we are in the real world.”`,
+    text: `“I don’t know, man. It’s just… Like I’m a part of all this.” - Even gestures around the room. - “Not only here, but in general, once we’re not connected to zerOne and walking throughout the tower. It all looks familiar. But I can’t figure out why. You hear them too, right? Voices when I speak, not your own voice like when we talk in zerOne. The moment you ask me something I feel like a closet that’s opening, and then hundreds of answers start falling out of it. And each one is screaming “I’m the right one!”. What’s even more weird, they are all the right ones, just slightly different. As if someone has filled this cupboard with countless identical instruments instead of just one. And I’m like some internet forum in the ancient days, where you ask a question and get a million different replies. Then I’m doing my best to gather them under one.”
+
+    Even sighs loudly.
+
+    “I’m not supposed to feel tired, am I? Then what is that inside me every time I talk? Someone recorded what the tiredness should feel like and I’m just imitating it?”
+
+    You don’t know what to say to that and you both stare at Sane sleeping in the corner.
+
+    “Phew…” - Even finally talks. - “I doubt either of us can produce an adequate response to this at the moment.” - It points at Sane. - “Let’s focus on the reality of the situation.”`,
+    options: [
+      {
+        text: `“This is Sane?”`,
+        nextText: 85,
+      },
+    ],
+  },
+  {
+    id: 85,
+    style: "levelOneReal",
+    mainImage: deoApartment,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Are you sure this is Sane? We’re talking about the same Sane, right? Huge guy, a bit crazy when it comes to post apocalyptic topics. Always talks in a low thunderous voice and keeps saying how important it is to not be mediocre?”`,
+    text: `“Oh what a day…” - Even shakes its head skeptically. - “What a lovely day to not believe me. Have I said something that isn’t true so far? Yes, it’s that kind of Sane. You do remember, that you only met him in zerOne and only when you were a loopy boy? Now we’re seeing him in reality. I do admit though, this scrawny young man doesn’t look like his virtual image at all. He’s surely spent all his experience points on strength and brutality, if you get my meaning.”
+
+    Even gets closer to Sane.
+
+    “I wonder what he’s doing here. Shall we wake him up? Connect to zerOne, ping him, you know the drill.”`,
+    options: [
+      {
+        text: `“Let’s look around.”`,
+        nextText: 86,
+        btnEffect: "optional",
+        condition: 6,
+      },
+      {
+        text: `Call Sane.`,
+        nextText: 62,
+        btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 86,
+    style: "levelOneReal",
+    mainImage: deoApartment,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Let’s have a look around. See anything we could use here?”`,
+    text: `“Unless you’ve learnt how to grow a pair of material hands, no.” - Even walks around the room. - “One perfectly standard life-capsule. A place to sleep, eat and connect to zerOne. Everything one could wish for. As long as your wishes are related to living in a digital world.”
+
+    You observe the place, yet can’t find anything of use. Besides, as Even said, you are not able to physically interact with real objects.
+
+    “Apartments got slightly bigger several years ago.” - Even starts talking in a multitude of voices. - “They couldn’t fill them all anymore, so it was decided to increase the size to make levels look more populated. Can you imagine how small they were before? Anyway, based on the current state, they might need to consider a new wave of renovations. By rough calculation, less than half of the level is occupied.”
+
+    Even blinks a few times before continuing. - “Great. The farseer rabbit woke up again. Oh well, let us proceed.” - It gives the room one more glance. - “Nothing of interest here, Soai, we better move on.”`,
+    options: [
+      {
+        text: `Call Sane.`,
+        nextText: 62,
+        btnEffect: "switch",
       },
     ],
   },
