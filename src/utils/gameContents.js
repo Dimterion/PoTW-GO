@@ -1480,7 +1480,7 @@ const gameContents = [
       },
       {
         text: `zerOne: true`,
-        nextText: 0,
+        nextText: 87,
         btnEffect: "switch",
       },
     ],
@@ -1651,6 +1651,12 @@ const gameContents = [
       {
         text: `“How do you know Deo?”`,
         nextText: 64,
+      },
+      {
+        text: `“Can’t really tell.”`,
+        nextText: 88,
+        btnEffect: "optional",
+        condition: 8,
       },
     ],
   },
@@ -1865,6 +1871,12 @@ const gameContents = [
       {
         text: `“How do you know Deo?”`,
         nextText: 72,
+      },
+      {
+        text: `“Can’t really tell.”`,
+        nextText: 89,
+        btnEffect: "optional",
+        condition: 8,
       },
     ],
   },
@@ -2246,6 +2258,83 @@ const gameContents = [
         text: `Call Sane.`,
         nextText: 62,
         btnEffect: "switch",
+      },
+    ],
+  },
+  {
+    id: 87,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `You are in the zerOne version of the corridor now.
+
+    Even points at one of the panels on the wall. - “An entry to our penthouse in all its glory.”
+
+    You see a sliding piece of yellow-green metal. It looks the same as the rest of the panels on the wall.
+
+    “Well…” - Even rubs its chin thoughtfully. - “Unlike our human friends, we won’t be bothered by the thought that our actual body is still in the real rotting life back there. We don’t need this now, but, in case you’re wondering how we see everything when we’re not in zerOne, I feel bad for saying this, but so far I felt like I can access any camera in the Bridge, at least on the current level, so…” - You notice that Even sounds slightly embarrassed. - “We can watch everyone’s private affairs. Don’t judge me, ok? I was made this way… Anyway, I suggest we enter the place already.”`,
+    options: [
+      {
+        text: `Enter the apartment.`,
+        nextText: 82,
+      },
+    ],
+  },
+  {
+    id: 88,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I can’t really tell, Sane. I just know it, but, apart from that, I feel the same. You live in both worlds with two different appearances. And I… Though I might be made out of many entities, I’m only present digitally. As for the real life, all I can do is take a peek at it.”`,
+    text: `“That’s deep, man.” - Sane looks at you with respect. - “But I’m just roleplaying, you know. Other than that, my character is only a shell. Not everybody looks at it that way. Peeps got fully consumed by their virtual life. Have you noticed that they talk and act differently in zerOne. I don’t get it. But then I can’t resist it too… So, guess I’m doing that as well, unintentionally.”
+
+    “Well, you know what they say…” - Even adds instructively. - “When in zerOne… don’t do as humans do.”
+
+    “On the other hand…” - Sane keeps talking. - “I don’t really mind zerOne either. I’m like fifty percent made of digital and fifty of real stuff. Honestly, being in the middle is not always the best disposition. And by not always I mean never. Everyone wants you to pick a side, to live by certain standards, while I just want to live and try to enjoy it.”
+
+    “I certainly did not expect such a discourse from that young individual.” - Even sounds impressed. - “Can’t say I agree… but then it only proves his point.”
+    
+    “Deo told me, the same thoughts were the reason he came up with an idea to make you.” - Sane adds in the end.`,
+    options: [
+      {
+        text: `“How do you know Deo?”`,
+        nextText: 64,
+      },
+    ],
+  },
+  {
+    id: 89,
+    style: "levelOneReal",
+    mainImage: deoApartment,
+    characterImage: saneRealPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    characterImageAlt: "Young man in a hoody.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I can’t really tell, Sane. I just know it, but, apart from that, I feel the same. You live in both worlds with two different appearances. And I… Though I might be made out of many entities, I’m only present digitally. As for the real life, all I can do is take a peek at it.”`,
+    text: `“That’s deep, man.” - Sane looks at you with respect. - “But I’m just roleplaying, you know. Other than that, my character is only a shell. Not everybody looks at it that way. Peeps got fully consumed by their virtual life. Have you noticed that they talk and act differently in zerOne. I don’t get it. But then I can’t resist it too… So, guess I’m doing that as well, unintentionally.”
+
+    “Well, you know what they say…” - Even adds instructively. - “When in zerOne… don’t do as humans do.”
+
+    “On the other hand…” - Sane keeps talking. - “I don’t really mind zerOne either. I’m like fifty percent made of digital and fifty of real stuff. Honestly, being in the middle is not always the best disposition. And by not always I mean never. Everyone wants you to pick a side, to live by certain standards, while I just want to live and try to enjoy it.”
+
+    “I certainly did not expect such a discourse from that young individual.” - Even sounds impressed. - “Can’t say I agree… but then it only proves his point.”
+    
+    “Deo told me, the same thoughts were the reason he came up with an idea to make you.” - Sane adds in the end.`,
+    options: [
+      {
+        text: `“How do you know Deo?”`,
+        nextText: 72,
       },
     ],
   },
