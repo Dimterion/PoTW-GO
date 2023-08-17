@@ -2338,6 +2338,26 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 90,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
+    text: `To be continued.`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
 ];
 
 import prologueImage from "../assets/images/prologue_image.jpg";
