@@ -13,6 +13,11 @@ function GameComponent({ content, setOptionId }) {
   const [conditions, setConditions] = useState([]);
 
   const buttons = content.options.map((option) => {
+    // Conditional options are displayed only when they have conditionMatch property and its value is included in the conditions array from the state.
+    if (option.conditionMatch && !conditions.includes(option.conditionMatch)) {
+      return null;
+    }
+
     return (
       <button
         className={

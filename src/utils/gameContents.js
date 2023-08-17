@@ -2391,6 +2391,29 @@ const gameContents = [
         text: ``,
         nextText: 0,
       },
+      {
+        conditionMatch: 4,
+        text: `“Let’s visit Nnif.”`,
+        nextText: 92,
+      },
+    ],
+  },
+  {
+    id: 92,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Let’s visit Nnif.”`,
+    text: `To be continued...`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
     ],
   },
 ];
