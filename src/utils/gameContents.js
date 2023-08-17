@@ -1815,6 +1815,10 @@ const gameContents = [
         text: `“Wanna come with me?”`,
         nextText: 80,
       },
+      {
+        text: `“I should be going.”`,
+        nextText: 90,
+      },
     ],
   },
   {
@@ -2349,11 +2353,42 @@ const gameContents = [
     characterImageAlt: "Big man wearing post-apocalyptic clothes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: ``,
-    text: `To be continued.`,
+    subText: `“Alright, I should be going now…”`,
+    text: `“Listen, Soai…” - Sane interrupts you. - “About the rewinding module I mentioned earlier. I mean, maybe it serves some purpose after all. Some hidden feature perhaps? Deo, or his projection, gave it to me for some reason. He said to remind you about it once you know who you are, if I get the chance. I still have it installed. So, dunno why, but if you want to use it again, let me know.”
+
+    “Ok, friendo.” - Even looks you in the eye. - “Based on what he said earlier, this thing will send you to the very beginning of our little adventure here, got it? Your progress will be reset permanently. You’re at the driver’s seat of course, and I’m just a concerned passenger, but do consider my warning please.”`,
     options: [
       {
-        text: `Start anew.`,
+        text: `“Nah, I’m good.”`,
+        nextText: 91,
+      },
+      {
+        text: `“Loop me away, Sane.”`,
+        nextText: 0,
+        condition: 9,
+      },
+    ],
+  },
+  {
+    id: 91,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Thanks, Sane, but maybe some other time. I’ve had enough loops for now. Take care, mate. Have a good zerOne.”`,
+    text: `You exit Sane’s place accompanied by Even’s monologue.
+
+    “Have a good zerOne? Seriously? We need to work on your intended puns, master Soai. Next time ask me first, I’ll provide you with a variety of options.”
+
+    You head over to the Shrike arena, pondering about Sane.
+
+    “Child of two worlds this one.” - As usual, Even follows your thoughts. - “Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
+    options: [
+      {
+        text: ``,
         nextText: 0,
       },
     ],
