@@ -2099,6 +2099,12 @@ const gameContents = [
       {
         text: `“It’s Even talking.”`,
         nextText: 81,
+        btnEffect: "optional",
+        condition: 10,
+      },
+      {
+        text: `“Let’s go to the arena, Sane.”`,
+        nextText: 93,
       },
     ],
   },
@@ -2131,8 +2137,8 @@ const gameContents = [
     “Well, I guess we can go now.” - Sane looks around. - “I don’t think there’s much left to do at my place.”`,
     options: [
       {
-        text: `To be continued...`,
-        nextText: 0,
+        text: `“Let’s go to the arena, Sane.”`,
+        nextText: 93,
       },
     ],
   },
@@ -2388,8 +2394,8 @@ const gameContents = [
     “Child of two worlds this one.” - As usual, Even follows your thoughts. - “Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“Let’s go to the arena, Even.”`,
+        nextText: 94,
       },
       {
         conditionMatch: 4,
@@ -2408,6 +2414,42 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Let’s visit Nnif.”`,
+    text: `To be continued...`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 93,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Let’s go to the arena, Sane.”`,
+    text: `To be continued...`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 94,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Let’s go to the arena, Even.”`,
     text: `To be continued...`,
     options: [
       {
