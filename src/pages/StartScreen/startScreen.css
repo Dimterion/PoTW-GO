@@ -172,35 +172,6 @@
   text-decoration: none;
   transition: 0.3s ease-in-out;
   animation: startScreen-btn-load 500ms ease-in 900ms forwards;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    transition: 0.3s ease-in-out;
-  }
-
-  &::before {
-    top: -5px;
-    left: -5px;
-    border-top: 1px solid var(--secondary);
-    border-left: 1px solid var(--secondary);
-  }
-
-  &::after {
-    right: -5px;
-    bottom: -5px;
-    border-right: 1px solid var(--secondary);
-    border-bottom: 1px solid var(--secondary);
-  }
-
-  &:hover::before,
-  &:hover::after {
-    width: calc(100% + 9px);
-    height: calc(100% + 9px);
-  }
 }
 
 @keyframes startScreen-btn-load {
@@ -221,8 +192,42 @@
   transition: 0.3s ease-in-out;
 }
 
+.startScreen-btn:hover::before {
+  width: calc(100% + 9px);
+  height: calc(100% + 9px);
+}
+
+.startScreen-btn:hover::after {
+  width: calc(100% + 9px);
+  height: calc(100% + 9px);
+}
+
 .startScreen-btn:active {
   scale: 0.9;
+}
+
+.startScreen-btn::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid var(--secondary);
+  border-left: 1px solid var(--secondary);
+  transition: 0.3s ease-in-out;
+}
+
+.startScreen-btn::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--secondary);
+  transition: 0.3s ease-in-out;
 }
 
 .startScreen-closingTitle {

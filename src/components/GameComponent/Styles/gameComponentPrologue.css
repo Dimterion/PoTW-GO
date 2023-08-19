@@ -271,34 +271,6 @@
     var(--prologueSub) 100%
   );
   animation: gameComponent-buttons--prologue-load 0.5s ease-in-out;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 15px;
-  }
-
-  &::before {
-    top: -0.3rem;
-    left: -0.3rem;
-    width: calc(100% + 0.5rem);
-    max-width: 95vw;
-    border-top: 1px solid var(--prologueAdditional);
-    border-right: 1px solid var(--prologueAdditional);
-    border-left: 1px solid var(--prologueAdditional);
-  }
-
-  &::after {
-    right: -0.3rem;
-    bottom: -0.3rem;
-    width: calc(100% + 0.5rem);
-    max-width: 95vw;
-    border-right: 1px solid var(--prologueAdditional);
-    border-bottom: 1px solid var(--prologueAdditional);
-    border-left: 1px solid var(--prologueAdditional);
-  }
 }
 
 @keyframes gameComponent-buttons--prologue-load {
@@ -309,6 +281,32 @@
   100% {
     transform: translateX(0);
   }
+}
+
+.gameComponent-buttons--prologue::before {
+  content: "";
+  position: absolute;
+  top: -0.3rem;
+  left: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 15px;
+  max-width: 95vw;
+  border-top: 1px solid var(--prologueAdditional);
+  border-right: 1px solid var(--prologueAdditional);
+  border-left: 1px solid var(--prologueAdditional);
+}
+
+.gameComponent-buttons--prologue::after {
+  content: "";
+  position: absolute;
+  right: -0.3rem;
+  bottom: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 15px;
+  max-width: 95vw;
+  border-right: 1px solid var(--prologueAdditional);
+  border-bottom: 1px solid var(--prologueAdditional);
+  border-left: 1px solid var(--prologueAdditional);
 }
 
 .gameComponent-btn--prologue {

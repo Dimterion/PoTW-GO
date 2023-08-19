@@ -283,34 +283,6 @@
     var(--levelOneVirtualSub) 100%
   );
   animation: gameComponent-buttons--levelOneVirtual-load 0.5s ease-in-out;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 15px;
-  }
-
-  &::before {
-    top: -0.3rem;
-    left: -0.3rem;
-    width: calc(100% + 0.5rem);
-    max-width: 95vw;
-    border-top: 1px solid var(--levelOneVirtualAdditional);
-    border-right: 1px solid var(--levelOneVirtualAdditional);
-    border-left: 1px solid var(--levelOneVirtualAdditional);
-  }
-
-  &::after {
-    right: -0.3rem;
-    bottom: -0.3rem;
-    width: calc(100% + 0.5rem);
-    max-width: 95vw;
-    border-right: 1px solid var(--levelOneVirtualAdditional);
-    border-bottom: 1px solid var(--levelOneVirtualAdditional);
-    border-left: 1px solid var(--levelOneVirtualAdditional);
-  }
 }
 
 @keyframes gameComponent-buttons--levelOneVirtual-load {
@@ -321,6 +293,32 @@
   100% {
     transform: translateX(0);
   }
+}
+
+.gameComponent-buttons--levelOneVirtual::before {
+  content: "";
+  position: absolute;
+  top: -0.3rem;
+  left: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 15px;
+  max-width: 95vw;
+  border-top: 1px solid var(--levelOneVirtualAdditional);
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-left: 1px solid var(--levelOneVirtualAdditional);
+}
+
+.gameComponent-buttons--levelOneVirtual::after {
+  content: "";
+  position: absolute;
+  right: -0.3rem;
+  bottom: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 15px;
+  max-width: 95vw;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  border-left: 1px solid var(--levelOneVirtualAdditional);
 }
 
 .gameComponent-btn--levelOneVirtual {
