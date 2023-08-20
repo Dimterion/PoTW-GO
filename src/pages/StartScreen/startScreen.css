@@ -193,13 +193,13 @@
 }
 
 .startScreen-btn:hover::before {
-  width: calc(100% + 9px);
-  height: calc(100% + 9px);
+  width: calc(100% + 0.55rem);
+  height: calc(100% + 0.55rem);
 }
 
 .startScreen-btn:hover::after {
-  width: calc(100% + 9px);
-  height: calc(100% + 9px);
+  width: calc(100% + 0.55rem);
+  height: calc(100% + 0.55rem);
 }
 
 .startScreen-btn:active {
@@ -209,8 +209,8 @@
 .startScreen-btn::before {
   content: "";
   position: absolute;
-  top: -5px;
-  left: -5px;
+  top: -0.3rem;
+  left: -0.3rem;
   width: 20px;
   height: 20px;
   border-top: 1px solid var(--secondary);
@@ -221,8 +221,8 @@
 .startScreen-btn::after {
   content: "";
   position: absolute;
-  right: -5px;
-  bottom: -5px;
+  right: -0.3rem;
+  bottom: -0.3rem;
   width: 20px;
   height: 20px;
   border-right: 1px solid var(--secondary);
