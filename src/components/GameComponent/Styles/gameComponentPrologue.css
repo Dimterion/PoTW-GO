@@ -136,15 +136,6 @@
   margin-bottom: 1rem;
   background: rgba(0, 0, 0, 0.3);
   animation: gameComponent-mainContent--prologue-load 0.5s ease-in-out;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: 2.5%;
-    width: 95%;
-    border-top: 2px solid var(--prologueAdditional);
-  }
 }
 
 @keyframes gameComponent-mainContent--prologue-load {
@@ -155,6 +146,15 @@
   100% {
     transform: translateX(0);
   }
+}
+
+.gameComponent-mainContent--prologue::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 2.5%;
+  width: 95%;
+  border-top: 2px solid var(--prologueAdditional);
 }
 
 .gameComponent-subImage--prologue {
