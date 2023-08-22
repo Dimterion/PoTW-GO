@@ -842,7 +842,7 @@ const gameContents = [
 
     Even keeps observing the surroundings, then adds.
 
-    “Hm, there’s more. I can actually switch between real and virtual Bridge. Here.”
+    “Hm, there’s more. I can actually switch between the real and virtual Bridge. Here.”
 
     You see a new button in your UI.
 
@@ -851,7 +851,7 @@ const gameContents = [
       {
         text: `zerOne: true`,
         nextText: 35,
-        btnEffect: "switch",
+        btnEffect: "appearingSwitch",
       },
     ],
   },
@@ -866,9 +866,9 @@ const gameContents = [
 
     “Not really new, buddy.” - You notice that Even’s voice resembles yours again. - “Same corridor, but with a touch of digital love now.”
 
-    You realize that’s true. The place looks different, but it’s still a long narrow room, its walls and ceiling are illuminated by bright yellow-green lights. No rust or leaking tubes are visible.
+    You realize that’s true. The place looks different, but it’s still a long narrow hall, its walls and ceiling are illuminated by bright yellow-green lights. No rust or leaking tubes are visible.
 
-    “Prettier, right? Unless you are an abstractionist by nature and prefer life in brown shades, which I doubt.” - Even points at the end of the corridor. - “We’re near your place by the way. Technically, it’s Deo’s place, as you’ve been stuck in the loop, never actually been out and yada, yada, remember? Maybe we can check it. Though, one more thing.”
+    “Prettier, right? Unless you are an abstractionist by nature and prefer life in brown shades, which I doubt.” - Even points at the end of the corridor. - “We’re near your place, by the way. Technically, it’s Deo’s place, as you’ve been stuck in the loop, never actually been out and yada, yada, remember? Maybe we can check it. Though, one more thing.”
 
     Another button appears in your UI.
 
@@ -877,7 +877,7 @@ const gameContents = [
       {
         text: `zerOne: false`,
         nextText: 36,
-        btnEffect: "switch",
+        btnEffect: "appearingSwitch",
       },
     ],
   },

@@ -416,6 +416,55 @@
   scale: 0.9;
 }
 
+.gameComponent-appearingSwitchBtn--levelOneVirtual {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneRealTertiary);
+  margin: 0.75rem;
+  background: linear-gradient(
+    90deg,
+    var(--levelOneRealSub) 0%,
+    var(--levelOneRealPrimary) 50%,
+    var(--levelOneRealSub) 100%
+  );
+  color: var(--levelOneRealTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  animation: gameComponent-appearingSwitchBtn-load 1.5s ease-in-out;
+}
+
+@keyframes gameComponent-appearingSwitchBtn-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.gameComponent-appearingSwitchBtn--levelOneVirtual:hover {
+  border: 1px solid var(--levelOneRealSub);
+  background: linear-gradient(
+    90deg,
+    var(--levelOneRealSub) 0%,
+    var(--levelOneRealTertiary) 50%,
+    var(--levelOneRealSub) 100%
+  );
+  color: var(--levelOneRealSub);
+  transition: 0.5s;
+}
+
+.gameComponent-appearingSwitchBtn--levelOneVirtual:active {
+  scale: 0.9;
+}
+
 .gameComponent-switchBtn--levelOneVirtual {
   width: 250px;
   max-width: 90vw;
