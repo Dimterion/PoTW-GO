@@ -84,11 +84,7 @@ function GameComponent({ content, setOptionId }) {
         <img
           src={content.additionalImage}
           alt={content.additionalImageAlt}
-          className={
-            content.effect
-              ? content.effect
-              : `gameComponent-additionalImage--${content.style}`
-          }
+          className={`gameComponent-additionalImage--${content.style}`}
         />
       )}
       <article className={`gameComponent-mainContent--${content.style}`}>

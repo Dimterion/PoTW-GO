@@ -124,7 +124,8 @@
 }
 
 @keyframes gameComponent-additionalImage--levelOneVirtual-load {
-  0% {
+  0%,
+  50% {
     opacity: 0;
   }
 

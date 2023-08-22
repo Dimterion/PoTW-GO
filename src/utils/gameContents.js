@@ -884,9 +884,12 @@ const gameContents = [
   {
     id: 36,
     style: "levelOneReal",
+    effect: "disappearingImg--levelOneReal",
     mainImage: levelOneImage01,
+    characterImage: evenPortrait,
     additionalImage: evenPortrait,
     mainImageAlt: "Old rusty corridor.",
+    characterImageAlt: "Silver creature with red eyes and rabbit ears.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `“Ok, and I’m gonna move to your UI now. After all I’m some kind of it anyway. Take a peek at the upper right corner, see me? I’m a cute little icon there, alright?”
 

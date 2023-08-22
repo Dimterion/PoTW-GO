@@ -112,7 +112,8 @@
 }
 
 @keyframes gameComponent-additionalImage--prologue-load {
-  0% {
+  0%,
+  50% {
     opacity: 0;
   }
 

@@ -123,7 +123,8 @@
 }
 
 @keyframes gameComponent-additionalImage--levelOneReal-load {
-  0% {
+  0%,
+  50% {
     opacity: 0;
   }
 
@@ -202,7 +203,7 @@
   border-right: 1px solid var(--levelOneRealAdditional);
   border-bottom: 1px solid var(--levelOneRealAdditional);
   margin-right: 1rem;
-  animation: 5s disappearingImg--levelOneReal ease;
+  animation: 2s disappearingImg--levelOneReal linear;
 }
 
 @keyframes disappearingImg--levelOneReal {
@@ -210,21 +211,18 @@
     opacity: 1;
     width: 200px;
     max-width: 35vw;
-    filter: blur(0) saturate(1);
   }
 
   50% {
-    opacity: 1;
+    opacity: 0.5;
     width: 200px;
     max-width: 35vw;
-    filter: blur(1px) saturate(5);
   }
 
   100% {
     opacity: 0;
     width: 0;
     max-width: 0;
-    filter: blur(5px) saturate(10);
   }
 }
 
