@@ -204,7 +204,7 @@
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 1rem;
-  animation: 5s disappearingImg--levelOneVirtual ease;
+  animation: 5s disappearingImg--levelOneVirtual linear;
 }
 
 @keyframes disappearingImg--levelOneVirtual {
@@ -237,7 +237,7 @@
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 1rem;
-  animation: 5s appearingImg--levelOneVirtual ease;
+  animation: 5s appearingImg--levelOneVirtual linear;
 }
 
 @keyframes appearingImg--levelOneVirtual {

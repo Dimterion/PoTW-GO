@@ -895,13 +895,13 @@ const gameContents = [
 
     Even seems to be puzzled and talks in a mix of voices now.    
 
-    “I feel like some storage device, keeping stuff inside me, but not knowing what’s actually there. Then, the moment I see something… or, we see something, it’s like I’ve known it all along. A strange real world side effect or whatever.”
+    “I feel like some storage device, keeping stuff inside me, but not knowing what’s actually there. Then, the moment I see something… or we see something, it’s like I’ve known it all along. A strange real world side effect or whatever.”
 
     It gets quiet for a moment and you notice a man going through the corridor. He wears old-fashioned black glasses, has a beard, long hair and a never fading rebel-youth expression on his face despite the not so young age.
 
-    “Well, look at this individual.” - Even produces a sound of clicking its tongue. - “Una Ek, our one and only owner of the Mnemonic bar, exactly the same in both worlds. True to himself as ever.”
+    “Well, look at this individual.” - Even produces a sound of clicking its tongue. - “Una Ek, the one and only owner of the Mnemonic bar and also a friend of ours. Exactly the same in both worlds. True to himself as ever.”
 
-    The man passes by you without any notice and goes further.`,
+    The man passes by you without noticing and goes further.`,
     options: [
       {
         text: `“Hey, Una!”`,
@@ -952,7 +952,7 @@ const gameContents = [
 
     You look at the ancient piece of metal, barely holding on its hinges, corrosion stains covering its whole surface.
 
-    “I mean…” - Even rubs its chin thoughtfully. - “We can always enter it in zerOne. Unlike our human friends, we won’t be bothered by the thought that our actual body is still here. And, in case you’re wondering how we're gonna get inside when we’re not in zerOne, I feel bad for saying this, but so far I felt like I can access any camera in the Bridge, at least on the current level, so…” - You notice that Even sounds slightly embarrassed. - “We can watch everyone’s private affairs. Don’t judge me, ok? I was made this way. In other words, point the direction, and I’ll bring us there.”`,
+    “I mean…” - Even rubs its chin thoughtfully. - “We can always enter it in zerOne. Unlike our human friends, we won’t be bothered by the thought that our actual body is still here. And, in case you’re wondering how we're gonna get inside when we’re not in zerOne, I feel bad for saying this, but so far it seems like I can access any camera in the Bridge, at least on the current level, so…” - You notice that Even sounds slightly embarrassed. - “We can watch everyone’s private affairs. Don’t judge me, ok? I was made this way. In other words, point the direction, and I’ll bring us there.”`,
     options: [
       {
         text: `Enter Deo's apartment.`,
@@ -1040,7 +1040,7 @@ const gameContents = [
 
     “Ok, I see, he’s joking.”
 
-    “Just kidding, man.” - Una laughs then notices your silence. - “Something’s wrong?”
+    “Just kidding, man.” - Una laughs, then notices your silence. - “Something’s wrong?”
     
     You tell Una everything. About you, Deo, Even, everything. A long pause hangs between the two of you.
 
@@ -1068,7 +1068,7 @@ const gameContents = [
 
     “Wow.” - Even glances around. - “How did he manage to get a life-capsule like this?”
 
-    “Knew a few gents back in my days.” - Focused on his guitar, Una says to you. - “Neighbor switched levels a while ago, nobody moved in, I pulled a string or two, broke the wall, made one small cubicle for myself, out of the two tiny ones.”
+    “Knew a few gents back in my days.” - Focused on his guitar, Una says to you. - “Neighbor switched levels a while ago, nobody moved in, I pulled a string or two, broke the wall, made for myself one small cubicle out of a couple of tiny ones.”
 
     “Wait.” - Even moves closer to Una. - “You can hear me? I wanted to…”
 
@@ -1102,7 +1102,7 @@ const gameContents = [
 
     “You shut up!” - Even stomps to the other side of the room, muttering. - “Ain’t gonna talk to some amateur musician anyway…”
 
-    “So, arena character, huh?” - Una briefly glances at the screen. - “Made by some no longer living poet? I knew something was off about you, virtual boy. You kept coming to Mnemonic, kept sitting there, so focused on Writers Fights, on winning. Day after day. Was just too much, even for a poet. Felt unreal, but when I’m in the unreal world, I tend not to ask too many questions. Everyone’s picking their own poison, I’m no judge for that.”`,
+    “So, arena character, huh?” - Una briefly glances at the screen. - “Made by some no longer living poet? I knew something was off about you, virtual boy. You kept coming to Mnemonic, kept sitting there, so focused on Writers Fights, on winning. Day after day. Was just too much, even for a poet. Felt unreal, but, when I’m in the unreal world, I tend not to ask too many questions. Everyone’s picking their own poison, I’m no judge for that.”`,
     options: [
       {
         text: `“Any advice?”`,
@@ -1134,7 +1134,7 @@ const gameContents = [
 
     The music gets louder, it feels like Una is singing rather than talking.
 
-    “And now the numbers have managed to reach me even here, in my four-walled box.” - He nods at you. - “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I miss it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution for our planet’s little issue.”
+    “And now the numbers have managed to reach me even here, in my four-walled box.” - He nods at you. - “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I miss it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution to our planet’s little issue.”
 
     Una stops talking for a moment, focusing on his guitar again.
 
@@ -1168,9 +1168,7 @@ const gameContents = [
     subText: `“Honestly? No idea. I’m like a leaf on the wind. I guess I need to figure out what Deo wanted from me. And that girl, Arika… She disappeared somewhere.”`,
     text: `“I wouldn’t be too worried about her. Based on what you’ve said, she’s one of the rich folk. Playing around with others just to entertain themselves. Then, the moment they get bored, poof…” - Una hits a guitar string, making a loud noise. - “They are outta here. But you do you, edge runner, don’t make the blades of my words stop you. I’m just an angry old fella, yelling at the digital sky, happy to be wrong, yet not having lots of hope.”
 
-    “Speaking of the old fellas…” - Una raises a brow, looking at you. - “That Deo article, eh? I guess you intend to make a little jump to the first level, since you’re not afraid of dying anymore, and he seems to have spent his final hours there. I’m not much of a hacker, but one day I was willing to visit the place myself. Ended up being too depressed for it, so gave up on the idea, but before that I had a little chat with our friendly Dixie’s shop owner, Nnif. She might know a thing or two on how to bypass the levels’ security and enter a wonderful world of those who are closer to the surface. I don’t know much more, so consider paying Nnif a visit. Maybe she’ll do you a favor.”
-
-    “Or,” - Una points his finger at you. - “Try to find that Goldilocks of yours and drive to the sunset. Perhaps, out of principle, she’ll be able to provide you with just the right amount of further choices.”`,
+    “Speaking of the old fellas…” - Una raises a brow, looking at you. - “That Deo article, eh? I guess you intend to make a little jump to the first level, since you’re not afraid of dying anymore, and he seems to have spent his final hours there. I’m not much of a hacker, but one day I was willing to visit the place myself. Ended up being too depressed for it, so gave up on the idea, but before that I had a little chat with our friendly Dixie’s shop owner, Nnif. She might know a thing or two on how to bypass the levels’ security and enter a wonderful world of those who are closer to the surface. I don’t know much more, so consider paying Nnif a visit. Maybe she’ll do you a favor. Or,” - Una points his finger at you. - “Try to find that Goldilocks of yours and drive to the sunset. Perhaps, out of principle, she’ll be able to provide you with just the right amount of further choices.”`,
     options: [
       {
         text: `“Thanks, Una.”`,
@@ -1247,9 +1245,9 @@ const gameContents = [
 
     “Wow.” - Even glances around. - “How did he manage to get a life-capsule like this?”
 
-    “Knew a few gents back in my days.” - Focused on his guitar, Una says to you. - “Neighbor switched levels a while ago, nobody moved in, I pulled a string or two, broke the wall, made one small cubicle for myself, out of the two tiny ones.”
+    “Knew a few gents back in my days.” - Focused on his guitar, Una says to you. - “Neighbor switched levels a while ago, nobody moved in, I pulled a string or two, broke the wall, made for myself one small cubicle out of a couple of tiny ones.”
 
-    “Wait.” - Even moves closer to Una. - “You can hear me? I wanted to…”
+    “Wait.” - Even moves closer to Una. - “Why can he hear me...”
 
     “So, what’s new, Soai?” - Una pays no attention to Even’s words. - “I’ve heard you almost won the last Writers Fight, but kinda gave up. What happened?”
 
@@ -1282,7 +1280,7 @@ const gameContents = [
 
     The music gets louder, it feels like Una is singing rather than talking.
 
-    “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I miss it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution for our planet’s little issue.”
+    “When you said you wanted to come in, I was glad, thought I’ll be able to interact with someone in real. Man, I miss it. When I go outside, there’s no one, I’m wandering alone through our level, looking at the ancient walls, hearing dying machines somewhere deep inside the tower. Sometimes I see others, but, well, frankly speaking, they’re like zombies, crawling out of their places by some necessity, fearing talking to anyone else, hurrying to come back and connect to zerOne. And I don’t blame them. Can’t believe I’m saying this, but it’s probably the only possible solution to our planet’s little issue.”
 
     Una stops talking for a moment, focusing on his guitar again.
 
@@ -2289,7 +2287,7 @@ const gameContents = [
 
     You see a sliding piece of yellow-green metal. It looks the same as the rest of the panels on the wall.
 
-    “Well…” - Even rubs its chin thoughtfully. - “Unlike our human friends, we won’t be bothered by the thought that our actual body is still in the real rotting life back there. We don’t need this now, but, in case you’re wondering how we see everything when we’re not in zerOne, I feel bad for saying this, but so far I felt like I can access any camera in the Bridge, at least on the current level, so…” - You notice that Even sounds slightly embarrassed. - “We can watch everyone’s private affairs. Don’t judge me, ok? I was made this way… Anyway, I suggest we enter the place already.”`,
+    “Well…” - Even rubs its chin thoughtfully. - “Unlike our human friends, we won’t be bothered by the thought that our actual body is still in the real rotting life back there. We don’t need this now, but, in case you’re wondering how we see everything when we’re not in zerOne, I feel bad for saying this, but so far it seems like I can access any camera in the Bridge, at least on the current level, so…” - You notice that Even sounds slightly embarrassed. - “We can watch everyone’s private affairs. Don’t judge me, ok? I was made this way… Anyway, I suggest we enter the place already.”`,
     options: [
       {
         text: `Enter the apartment.`,

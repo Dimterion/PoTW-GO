@@ -233,7 +233,7 @@
   border-right: 1px solid var(--levelOneRealAdditional);
   border-bottom: 1px solid var(--levelOneRealAdditional);
   margin-right: 1rem;
-  animation: 5s appearingImg--levelOneReal ease;
+  animation: 5s appearingImg--levelOneReal linear;
 }
 
 @keyframes appearingImg--levelOneReal {

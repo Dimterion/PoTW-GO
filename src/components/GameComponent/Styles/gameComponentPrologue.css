@@ -192,7 +192,7 @@
   border-right: 1px solid var(--prologueAdditional);
   border-bottom: 1px solid var(--prologueAdditional);
   margin-right: 1rem;
-  animation: 5s disappearingImg--prologue ease;
+  animation: 5s disappearingImg--prologue linear;
 }
 
 @keyframes disappearingImg--prologue {
@@ -225,7 +225,7 @@
   border-right: 1px solid var(--prologueAdditional);
   border-bottom: 1px solid var(--prologueAdditional);
   margin-right: 1rem;
-  animation: 5s appearingImg--prologue ease;
+  animation: 5s appearingImg--prologue linear;
 }
 
 @keyframes appearingImg--prologue {
