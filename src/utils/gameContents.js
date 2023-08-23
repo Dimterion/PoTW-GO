@@ -1354,11 +1354,11 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Thanks, Una. Appreciate the advice.”`,
-    text: `“No prob, mate. Go find some new hobby to live up to, since Writers Fights is not your jam anymore. I suggest going out. Checking what the real Bridge is. Can be hugely depressive, but also opens your eyes for a split second. There’s a huge dying world out there.”
+    text: `“No prob, mate. Go find some new hobby to live up to, since Writers Fights is not your jam anymore. I suggest going out. Checking what the real Bridge is. Can be hugely depressive, but also opens your eyes for a split second. There’s a whole dying world out there.”
 
     Una waves towards the door.
 
-    “Right, I should stop with all the grim thoughts. Get outta here already or we’ll become a pair of doom sayers, screaming about the end and how nigh it is. And I say, nay, I need to chill a little before getting back to my bar. See you when I see you.”`,
+    “Right, I should stop with all the grim thoughts. Get outta here already or we’ll become a pair of doomsayers, screaming about the end and how nigh it is. To that I say nay, I need to chill a little before getting back to my bar. See you when I see you.”`,
     options: [
       {
         text: `Leave Una’s apartment.`,
@@ -1399,8 +1399,8 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“I guess, my poison was picked for me… Since I’m here, any advice? This digital ocean has too many variables to take into account. I’m wondering what I should do next. Find Arika? Get more info on Deo’s plan?”`,
-    text: `“You’ve got the wrong guy to ask for directions, pal.” - Una glances at you above his glasses. - “If I were you, chances are, I’d just chill, looking at the tsunami coming right at me. But I’m not you. So, the options of finding Miss Yelloweyes or figuring out what kind of Frankenstein you are seem both relatively irrelevant to me. Besides, I don’t like telling folk what to do. You have to tell your own story, otherwise it’ll be someone else’s.”
+    subText: `“I guess my poison was picked for me… Since I’m here, any advice? This digital ocean has too many variables to take into account. I’m wondering what I should do next. Find Arika? Get more info on Deo’s plan?”`,
+    text: `“You’ve got the wrong guy to ask for directions, pal.” - Una glances at you above his glasses. - “If I were you, chances are I’d just chill, looking at the tsunami coming right at me. But I’m not you. So, the options of finding Miss Yelloweyes or figuring out what kind of Frankenstein you are seem both relatively irrelevant to me. Besides, I don’t like telling folk what to do. You have to tell your own story, otherwise it’ll be someone else’s.”
 
     Una stands up, puts his guitar aside and looks at you.
 
@@ -1423,8 +1423,8 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“I see. Well, thanks anyway, Una. And… Well, sorry for all the AI stuff.”`,
-    text: `“Not your fault mate. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking to computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
+    subText: `“I see. Well, thanks anyway, Una. And… Sorry for all the AI stuff.”`,
+    text: `“Not your fault, mate. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking to computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
 
     “Pf-f-f…” - Even glances over its shoulder. - “Whatever… He’s fine… at times.”
     
@@ -1495,11 +1495,13 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Tiny futuristic apartment.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `You go inside the apartment. The place looks quite close to what you’d expect based on the exterior in the corridor. It is tiny, cramped and old.
+    text: `You go inside the apartment. The place looks quite close to what you’d expect based on the exterior of the corridor. It is tiny, cramped and old.
 
     “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
 
-    Even notices your puzzled face. - “No? Not a little clue? Hah! Wait for it, dude. I’m gonna enjoy the moment.”
+    Even notices your puzzled face.
+    
+    “No? Not a little clue? Hah! Wait for it, dude. I’m gonna enjoy the moment.”
 
     It keeps grinning and finally answers your silent question. - “Sane Snacks, buddy! It’s him, in the flesh. Your favorite friend.” - It gets serious for a moment. - “It’s happening again. I know things I didn’t know a moment ago. Why does this info keep coming in and out of me?”`,
     options: [
@@ -1525,13 +1527,13 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Are you ok, Even? You act differently while we are in the real world.”`,
-    text: `“I don’t know, man. It’s just… Like I’m a part of all this.” - Even gestures around the room. - “Not only here, but in general, once we’re not connected to zerOne and walking throughout the tower. It all looks familiar. But I can’t figure out why. You hear them too, right? Voices when I speak, not your own voice like when we talk in zerOne. The moment you ask me something I feel like a closet that’s opening, and then hundreds of answers start falling out of it. And each one is screaming “I’m the right one!”. What’s even more weird, they are all the right ones, just slightly different. As if someone has filled this cupboard with countless identical instruments instead of just one. And I’m like some internet forum in the ancient days, where you ask a question and get a million different replies. Then I’m doing my best to gather them under one.”
+    text: `“I don’t know, man. It’s just… Like I’m a part of all this.” - Even gestures around the room. - “Not only here, but in general, once we’re not connected to zerOne and walking throughout the tower. It all looks familiar. But I can’t figure out why. You hear them too, right? Voices when I speak, not your own voice like when we talk in zerOne. The moment you ask me something, I feel like a closet that’s opening, and then hundreds of answers start falling out of it. And each one is screaming “I’m the right one!”. What’s even more weird, they are all the right ones, just slightly different. As if someone has filled this cupboard with countless identical instruments instead of just one. And I’m like some internet forum in the ancient days, where you ask a question and get a million different replies. Then I’m doing my best to gather them under one.”
 
     Even sighs loudly.
 
-    “I’m not supposed to feel tired, am I? Then what is that inside me every time I talk? Someone recorded what the tiredness should feel like and I’m just imitating it?”
+    “I’m not supposed to feel tired, am I? Then what is that inside me every time I talk? Someone recorded what the tiredness should feel like, and I’m just imitating it?”
 
-    You don’t know what to say to that and you both stare at Sane sleeping in the corner.
+    You don’t know what to say to that, and you both stare at Sane sleeping in the corner.
 
     “Phew…” - Even finally talks. - “I doubt either of us can produce an adequate response to this at the moment.” - It points at Sane. - “Let’s focus on the reality of the situation.”`,
     options: [
@@ -1551,7 +1553,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Are you sure this is Sane? We’re talking about the same Sane, right? Huge guy, a bit crazy when it comes to post apocalyptic topics. Always talks in a low thunderous voice and keeps saying how important it is to not be mediocre?”`,
-    text: `“Oh what a day…” - Even shakes its head skeptically. - “What a lovely day to not believe me. Have I said something that isn’t true so far? Yes, it’s that kind of Sane. You do remember, that you only met him in zerOne and only when you were a loopy boy? Now we’re seeing him in reality. I do admit though, this scrawny young man doesn’t look like his virtual image at all. He’s surely spent all his experience points on strength and brutality, if you get my meaning.”
+    text: `“Oh what a day…” - Even shakes its head skeptically. - “What a lovely day to not believe me. Have I said something that isn’t true so far? Yes, it’s that kind of Sane. You do remember that you only met him in zerOne and only when you were a loopy boy? Now we’re seeing him in reality. I do admit though, this scrawny young man doesn’t look like his virtual image at all. He’s surely spent all his experience points on strength and brutality, if you get my meaning.”
 
     Even gets closer to Sane.
     
@@ -2178,7 +2180,9 @@ const gameContents = [
 
     “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
 
-    Even notices your puzzled face. - “No? Not a little clue? Hah! Wait for it, dude. I’m gonna enjoy the moment.”
+    Even notices your puzzled face.
+    
+    “No? Not a little clue? Hah! Wait for it, dude. I’m gonna enjoy the moment.”
 
     It keeps grinning and finally answers your silent question. - “Sane Snacks, buddy! It’s him, in the flesh. Your favorite friend.” - It gets serious for a moment. - “It’s happening again. I know things I didn’t know a moment ago. Why does this info keep coming in and out of me?”`,
     options: [
@@ -2204,13 +2208,13 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Are you ok, Even? You act differently while we are in the real world.”`,
-    text: `“I don’t know, man. It’s just… Like I’m a part of all this.” - Even gestures around the room. - “Not only here, but in general, once we’re not connected to zerOne and walking throughout the tower. It all looks familiar. But I can’t figure out why. You hear them too, right? Voices when I speak, not your own voice like when we talk in zerOne. The moment you ask me something I feel like a closet that’s opening, and then hundreds of answers start falling out of it. And each one is screaming “I’m the right one!”. What’s even more weird, they are all the right ones, just slightly different. As if someone has filled this cupboard with countless identical instruments instead of just one. And I’m like some internet forum in the ancient days, where you ask a question and get a million different replies. Then I’m doing my best to gather them under one.”
+    text: `“I don’t know, man. It’s just… Like I’m a part of all this.” - Even gestures around the room. - “Not only here, but in general, once we’re not connected to zerOne and walking throughout the tower. It all looks familiar. But I can’t figure out why. You hear them too, right? Voices when I speak, not your own voice like when we talk in zerOne. The moment you ask me something, I feel like a closet that’s opening, and then hundreds of answers start falling out of it. And each one is screaming “I’m the right one!”. What’s even more weird, they are all the right ones, just slightly different. As if someone has filled this cupboard with countless identical instruments instead of just one. And I’m like some internet forum in the ancient days, where you ask a question and get a million different replies. Then I’m doing my best to gather them under one.”
 
     Even sighs loudly.
 
-    “I’m not supposed to feel tired, am I? Then what is that inside me every time I talk? Someone recorded what the tiredness should feel like and I’m just imitating it?”
+    “I’m not supposed to feel tired, am I? Then what is that inside me every time I talk? Someone recorded what the tiredness should feel like, and I’m just imitating it?”
 
-    You don’t know what to say to that and you both stare at Sane sleeping in the corner.
+    You don’t know what to say to that, and you both stare at Sane sleeping in the corner.
 
     “Phew…” - Even finally talks. - “I doubt either of us can produce an adequate response to this at the moment.” - It points at Sane. - “Let’s focus on the reality of the situation.”`,
     options: [
@@ -2230,7 +2234,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Are you sure this is Sane? We’re talking about the same Sane, right? Huge guy, a bit crazy when it comes to post apocalyptic topics. Always talks in a low thunderous voice and keeps saying how important it is to not be mediocre?”`,
-    text: `“Oh what a day…” - Even shakes its head skeptically. - “What a lovely day to not believe me. Have I said something that isn’t true so far? Yes, it’s that kind of Sane. You do remember, that you only met him in zerOne and only when you were a loopy boy? Now we’re seeing him in reality. I do admit though, this scrawny young man doesn’t look like his virtual image at all. He’s surely spent all his experience points on strength and brutality, if you get my meaning.”
+    text: `“Oh what a day…” - Even shakes its head skeptically. - “What a lovely day to not believe me. Have I said something that isn’t true so far? Yes, it’s that kind of Sane. You do remember that you only met him in zerOne and only when you were a loopy boy? Now we’re seeing him in reality. I do admit though, this scrawny young man doesn’t look like his virtual image at all. He’s surely spent all his experience points on strength and brutality, if you get my meaning.”
 
     Even gets closer to Sane.
 
