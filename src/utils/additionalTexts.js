@@ -34,7 +34,7 @@ At the time not long before the towers era, most of the humans’ jobs had been 
 
 Manual labor had ceased to exist. Builders Council controls machines production and AI development. Writers form guilds that compete for each sector where their skills are still being used. Coders manage machines work, fix bugs, develop new features and compete with AI, endlessly trying to prove that they are worth it. However, demand for them is significantly lower than supply. Each guild is always fully staffed, and within them only the best ones manage to stay and continue working there.
 
-Those who were not able to join the guilds search for any other source of income in zerOne. The most popular one is taking part in the Writers Fights, arenas where coders create and control artificial characters that fight each other in a special virtual space. Participants call themselves poets: for the majority every fight is the final frontier between lower and higher towers levels. They call it the Last Song: a fight after which you either go down or rise up.
+Those who were not able to join the guilds search for any other source of income in zerOne. The most popular one is taking part in the Writers Fights, arenas where coders create and control artificial characters that compete with each other in a special virtual space. Participants call themselves poets: for the majority every Fight is the final frontier between lower and higher towers levels. They call it the Last Song: a Fight after which you either go down or rise up.
 
 - - -`;
 

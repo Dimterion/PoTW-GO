@@ -1130,7 +1130,7 @@ const gameContents = [
 
     Una replies, lazily pulling the strings.
 
-    “I’m used to seeing people do the same stuff on repeat. And, yeah, my virtual life is identical to the real one. Grinding is part of the whole concept zerOne is built upon. Makes you stick to it, not wanting to come back to reality. As there’s nothing here anymore. Life is just a four-walled box to exist, while all the living is happening between zeros and ones.”
+    “I’m used to seeing people do the same stuff on repeat. And, yeah, my virtual life is identical to the real one. Grinding is part of the whole concept zerOne is built upon. Makes you stick to it, not wanting to come back to reality. As there’s nothing here anymore. Life is just a four-walled box to exist while all the living is happening between zeros and ones.”
 
     The music gets louder, it feels like Una is singing rather than talking.
 
@@ -1138,7 +1138,7 @@ const gameContents = [
 
     Una stops talking for a moment, focusing on his guitar again.
 
-    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk, once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
+    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
 
     He gets silent and rubs his forehead.
 
@@ -1189,7 +1189,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Thanks, Una. Appreciate the advice. And… Well, sorry for all the AI stuff.”`,
-    text: `“Don’t mention it, pal.” - Una puts the guitar aside and looks at you. - “Being what you’re seems to be not your fault, so no skin off our digital backs here. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking with computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
+    text: `“Don’t mention it, pal.” - Una puts the guitar aside and looks at you. - “Being what you’re seems to be not your fault, so no skin off our digital backs here. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking to computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
 
     “Pf-f-f…” - Even glances over its shoulder. - “Whatever… He’s fine… at times.”
 
@@ -1212,12 +1212,12 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Uhm, sorry, but I’m so used to spending most of my life in zerOne, that I feel nervous talking outside. Mind if we meet as usual?”`,
+    subText: `“Uhm, sorry, but I’m so used to spending most of my life in zerOne that I feel nervous talking outside. Mind if we meet as usual?”`,
     text: `“Nervous, huh?”
 
     Una sounds a bit disappointed.
 
-    “Oh well, can’t blame you. Peeps nowadays are scared of reality and I get it. It’s killing us after all. Slowly but surely.”
+    “Oh, well, can’t blame you. Peeps nowadays are scared of reality, and I get it. It’s killing us after all. Slowly but surely.”
 
     He sighs, gets silent for a moment, then adds.
 
@@ -1275,8 +1275,8 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“I guess, I’ve just realized I’m not really interested in winning anymore. Constant grind, hoping that it’ll bring me somewhere, but in the end it’s just more grinding. I felt… tired.”`,
-    text: `“Well, I surely didn’t expect that coming from you.” - Una replies, lazily pulling the strings. - “Seems like I’ve got too used to seeing people do the same stuff on repeat. Even me. Grinding is part of the whole concept zerOne is built upon. Makes you stick to it, not wanting to come back to reality. As there’s nothing here anymore. Life is just a four-walled box to exist, while all the living is happening between zeros and ones.”
+    subText: `“I guess I’ve just realized I’m not really interested in winning anymore. Constant grind, hoping that it’ll bring me somewhere, but in the end it’s just more grinding. I felt… tired.”`,
+    text: `“Well, I surely didn’t expect that coming from you.” - Una replies, lazily pulling the strings. - “Seems like I’ve got too used to seeing people do the same stuff on repeat. Even me. Grinding is part of the whole concept zerOne is built upon. Makes you stick to it, not wanting to come back to reality. As there’s nothing here anymore. Life is just a four-walled box to exist while all the living is happening between zeros and ones.”
 
     The music gets louder, it feels like Una is singing rather than talking.
 
@@ -1284,7 +1284,7 @@ const gameContents = [
 
     Una stops talking for a moment, focusing on his guitar again.
 
-    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk, once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
+    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
 
     He gets silent and rubs his forehead.
 
@@ -1307,7 +1307,7 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“During the last fight there was a new participant. A girl named Arika. She… knew something about me. We talked for a bit, but then she disappeared. I need to try finding out what happened.”`,
+    subText: `“In the last Fight there was a new participant. A girl named Arika. She… knew something about me. We talked for a bit, but then she disappeared. I need to try finding out what happened.”`,
     text: `After you’ve described Arika to Una, he gets silent for a moment, playing the guitar.
 
     “Want my opinion?” - He finally says. - “I wouldn’t be too worried about her. Based on what you’ve mentioned, she’s one of the rich folk. Playing around with others just to entertain themselves. Then, the moment they get bored, poof…” - Una hits a guitar string, making a loud noise. - “They are outta here. But you do you, edge runner, don’t make the blades of my words stop you. I’m just an angry old fella, yelling at the toxic sky, happy to be wrong, yet not having lots of hope.” - Una points his finger at you. - “Maybe you’ll find that Goldilocks of yours and drive to the sunset. Perhaps, out of principle, she’ll be able to provide you with just the right amount of further choices.”`,
@@ -1334,7 +1334,7 @@ const gameContents = [
 
     “Just a reminder,” - Even appears in front of you. - “He doesn’t know that we aren’t scared of breathing toxins anymore.”
 
-    “I mean…” - Una hesitates for a second. - “Have to be honest, I had the desire myself a while ago, but…” - It looks like he wants to tell you something but then just shakes his head. - “Nah, man, nevermind. Just don’t do it, ok? We’ve a little time to live, so we have to live a little.” - He starts playing the guitar again. - “Want some adventures? Go hang out with our mutual friend Sane Snacks. Haven’t seen the big dude recently. If you find him, tell him he still owes me for the deluxe tickets to the Soundcore of Mirror concert, ok? Actually, forget it, consider this my treat. The giant always lifts my mood up.”`,
+    “I mean…” - Una hesitates for a second. - “Have to be honest, I had the desire myself a while ago, but…” - It looks like he wants to tell you something, but then just shakes his head. - “Nah, man, nevermind. Just don’t do it, ok? We’ve a little time to live, so we have to live a little.” - He starts playing the guitar again. - “Want some adventures? Go hang out with our mutual friend Sane Snacks. Haven’t seen the big dude recently. If you find him, tell him he still owes me for the deluxe tickets to the Soundcore of Mirror concert, ok? Actually, forget it, consider this my treat. The giant always lifts my mood up.”`,
     options: [
       {
         text: `“Thanks, Una.”`,
@@ -1377,7 +1377,7 @@ const gameContents = [
     characterImageAlt: "Bearded man with glasses.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Long story. Maybe I’ll tell you some other time. Wanted to ask you something else. During the last fight there was a new participant. A girl named Arika. She… knew something about me. We talked for a bit, but then she disappeared. I need to try finding out what happened.”`,
+    subText: `“Long story. Maybe I’ll tell you some other time. Wanted to ask you something else. In the last Fight there was a new participant. A girl named Arika. She… knew something about me. We talked for a bit, but then she disappeared. I need to try finding out what happened.”`,
     text: `After you’ve described Arika to Una, he gets silent for a moment, playing the guitar.
 
     “Want my opinion?” - He finally says. - “I wouldn’t be too worried about her. Based on what you’ve mentioned, she’s one of the rich folk. Playing around with others just to entertain themselves. Then, the moment they get bored, poof…” - Una hits a guitar string, making a loud noise. - “They are outta here. But you do you, edge runner, don’t make the blades of my words stop you. I’m just an angry old fella, yelling at the toxic sky, happy to be wrong, yet not having lots of hope.” - Una points his finger at you. - “Maybe you’ll find that Goldilocks of yours and drive to the sunset. Perhaps, out of principle, she’ll be able to provide you with just the right amount of further choices. As for where to find her, sorry, not my area of expertise.”`,
@@ -1424,7 +1424,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“I see. Well, thanks anyway, Una. And… Well, sorry for all the AI stuff.”`,
-    text: `“Not your fault mate. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking with computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
+    text: `“Not your fault mate. Just keep being a nice guy, deal? Ah, yeah, tell your rabbit to not hold too much grudge against me. When it comes to talking to computers, old Una has trust issues, ok? But, if it’s a part of you, it’s probably not so bad.”
 
     “Pf-f-f…” - Even glances over its shoulder. - “Whatever… He’s fine… at times.”
     
