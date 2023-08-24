@@ -112,6 +112,26 @@
   }
 }
 
+.gameComponent-appearingMainImage--levelOneVirtual {
+  width: 1024px;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: cover;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-bottom: 1rem;
+  animation: gameComponent-appearingMainImage--levelOneVirtual 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-appearingMainImage--levelOneVirtual {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .gameComponent-additionalImage--levelOneVirtual {
   position: absolute;
   z-index: 1;
@@ -196,7 +216,7 @@
   margin-right: 1rem;
 }
 
-.disappearingImg--levelOneVirtual {
+.gameComponent-disappearingCharacterImage--levelOneVirtual {
   float: left;
   opacity: 0;
   width: 0;
@@ -204,10 +224,10 @@
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 1rem;
-  animation: 5s disappearingImg--levelOneVirtual linear;
+  animation: 5s gameComponent-disappearingCharacterImage--levelOneVirtual linear;
 }
 
-@keyframes disappearingImg--levelOneVirtual {
+@keyframes gameComponent-disappearingCharacterImage--levelOneVirtual {
   0% {
     opacity: 1;
     width: 200px;
@@ -230,17 +250,17 @@
   }
 }
 
-.appearingImg--levelOneVirtual {
+.gameComponent-appearingCharacterImage--levelOneVirtual {
   float: left;
   width: 200px;
   max-width: 35vw;
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 1rem;
-  animation: 5s appearingImg--levelOneVirtual linear;
+  animation: 5s gameComponent-appearingCharacterImage--levelOneVirtual linear;
 }
 
-@keyframes appearingImg--levelOneVirtual {
+@keyframes gameComponent-appearingCharacterImage--levelOneVirtual {
   0% {
     opacity: 0;
     width: 0;

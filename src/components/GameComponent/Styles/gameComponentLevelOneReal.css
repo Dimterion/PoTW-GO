@@ -195,7 +195,7 @@
   margin-right: 1rem;
 }
 
-.disappearingImg--levelOneReal {
+.gameComponent-disappearingCharacterImage--levelOneReal {
   float: left;
   opacity: 0;
   width: 0;
@@ -203,10 +203,10 @@
   border-right: 1px solid var(--levelOneRealAdditional);
   border-bottom: 1px solid var(--levelOneRealAdditional);
   margin-right: 1rem;
-  animation: 2s disappearingImg--levelOneReal linear;
+  animation: 2s gameComponent-disappearingCharacterImage--levelOneReal linear;
 }
 
-@keyframes disappearingImg--levelOneReal {
+@keyframes gameComponent-disappearingCharacterImage--levelOneReal {
   0% {
     opacity: 1;
     width: 200px;
@@ -226,17 +226,17 @@
   }
 }
 
-.appearingImg--levelOneReal {
+.gameComponent-appearingCharacterImage--levelOneReal {
   float: left;
   width: 200px;
   max-width: 35vw;
   border-right: 1px solid var(--levelOneRealAdditional);
   border-bottom: 1px solid var(--levelOneRealAdditional);
   margin-right: 1rem;
-  animation: 5s appearingImg--levelOneReal linear;
+  animation: 5s gameComponent-appearingCharacterImage--levelOneReal linear;
 }
 
-@keyframes appearingImg--levelOneReal {
+@keyframes gameComponent-appearingCharacterImage--levelOneReal {
   0% {
     opacity: 0;
     width: 0;

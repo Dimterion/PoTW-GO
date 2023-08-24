@@ -77,7 +77,11 @@ function GameComponent({ content, setOptionId }) {
         <img
           src={content.mainImage}
           alt={content.mainImageAlt}
-          className={`gameComponent-mainImage--${content.style}`}
+          className={
+            content.mainImageEffect
+              ? `gameComponent-${content.mainImageEffect}--${content.style}`
+              : `gameComponent-mainImage--${content.style}`
+          }
         />
       )}
       {content.additionalImage && (
@@ -105,8 +109,8 @@ function GameComponent({ content, setOptionId }) {
             src={content.characterImage}
             alt={content.characterImageAlt}
             className={
-              content.effect
-                ? content.effect
+              content.characterImageEffect
+                ? `gameComponent-${content.characterImageEffect}--${content.style}`
                 : `gameComponent-characterImage--${content.style}`
             }
           />

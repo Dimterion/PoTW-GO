@@ -289,7 +289,7 @@ const gameContents = [
   {
     id: 10,
     style: "prologue",
-    effect: "disappearingImg--prologue",
+    characterImageEffect: "disappearingCharacterImage",
     mainImage: prologueImage,
     characterImage: arikaPortrait,
     subImage: characterImage,
@@ -644,7 +644,7 @@ const gameContents = [
   {
     id: 27,
     style: "prologue",
-    effect: "appearingImg--prologue",
+    characterImageEffect: "appearingCharacterImage",
     mainImage: prologueImage,
     characterImage: evenPortrait,
     mainImageAlt: "Toxic clouds above the surface.",
@@ -884,7 +884,7 @@ const gameContents = [
   {
     id: 36,
     style: "levelOneReal",
-    effect: "disappearingImg--levelOneReal",
+    characterImageEffect: "disappearingCharacterImage",
     mainImage: levelOneImage01,
     characterImage: evenPortrait,
     additionalImage: evenPortrait,
@@ -1740,6 +1740,7 @@ const gameContents = [
   {
     id: 67,
     style: "levelOneVirtual",
+    mainImageEffect: "appearingMainImage",
     mainImage: bridgeInnerStructure,
     characterImage: sanePortrait,
     additionalImage: evenPortrait,
