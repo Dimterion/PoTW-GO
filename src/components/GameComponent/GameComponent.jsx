@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { nanoid } from "nanoid";
 import PropTypes from "prop-types";
 import { scrollToTop, gameConditions } from "../../utils/gameCompFunctions";
 import MenuModal from "../../components/Modals/MenuModal/MenuModal";
@@ -25,7 +24,8 @@ function GameComponent({ content, setOptionId }) {
             ? `gameComponent-${option.btnEffect}Btn--${content.style}`
             : `gameComponent-btn--${content.style}`
         }
-        key={nanoid()}
+        // Consider alternatives to keys or add IDs to each of the options in gameContents.js.
+        key={option.nextText}
         onClick={() => {
           setOptionId(option.nextText);
           scrollToTop("gameComponent-container");
