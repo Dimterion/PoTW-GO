@@ -1583,7 +1583,7 @@ const gameContents = [
 
     “Well, everything is the same as when you were living your pre-eventful life.” - Even produces a satisfied chuckle. - “Notice what I did there?” - Seeing no reaction, it keeps talking. - “All seems to be as it was before. At least based on what I can check in your memory, as we were not together back then. Ever wonder how Deo put you in that repetitive state? The loop itself was more about your behavior rather than actually rewinding you each time, thus people you interacted with still know you. You just kept doing the same thing day after day, with some occasional contacts with the others. You simply never questioned the fact that you appeared out of nowhere and have no idea of who you are and where you came from. And the part where you were waking up every day and logging into zerOne was just loaded into you as a memory.” - Even shrugs. - “I mean, you don’t need to wake up and log in when you’re a part of it, right? So, it was just a bit of a behavioral adjustment to create some sort of a daily routine looking like real life.”
 
-    You examine the zerOne version of your life-capsule and don’t notice any differences. Same place you’ve been living in, nothing new.
+    You examine the digital version of your life-capsule and don’t notice any differences. Same place you’ve been living in, nothing new.
 
     “I think the old man just used a standard template for an apartment.” - Even says in the end. - “Doubt he was doing anything special here himself. Let’s call Sane.”`,
     options: [
@@ -1699,7 +1699,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Sorry, Sane, but the truth is, Deo is long gone. We both talked to his virtual projection.”`,
-    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow, looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I was able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wiped your daily loop and sent you to the beginning of it.”
+    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I was able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wiped your daily loop and sent you to the beginning of it.”
 
     “Heh, bet you still used it.” - Even adds in a mocking tone, looking at you. - “Or, at least, seriously considered it.”`,
     options: [
@@ -1723,7 +1723,7 @@ const gameContents = [
     subText: `“You live alone? No relatives or friends?”`,
     text: `“Nah, man…” - Sane waves his hand. - “Well, except for you, Una… and Deo I guess. Have you seen the real Bridge? Everything is like some grim bunker with nobody inside. Once I settled here, I’ve been mostly hanging out with you in zerOne or figuring out how to not go further down to the first level. Speaking of the first level…” - Sane rubs his chin. - “Deo, or his projection, said that you might want to go there. Don’t know why exactly, he didn’t tell. What he did tell is to help you install an additional module to your companion.”
 
-    “That’s me, rabbit with a dragon soul.” - Even sounds wary. - “I already have enough of the unknown inside. What’s that supposed to be? Damn it,” - It adds at the end. - “keep forgetting that nobody except you sees or hears me.”
+    “That’s me, rabbit with a dragon soul.” - Even sounds wary. - “I already have enough of the unknown inside. What’s that supposed to be? Damn it,” - It adds in the end. - “Keep forgetting that nobody except you sees or hears me.”
 
     Having no notion of Even’s words, Sane keeps talking. - “I don’t know much, he just told me to show you this. Looks ancient.”
 
@@ -1924,7 +1924,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Sorry, Sane, but the truth is, Deo is long gone. We both talked to his virtual projection.”`,
-    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow, looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I was able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wiped your daily loop and sent you to the beginning of it.”
+    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I was able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wiped your daily loop and sent you to the beginning of it.”
 
     “Heh, bet you still used it.” - Even adds in a mocking tone, looking at you. - “Or, at least, seriously considered it.”`,
     options: [
@@ -1948,7 +1948,7 @@ const gameContents = [
     subText: `“You live alone? No relatives or friends?”`,
     text: `“Nah, man…” - Sane waves his hand. - “Well, except for you, Una… and Deo I guess. Have you seen the real Bridge? Everything is like some grim bunker with nobody inside. Once I settled here, I’ve been mostly hanging out with you in zerOne or figuring out how to not go further down to the first level. Speaking of the first level…” - Sane rubs his chin. - “Deo, or his projection, said that you might want to go there. Don’t know why exactly, he didn’t tell. What he did tell is to help you install an additional module to your companion.”
 
-    “That’s me, rabbit with a dragon soul.” - Even sounds wary. - “I already have enough of the unknown inside. What’s that supposed to be? Damn it,” - It adds at the end. - “keep forgetting that nobody except you sees or hears me.”
+    “That’s me, rabbit with a dragon soul.” - Even sounds wary. - “I already have enough of the unknown inside. What’s that supposed to be? Damn it,” - It adds in the end. - “Keep forgetting that nobody except you sees or hears me.”
 
     Having no notion of Even’s words, Sane keeps talking. - “Switch to zerOne, I’ll show you there.”`,
     options: [
@@ -2159,7 +2159,7 @@ const gameContents = [
 
     “Well, everything is the same as when you were living your pre-eventful life.” - Even produces a satisfied chuckle. - “Notice what I did there?” - Seeing no reaction, it keeps talking. - “All seems to be as it was before. At least based on what I can check in your memory, as we were not together back then. Ever wonder how Deo put you in that repetitive state? The loop itself was more about your behavior rather than actually rewinding you each time, thus people you interacted with still know you. You just kept doing the same thing day after day, with some occasional contacts with the others. You simply never questioned the fact that you appeared out of nowhere and have no idea of who you are and where you came from. And the part where you were waking up every day and logging into zerOne was just loaded into you as a memory.” - Even shrugs. - “I mean, you don’t need to wake up and log in when you’re a part of it, right? So, it was just a bit of a behavioral adjustment to create some sort of a daily routine looking like real life.”
 
-    You examine the zerOne version of your life-capsule and don’t notice any differences. Same place you’ve been living in, nothing new.
+    You examine the digital version of your life-capsule and don’t notice any differences. Same place you’ve been living in, nothing new.
 
     “I think the old man just used a standard template for an apartment.” - Even says in the end. - “Doubt he was doing anything special here himself. Guess we should check the real version now.”`,
     options: [
