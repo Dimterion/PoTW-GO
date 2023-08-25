@@ -1677,7 +1677,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Wait a minute. You know Deo?”`,
-    text: `“Yeah, since he let me live in his place.” - Sane replies as if it was obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. In fact, since you took part in the last Writers Fight. Perhaps he was busy with your tuning or whatever.”
+    text: `“Yeah, since he let me live in his place.” - Sane replies as if it was obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. Since you took part in the last Writers Fight actually. Perhaps he was busy with your tuning or whatever.”
 
     “Soai…” - Even says quietly. - “He doesn’t know that Deo’s gone. I remember now. Same as with the projection you talked to in the arena loophole, once you’ve figured it all out and I was loaded into you, all Deo’s connections to the world have been cut off. In fact, I was the one doing the cutting, as it was no longer needed. In other words, Sane never talked to the real Deo. Old man probably left something similar to his arena version here. A projection of a sort, to keep an eye on the life-capsule. And now it’s also gone. I guess we should tell him.”`,
     options: [
@@ -1699,7 +1699,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Sorry, Sane, but the truth is, Deo is long gone. We both talked to his virtual projection.”`,
-    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I was able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wiped your daily loop and sent you to the beginning of it.”
+    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I am able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wipes your daily loop and sends you to the beginning of it.”
 
     “Heh, bet you still used it.” - Even adds in a mocking tone, looking at you. - “Or, at least, seriously considered it.”`,
     options: [
@@ -1712,11 +1712,11 @@ const gameContents = [
   {
     id: 66,
     style: "levelOneVirtual",
-    mainImage: deoVirtualApartment,
+    mainImage: floppyDisk,
     characterImage: sanePortrait,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Virtual futuristic apartment.",
+    mainImageAlt: "A red floppy disk.",
     characterImageAlt: "Big man wearing post-apocalyptic clothes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
@@ -1729,10 +1729,10 @@ const gameContents = [
 
     He snaps his fingers and you see a red square with a gray circle in the middle. It’s floating in front of you, slowly turning around.
 
-    “It’s called a floppy disc.” - Even explains to you. - “People used to store information on them in the old times. I mean, we are in zerOne, so it’s just a visual appearance. Old man had some strange way of expressing himself. Especially given the fact that he was born not even close to the time when this was still in use. Well, who cares. I don’t think we have any other option except for installing it. Go ahead.”`,
+    “It’s called a floppy disk.” - Even explains to you. - “People used to store information on them in the old times. I mean, we are in zerOne, so it’s just a visual appearance. Old man had some strange way of expressing himself. Especially given the fact that he was born not even close to the time when this was still in use. Well, who cares. I don’t think we have any other option except for installing it. Go ahead.”`,
     options: [
       {
-        text: `Take the floppy disc.`,
+        text: `Take the floppy disk.`,
         nextText: 67,
       },
     ],
@@ -1747,7 +1747,7 @@ const gameContents = [
     mainImageAlt: "Yellow-green virtual structure.",
     characterImageAlt: "Big man wearing post-apocalyptic clothes.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `The moment you touch the disc, your vision glitches and you see countless colorful artifacts around you. They look like a structure of a building, a skeleton without organs and muscles.
+    text: `The moment you touch the disk, your vision glitches and you see countless colorful artifacts around you. They look like a structure of a building, a skeleton without organs and muscles.
 
     “Woah…” - Even exclaims. - “Here is our ticket to the first level. This thingy has just granted me access to the cameras there. We can watch the feed and do the same stuff as we do here, on the second level. Although…” - Even thinks about something for a moment. - “We still don’t have access to zerOne, so we won’t be able to switch to it or to interact with the others there.”
 
@@ -1775,9 +1775,9 @@ const gameContents = [
 
     “Great.” - Even flies around Sane’s character. - “Why do I need taming and why you shouldn’t trust me. I’m basically you. Do you trust yourself?” - It keeps talking while pacing through the virtual apartment. - “Maybe he meant me. Maybe you’re my rabbit and I should tame you, Soai. Should I trust you?”
 
-    Seeing that you’re silent, Sane adds. - “Also, Deo asked me to add that, if you don’t know where to go next, go to where it has begun.”
+    Seeing that you’re silent, Sane continues. - “Also, Deo asked me to add that, if you don’t know where to go next, go to where it has begun.”
 
-    “Ok, I see.” - Even sounds slightly irritated. - “He wanted us to go to the arena again. To the loophole where we first met. Could’ve just said that, without any advice on trust. We can go right away. I should be able to open the shortcut for us. Maybe there’s a CD this time.” - Seeing your face, Even clarifies. - “Another ancient device to store data… Nevermind, I meant that there we might find a way to enter the first level’s zerOne.”`,
+    “Ok, I see.” - Even sounds slightly irritated. - “He wanted us to go to the arena again. To the loophole where we first met. Could’ve just said that, without any advice on trust. We can go right away. I should be able to open the shortcut for us. Maybe there’s a CD this time.” - Seeing your face, Even clarifies. - “Another ancient device to store data… Nevermind, I meant that we might find a way to enter the first level’s zerOne there.”`,
     options: [
       {
         text: `“Never saw you here before.”`,
@@ -1902,7 +1902,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Wait a minute. You know Deo?”`,
-    text: `“Yeah, since he let me live in his place.” - Sane replies as if it was obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. In fact, since you took part in the last Writers Fight. Perhaps he was busy with your tuning or whatever.”
+    text: `“Yeah, since he let me live in his place.” - Sane replies as if it was obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. Since you took part in the last Writers Fight actually. Perhaps he was busy with your tuning or whatever.”
 
     “Soai…” - Even says quietly. - “He doesn’t know that Deo’s gone. I remember now. Same as with the projection you talked to in the arena loophole, once you’ve figured it all out and I was loaded into you, all Deo’s connections to the world have been cut off. In fact, I was the one doing the cutting, as it was no longer needed. In other words, Sane never talked to the real Deo. Old man probably left something similar to his arena version here. A projection of a sort, to keep an eye on the life-capsule. And now it’s also gone. I guess we should tell him.”`,
     options: [
@@ -1924,7 +1924,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Sorry, Sane, but the truth is, Deo is long gone. We both talked to his virtual projection.”`,
-    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I was able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wiped your daily loop and sent you to the beginning of it.”
+    text: `“Oh…” - Once you tell him about Deo, Sane gets quiet. - “That explains some of his weird replies when we were talking. I thought it was just because he’s a lonely old fellow looking for an audience to listen to his endless stories. But this thing was just set up to talk to occasional strangers like me. Pretty advanced projection though. Remember when we last met I offered you some sort of a rewind option, so you could start that arena attempt again? Deo let me install a special module to my zerOne character, and with it I am able to do that. He said maybe you’ll ask for it one day. Pretty useless thing, to my mind. It just wipes your daily loop and sends you to the beginning of it.”
 
     “Heh, bet you still used it.” - Even adds in a mocking tone, looking at you. - “Or, at least, seriously considered it.”`,
     options: [
@@ -1974,10 +1974,10 @@ const gameContents = [
 
     He snaps his fingers and you see a red square with a gray circle in the middle. It’s floating in front of you, slowly turning around.
     
-    “It’s called a floppy disc.” - Even explains to you. - “People used to store information on them in the old times. I mean, we are in zerOne, so it’s just a visual appearance. Old man had some strange way of expressing himself. Especially given the fact that he was born not even close to the time when this was still in use. Well, who cares. I don’t think we have any other option except for installing it. Go ahead.”`,
+    “It’s called a floppy disk.” - Even explains to you. - “People used to store information on them in the old times. I mean, we are in zerOne, so it’s just a visual appearance. Old man had some strange way of expressing himself. Especially given the fact that he was born not even close to the time when this was still in use. Well, who cares. I don’t think we have any other option except for installing it. Go ahead.”`,
     options: [
       {
-        text: `Take the floppy disc.`,
+        text: `Take the floppy disk.`,
         nextText: 67,
       },
     ],
@@ -2484,5 +2484,6 @@ import deoVirtualApartment from "../assets/images/deo_virtual_apartment.jpg";
 import sanePortrait from "../assets/images/sane_portrait.jpg";
 import saneRealPortrait from "../assets/images/sane_real_portrait.jpg";
 import bridgeInnerStructure from "../assets/images/bridge_inner_structure.jpg";
+import floppyDisk from "../assets/images/floppy_disk.jpg";
 
 export default gameContents;
