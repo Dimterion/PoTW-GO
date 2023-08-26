@@ -1712,6 +1712,7 @@ const gameContents = [
   {
     id: 66,
     style: "levelOneVirtual",
+    mainImageEffect: "appearingMainImage",
     mainImage: floppyDisk,
     characterImage: sanePortrait,
     subImage: characterImage,
@@ -1740,7 +1741,7 @@ const gameContents = [
   {
     id: 67,
     style: "levelOneVirtual",
-    mainImageEffect: "appearingMainImage",
+    mainImageEffect: "topSlidingMainImage",
     mainImage: bridgeInnerStructure,
     characterImage: sanePortrait,
     additionalImage: evenPortrait,
@@ -1962,13 +1963,11 @@ const gameContents = [
   {
     id: 75,
     style: "levelOneVirtual",
-    mainImage: deoVirtualApartment,
+    mainImage: floppyDisk,
     characterImage: sanePortrait,
-    subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Virtual futuristic apartment.",
+    mainImageAlt: "A red floppy disk.",
     characterImageAlt: "Big man wearing post-apocalyptic clothes.",
-    subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `Sane’s zerOne character stands nearby, his loud voice rumbling. - “I don’t know much, Deo just told me to show you this. Looks ancient.”
 

@@ -124,11 +124,31 @@
 
 @keyframes gameComponent-appearingMainImage--levelOneVirtual {
   0% {
-    transform: translateX(-100%);
+    opacity: 0;
   }
 
   100% {
-    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.gameComponent-topSlidingMainImage--levelOneVirtual {
+  width: 1024px;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: cover;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-bottom: 1rem;
+  animation: gameComponent-topSlidingMainImage--levelOneVirtual 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-topSlidingMainImage--levelOneVirtual {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
 
