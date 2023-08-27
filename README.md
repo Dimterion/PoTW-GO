@@ -4,6 +4,8 @@ Interactive Text Adventure
 
 The next chapter of the story which began [here](https://github.com/Dimterion/PoTW)
 
+[Current live version](https://profound-cat-a609de.netlify.app/)
+
 ## Details
 
 WORK IN PROGRESS

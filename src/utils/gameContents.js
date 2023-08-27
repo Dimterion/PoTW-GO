@@ -2124,7 +2124,7 @@ const gameContents = [
     characterImageAlt: "Big man wearing post-apocalyptic clothes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Remember the companion you mentioned? I’m talking to him. Nobody else can see or hear it. Its name is Even and it looked like a rabbit once. Now it’s more like a distant humanoid-type relative of a rabbit.”`,
+    subText: `“Remember the companion you mentioned? I’m talking to it. Nobody else can see or hear it. Its name is Even and it looked like a rabbit once. Now it’s more like a distant humanoid-type relative of a rabbit.”`,
     text: `“Now wait a second!” - Even crosses its arms on its chest. - “What do you mean by that humanoid relative comparison?” - It looks at its hands. - “Oh… I thought I had paws… Hm… Have I performed a digital mutation?”
 
     “Awesome!” - Sane can’t hide his excitement. - “Not as cool as a dragon, but still nice!”
@@ -2289,7 +2289,7 @@ const gameContents = [
 
     Even points at one of the panels on the wall. - “An entry to our penthouse in all its glory.”
 
-    You see a sliding piece of yellow-green metal. It looks the same as the rest of the panels on the wall.
+    You see a sliding piece of yellow-green metal. It looks the same as the rest of the panels around.
 
     “Well…” - Even rubs its chin thoughtfully. - “Unlike our human friends, we won’t be bothered by the thought that our actual body is still in the real rotting life back there. We don’t need this now, but, in case you’re wondering how we see everything when we’re not in zerOne, I feel bad for saying this, but so far it seems like I can access any camera in the Bridge, at least on the current level, so…” - You notice that Even sounds slightly embarrassed. - “We can watch everyone’s private affairs. Don’t judge me, ok? I was made this way… Anyway, I suggest we enter the place already.”`,
     options: [
@@ -2317,9 +2317,9 @@ const gameContents = [
 
     “On the other hand…” - Sane keeps talking. - “I don’t really mind zerOne either. I’m like fifty percent made of digital and fifty of real stuff. Honestly, being in the middle is not always the best disposition. And by not always I mean never. Everyone wants you to pick a side, to live by certain standards, while I just want to live and try to enjoy it.”
 
-    “I certainly did not expect such a discourse from that young individual.” - Even sounds impressed. - “Can’t say I agree… but then it only proves his point.”
+    “I certainly did not expect such a discourse from that young individual.” - Even sounds impressed. - “Can’t say I agree… But then it only proves his point.”
     
-    “Deo told me, the same thoughts were the reason he came up with an idea to make you.” - Sane adds in the end.`,
+    “Deo told me the same thoughts were the reason he came up with an idea to make you.” - Sane adds in the end.`,
     options: [
       {
         text: `“How do you know Deo?”`,
@@ -2345,9 +2345,9 @@ const gameContents = [
 
     “On the other hand…” - Sane keeps talking. - “I don’t really mind zerOne either. I’m like fifty percent made of digital and fifty of real stuff. Honestly, being in the middle is not always the best disposition. And by not always I mean never. Everyone wants you to pick a side, to live by certain standards, while I just want to live and try to enjoy it.”
 
-    “I certainly did not expect such a discourse from that young individual.” - Even sounds impressed. - “Can’t say I agree… but then it only proves his point.”
+    “I certainly did not expect such a discourse from that young individual.” - Even sounds impressed. - “Can’t say I agree… But then it only proves his point.”
     
-    “Deo told me, the same thoughts were the reason he came up with an idea to make you.” - Sane adds in the end.`,
+    “Deo told me the same thoughts were the reason he came up with an idea to make you.” - Sane adds in the end.`,
     options: [
       {
         text: `“How do you know Deo?”`,
@@ -2367,7 +2367,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Alright, I should be going now…”`,
-    text: `“Listen, Soai…” - Sane interrupts you. - “About the rewinding module I mentioned earlier. I mean, maybe it serves some purpose after all. Some hidden feature perhaps? Deo, or his projection, gave it to me for some reason. He said to remind you about it once you know who you are, if I get the chance. I still have it installed. So, dunno why, but if you want to use it again, let me know.”
+    text: `“Listen, Soai…” - Sane interrupts you. - “About the rewinding module I mentioned earlier... I mean, maybe it serves some purpose after all. Some hidden feature perhaps? Deo, or his projection, gave it to me for some reason. He said to remind you about it once you know who you are, if I get the chance. I still have it installed. So, dunno why, but if you want to use it again, let me know.”
 
     “Ok, friendo.” - Even looks you in the eye. - “Based on what he said earlier, this thing will send you to the very beginning of our little adventure here, got it? Your progress will be reset permanently. You’re at the driver’s seat of course, and I’m just a concerned passenger, but do consider my warning please.”`,
     options: [
