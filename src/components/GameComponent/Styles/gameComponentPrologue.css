@@ -101,34 +101,6 @@
   }
 }
 
-.gameComponent-additionalImage--prologue {
-  position: absolute;
-  z-index: 1;
-  top: 0.5px;
-  right: 0.5px;
-  width: 30px;
-  border: 1px solid var(--prologueAdditional);
-  animation: gameComponent-additionalImage--prologue-load 2.5s ease-in-out;
-}
-
-@keyframes gameComponent-additionalImage--prologue-load {
-  0%,
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 900px) {
-  .gameComponent-additionalImage--prologue {
-    top: 1.5px;
-    right: 5.1%;
-  }
-}
-
 .gameComponent-mainContent--prologue {
   position: relative;
   width: 1024px;
@@ -200,21 +172,21 @@
     opacity: 1;
     width: 200px;
     max-width: 35vw;
-    filter: blur(0) saturate(1);
+    filter: blur(0) brightness(1) saturate(1);
   }
 
   50% {
     opacity: 1;
     width: 200px;
     max-width: 35vw;
-    filter: blur(1px) saturate(5);
+    filter: blur(1px) brightness(0.75) saturate(5);
   }
 
   100% {
     opacity: 0;
     width: 0;
     max-width: 0;
-    filter: blur(5px) saturate(10);
+    filter: blur(5px) brightness(0.5) saturate(10);
   }
 }
 
@@ -237,10 +209,10 @@
   }
 
   50% {
-    opacity: 0;
+    opacity: 0.5;
     width: 0;
     max-width: 0;
-    filter: blur(5px);
+    filter: blur(2.5px);
   }
 
   100% {
@@ -402,43 +374,5 @@
 }
 
 .gameComponent-glowingBtn--prologue:active {
-  scale: 0.9;
-}
-
-.gameComponent-switchBtn--prologue {
-  width: 250px;
-  max-width: 90vw;
-  min-height: 50px;
-  max-height: 20vh;
-  padding-bottom: 5px;
-  border: 1px solid var(--levelOneVirtualTertiary);
-  margin: 0.75rem;
-  background: linear-gradient(
-    90deg,
-    var(--levelOneVirtualSub) 0%,
-    var(--levelOneVirtualPrimary) 50%,
-    var(--levelOneVirtualSub) 100%
-  );
-  color: var(--levelOneVirtualTertiary);
-  font-family: "Ysabeau SC", sans-serif;
-  font-size: 1.25rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.gameComponent-switchBtn--prologue:hover {
-  border: 1px solid var(--levelOneVirtualSub);
-  background: linear-gradient(
-    90deg,
-    var(--levelOneVirtualSub) 0%,
-    var(--levelOneVirtualTertiary) 50%,
-    var(--levelOneVirtualSub) 100%
-  );
-  color: var(--levelOneVirtualSub);
-  transition: 0.5s;
-}
-
-.gameComponent-switchBtn--prologue:active {
   scale: 0.9;
 }
