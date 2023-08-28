@@ -226,39 +226,6 @@
   }
 }
 
-.gameComponent-appearingCharacterImage--levelOneReal {
-  float: left;
-  width: 200px;
-  max-width: 35vw;
-  border-right: 1px solid var(--levelOneRealAdditional);
-  border-bottom: 1px solid var(--levelOneRealAdditional);
-  margin-right: 1rem;
-  animation: 5s gameComponent-appearingCharacterImage--levelOneReal linear;
-}
-
-@keyframes gameComponent-appearingCharacterImage--levelOneReal {
-  0% {
-    opacity: 0;
-    width: 0;
-    max-width: 0;
-    filter: blur(5px);
-  }
-
-  50% {
-    opacity: 0;
-    width: 0;
-    max-width: 0;
-    filter: blur(5px);
-  }
-
-  100% {
-    opacity: 1;
-    width: 200px;
-    max-width: 35vw;
-    filter: blur(0);
-  }
-}
-
 .gameComponent-text--levelOneReal {
   padding: 0 1rem;
 }
@@ -371,45 +338,6 @@
 }
 
 .gameComponent-optionalBtn--levelOneReal:active {
-  scale: 0.9;
-}
-
-.gameComponent-glowingBtn--levelOneReal {
-  width: 250px;
-  max-width: 90vw;
-  min-height: 50px;
-  max-height: 20vh;
-  padding-bottom: 5px;
-  border: 1px solid var(--levelOneRealTertiary);
-  margin: 0.75rem;
-  background: rgba(0, 0, 0, 0.5);
-  color: var(--levelOneRealTertiary);
-  font-family: "Ysabeau SC", sans-serif;
-  font-size: 1.25rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.5s;
-  animation: gameComponent-glowingBtn--levelOneReal 2s linear infinite;
-}
-
-@keyframes gameComponent-glowingBtn--levelOneReal {
-  0% {
-    text-shadow: 0 0 0 var(--levelOneRealTertiary);
-  }
-
-  50% {
-    text-shadow: 0 0 20px var(--levelOneRealTertiary);
-  }
-}
-
-.gameComponent-glowingBtn--levelOneReal:hover {
-  box-shadow: 0 0 20px var(--levelOneRealTertiary);
-  background: var(--levelOneRealTertiary);
-  color: var(--levelOneRealPrimary);
-  transition: 0.5s;
-}
-
-.gameComponent-glowingBtn--levelOneReal:active {
   scale: 0.9;
 }
 
