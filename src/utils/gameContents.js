@@ -959,7 +959,7 @@ const gameContents = [
         nextText: 58,
       },
       {
-        text: `zerOne: true`,
+        text: `Enter Deo's virtual apartment.`,
         nextText: 82,
         btnEffect: "switch",
       },
