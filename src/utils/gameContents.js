@@ -1,5 +1,5 @@
-// Prologue
 const gameContents = [
+  // Prologue
   {
     id: 0,
     style: "prologue",
@@ -2411,6 +2411,7 @@ const gameContents = [
       },
     ],
   },
+  // Level Two
   {
     id: 92,
     style: "levelOneVirtual",
@@ -2442,8 +2443,9 @@ const gameContents = [
     text: `To be continued...`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `Test.`,
+        nextText: 95,
+        miniGame: "rps",
       },
     ],
   },
@@ -2461,6 +2463,23 @@ const gameContents = [
     options: [
       {
         text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 95,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: ``,
+    options: [
+      {
+        text: ``,
         nextText: 0,
       },
     ],

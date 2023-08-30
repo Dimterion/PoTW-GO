@@ -18,8 +18,8 @@
 }
 
 .storyScreen-img {
-  width: 1024px;
-  height: 1024px;
+  width: 500px;
+  height: 500px;
   max-width: 90vw;
   max-height: 40vh;
   object-fit: cover;
