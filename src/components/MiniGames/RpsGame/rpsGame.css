@@ -1,3 +1,18 @@
+.rpsGame-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 1024px;
+  max-width: 90vw;
+  text-align: center;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-bottom: 1rem;
+}
+
+.rpsGame-mainContent {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .rpsGame-btn {
   width: 45px;
   height: 45px;
@@ -9,7 +24,7 @@
 @keyframes rpsGame-article-slide {
   0% {
     opacity: 0;
-    transform: translateY(-25%);
+    transform: translateY(-5%);
   }
 
   100% {

@@ -9,15 +9,15 @@ function RpsGame() {
   });
   const [message, setMessage] = useState("");
   const [winCondition, setWinCondition] = useState(0);
-  const rolls = ["Rock", "Paper", "Scissors"];
-  const buttons = rolls.map((roll) => {
+  const playerRolls = ["rock", "paper", "scissors"];
+  const buttons = playerRolls.map((playerRoll) => {
     return (
       <button
         className="rpsGame-btn"
-        key={roll}
+        key={playerRoll}
         disabled={winCondition === 3 && true}
         onClick={(event) => {
-          rpsGameRoll(roll, setDisplayRoll, setMessage, setWinCondition);
+          rpsGameRoll(playerRoll, setDisplayRoll, setMessage, setWinCondition);
           event.target.parentNode.firstChild.style.animation =
             "rpsGame-article-slide 0.25s linear";
           setTimeout(() => {
@@ -25,20 +25,21 @@ function RpsGame() {
           }, 250);
         }}
       >
-        {roll === "Rock" ? "✊" : roll === "Paper" ? "✋" : "✌"}
+        {playerRoll === "rock" ? "✊" : playerRoll === "paper" ? "✋" : "✌"}
       </button>
     );
   });
 
   return (
-    <article>
-      <div>
-        Your roll: {displayRoll.yourRoll}
-        Opponent roll: {displayRoll.opponentRoll}
-        Result: {message}
+    <article className="rpsGame-container">
+      <div className="rpsGame-mainContent">
+        <span>Your roll: {displayRoll.yourRoll}</span>
+        <span>Opponent roll: {displayRoll.opponentRoll}</span>
+        <span>Current game: {message}</span>
+        <span>Wins: {winCondition}</span>
       </div>
-      {buttons}
       {winCondition === 3 && <span>You won!</span>}
+      <div>{buttons}</div>
     </article>
   );
 }

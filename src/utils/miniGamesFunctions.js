@@ -6,12 +6,12 @@ export function rpsGameRoll(
 ) {
   const rollNumber = Math.floor(Math.random() * 3);
   const rollName =
-    rollNumber === 0 ? "Rock" : rollNumber === 1 ? "Paper" : "Scissors";
+    rollNumber === 0 ? "rock" : rollNumber === 1 ? "paper" : "scissors";
 
   if (
-    (rollName === "Rock" && playerRoll === "Paper") ||
-    (rollName === "Paper" && playerRoll === "Scissors") ||
-    (rollName === "Scissors" && playerRoll === "Rock")
+    (rollName === "rock" && playerRoll === "paper") ||
+    (rollName === "paper" && playerRoll === "scissors") ||
+    (rollName === "scissors" && playerRoll === "rock")
   ) {
     setMessage("You won!");
     setDisplayRoll({
