@@ -2445,7 +2445,7 @@ const gameContents = [
       {
         text: `Test.`,
         nextText: 95,
-        miniGame: "rps",
+        miniGame: "rpsGame",
       },
     ],
   },

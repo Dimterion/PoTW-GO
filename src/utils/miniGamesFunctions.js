@@ -1,4 +1,4 @@
-export function rpsRoll(
+export function rpsGameRoll(
   playerRoll,
   setDisplayRoll,
   setMessage,

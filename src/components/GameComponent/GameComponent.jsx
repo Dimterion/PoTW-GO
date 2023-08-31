@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { scrollToTop, gameConditions } from "../../utils/gameCompFunctions";
 import MenuModal from "../../components/Modals/MenuModal/MenuModal";
-import Rps from "../MiniGames/Rps/Rps";
+import RpsGame from "../MiniGames/RpsGame/RpsGame";
 import "./Styles/gameComponentPrologue.css";
 import "./Styles/gameComponentLevelOneReal.css";
 import "./Styles/gameComponentLevelOneVirtual.css";
@@ -98,8 +98,8 @@ function GameComponent({ content, setOptionId }) {
           className={`gameComponent-additionalImage--${content.style}`}
         />
       )}
-      {miniGames.includes("rps") ? (
-        <Rps />
+      {miniGames.includes("rpsGame") ? (
+        <RpsGame />
       ) : (
         <article className={`gameComponent-mainContent--${content.style}`}>
           {content.subImage && (
