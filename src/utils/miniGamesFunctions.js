@@ -4,13 +4,28 @@ export function rpsGameRoll(
   setMessage,
   setWinCondition
 ) {
-  const rollNumber = Math.floor(Math.random() * 3);
+  const rollNumber = Math.floor(Math.random() * 5);
   const rollName =
-    rollNumber === 0 ? "rock" : rollNumber === 1 ? "paper" : "scissors";
+    rollNumber === 0
+      ? "rock"
+      : rollNumber === 1
+      ? "paper"
+      : rollNumber === 2
+      ? "scissors"
+      : rollNumber === 3
+      ? "lizard"
+      : "spock";
 
   if (
-    (rollName === "rock" && playerRoll === "paper") ||
     (rollName === "paper" && playerRoll === "scissors") ||
+    (rollName === "rock" && playerRoll === "paper") ||
+    (rollName === "lizard" && playerRoll === "rock") ||
+    (rollName === "spock" && playerRoll === "lizard") ||
+    (rollName === "scissors" && playerRoll === "spock") ||
+    (rollName === "lizard" && playerRoll === "scissors") ||
+    (rollName === "paper" && playerRoll === "lizard") ||
+    (rollName === "spock" && playerRoll === "paper") ||
+    (rollName === "rock" && playerRoll === "spock") ||
     (rollName === "scissors" && playerRoll === "rock")
   ) {
     setMessage("You won!");

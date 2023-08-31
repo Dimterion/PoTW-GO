@@ -9,7 +9,7 @@ function RpsGame() {
   });
   const [message, setMessage] = useState("");
   const [winCondition, setWinCondition] = useState(0);
-  const playerRolls = ["rock", "paper", "scissors"];
+  const playerRolls = ["rock", "paper", "scissors", "lizard", "spock"];
   const buttons = playerRolls.map((playerRoll) => {
     return (
       <button
@@ -18,14 +18,22 @@ function RpsGame() {
         disabled={winCondition === 3 && true}
         onClick={(event) => {
           rpsGameRoll(playerRoll, setDisplayRoll, setMessage, setWinCondition);
-          event.target.parentNode.firstChild.style.animation =
+          event.target.parentNode.parentNode.firstChild.style.animation =
             "rpsGame-article-slide 0.25s linear";
           setTimeout(() => {
-            event.target.parentNode.firstChild.style.animation = "";
+            event.target.parentNode.parentNode.firstChild.style.animation = "";
           }, 250);
         }}
       >
-        {playerRoll === "rock" ? "✊" : playerRoll === "paper" ? "✋" : "✌"}
+        {playerRoll === "rock"
+          ? "✊"
+          : playerRoll === "paper"
+          ? "✋"
+          : playerRoll === "scissors"
+          ? "✌"
+          : playerRoll === "lizard"
+          ? "🦎"
+          : "🖖"}
       </button>
     );
   });
