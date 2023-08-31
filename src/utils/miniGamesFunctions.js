@@ -1,29 +1,35 @@
-export function rpsRoll(condition, setDisplayRoll, setMessage) {
+export function rpsRoll(
+  playerRoll,
+  setDisplayRoll,
+  setMessage,
+  setWinCondition
+) {
   const rollNumber = Math.floor(Math.random() * 3);
-  const roll =
+  const rollName =
     rollNumber === 0 ? "Rock" : rollNumber === 1 ? "Paper" : "Scissors";
 
   if (
-    (roll === "Rock" && condition === "Paper") ||
-    (roll === "Paper" && condition === "Scissors") ||
-    (roll === "Scissors" && condition === "Rock")
+    (rollName === "Rock" && playerRoll === "Paper") ||
+    (rollName === "Paper" && playerRoll === "Scissors") ||
+    (rollName === "Scissors" && playerRoll === "Rock")
   ) {
     setMessage("You won!");
     setDisplayRoll({
-      yourRoll: condition,
-      opponentRoll: roll,
+      yourRoll: playerRoll,
+      opponentRoll: rollName,
     });
-  } else if (roll === condition) {
+    setWinCondition((prevWinCondition) => prevWinCondition + 1);
+  } else if (rollName === playerRoll) {
     setMessage("Tie!");
     setDisplayRoll({
-      yourRoll: condition,
-      opponentRoll: roll,
+      yourRoll: playerRoll,
+      opponentRoll: rollName,
     });
   } else {
     setMessage("Your opponent won!");
     setDisplayRoll({
-      yourRoll: condition,
-      opponentRoll: roll,
+      yourRoll: playerRoll,
+      opponentRoll: rollName,
     });
   }
 }

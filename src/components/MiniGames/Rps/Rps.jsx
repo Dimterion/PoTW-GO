@@ -8,12 +8,15 @@ function Rps() {
     opponentRoll: "",
   });
   const [message, setMessage] = useState("");
+  const [winCondition, setWinCondition] = useState(0);
   const rolls = ["Rock", "Paper", "Scissors"];
   const buttons = rolls.map((roll) => {
     return (
       <button
         key={roll}
-        onClick={() => rpsRoll(roll, setDisplayRoll, setMessage)}
+        onClick={() => {
+          rpsRoll(roll, setDisplayRoll, setMessage, setWinCondition);
+        }}
       >
         {roll}
       </button>
@@ -29,7 +32,7 @@ function Rps() {
         Result: {message}
       </article>
       <br></br>
-      {buttons}
+      {winCondition === 3 ? <article>You won!</article> : buttons}
       <br></br>
       <br></br>
     </section>
