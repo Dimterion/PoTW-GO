@@ -12,6 +12,7 @@ function GameComponent({ content, setOptionId }) {
   const [menu, setMenu] = useState(false);
   const [conditions, setConditions] = useState([]);
   const [miniGames, setMiniGames] = useState([]);
+  const [winCondition, setWinCondition] = useState(0);
 
   const buttons = content.options.map((option) => {
     // Conditional options are displayed only when they have conditionMatch property and its value is included in the conditions array from the state.
@@ -38,6 +39,7 @@ function GameComponent({ content, setOptionId }) {
               return [...prevMiniGames, option.miniGame];
             });
           console.log(miniGames);
+          winCondition === 3 && (setWinCondition(0), setMiniGames([]));
         }}
       >
         {option.text}
@@ -99,38 +101,48 @@ function GameComponent({ content, setOptionId }) {
         />
       )}
       {miniGames.includes("rpsGame") ? (
-        <RpsGame />
+        <>
+          <RpsGame
+            winCondition={winCondition}
+            setWinCondition={setWinCondition}
+          />
+          {winCondition === 3 && buttons}
+        </>
       ) : (
-        <article className={`gameComponent-mainContent--${content.style}`}>
-          {content.subImage && (
-            <img
-              src={content.subImage}
-              alt={content.subImageAlt}
-              className={`gameComponent-subImage--${content.style}`}
-            />
-          )}
-          {content.subText && (
-            <p className={`gameComponent-subText--${content.style}`}>
-              {content.subText}
+        <>
+          <article className={`gameComponent-mainContent--${content.style}`}>
+            {content.subImage && (
+              <img
+                src={content.subImage}
+                alt={content.subImageAlt}
+                className={`gameComponent-subImage--${content.style}`}
+              />
+            )}
+            {content.subText && (
+              <p className={`gameComponent-subText--${content.style}`}>
+                {content.subText}
+              </p>
+            )}
+            {content.characterImage && (
+              <img
+                src={content.characterImage}
+                alt={content.characterImageAlt}
+                className={
+                  content.characterImageEffect
+                    ? `gameComponent-${content.characterImageEffect}--${content.style}`
+                    : `gameComponent-characterImage--${content.style}`
+                }
+              />
+            )}
+            <p className={`gameComponent-text--${content.style}`}>
+              {content.text}
             </p>
-          )}
-          {content.characterImage && (
-            <img
-              src={content.characterImage}
-              alt={content.characterImageAlt}
-              className={
-                content.characterImageEffect
-                  ? `gameComponent-${content.characterImageEffect}--${content.style}`
-                  : `gameComponent-characterImage--${content.style}`
-              }
-            />
-          )}
-          <p className={`gameComponent-text--${content.style}`}>
-            {content.text}
-          </p>
-        </article>
+          </article>
+          <div className={`gameComponent-buttons--${content.style}`}>
+            {buttons}
+          </div>
+        </>
       )}
-      <div className={`gameComponent-buttons--${content.style}`}>{buttons}</div>
     </section>
   );
 }

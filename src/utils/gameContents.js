@@ -2443,7 +2443,7 @@ const gameContents = [
     text: `To be continued...`,
     options: [
       {
-        text: `Test.`,
+        text: `Game.`,
         nextText: 95,
         miniGame: "rpsGame",
       },

@@ -1,14 +1,15 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import { rpsGameRoll } from "../../../utils/miniGamesFunctions";
 import "./rpsGame.css";
 
-function RpsGame() {
+function RpsGame({ winCondition, setWinCondition }) {
   const [displayRoll, setDisplayRoll] = useState({
     yourRoll: "",
     opponentRoll: "",
   });
   const [message, setMessage] = useState("");
-  const [winCondition, setWinCondition] = useState(0);
+
   const playerRolls = ["rock", "paper", "scissors", "lizard", "spock"];
   const buttons = playerRolls.map((playerRoll) => {
     return (
@@ -51,5 +52,10 @@ function RpsGame() {
     </article>
   );
 }
+
+RpsGame.propTypes = {
+  winCondition: PropTypes.number,
+  setWinCondition: PropTypes.func,
+};
 
 export default RpsGame;
