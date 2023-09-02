@@ -15,7 +15,7 @@ function GameScreen() {
   // + TO ADD: BUTTONS TO SAVE/RESET PROGRESS (SET STATE TO THE INITIAL ONE); REPLACE STATE ON THE LINE BELOW WITH THIS ONE
   const [loading, setLoading] = useState(true);
 
-  const [optionId, setOptionId] = useState(gameContents[93].id);
+  const [optionId, setOptionId] = useState(gameContents[0].id);
 
   useEffect(() => {
     setTimeout(() => {

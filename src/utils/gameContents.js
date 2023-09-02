@@ -2433,17 +2433,25 @@ const gameContents = [
   {
     id: 93,
     style: "levelOneVirtual",
-    mainImage: deoVirtualApartment,
+    mainImage: shrikeMainEntrance,
+    characterImage: sanePortrait,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Virtual futuristic apartment.",
+    mainImageAlt: "Virtual futuristic arena.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Let’s go to the arena, Sane.”`,
-    text: `To be continued...`,
+    subText: `“Let’s go to the arena, Sane. My companion says there we might find some info on how to access zerOne of the first level.”`,
+    text: `“Co-o-ol.” - Sane exclaims happily. - “Actually, I’ve never been inside of the arena. Not really interested in going alone. Guess, I’m more of a single-player type of person. Don’t mind a bit of a co-op though, but it’s hard to find a party suited to my personality… No idea why.”
+
+    “I know why.” - Even says, once Sane stops talking. - “I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird. But that explains why he’s having difficulties in finding friends and keeps pretending that he’s a big chunk of muscled rock and not a young fellow.”
+
+    While Even is explaining this you arrive at the Shrike.
+
+    “We’re here.” - Sane points at the arena that appears in front of you. - “Your number one place to go for a long time. Should we enter?”`,
     options: [
       {
-        text: `Game.`,
+        text: `Enter the arena.`,
         nextText: 95,
         miniGame: "rpsGame",
       },
@@ -2476,10 +2484,27 @@ const gameContents = [
     mainImageAlt: "Yellow-green futuristic corridor.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: ``,
+    text: `You won.`,
     options: [
       {
-        text: ``,
+        text: `Continue.`,
+        nextText: 96,
+      },
+    ],
+  },
+  {
+    id: 96,
+    style: "levelOneVirtual",
+    mainImage: levelOneImage02,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Yellow-green futuristic corridor.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `To be continued...`,
+    options: [
+      {
+        text: `Start anew.`,
         nextText: 0,
       },
     ],
@@ -2503,5 +2528,6 @@ import sanePortrait from "../assets/images/sane_portrait.jpg";
 import saneRealPortrait from "../assets/images/sane_real_portrait.jpg";
 import bridgeInnerStructure from "../assets/images/bridge_inner_structure.jpg";
 import floppyDisk from "../assets/images/floppy_disk.jpg";
+import shrikeMainEntrance from "../assets/images/shrike_main_entrance.jpg";
 
 export default gameContents;
