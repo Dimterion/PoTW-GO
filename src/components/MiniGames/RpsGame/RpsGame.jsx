@@ -71,21 +71,20 @@ function RpsGame({ winCondition, setWinCondition }) {
     <article className="rpsGame-container">
       <div className="rpsGame-mainContent">
         {displayRoll.yourRoll && (
-          <>
+          <div className="rpsGame-images">
             <img
-              className="rpsGame-image"
+              className="rpsGame-playerRollImg"
               src={playerRollImage}
               alt={`Image of ${displayRoll.yourRoll}`}
             />
+            <span>VS</span>
             <img
-              className="rpsGame-image"
+              className="rpsGame-opponentRollImg"
               src={opponentRollImage}
               alt={`Image of ${displayRoll.opponentRoll}`}
             />
-          </>
+          </div>
         )}
-        <span>Your roll: {displayRoll.yourRoll}</span>
-        <span>Opponent roll: {displayRoll.opponentRoll}</span>
         <span>Current game: {message}</span>
         <span>Wins: {winCondition}</span>
       </div>

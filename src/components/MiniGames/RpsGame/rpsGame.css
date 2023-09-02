@@ -13,10 +13,25 @@
   flex-flow: column nowrap;
 }
 
-.rpsGame-image {
+.rpsGame-images {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rpsGame-playerRollImg {
   width: 200px;
   max-width: 35vw;
-  border: 1px solid var(--levelOneVirtualAdditional);
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+}
+
+.rpsGame-opponentRollImg {
+  width: 200px;
+  max-width: 35vw;
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  border-left: 1px solid var(--levelOneVirtualAdditional);
 }
 
 .rpsGame-btn {
