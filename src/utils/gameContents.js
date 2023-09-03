@@ -2451,9 +2451,8 @@ const gameContents = [
     “We’re here.” - Sane points at the arena that appears in front of you. - “Your number one place to go for a long time. Should we enter?”`,
     options: [
       {
-        text: `Enter the arena.`,
+        text: `“Yeah, let’s go inside.”`,
         nextText: 95,
-        miniGame: "rpsGame",
       },
     ],
   },
@@ -2478,16 +2477,29 @@ const gameContents = [
   {
     id: 95,
     style: "levelOneVirtual",
-    mainImage: levelOneImage02,
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Yellow-green futuristic corridor.",
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `You won.`,
+    subText: `“Yeah, let me show the wonderful world of the lockers area. I should be able to grant you access while we’re in the group. We can enter the arena itself from there.”`,
+    text: `You enter the lockers area of the Shrike. The place where participants prepare for the Writers Fights before they start. Right now it’s empty as no Fight is going on at the moment.
+
+    “Well, well, well…” - Suddenly you hear a shrill voice. - “Look what the code’s logged in!” - A very small lady is standing in front of the exit of the lockers room. A pair of big blue eyes staring at you, squinting and glowing viciously. - “I remember you… cheater!” - She spits the last word, stomping her tiny foot, making an angry thump-thump sound.
+
+    “In case you were wondering,” - Even points at the little lady. - “It’s Moor Cow. Remember the gnome from the last Fight? Before you entered the shortcut. Yep, that’s her. Well, to be precise, it was her arena character, so now you can see her as she looks in zerOne. And she looks very angry.”
+
+    “I saw what you did there!” - More thump-thumps accompany each word. - “Filthy cheater! Glitching your way through the textures! What are you, a speedrunner?”
+
+    In the next moment she notices Sane who’s standing behind you, and her voice suddenly changes. A beautiful soft sound, like a narrator of a cozy little adventure game. - “Oh, hi, Noru!”
+
+    “Hey, Ev!” - Sane waves to her, smiling happily.`,
     options: [
       {
-        text: `Continue.`,
+        text: `“What’s going on?”`,
         nextText: 96,
       },
     ],
@@ -2495,12 +2507,101 @@ const gameContents = [
   {
     id: 96,
     style: "levelOneVirtual",
-    mainImage: levelOneImage02,
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Yellow-green futuristic corridor.",
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Erm… Who is Noru and Ev?”`,
+    text: `“It’s me actually.” - Sane sounds a bit confused. - “I mean, Noru… Short for Noruen. My real name. You didn’t think it’s Sane Snacks, did you?”
+
+    “Well, I certainly didn’t.” - Even chuckles. - “That makes the angry lady…”
+
+    “And you didn’t think my real name was Moor Cow, right?” - Shrill voice comes back again. - “I’m Ev, short for Evren. But that’s beside the point, cheater!” - She looks at Sane. - “Why are you with him, Noru?”
+
+    “We are… Kinda…” - He replies apologetically. - “Well… I guess… Friends?”
+
+    “Friends?” - Two tiny arms cross over a tiny chest. - “With this cheater?” - After a couple of more thump-thumps her beautiful deep voice comes back again. - “Seriously, Noru, what’s going on? One day you tell me there’s nobody to talk to, then you show up with… A friend?”
+
+    “I’m taking a look at him outside zerOne,” - Even starts laughing. - “Our dude is all red like a good old banwave notice. What?” - One rabbit’s ear goes up. - “I see both worlds at the same time, ok? Can’t do anything about it.”
+    `,
+    options: [
+      {
+        text: `“You have friends?”`,
+        nextText: 97,
+      },
+    ],
+  },
+  {
+    id: 97,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I thought you don’t have many friends, Sane… I mean Noru.”`,
+    text: `“I don’t.” - The giant spreads his big arms. - “We’ve met recently… Well, I was helping Ev to settle down once she moved here, to the second level.”
+
+    “Which was very kind of you.” - Ev’s angry voice ringing. - “But you shouldn’t hang out with cheaters!”
+
+    “Listen, he’s not a cheater, ok?” - Sane raises his hands peacefully. - “It’s more complicated than that… I’ll explain it to you later…” - He then adds, as if noticing it for the first time. - “Why is your voice changing constantly?”
+
+    “I’m roleplaying, silly.” - Deep pleasant sound spreads throughout the room. - “You do the same with your falling out wasteland boy, don’t you?” - She points at Sane, then continues in a gnomish voice. - “And, while I’m doing my arena business, I like being a miniscule smidge of fury, ok?” - She quickly turns back to you. - “And you!” - A very little finger points at your chest. - “Cheater or not, you’re dealing with me! We’re gonna settle this once and for all…”
+
+    “Man, she’s really into roleplay this one…” - Even notices thoughtfully. - “Either that, or you managed to make her really angry after the last Fight…”
+
+    Finger by finger, Ev slowly takes off a tiny white glove that appeared on her hand. Then she smashes it into the ground.
+
+    “We do this like real poets. You…” - A tiny forefinger stabs at you. - “Versus me.” - A tiny thumb beats her chest. - “A duel!”
+
+    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, spock! Best of three. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
+    options: [
+      {
+        text: `“Fine, game on.”`,
+        nextText: 98,
+        miniGame: "rpsGame",
+      },
+    ],
+  },
+  {
+    id: 98,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
+    text: ``,
+    options: [
+      {
+        text: `You win.`,
+        nextText: 99,
+      },
+    ],
+  },
+  {
+    id: 99,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
     text: `To be continued...`,
     options: [
       {
@@ -2529,5 +2630,7 @@ import saneRealPortrait from "../assets/images/sane_real_portrait.jpg";
 import bridgeInnerStructure from "../assets/images/bridge_inner_structure.jpg";
 import floppyDisk from "../assets/images/floppy_disk.jpg";
 import shrikeMainEntrance from "../assets/images/shrike_main_entrance.jpg";
+import shrikeLockers from "../assets/images/shrike_lockers.jpg";
+import evrenPortrait from "../assets/images/evren_portrait.jpg";
 
 export default gameContents;
