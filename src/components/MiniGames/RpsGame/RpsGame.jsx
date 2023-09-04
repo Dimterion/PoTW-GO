@@ -8,7 +8,14 @@ import lizardImg from "../../../assets/images/rps_game_lizard.jpg";
 import spockImg from "../../../assets/images/rps_game_spock.jpg";
 import "./rpsGame.css";
 
-function RpsGame({ winCondition, setWinCondition }) {
+function RpsGame({
+  winCondition,
+  setWinCondition,
+  playerImg,
+  playerImgAlt,
+  opponentImg,
+  opponentImgAlt,
+}) {
   const [displayRoll, setDisplayRoll] = useState({
     yourRoll: "",
     opponentRoll: "",
@@ -47,10 +54,15 @@ function RpsGame({ winCondition, setWinCondition }) {
         disabled={winCondition === 3 && true}
         onClick={(event) => {
           rpsGameRoll(playerRoll, setDisplayRoll, setMessage, setWinCondition);
-          event.target.parentNode.parentNode.firstChild.style.animation =
-            "rpsGame-article-slide 0.25s linear";
+          event.target.parentNode.parentNode.children[1].children[0].children[0].style.animation =
+            "rpsGame-playerRollImg 0.25s linear";
+          event.target.parentNode.parentNode.children[1].children[0].children[2].style.animation =
+            "rpsGame-opponentRollImg 0.25s linear";
           setTimeout(() => {
-            event.target.parentNode.parentNode.firstChild.style.animation = "";
+            event.target.parentNode.parentNode.children[1].children[0].children[0].style.animation =
+              "";
+            event.target.parentNode.parentNode.children[1].children[0].children[2].style.animation =
+              "";
           }, 250);
         }}
       >
@@ -69,20 +81,34 @@ function RpsGame({ winCondition, setWinCondition }) {
 
   return (
     <article className="rpsGame-container">
+      <div className="rpsGame-playersImages">
+        <img className="rpsGame-playerImg" src={playerImg} alt={playerImgAlt} />
+        <img
+          className="rpsGame-opponentImg"
+          src={opponentImg}
+          alt={opponentImgAlt}
+        />
+      </div>
       <div className="rpsGame-mainContent">
-        {displayRoll.yourRoll && (
-          <div className="rpsGame-images">
+        {displayRoll.yourRoll ? (
+          <div className="rpsGame-rollsImages">
             <img
               className="rpsGame-playerRollImg"
               src={playerRollImage}
               alt={`Image of ${displayRoll.yourRoll}`}
             />
-            <span>VS</span>
+            <b>VS</b>
             <img
               className="rpsGame-opponentRollImg"
               src={opponentRollImage}
               alt={`Image of ${displayRoll.opponentRoll}`}
             />
+          </div>
+        ) : (
+          <div>
+            <h2>Rock, Paper, Scissros, Lizard, Spock!</h2>
+            <h3>Choose wisely!</h3>
+            <h4>Let the game begin!</h4>
           </div>
         )}
         <span>Current game: {message}</span>
@@ -97,6 +123,10 @@ function RpsGame({ winCondition, setWinCondition }) {
 RpsGame.propTypes = {
   winCondition: PropTypes.number,
   setWinCondition: PropTypes.func,
+  playerImg: PropTypes.string,
+  playerImgAlt: PropTypes.string,
+  opponentImg: PropTypes.string,
+  opponentImgAlt: PropTypes.string,
 };
 
 export default RpsGame;

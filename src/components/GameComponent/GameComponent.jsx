@@ -105,6 +105,10 @@ function GameComponent({ content, setOptionId }) {
           <RpsGame
             winCondition={winCondition}
             setWinCondition={setWinCondition}
+            playerImg={content.subImage}
+            playerImgAlt={content.subImageAlt}
+            opponentImg={content.characterImage}
+            opponentImgAlt={content.characterImageAlt}
           />
           {winCondition === 3 && buttons}
         </>

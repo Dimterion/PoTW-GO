@@ -8,30 +8,64 @@
   margin-bottom: 1rem;
 }
 
-.rpsGame-mainContent {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.rpsGame-images {
+.rpsGame-playersImages {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-.rpsGame-playerRollImg {
-  width: 200px;
+.rpsGame-playerImg {
+  width: 100px;
   max-width: 35vw;
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
 }
 
-.rpsGame-opponentRollImg {
-  width: 200px;
+.rpsGame-opponentImg {
+  width: 100px;
   max-width: 35vw;
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   border-left: 1px solid var(--levelOneVirtualAdditional);
+}
+
+.rpsGame-mainContent {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.rpsGame-rollsImages {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  animation: rpsGame-rollsImages-load 0.25s ease-in;
+}
+
+@keyframes rpsGame-rollsImages-load {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.rpsGame-playerRollImg {
+  width: 100px;
+  max-width: 35vw;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin: 2rem 0.25rem;
+}
+
+.rpsGame-opponentRollImg {
+  width: 100px;
+  max-width: 35vw;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin: 0.25rem;
 }
 
 .rpsGame-btn {
@@ -42,14 +76,26 @@
   font-size: 2rem;
 }
 
-@keyframes rpsGame-article-slide {
+@keyframes rpsGame-playerRollImg {
   0% {
     opacity: 0;
-    transform: translateY(-5%);
+    transform: translateX(-10px);
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes rpsGame-opponentRollImg {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
