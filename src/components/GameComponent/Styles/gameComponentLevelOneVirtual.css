@@ -227,8 +227,40 @@
   font-style: italic;
 }
 
-.gameComponent-characterImage--levelOneVirtual {
+.gameComponent-characterImages--levelOneVirtual {
   float: left;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.gameComponent-characterImage--levelOneVirtual {
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 1rem;
+}
+
+.gameComponent-appearingCharacterImage--levelOneVirtual {
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 1rem;
+  animation: 1s gameComponent-appearingCharacterImage--levelOneVirtual linear;
+}
+
+@keyframes gameComponent-appearingCharacterImage--levelOneVirtual {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 200px;
+  }
+}
+
+.gameComponent-additionalCharacterImage--levelOneVirtual {
   width: 200px;
   max-width: 35vw;
   border-right: 1px solid var(--levelOneVirtualAdditional);

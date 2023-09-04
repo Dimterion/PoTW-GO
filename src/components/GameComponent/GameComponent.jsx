@@ -124,15 +124,30 @@ function GameComponent({ content, setOptionId }) {
               </p>
             )}
             {content.characterImage && (
-              <img
-                src={content.characterImage}
-                alt={content.characterImageAlt}
-                className={
-                  content.characterImageEffect
-                    ? `gameComponent-${content.characterImageEffect}--${content.style}`
-                    : `gameComponent-characterImage--${content.style}`
-                }
-              />
+              <div
+                className={`gameComponent-characterImages--${content.style}`}
+              >
+                <img
+                  src={content.characterImage}
+                  alt={content.characterImageAlt}
+                  className={
+                    content.characterImageEffect
+                      ? `gameComponent-${content.characterImageEffect}--${content.style}`
+                      : `gameComponent-characterImage--${content.style}`
+                  }
+                />
+                {content.additionalCharacterImage && (
+                  <img
+                    src={content.additionalCharacterImage}
+                    alt={content.additionalCharacterImageAlt}
+                    className={
+                      content.additionalCharacterImageEffect
+                        ? `gameComponent-${content.additionalCharacterImageEffect}--${content.style}`
+                        : `gameComponent-additionalCharacterImage--${content.style}`
+                    }
+                  />
+                )}
+              </div>
             )}
             <p className={`gameComponent-text--${content.style}`}>
               {content.text}
