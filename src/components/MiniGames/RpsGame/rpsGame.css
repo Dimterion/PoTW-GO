@@ -6,6 +6,12 @@
   text-align: center;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin-bottom: 1rem;
+  background: linear-gradient(
+    0deg,
+    var(--levelOneVirtualSub) 0%,
+    var(--levelOneVirtualPrimary) 50%,
+    var(--levelOneVirtualSub) 100%
+  );
 }
 
 .rpsGame-playersImages {
@@ -61,6 +67,18 @@
   margin: 2rem 0.25rem;
 }
 
+@keyframes rpsGame-playerRollImg {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .rpsGame-opponentRollImg {
   width: 100px;
   max-width: 35vw;
@@ -68,12 +86,36 @@
   margin: 0.25rem;
 }
 
-.rpsGame-btn {
+@keyframes rpsGame-opponentRollImg {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.rpsGame-rollBtn {
   width: 45px;
   height: 45px;
   padding: 0 45px 45px 0;
-  margin: 5px;
+  border: 1px solid var(--levelOneVirtualTertiary);
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.rpsGame-rollBtn:hover {
+  scale: 1.1;
+}
+
+.rpsGame-rollBtn:active {
+  scale: 0.9;
 }
 
 .rpsGame-restartBtn {
@@ -87,28 +129,13 @@
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1rem;
   cursor: pointer;
+  transition: 0.5s;
 }
 
-@keyframes rpsGame-playerRollImg {
-  0% {
-    opacity: 0;
-    transform: translateX(-10px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.rpsGame-restartBtn:hover {
+  scale: 1.1;
 }
 
-@keyframes rpsGame-opponentRollImg {
-  0% {
-    opacity: 0;
-    transform: translateX(10px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.rpsGame-restartBtn:active {
+  scale: 0.9;
 }

@@ -51,7 +51,7 @@ function RpsGame({
   const buttons = playerRolls.map((playerRoll) => {
     return (
       <button
-        className="rpsGame-btn"
+        className="rpsGame-rollBtn"
         key={playerRoll}
         disabled={(playerWins === 2 || opponentWins === 2) && true}
         onClick={(event) => {

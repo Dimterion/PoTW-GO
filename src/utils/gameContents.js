@@ -2591,8 +2591,6 @@ const gameContents = [
     characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: ``,
-    text: ``,
     options: [
       {
         text: `You win.`,
