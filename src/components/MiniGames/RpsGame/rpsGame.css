@@ -76,6 +76,19 @@
   font-size: 2rem;
 }
 
+.rpsGame-restartBtn {
+  width: 100px;
+  max-width: 35vw;
+  padding: 5px;
+  border: 1px solid var(--levelOneVirtualTertiary);
+  margin: 1rem auto;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--levelOneVirtualTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 @keyframes rpsGame-playerRollImg {
   0% {
     opacity: 0;

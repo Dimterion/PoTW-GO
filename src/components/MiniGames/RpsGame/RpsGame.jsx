@@ -9,8 +9,10 @@ import spockImg from "../../../assets/images/rps_game_spock.jpg";
 import "./rpsGame.css";
 
 function RpsGame({
-  winCondition,
-  setWinCondition,
+  playerWins,
+  setPlayerWins,
+  opponentWins,
+  setOpponentWins,
   playerImg,
   playerImgAlt,
   opponentImg,
@@ -51,9 +53,15 @@ function RpsGame({
       <button
         className="rpsGame-btn"
         key={playerRoll}
-        disabled={winCondition === 3 && true}
+        disabled={(playerWins === 2 || opponentWins === 2) && true}
         onClick={(event) => {
-          rpsGameRoll(playerRoll, setDisplayRoll, setMessage, setWinCondition);
+          rpsGameRoll(
+            playerRoll,
+            setDisplayRoll,
+            setMessage,
+            setPlayerWins,
+            setOpponentWins
+          );
           event.target.parentNode.parentNode.children[1].children[0].children[0].style.animation =
             "rpsGame-playerRollImg 0.25s linear";
           event.target.parentNode.parentNode.children[1].children[0].children[2].style.animation =
@@ -83,6 +91,8 @@ function RpsGame({
     <article className="rpsGame-container">
       <div className="rpsGame-playersImages">
         <img className="rpsGame-playerImg" src={playerImg} alt={playerImgAlt} />
+        <span>{playerWins}</span>
+        <span>{opponentWins}</span>
         <img
           className="rpsGame-opponentImg"
           src={opponentImg}
@@ -111,18 +121,36 @@ function RpsGame({
             <h4>Let the game begin!</h4>
           </div>
         )}
-        <span>Current game: {message}</span>
-        <span>Wins: {winCondition}</span>
+        <span>{message}</span>
       </div>
-      {winCondition === 3 && <span>You won!</span>}
+      {playerWins === 2 && <span>Soai wins! Flawless victory.</span>}
+      {opponentWins === 2 && <span>Evren wins! Gnomality.</span>}
+      {(playerWins === 2 || opponentWins === 2) && (
+        <button
+          className="rpsGame-restartBtn"
+          onClick={() => {
+            setPlayerWins(0);
+            setOpponentWins(0);
+            setMessage("");
+            setDisplayRoll({
+              yourRoll: "",
+              opponentRoll: "",
+            });
+          }}
+        >
+          Play Again
+        </button>
+      )}
       <div>{buttons}</div>
     </article>
   );
 }
 
 RpsGame.propTypes = {
-  winCondition: PropTypes.number,
-  setWinCondition: PropTypes.func,
+  playerWins: PropTypes.number,
+  setPlayerWins: PropTypes.func,
+  opponentWins: PropTypes.number,
+  setOpponentWins: PropTypes.func,
   playerImg: PropTypes.string,
   playerImgAlt: PropTypes.string,
   opponentImg: PropTypes.string,

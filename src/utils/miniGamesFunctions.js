@@ -2,7 +2,8 @@ export function rpsGameRoll(
   playerRoll,
   setDisplayRoll,
   setMessage,
-  setWinCondition
+  setPlayerWins,
+  setOpponentWins
 ) {
   const rollNumber = Math.floor(Math.random() * 5);
   const rollName =
@@ -33,7 +34,7 @@ export function rpsGameRoll(
       yourRoll: playerRoll,
       opponentRoll: rollName,
     });
-    setWinCondition((prevWinCondition) => prevWinCondition + 1);
+    setPlayerWins((prevPlayerWins) => prevPlayerWins + 1);
   } else if (rollName === playerRoll) {
     setMessage("Tie!");
     setDisplayRoll({
@@ -46,5 +47,6 @@ export function rpsGameRoll(
       yourRoll: playerRoll,
       opponentRoll: rollName,
     });
+    setOpponentWins((prevOpponentWins) => prevOpponentWins + 1);
   }
 }
