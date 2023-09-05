@@ -6,6 +6,7 @@ import paperImg from "../../../assets/images/rps_game_paper.jpg";
 import scissorsImg from "../../../assets/images/rps_game_scissors.jpg";
 import lizardImg from "../../../assets/images/rps_game_lizard.jpg";
 import spockImg from "../../../assets/images/rps_game_spock.jpg";
+import questionMark from "../../../assets/images/question_mark.jpg";
 import "./rpsGame.css";
 
 function RpsGame({
@@ -35,7 +36,9 @@ function RpsGame({
       ? scissorsImg
       : displayRoll.yourRoll === "lizard"
       ? lizardImg
-      : spockImg;
+      : displayRoll.yourRoll === "spock"
+      ? spockImg
+      : questionMark;
 
   const opponentRollImage =
     displayRoll.opponentRoll === "rock"
@@ -46,7 +49,9 @@ function RpsGame({
       ? scissorsImg
       : displayRoll.opponentRoll === "lizard"
       ? lizardImg
-      : spockImg;
+      : displayRoll.opponentRoll === "spock"
+      ? spockImg
+      : questionMark;
 
   const buttons = playerRolls.map((playerRoll) => {
     return (
@@ -62,16 +67,16 @@ function RpsGame({
             setPlayerWins,
             setOpponentWins
           );
-          event.target.parentNode.parentNode.children[1].children[0].children[0].style.animation =
-            "rpsGame-playerRollImg 0.25s linear";
-          event.target.parentNode.parentNode.children[1].children[0].children[2].style.animation =
-            "rpsGame-opponentRollImg 0.25s linear";
+          event.target.parentNode.parentNode.children[0].children[0].style.animation =
+            "rpsGame-playerRollImg 0.5s linear";
+          event.target.parentNode.parentNode.children[0].children[1].style.animation =
+            "rpsGame-opponentRollImg 0.5s linear";
           setTimeout(() => {
-            event.target.parentNode.parentNode.children[1].children[0].children[0].style.animation =
+            event.target.parentNode.parentNode.children[0].children[0].style.animation =
               "";
-            event.target.parentNode.parentNode.children[1].children[0].children[2].style.animation =
+            event.target.parentNode.parentNode.children[0].children[1].style.animation =
               "";
-          }, 250);
+          }, 500);
         }}
       >
         {playerRoll === "rock"
@@ -109,24 +114,36 @@ function RpsGame({
       </div>
       <div className="rpsGame-mainContent">
         {displayRoll.yourRoll ? (
-          <div className="rpsGame-rollsImages">
-            <img
-              className="rpsGame-playerRollImg"
-              src={playerRollImage}
-              alt={`Image of ${displayRoll.yourRoll}`}
-            />
-            <b>VS</b>
-            <img
-              className="rpsGame-opponentRollImg"
-              src={opponentRollImage}
-              alt={`Image of ${displayRoll.opponentRoll}`}
-            />
+          <div>
+            <div className="rpsGame-rollsImages">
+              <img
+                className="rpsGame-playerRollImg"
+                src={playerRollImage}
+                alt={`Image of ${displayRoll.yourRoll}`}
+              />
+              <img
+                className="rpsGame-opponentRollImg"
+                src={opponentRollImage}
+                alt={`Image of ${displayRoll.opponentRoll}`}
+              />
+            </div>
+            <div>{buttons}</div>
           </div>
         ) : (
           <div>
             <h2>Rock, Paper, Scissros, Lizard, Spock!</h2>
             <h3>Choose wisely!</h3>
-            <h4>Let the game begin!</h4>
+            <button
+              className="rpsGame-startBtn"
+              onClick={() => {
+                setDisplayRoll({
+                  yourRoll: " ",
+                  opponentRoll: " ",
+                });
+              }}
+            >
+              Start
+            </button>
           </div>
         )}
         <span>{message}</span>
@@ -149,7 +166,6 @@ function RpsGame({
           Play Again
         </button>
       )}
-      <div>{buttons}</div>
     </article>
   );
 }

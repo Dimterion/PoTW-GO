@@ -40,7 +40,8 @@ function GameComponent({ content, setOptionId }) {
               return [...prevMiniGames, option.miniGame];
             });
           console.log(miniGames);
-          playerWins === 2 && (setPlayerWins(0), setMiniGames([]));
+          playerWins === 2 &&
+            (setPlayerWins(0), setOpponentWins(0), setMiniGames([]));
         }}
       >
         {option.text}

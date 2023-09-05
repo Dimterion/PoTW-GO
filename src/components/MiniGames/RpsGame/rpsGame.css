@@ -34,33 +34,35 @@
 
 .rpsGame-playerImg {
   width: 100px;
-  max-width: 35vw;
+  max-width: 30vw;
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
 }
 
 .rpsGame-playerScore {
-  width: 20px;
-  padding-bottom: 5px;
+  width: 30px;
+  padding-bottom: 8px;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin-left: 5px;
   background: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .rpsGame-opponentImg {
   width: 100px;
-  max-width: 35vw;
+  max-width: 30vw;
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   border-left: 1px solid var(--levelOneVirtualAdditional);
 }
 
 .rpsGame-opponentScore {
-  width: 20px;
-  padding-bottom: 5px;
+  width: 30px;
+  padding-bottom: 8px;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 5px;
   background: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -102,6 +104,11 @@
     transform: translateX(-10px);
   }
 
+  90% {
+    opacity: 1;
+    transform: translateX(10px);
+  }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -119,6 +126,11 @@
   0% {
     opacity: 0;
     transform: translateX(10px);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translateX(-10px);
   }
 
   100% {
@@ -147,9 +159,9 @@
   scale: 0.9;
 }
 
-.rpsGame-restartBtn {
-  width: 100px;
-  max-width: 35vw;
+.rpsGame-startBtn {
+  width: 110px;
+  max-width: 45vw;
   padding: 5px;
   border: 1px solid var(--levelOneVirtualTertiary);
   margin: 1rem auto;
@@ -157,6 +169,32 @@
   color: var(--levelOneVirtualTertiary);
   font-family: "Ysabeau SC", sans-serif;
   font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.rpsGame-startBtn:hover {
+  scale: 1.1;
+}
+
+.rpsGame-startBtn:active {
+  scale: 0.9;
+}
+
+.rpsGame-restartBtn {
+  width: 110px;
+  max-width: 45vw;
+  padding: 5px;
+  border: 1px solid var(--levelOneVirtualTertiary);
+  margin: 1rem auto;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--levelOneVirtualTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
   cursor: pointer;
   transition: 0.5s;
 }
