@@ -89,15 +89,23 @@ function RpsGame({
 
   return (
     <article className="rpsGame-container">
-      <div className="rpsGame-playersImages">
-        <img className="rpsGame-playerImg" src={playerImg} alt={playerImgAlt} />
-        <span>{playerWins}</span>
-        <span>{opponentWins}</span>
-        <img
-          className="rpsGame-opponentImg"
-          src={opponentImg}
-          alt={opponentImgAlt}
-        />
+      <div className="rpsGame-playersInfo">
+        <div className="rpsGame-playerInfo">
+          <img
+            className="rpsGame-playerImg"
+            src={playerImg}
+            alt={playerImgAlt}
+          />
+          <span className="rpsGame-playerScore">{playerWins}</span>
+        </div>
+        <div className="rpsGame-opponentInfo">
+          <img
+            className="rpsGame-opponentImg"
+            src={opponentImg}
+            alt={opponentImgAlt}
+          />
+          <span className="rpsGame-opponentScore">{opponentWins}</span>
+        </div>
       </div>
       <div className="rpsGame-mainContent">
         {displayRoll.yourRoll ? (

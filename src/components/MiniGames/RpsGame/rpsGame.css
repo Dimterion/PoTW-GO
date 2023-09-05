@@ -14,11 +14,22 @@
   );
 }
 
-.rpsGame-playersImages {
+.rpsGame-playersInfo {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.rpsGame-playerInfo {
+  display: flex;
+  align-items: center;
+}
+
+.rpsGame-opponentInfo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .rpsGame-playerImg {
@@ -28,11 +39,29 @@
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
 }
 
+.rpsGame-playerScore {
+  width: 20px;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-left: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
 .rpsGame-opponentImg {
   width: 100px;
   max-width: 35vw;
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   border-left: 1px solid var(--levelOneVirtualAdditional);
+}
+
+.rpsGame-opponentScore {
+  width: 20px;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 }
 
 .rpsGame-mainContent {
