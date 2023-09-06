@@ -201,6 +201,14 @@
   scale: 0.9;
 }
 
+.rpsGame-title {
+  text-shadow: 2px 2px var(--levelOneVirtualSub);
+}
+
+.rpsGame-subTitle {
+  text-shadow: 2px 2px var(--levelOneVirtualSub);
+}
+
 .rpsGame-startBtn {
   width: 110px;
   max-width: 45vw;

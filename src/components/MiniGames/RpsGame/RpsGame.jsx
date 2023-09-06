@@ -140,8 +140,10 @@ function RpsGame({
           </div>
         ) : (
           <div>
-            <h2>Rock, Paper, Scissros, Lizard, Spock!</h2>
-            <h3>Choose wisely!</h3>
+            <h2 className="rpsGame-title">
+              Rock, Paper, Scissros, Lizard, Spock!
+            </h2>
+            <h3 className="rpsGame-subTitle">Choose wisely!</h3>
             <button
               className="rpsGame-startBtn"
               onClick={() => {

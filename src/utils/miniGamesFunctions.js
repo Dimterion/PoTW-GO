@@ -29,7 +29,7 @@ export function rpsGameRoll(
     (rollName === "rock" && playerRoll === "spock") ||
     (rollName === "scissors" && playerRoll === "rock")
   ) {
-    setMessage("You won!");
+    setMessage("Round for Soai!");
     setDisplayRoll({
       yourRoll: playerRoll,
       opponentRoll: rollName,
@@ -42,7 +42,7 @@ export function rpsGameRoll(
       opponentRoll: rollName,
     });
   } else {
-    setMessage("Your opponent won!");
+    setMessage("Round for Evren!");
     setDisplayRoll({
       yourRoll: playerRoll,
       opponentRoll: rollName,

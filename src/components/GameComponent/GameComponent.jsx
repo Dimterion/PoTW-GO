@@ -114,7 +114,11 @@ function GameComponent({ content, setOptionId }) {
             opponentImg={content.characterImage}
             opponentImgAlt={content.characterImageAlt}
           />
-          {playerWins === 2 && buttons}
+          {playerWins === 2 && (
+            <div className={`gameComponent-buttons--${content.style}`}>
+              {buttons}
+            </div>
+          )}
         </>
       ) : (
         <>
