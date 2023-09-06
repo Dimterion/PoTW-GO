@@ -103,6 +103,15 @@ function RpsGame({
           />
           <span className="rpsGame-playerScore">{playerWins}</span>
         </div>
+        <div className="rpsGame-stateText">
+          {playerWins === 2 ? (
+            <b>Soai wins! Flawless victory.</b>
+          ) : opponentWins === 2 ? (
+            <b>Evren wins! Gnomality.</b>
+          ) : (
+            <b>{message}</b>
+          )}
+        </div>
         <div className="rpsGame-opponentInfo">
           <img
             className="rpsGame-opponentImg"
@@ -146,10 +155,7 @@ function RpsGame({
             </button>
           </div>
         )}
-        <span>{message}</span>
       </div>
-      {playerWins === 2 && <span>Soai wins! Flawless victory.</span>}
-      {opponentWins === 2 && <span>Evren wins! Gnomality.</span>}
       {(playerWins === 2 || opponentWins === 2) && (
         <button
           className="rpsGame-restartBtn"
