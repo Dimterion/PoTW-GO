@@ -40,7 +40,7 @@ function GameComponent({ content, setOptionId }) {
               return [...prevMiniGames, option.miniGame];
             });
           console.log(miniGames);
-          playerWins === 2 &&
+          playerWins === 3 &&
             (setPlayerWins(0), setOpponentWins(0), setMiniGames([]));
         }}
       >
@@ -114,7 +114,7 @@ function GameComponent({ content, setOptionId }) {
             opponentImg={content.characterImage}
             opponentImgAlt={content.characterImageAlt}
           />
-          {playerWins === 2 && (
+          {playerWins === 3 && (
             <div className={`gameComponent-buttons--${content.style}`}>
               {buttons}
             </div>

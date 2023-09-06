@@ -2311,7 +2311,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“I can’t really tell, Sane. I just know it, but, apart from that, I feel the same. You live in both worlds with two different appearances. And I… Though I might be made out of many entities, I’m only present digitally. As for the real life, all I can do is take a peek at it.”`,
-    text: `“That’s deep, man.” - Sane looks at you with respect. - “But I’m just roleplaying, you know. Other than that, my character is only a shell. Not everybody looks at it that way. Peeps got fully consumed by their virtual life. Have you noticed that they talk and act differently in zerOne. I don’t get it. But then I can’t resist it too… So, guess I’m doing that as well, unintentionally.”
+    text: `“That’s deep, man.” - Sane looks at you with respect. - “But I’m just role-playing, you know. Other than that, my character is only a shell. Not everybody looks at it that way. Peeps got fully consumed by their virtual life. Have you noticed that they talk and act differently in zerOne. I don’t get it. But then I can’t resist it too… So, guess I’m doing that as well, unintentionally.”
 
     “Well, you know what they say…” - Even adds instructively. - “When in zerOne… don’t do as humans do.”
 
@@ -2339,7 +2339,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“I can’t really tell, Sane. I just know it, but, apart from that, I feel the same. You live in both worlds with two different appearances. And I… Though I might be made out of many entities, I’m only present digitally. As for the real life, all I can do is take a peek at it.”`,
-    text: `“That’s deep, man.” - Sane looks at you with respect. - “But I’m just roleplaying, you know. Other than that, my character is only a shell. Not everybody looks at it that way. Peeps got fully consumed by their virtual life. Have you noticed that they talk and act differently in zerOne. I don’t get it. But then I can’t resist it too… So, guess I’m doing that as well, unintentionally.”
+    text: `“That’s deep, man.” - Sane looks at you with respect. - “But I’m just role-playing, you know. Other than that, my character is only a shell. Not everybody looks at it that way. Peeps got fully consumed by their virtual life. Have you noticed that they talk and act differently in zerOne. I don’t get it. But then I can’t resist it too… So, guess I’m doing that as well, unintentionally.”
 
     “Well, you know what they say…” - Even adds instructively. - “When in zerOne… don’t do as humans do.”
 
@@ -2563,15 +2563,15 @@ const gameContents = [
 
     “Listen, he’s not a cheater, ok?” - Sane raises his hands peacefully. - “It’s more complicated than that… I’ll explain it to you later…” - He then adds, as if noticing it for the first time. - “Why is your voice changing constantly?”
 
-    “I’m roleplaying, silly.” - Deep pleasant sound spreads throughout the room. - “You do the same with your falling out wasteland boy, don’t you?” - She points at Sane, then continues in a gnomish voice. - “And, while I’m doing my arena business, I like being a miniscule smidge of fury, ok?” - She quickly turns back to you. - “And you!” - A very little finger points at your chest. - “Cheater or not, you’re dealing with me! We’re gonna settle this once and for all…”
+    “I’m role-playing, silly.” - Deep pleasant sound spreads throughout the room. - “You do the same with your falling out wasteland boy, don’t you?” - She points at Sane, then continues in a gnomish voice. - “And, while I’m doing my arena business, I like being a miniscule smidge of fury, ok?” - She quickly turns back to you. - “And you!” - A very little finger points at your chest. - “Cheater or not, you’re dealing with me! We’re gonna settle this once and for all…”
 
-    “Man, she’s really into roleplay this one…” - Even notices thoughtfully. - “Either that, or you managed to make her really angry after the last Fight…”
+    “Man, she’s really into role-playing this one…” - Even notices thoughtfully. - “Either that, or you managed to make her really angry after the last Fight…”
 
     Finger by finger, Ev slowly takes off a tiny white glove that appeared on her hand. Then she smashes it into the ground.
 
     “We do this like real poets. You…” - A tiny forefinger stabs at you. - “Versus me.” - A tiny thumb beats her chest. - “A duel!”
 
-    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, spock! Best of three. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
+    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, spock! First one who gets three rounds wins. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
     options: [
       {
         text: `“Fine, game on.”`,

@@ -58,7 +58,7 @@ function RpsGame({
       <button
         className="rpsGame-rollBtn"
         key={playerRoll}
-        disabled={(playerWins === 2 || opponentWins === 2) && true}
+        disabled={(playerWins === 3 || opponentWins === 3) && true}
         onClick={(event) => {
           rpsGameRoll(
             playerRoll,
@@ -104,9 +104,9 @@ function RpsGame({
           <span className="rpsGame-playerScore">{playerWins}</span>
         </div>
         <div className="rpsGame-stateText">
-          {playerWins === 2 ? (
+          {playerWins === 3 ? (
             <b>Soai wins! Flawless victory.</b>
-          ) : opponentWins === 2 ? (
+          ) : opponentWins === 3 ? (
             <b>Evren wins! Gnomality.</b>
           ) : (
             <b>{message}</b>
@@ -158,7 +158,7 @@ function RpsGame({
           </div>
         )}
       </div>
-      {(playerWins === 2 || opponentWins === 2) && (
+      {(playerWins === 3 || opponentWins === 3) && (
         <button
           className="rpsGame-restartBtn"
           onClick={() => {
