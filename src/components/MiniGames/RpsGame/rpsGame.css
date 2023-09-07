@@ -181,12 +181,17 @@
   }
 }
 
+.rpsGame-rollButtons {
+  margin-bottom: 1rem;
+}
+
 .rpsGame-rollBtn {
   width: 45px;
   height: 45px;
   padding: 0 45px 45px 0;
   border: 1px solid var(--levelOneVirtualTertiary);
   margin: 10px;
+  box-shadow: 2px 2px var(--levelOneVirtualSub);
   background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
   cursor: pointer;
@@ -215,6 +220,7 @@
   padding: 5px;
   border: 1px solid var(--levelOneVirtualTertiary);
   margin: 1rem auto;
+  box-shadow: 2px 2px var(--levelOneVirtualSub);
   background: rgba(0, 0, 0, 0.5);
   color: var(--levelOneVirtualTertiary);
   font-family: "Ysabeau SC", sans-serif;
@@ -239,6 +245,7 @@
   padding: 5px;
   border: 1px solid var(--levelOneVirtualTertiary);
   margin: 1rem auto;
+  box-shadow: 2px 2px var(--levelOneVirtualSub);
   background: rgba(0, 0, 0, 0.5);
   color: var(--levelOneVirtualTertiary);
   font-family: "Ysabeau SC", sans-serif;

@@ -136,7 +136,7 @@ function RpsGame({
                 alt={`Image of ${displayRoll.opponentRoll}`}
               />
             </div>
-            <div>{buttons}</div>
+            <div className="rpsGame-rollButtons">{buttons}</div>
           </div>
         ) : (
           <div>
