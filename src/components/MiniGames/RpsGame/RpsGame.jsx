@@ -126,12 +126,16 @@ function RpsGame({
           <div>
             <div className="rpsGame-rollsImages">
               <img
-                className="rpsGame-playerRollImg"
+                className={`rpsGame-playerRollImg ${
+                  playerWins === 3 && "rpsGame-winImg"
+                }`}
                 src={playerRollImage}
                 alt={`Image of ${displayRoll.yourRoll}`}
               />
               <img
-                className="rpsGame-opponentRollImg"
+                className={`rpsGame-opponentRollImg ${
+                  opponentWins === 3 && "rpsGame-winImg"
+                }`}
                 src={opponentRollImage}
                 alt={`Image of ${displayRoll.opponentRoll}`}
               />

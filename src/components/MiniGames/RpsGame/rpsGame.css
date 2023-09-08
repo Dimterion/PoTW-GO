@@ -138,6 +138,7 @@
   max-width: 35vw;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin: 2rem 0.25rem;
+  box-shadow: 2px 2px var(--levelOneVirtualSub);
 }
 
 @keyframes rpsGame-playerRollImg {
@@ -162,6 +163,7 @@
   max-width: 35vw;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin: 0.25rem;
+  box-shadow: 2px 2px var(--levelOneVirtualSub);
 }
 
 @keyframes rpsGame-opponentRollImg {
@@ -178,6 +180,21 @@
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+.rpsGame-winImg {
+  border: 2px solid var(--levelOneVirtualTertiary);
+  animation: rpsGame-winImg 0.5s linear;
+}
+
+@keyframes rpsGame-winImg {
+  0% {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 1;
   }
 }
 
