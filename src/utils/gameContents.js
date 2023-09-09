@@ -2618,6 +2618,26 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 100,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
+    text: `To be continued...`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
 ];
 
 import prologueImage from "../assets/images/prologue_image.jpg";
