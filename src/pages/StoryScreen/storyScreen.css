@@ -92,6 +92,12 @@
   animation: storyScreen-btn-load 1.5s ease-in-out;
 }
 
+@media (max-width: 1920px) {
+  .storyScreen-introTextBtn {
+    margin-bottom: 1rem;
+  }
+}
+
 .storyScreen-introTextBtn:hover {
   transform: rotate(180deg);
   scale: 0.9;
@@ -205,6 +211,14 @@
   cursor: pointer;
   transition: 0.5s;
   animation: storyScreen-btn-load 1.5s ease-in-out;
+}
+
+@media (max-width: 1920px) {
+  .storyScreen-mainBtn {
+    width: 135px;
+    height: 45px;
+    margin-bottom: 1rem;
+  }
 }
 
 .storyScreen-mainBtn:hover {
