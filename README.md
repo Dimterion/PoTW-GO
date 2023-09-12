@@ -9,3 +9,12 @@ The next chapter of the story which began [here](https://github.com/Dimterion/Po
 ## Details
 
 WORK IN PROGRESS
+
+## Built with
+
+- Vite
+- React
+- React Router
+- CSS
+- Night Cafe (images)
+- Netlify (current deployment)
