@@ -2571,12 +2571,11 @@ const gameContents = [
 
     “We do this like real poets. You…” - A tiny forefinger stabs at you. - “Versus me.” - A tiny thumb beats her chest. - “A duel!”
 
-    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, spock! First one who gets three rounds wins. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
+    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets three rounds wins. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
     options: [
       {
-        text: `“Fine, game on.”`,
+        text: `“Rock, paper, what?”`,
         nextText: 98,
-        miniGame: "rpsGame",
       },
     ],
   },
@@ -2591,10 +2590,25 @@ const gameContents = [
     characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Rock, paper, what? I have no idea what you are talking about.”`,
+    text: `Evren squints even harder than before. - “Are you serious? Don’t you tell me you don’t know the rules of Rock, paper, scissors, lizard, Spock!”
+
+    She then notices that you clearly don’t know these rules.
+
+    “Great.” - She throws up her little arms in the air. - “Fine, I’ll explain. It’s as easy as peasy, so listen carefully and don’t make me repeat it again.”
+
+    Ev raises a finger and starts explaining.
+
+    “Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors. Is everything clear now?”`,
     options: [
       {
-        text: `You win.`,
+        text: `“Fine, let’s play.”`,
         nextText: 99,
+        miniGame: "rpsGame",
+      },
+      {
+        text: `“I think I’ll pass.”`,
+        nextText: 100,
       },
     ],
   },
@@ -2609,17 +2623,42 @@ const gameContents = [
     characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: ``,
-    text: `To be continued...`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `You win.`,
+        nextText: 101,
       },
     ],
   },
   {
     id: 100,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Listen, no hard feelings, but I’m not really in the mood for playing, alright?”`,
+    text: `Evren comes closer, looking at you.
+
+    “Afraid, aren’t you, cheater? I knew it. The moment a real fight comes into place, you get your legs shaking and your mouth mumbling. So what?”
+
+    Big blue eyes drill right through you.
+
+    “Are you chicken?”`,
+    options: [
+      {
+        text: `“NOBODY CALLS ME CHICKEN!!!”`,
+        nextText: 99,
+        miniGame: "rpsGame",
+      },
+    ],
+  },
+  {
+    id: 101,
     style: "levelOneVirtual",
     mainImage: shrikeLockers,
     characterImage: evrenPortrait,
