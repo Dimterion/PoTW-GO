@@ -2540,6 +2540,10 @@ const gameContents = [
         text: `“You have friends?”`,
         nextText: 97,
       },
+      {
+        text: `“We should go.”`,
+        nextText: 102,
+      },
     ],
   },
   {
@@ -2674,6 +2678,39 @@ const gameContents = [
       {
         text: `Start anew.`,
         nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 102,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: sanePortrait,
+    additionalCharacterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    additionalCharacterImageAlt:
+      "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“We should go, Sane. I don’t know why you’re so angry with me, Ev, but we have other things to do.”`,
+    text: `You try to pass by Evren, but she takes a furious step towards you.
+
+    “You are not going anywhere!” - Two tiny hands placed on her tiny hips. - We’re gonna settle this once and for all…“
+
+    “Hm, I don’t think we can just ignore her…” - Even notices thoughtfully. - “Seems like you managed to make her really angry after the last Fight…”
+
+    Finger by finger, Ev slowly takes off a tiny white glove that appeared on her hand. Then she smashes it into the ground.
+
+    “We do this like real poets. You…” - A tiny forefinger stabs at you. - “Versus me.” - A tiny thumb beats her chest. - “A duel!”
+
+    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets three rounds wins. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
+    options: [
+      {
+        text: `“Rock, paper, what?”`,
+        nextText: 98,
       },
     ],
   },
