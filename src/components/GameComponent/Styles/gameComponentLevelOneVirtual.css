@@ -247,11 +247,15 @@
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 1rem;
-  animation: 1s gameComponent-appearingCharacterImage--levelOneVirtual linear;
+  animation: 5s gameComponent-appearingCharacterImage--levelOneVirtual linear;
 }
 
 @keyframes gameComponent-appearingCharacterImage--levelOneVirtual {
   0% {
+    width: 0;
+  }
+
+  50% {
     width: 0;
   }
 
