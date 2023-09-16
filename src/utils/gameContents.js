@@ -2581,6 +2581,10 @@ const gameContents = [
         text: `“Rock, paper, what?”`,
         nextText: 98,
       },
+      {
+        text: `“I think I’ll pass.”`,
+        nextText: 100,
+      },
     ],
   },
   {
@@ -2711,6 +2715,10 @@ const gameContents = [
       {
         text: `“Rock, paper, what?”`,
         nextText: 98,
+      },
+      {
+        text: `“I think I’ll pass.”`,
+        nextText: 100,
       },
     ],
   },
