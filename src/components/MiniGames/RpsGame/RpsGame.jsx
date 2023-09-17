@@ -103,15 +103,13 @@ function RpsGame({
           />
           <span className="rpsGame-playerScore">{playerWins}</span>
         </div>
-        <div className="rpsGame-stateText">
-          {playerWins === 3 ? (
-            <b>Soai wins! Flawless victory.</b>
-          ) : opponentWins === 3 ? (
-            <b>Evren wins! Gnomality.</b>
-          ) : (
-            <b>{message}</b>
-          )}
-        </div>
+        {playerWins === 3 ? (
+          <div className="rpsGame-stateText">Soai wins! Flawless victory.</div>
+        ) : opponentWins === 3 ? (
+          <div className="rpsGame-stateText">Evren wins! Gnomality.</div>
+        ) : (
+          <div className="rpsGame-stateText">{message}</div>
+        )}
         <div className="rpsGame-opponentInfo">
           <img
             className="rpsGame-opponentImg"
@@ -123,7 +121,7 @@ function RpsGame({
       </div>
       <div className="rpsGame-mainContent">
         {displayRoll.yourRoll ? (
-          <div>
+          <>
             <div className="rpsGame-rollsImages">
               <img
                 className={`rpsGame-playerRollImg ${
@@ -141,9 +139,9 @@ function RpsGame({
               />
             </div>
             <div className="rpsGame-rollButtons">{buttons}</div>
-          </div>
+          </>
         ) : (
-          <div>
+          <>
             <h2 className="rpsGame-title">
               Rock, Paper, Scissros, Lizard, Spock!
             </h2>
@@ -159,7 +157,7 @@ function RpsGame({
             >
               Start
             </button>
-          </div>
+          </>
         )}
       </div>
       {(playerWins === 3 || opponentWins === 3) && (

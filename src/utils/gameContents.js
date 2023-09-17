@@ -2452,7 +2452,7 @@ const gameContents = [
     “We’re here.” - Sane points at the arena that appears in front of you. - “Your number one place to go for a long time. Should we enter?”`,
     options: [
       {
-        text: `“Yeah, let’s go inside.”`,
+        text: `“Let’s go.”`,
         nextText: 95,
       },
     ],
@@ -2489,7 +2489,7 @@ const gameContents = [
     additionalCharacterImageAlt: "Big man wearing post-apocalyptic clothes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Yeah, let me show the wonderful world of the lockers area. I should be able to grant you access while we’re in the group. We can enter the arena itself from there.”`,
+    subText: `“Yeah, let me show you the wonderful world of the lockers area. I should be able to grant you access while we’re in the group. We can enter the arena itself from there.”`,
     text: `You enter the lockers area of the Shrike. The place where participants prepare for the Writers Fights before they start. Right now it’s empty as no Fight is going on at the moment.
 
     “Well, well, well…” - Suddenly you hear a shrill voice. - “Look what the code’s logged in!” - A very small lady is standing in front of the exit of the lockers room. A pair of big blue eyes staring at you, squinting and glowing viciously. - “I remember you… cheater!” - She spits the last word, stomping her tiny foot, making an angry thump-thump sound.
@@ -2522,7 +2522,7 @@ const gameContents = [
       "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Erm… Who is Noru and Ev?”`,
+    subText: `“Erm… What’s going on? Who is Noru and Ev?”`,
     text: `“It’s me actually.” - Sane sounds a bit confused. - “I mean, Noru… Short for Noruen. My real name. You didn’t think it’s Sane Snacks, did you?”
 
     “Well, I certainly didn’t.” - Even chuckles. - “That makes the angry lady…”
@@ -2699,7 +2699,7 @@ const gameContents = [
       "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“We should go, Sane. I don’t know why you’re so angry with me, Ev, but we have other things to do.”`,
+    subText: `“We should go, Sane. I don’t know why you’re so angry at me, Ev, but we have other things to do.”`,
     text: `You try to pass by Evren, but she takes a furious step towards you.
 
     “You are not going anywhere!” - Two tiny hands placed on her tiny hips. - We’re gonna settle this once and for all…“

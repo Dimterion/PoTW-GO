@@ -77,7 +77,8 @@
 
 .rpsGame-stateText {
   width: 150px;
-  text-shadow: 2px 2px var(--levelOneVirtualSub);
+  font-weight: bold;
+  text-shadow: 3px 3px var(--levelOneVirtualSub);
 }
 
 @media (max-width: 500px) {
@@ -235,11 +236,11 @@
 }
 
 .rpsGame-title {
-  text-shadow: 2px 2px var(--levelOneVirtualSub);
+  text-shadow: 3px 3px var(--levelOneVirtualSub);
 }
 
 .rpsGame-subTitle {
-  text-shadow: 2px 2px var(--levelOneVirtualSub);
+  text-shadow: 3px 3px var(--levelOneVirtualSub);
 }
 
 .rpsGame-startBtn {
