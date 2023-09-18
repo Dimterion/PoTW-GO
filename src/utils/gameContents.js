@@ -2627,6 +2627,7 @@ const gameContents = [
       {
         text: `“Fine, let’s play.”`,
         nextText: 99,
+        condition: "rpsGameEasy",
         miniGame: "rpsGame",
       },
       {
@@ -2676,6 +2677,7 @@ const gameContents = [
       {
         text: `“NOBODY CALLS ME CHICKEN!!!”`,
         nextText: 99,
+        condition: "rpsGameEasy",
         miniGame: "rpsGame",
       },
     ],

@@ -14,6 +14,7 @@ function RpsGame({
   setPlayerWins,
   opponentWins,
   setOpponentWins,
+  winCondition,
   playerImg,
   playerImgAlt,
   opponentImg,
@@ -58,7 +59,9 @@ function RpsGame({
       <button
         className="rpsGame-rollBtn"
         key={playerRoll}
-        disabled={(playerWins === 3 || opponentWins === 3) && true}
+        disabled={
+          (playerWins === winCondition || opponentWins === winCondition) && true
+        }
         onClick={(event) => {
           rpsGameRoll(
             playerRoll,
@@ -103,9 +106,9 @@ function RpsGame({
           />
           <span className="rpsGame-playerScore">{playerWins}</span>
         </div>
-        {playerWins === 3 ? (
+        {playerWins === winCondition ? (
           <div className="rpsGame-stateText">Soai wins! Flawless victory.</div>
-        ) : opponentWins === 3 ? (
+        ) : opponentWins === winCondition ? (
           <div className="rpsGame-stateText">Evren wins! Gnomality.</div>
         ) : (
           <div className="rpsGame-stateText">{message}</div>
@@ -125,14 +128,14 @@ function RpsGame({
             <div className="rpsGame-rollsImages">
               <img
                 className={`rpsGame-playerRollImg ${
-                  playerWins === 3 && "rpsGame-winImg"
+                  playerWins === winCondition && "rpsGame-winImg"
                 }`}
                 src={playerRollImage}
                 alt={`Image of ${displayRoll.yourRoll}`}
               />
               <img
                 className={`rpsGame-opponentRollImg ${
-                  opponentWins === 3 && "rpsGame-winImg"
+                  opponentWins === winCondition && "rpsGame-winImg"
                 }`}
                 src={opponentRollImage}
                 alt={`Image of ${displayRoll.opponentRoll}`}
@@ -160,7 +163,7 @@ function RpsGame({
           </>
         )}
       </div>
-      {(playerWins === 3 || opponentWins === 3) && (
+      {(playerWins === winCondition || opponentWins === winCondition) && (
         <button
           className="rpsGame-restartBtn"
           onClick={() => {
@@ -185,6 +188,7 @@ RpsGame.propTypes = {
   setPlayerWins: PropTypes.func,
   opponentWins: PropTypes.number,
   setOpponentWins: PropTypes.func,
+  winCondition: PropTypes.number,
   playerImg: PropTypes.string,
   playerImgAlt: PropTypes.string,
   opponentImg: PropTypes.string,

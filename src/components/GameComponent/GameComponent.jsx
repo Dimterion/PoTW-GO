@@ -15,6 +15,8 @@ function GameComponent({ content, setOptionId }) {
   const [playerWins, setPlayerWins] = useState(0);
   const [opponentWins, setOpponentWins] = useState(0);
 
+  const miniGameWinCondition = conditions.includes("rpsGameEasy") ? 3 : 5;
+
   const buttons = content.options.map((option) => {
     // Conditional options are displayed only when they have conditionMatch property and its value is included in the conditions array from the state.
     if (option.conditionMatch && !conditions.includes(option.conditionMatch)) {
@@ -40,7 +42,7 @@ function GameComponent({ content, setOptionId }) {
               return [...prevMiniGames, option.miniGame];
             });
           console.log(miniGames);
-          playerWins === 3 &&
+          playerWins === miniGameWinCondition &&
             (setPlayerWins(0), setOpponentWins(0), setMiniGames([]));
         }}
       >
@@ -109,12 +111,13 @@ function GameComponent({ content, setOptionId }) {
             setPlayerWins={setPlayerWins}
             opponentWins={opponentWins}
             setOpponentWins={setOpponentWins}
+            winCondition={miniGameWinCondition}
             playerImg={content.subImage}
             playerImgAlt={content.subImageAlt}
             opponentImg={content.characterImage}
             opponentImgAlt={content.characterImageAlt}
           />
-          {playerWins === 3 && (
+          {playerWins === miniGameWinCondition && (
             <div className={`gameComponent-buttons--${content.style}`}>
               {buttons}
             </div>
