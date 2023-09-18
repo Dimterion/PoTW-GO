@@ -286,7 +286,7 @@
 
   100% {
     width: 0;
-    max-width:0
+    max-width: 0;
   }
 }
 
@@ -304,7 +304,8 @@
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 1rem;
-  animation: 5s gameComponent-disappearingAdditionalCharacterImage--levelOneVirtual linear;
+  animation: 5s
+    gameComponent-disappearingAdditionalCharacterImage--levelOneVirtual linear;
 }
 
 @keyframes gameComponent-disappearingAdditionalCharacterImage--levelOneVirtual {
@@ -320,7 +321,7 @@
 
   100% {
     width: 0;
-    max-width:0
+    max-width: 0;
   }
 }
 

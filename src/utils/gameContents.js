@@ -2460,18 +2460,33 @@ const gameContents = [
   {
     id: 94,
     style: "levelOneVirtual",
-    mainImage: levelOneImage02,
+    characterImageEffect: "appearingCharacterImage",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Yellow-green futuristic corridor.",
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Let’s go to the arena, Even.”`,
-    text: `To be continued...`,
+    subText: `“Let’s go to the arena, Even. Need to finally check that loophole again.”`,
+    text: `“Let’s just fast-travel.” - Even yawns. - “Here, allow me to port you, sir.”
+
+    After the sound of snapping fingers you appear in the lockers area of the Shrike. The place where participants prepare for the Writers Fights before they start. Right now it’s empty as no Fight is going on at the moment.
+
+    “Well, well, well…” - Suddenly you hear a shrill voice. - “Look what the code’s logged in!” - A very small lady is standing in front of the exit of the lockers room. A pair of big blue eyes staring at you, squinting and glowing viciously. - “I remember you… cheater!” - She spits the last word, stomping her tiny foot, making an angry thump-thump sound.
+
+    “In case you were wondering,” - Even points at the little lady. - “It’s Moor Cow. Remember the gnome from the last Fight? Before you entered the shortcut. Yep, that’s her. Well, to be precise, it was her arena character, so now you can see her as she looks in zerOne. And she looks very angry.”
+
+    “I saw what you did there!” - More thump-thumps accompany each word. - “Filthy cheater! Glitching your way through the textures! What are you, a speedrunner?”`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `“No time.”`,
+        nextText: 107,
+      },
+      {
+        text: `“I’m not a cheater.”`,
+        nextText: 108,
       },
     ],
   },
@@ -2686,6 +2701,11 @@ const gameContents = [
         text: `“Need to go.”`,
         nextText: 103,
       },
+      {
+        text: `“Want to check the shortcut.”`,
+        nextText: 106,
+        condition: 11,
+      },
     ],
   },
   {
@@ -2762,24 +2782,28 @@ const gameContents = [
     style: "levelOneVirtual",
     characterImageEffect: "disappearingCharacterImage",
     additionalCharacterImageEffect: "disappearingAdditionalCharacterImage",
-    mainImage: shrikeLockers,
+    mainImage: orangePortal,
     characterImage: evrenPortrait,
     additionalCharacterImage: sanePortrait,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Virtual futuristic arena lockers area.",
+    mainImageAlt: "Glowing orange portal.",
     characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     additionalCharacterImageAlt: "Big man wearing post-apocalyptic clothes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“See you, Noru. Have fun.”`,
-    text: `“Hm, what do you know… Our buddy Sane Snacks has a real name and no less real friends.” - Even says while you look at the two of them going away. - “Weird… Something’s off about that gnome lady. Can’t see her in real life. Maybe cause she’s moved here recently and I can’t access her feed, dunno. I guess, we’ll see… Or not.”
+    text: `“Hm, what do you know… Our buddy Sane Snacks has a real name and no less real friend.” - Even says while you look at the two of them going away. - “Weird… Something’s off about that gnome lady. Can’t see her in real life. Maybe cause she’s moved here recently and I can’t access her feed due to some updates in progress or whatever, dunno. I guess, we’ll see… Or not.”
 
     You go to the arena, listening to Even talking.
 
-    “No fighting today, the track is almost empty, so let’s just go to the so-called place where it all started.” - You hear the sound of fingers snapping. - “Voila. One portal for you, my restless master.”
+    “No fighting today, the track is almost empty, so let’s just go to the so-called place where it’s all begun.”
 
-    You cross the start line of the race track and reach the point where you entered the shortcut during the last Fight. An oval portal is glowing there.`,
+    You cross the start line of the race track and reach the point where you entered the shortcut during the last Fight.
+
+    “Voila.” - You hear the sound of fingers snapping. - “One entrance for you, my restless master.”
+
+    An oval portal is glowing in front of you.`,
     options: [
       {
         text: `Enter the portal.`,
@@ -2793,6 +2817,214 @@ const gameContents = [
     mainImage: shrikeLockers,
     additionalImage: evenPortrait,
     mainImageAlt: "Virtual futuristic arena lockers area.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `To be continued.`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 106,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    additionalCharacterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    additionalCharacterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+
+    subText: `“Honestly, I want to check the shortcut. Remember you mentioned me glitching through the textures? It wasn’t exactly that. Sort of a sublevel I could enter. Now I need to get back there to get some info, as I’m not really feeling myself since I’ve been there.”`,
+    text: `“Sublevel, huh?” - Ev taps her lip with a thumb. - “Sure you’re ok? I’m a medic, you know. Wanna me to check you? I’m mostly dealing with nutrition and back pain issues, I guess you understand why.” - She waves her hand around. - “Peeps staying in the virtual world and all that… But there’s not a lot of work recently, so I was studying a bit of mental stuff as well.”
+
+    “He’s not real.” - Noru interrupts Evren suddenly. - “Some old poet made him as an arena character and then set him free in zerOne.”
+
+    “Great…” - Even exclaims loudly. - “Let us just tell everyone who we are. I suggest we limit our exposure to our human friends.” - It sighs then. - “But nobody hears me anyway… They do it literally while you, mister Soai, seem to be ignoring my remarks.”
+
+    While you were listening to Even’s whining, Noru was telling Ev about you.
+
+    “Interesting…” - She raises a brow, observing you. - “On the other hand, can’t say that’s my area of expertise. I’m more of a human person, you know. Sorry for being honest, but I just see you as an advanced NPC now.”
+
+    “Welp…” - Even sounds relieved. - “Guess, the gnome lady doesn’t really care about us. Either that or she doesn’t fully understand what we are. Though, the same goes for us, so…”
+
+    “Right, I won’t be keeping you guys then.” - Evren walks towards the exit of the lockers room. - “Will go somewhere else, it was enough arena for me for today.”
+
+    “Khm, Soai…” - Noru clears his throat nervously. - “I think I’ll go with Ev, if you don’t mind. Promised to show her around, you know, since she’s come quite recently.”
+
+    “That’d be nice of you, big guy.” - Ev then raises her tiny finger. - “Just stop asking me to be the voice for one of your board games, ok? I said I’ll think about it later, so don’t push it.”
+
+    “It’s called a game-m…”
+
+    “Hush.” - Ev’s finger goes higher. - “Later I said.”
+
+    “Alright…” - Noru finally concedes. - “Guess we can go now. Cheers, Soai.”`,
+    options: [
+      {
+        text: `“See ya.”`,
+        nextText: 104,
+      },
+    ],
+  },
+  {
+    id: 107,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Listen, I don’t know why you’re so angry at me, but we have other things to do, so we’ll just go, alright?”`,
+    text: `You try to pass by the little lady, but she takes a furious step towards you.
+
+    “You are not going anywhere!” - Two tiny hands placed on her tiny hips. - We’re gonna settle this once and for all…“
+
+    “Hm, I don’t think we can just ignore her…” - Even notices thoughtfully. - “Seems like you managed to make her really angry after the last Fight…”
+
+    Finger by finger, the little gnome slowly takes off a tiny white glove that appeared on her hand. Then she smashes it into the ground.
+
+    “We do this like real poets. You…” - A tiny forefinger stabs at you. - “Versus me. Name’s Evren by the way.” - A tiny thumb beats her chest. - “This is a duel!”
+    
+    She makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets five rounds wins.”`,
+    options: [
+      {
+        text: `“Rock, paper, what?”`,
+        nextText: 109,
+      },
+      {
+        text: `“I think I’ll pass.”`,
+        nextText: 110,
+      },
+    ],
+  },
+  {
+    id: 108,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I’m not a cheater, ok? I’m arena-rules abiding and respectful poet, lady! The fact that I’ve applied some clever usage of Shrike-mechanic doesn’t give you the right to talk to me like that!”`,
+    text: `Two big blue eyes grow bigger, staring at you from below.
+
+    “Erm, Soai…” - You hear Even’s worried voice. - “I’ve a feeling that the little one is going to explode. Not sure if this was the right way to talk to her…”
+
+    The lady produces a hissing sound, as if a lot of steam is coming out of her. Then suddenly she calms down and starts talking in a completely different voice. A beautiful soft sound, like a narrator of a cozy little adventure game.
+
+    “Ok that was a bit too much on my side probably. But I just like role-playing, you know. Was just hanging around here, hoping for a bit of fun, but everyone’s kinda gloomy. Dunno, maybe the second level is not a bright place to be. I’m sort of new here. I’m Evren. You didn’t think my real name was Moor Cow, right?” - She giggles. - “Listen, I’m a bit bored, can you just play along, and I’ll let you be?”
+
+    “I’m confused…” - Even’s voice comes back. - “What is she…”
+
+    In the next moment Evren announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets five rounds wins.”`,
+    options: [
+      {
+        text: `“Rock, paper, what?”`,
+        nextText: 109,
+      },
+      {
+        text: `“I think I’ll pass.”`,
+        nextText: 110,
+      },
+    ],
+  },
+  {
+    id: 109,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Rock, paper, what? I have no idea what you are talking about.”`,
+    text: `“Are you serious?” - Evren squints. - “Don’t you tell me you don’t know the rules of Rock, paper, scissors, lizard, Spock!”
+
+    She then notices that you clearly don’t know these rules.
+
+    “Great.” - She throws up her little arms in the air. - “Fine, I’ll explain. It’s as easy as peasy, so listen carefully and don’t make me repeat it again.”
+
+    A tiny finger goes up like a pointer.
+
+    “Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors. Is everything clear now?”`,
+    options: [
+      {
+        text: `“I think I’ll pass.”`,
+        nextText: 110,
+      },
+      {
+        text: `“Fine, let’s play.”`,
+        nextText: 111,
+        miniGame: "rpsGame",
+      },
+    ],
+  },
+  {
+    id: 110,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Listen, no hard feelings, but I’m not really in the mood for playing, alright?”`,
+    text: `Evren comes closer, looking at you.
+
+    “Afraid, aren’t you, poet-boy? I knew it. The moment a real fight comes into place, you get your legs shaking and your mouth mumbling. So what?”
+
+    Big blue eyes drill right through you.
+
+    “Are you chicken?”`,
+    options: [
+      {
+        text: `“NOBODY CALLS ME CHICKEN!!!”`,
+        nextText: 111,
+        miniGame: "rpsGame",
+      },
+    ],
+  },
+  {
+    id: 111,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    options: [
+      {
+        text: `You win.`,
+        nextText: 112,
+      },
+    ],
+  },
+  {
+    id: 112,
+    style: "levelOneVirtual",
+    mainImage: shrikeLockers,
+    characterImage: evrenPortrait,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena lockers area.",
+    characterImageAlt: "A portrait of a futuristic lady with big blue eyes.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `To be continued.`,
     options: [
@@ -2824,5 +3056,6 @@ import floppyDisk from "../assets/images/floppy_disk.jpg";
 import shrikeMainEntrance from "../assets/images/shrike_main_entrance.jpg";
 import shrikeLockers from "../assets/images/shrike_lockers.jpg";
 import evrenPortrait from "../assets/images/evren_portrait.jpg";
+import orangePortal from "../assets/images/orange_portal.jpg";
 
 export default gameContents;
