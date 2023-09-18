@@ -264,12 +264,64 @@
   }
 }
 
+.gameComponent-disappearingCharacterImage--levelOneVirtual {
+  width: 0;
+  max-width: 0;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 1rem;
+  animation: 5s gameComponent-disappearingCharacterImage--levelOneVirtual linear;
+}
+
+@keyframes gameComponent-disappearingCharacterImage--levelOneVirtual {
+  0% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  50% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  100% {
+    width: 0;
+    max-width:0
+  }
+}
+
 .gameComponent-additionalCharacterImage--levelOneVirtual {
   width: 200px;
   max-width: 35vw;
   border-right: 1px solid var(--levelOneVirtualAdditional);
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 1rem;
+}
+
+.gameComponent-disappearingAdditionalCharacterImage--levelOneVirtual {
+  width: 0;
+  max-width: 0;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  margin-right: 1rem;
+  animation: 5s gameComponent-disappearingAdditionalCharacterImage--levelOneVirtual linear;
+}
+
+@keyframes gameComponent-disappearingAdditionalCharacterImage--levelOneVirtual {
+  0% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  50% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  100% {
+    width: 0;
+    max-width:0
+  }
 }
 
 .gameComponent-text--levelOneVirtual {
