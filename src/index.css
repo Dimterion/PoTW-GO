@@ -32,6 +32,13 @@
   --levelOneVirtualTertiary: #65dc98;
   --levelOneVirtualAdditional: #8d8980;
   --levelOneVirtualSub: #222035;
+
+  /* Variables - Level One - Loophole Colors */
+  --levelOneLoopholePrimary: #01012b;
+  --levelOneLoopholeSecondary: #005678;
+  --levelOneLoopholeTertiary: #05d9e8;
+  --levelOneLoopholeAdditional: #ff2a6d;
+  --levelOneLoopholeSub: #092047;
 }
 
 /* All pages styles */

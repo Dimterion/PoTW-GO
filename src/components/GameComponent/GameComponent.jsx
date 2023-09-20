@@ -7,6 +7,7 @@ import RpsGame from "../MiniGames/RpsGame/RpsGame";
 import "./Styles/gameComponentPrologue.css";
 import "./Styles/gameComponentLevelOneReal.css";
 import "./Styles/gameComponentLevelOneVirtual.css";
+import "./Styles/gameComponentLevelOneLoophole.css";
 
 function GameComponent({ content, setOptionId }) {
   const [menu, setMenu] = useState(false);

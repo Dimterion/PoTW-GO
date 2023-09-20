@@ -1,0 +1,69 @@
+.menuModal-container--levelOneLoophole {
+  width: 300px;
+  height: 350px;
+  max-width: 80vw;
+  max-height: 80vh;
+  padding-top: 1vh;
+  margin-top: 30vh;
+  background: linear-gradient(
+    90deg,
+    var(--levelOneLoopholePrimary) 0%,
+    var(--levelOneLoopholeSub) 50%,
+    var(--levelOneLoopholePrimary) 100%
+  );
+  color: var(--levelOneLoopholeTertiary);
+  text-align: center;
+  animation: menuModal-container--levelOneLoophole-load 500ms ease-in-out;
+}
+
+@keyframes menuModal-container--levelOneLoophole-load {
+  0% {
+    transform: translateY(-200%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-height: 700px) {
+  .menuModal-container--levelOneLoophole {
+    margin-top: 10px;
+  }
+}
+
+.menuModal-container--levelOneLoophole::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.menuModal-title--levelOneLoophole {
+  margin: 20px auto;
+  text-shadow: 3px 3px 3px var(--levelOneLoopholeSub);
+}
+
+.menuModal-nav--levelOneLoophole {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menuModal-closeBtn--levelOneLoophole {
+  width: 200px;
+  max-width: 85vw;
+  padding: 3px 0 6px;
+  border: 1px solid var(--levelOneLoopholeTertiary);
+  margin: 10px auto;
+  background: var(--levelOneLoopholePrimary);
+  color: var(--levelOneLoopholeTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menuModal-closeBtn--levelOneLoophole:hover {
+  border: 1px solid var(--levelOneLoopholePrimary);
+  background: var(--levelOneLoopholeTertiary);
+  color: var(--levelOneLoopholePrimary);
+  transition: 0.5s;
+}

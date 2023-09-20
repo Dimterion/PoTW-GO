@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import "./Styles/gameScreenLoaderPrologue.css";
 import "./Styles/gameScreenLoaderLevelOneReal.css";
 import "./Styles/gameScreenLoaderLevelOneVirtual.css";
+import "./Styles/gameScreenLoaderLevelOneLoophole.css";
 
 function GameScreenLoader({ content }) {
   return (

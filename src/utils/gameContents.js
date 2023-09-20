@@ -808,7 +808,7 @@ const gameContents = [
       },
     ],
   },
-  // Level One
+  // Level One, Part One
   {
     id: 33,
     style: "levelOneReal",
@@ -2111,6 +2111,12 @@ const gameContents = [
         text: `“Let’s go to the arena, Sane.”`,
         nextText: 93,
       },
+      {
+        conditionMatch: 4,
+        text: `“Need to visit Nnif.”`,
+        nextText: 118,
+        condition: 12,
+      },
     ],
   },
   {
@@ -2144,6 +2150,12 @@ const gameContents = [
       {
         text: `“Let’s go to the arena, Sane.”`,
         nextText: 93,
+      },
+      {
+        conditionMatch: 4,
+        text: `“Need to visit Nnif.”`,
+        nextText: 118,
+        condition: 12,
       },
     ],
   },
@@ -2408,10 +2420,11 @@ const gameContents = [
         conditionMatch: 4,
         text: `“Let’s visit Nnif.”`,
         nextText: 92,
+        condition: 13,
       },
     ],
   },
-  // Level Two
+  // Level One, Part Two
   {
     id: 92,
     style: "levelOneVirtual",
@@ -2815,16 +2828,22 @@ const gameContents = [
   },
   {
     id: 105,
-    style: "levelOneVirtual",
-    mainImage: shrikeLockers,
+    style: "levelOneLoophole",
+    mainImage: shrikeLoophole,
     additionalImage: evenPortrait,
-    mainImageAlt: "Virtual futuristic arena lockers area.",
+    mainImageAlt: "Virtual structure with orange portals.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `To be continued.`,
+    text: `Once you enter the portal you see a new place. It doesn’t look like the loophole you were in the last time. You don’t see the race track or any connection to the Shrike.
+
+    “What?” - Even sounds puzzled. - “Why is this place different now? Wait, this time I’ve ported us directly, while before you first used the shortcut. Still, where’s the sphere where you talked to Deo?”
+
+    Even walks around the vast space surrounded by orange portals.
+
+    “Maybe it’s got transformed into this once we’ve got out. I think this might be the place Deo used to travel between Towers and levels.” - It points at the glowing ovals. - “Yes, look, we can go anywhere now. Well, anywhere in zerOne I guess.”`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `“Sure this is a good idea?”`,
+        nextText: 117,
       },
     ],
   },
@@ -3151,22 +3170,53 @@ const gameContents = [
     options: [
       {
         text: `Enter the portal.`,
-        nextText: 117,
+        nextText: 105,
       },
     ],
   },
   {
     id: 117,
-    style: "levelOneVirtual",
-    mainImage: orangePortal,
+    style: "levelOneLoophole",
+    mainImage: shrikeLoophole,
+    subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Glowing orange portal.",
+    mainImageAlt: "Virtual structure with orange portals.",
+    subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `To be continued.`,
+    subText: `“Are you sure this is a good idea? We don’t really know where these portals lead.”`,
+    text: `“Can’t argue with that.”
+    
+    Even keeps walking around the portals, studying them closely.
+    
+    “Sadly, my inner knowledge base is silent and doesn’t provide any useful data. So, I’m kinda lacking info on the topic. But I also don’t see any better ideas on how we can get to the first level. We need to find Deo’s place after all. And it’s down below. One of the portals should take us there.”`,
     options: [
       {
-        text: `Start anew.`,
+        text: `To be continued.`,
         nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 118,
+    style: "levelOneVirtual",
+    mainImage: deoVirtualApartment,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“I need to visit a friend first, Sane. Can we meet at the arena in a bit?”`,
+    text: `“Sure. I’ll wait for you at the entrance then.”
+
+    Sane exits his place and you decide to go to Nnif as Una suggested.
+
+    “She might not be at her shop at the moment.” - Even notices thoughtfully. - “I’ve just checked. She’s in her life-capsule.” - While you go there it continues talking. - “I keep thinking about Sane. Child of two worlds this one. Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
+    options: [
+      {
+        text: `“Let’s go to Nnif.”`,
+        nextText: 92,
       },
     ],
   },
@@ -3193,5 +3243,6 @@ import shrikeMainEntrance from "../assets/images/shrike_main_entrance.jpg";
 import shrikeLockers from "../assets/images/shrike_lockers.jpg";
 import evrenPortrait from "../assets/images/evren_portrait.jpg";
 import orangePortal from "../assets/images/orange_portal.jpg";
+import shrikeLoophole from "../assets/images/shrike_loophole.jpg";
 
 export default gameContents;

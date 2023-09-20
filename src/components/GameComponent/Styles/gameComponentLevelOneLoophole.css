@@ -1,0 +1,528 @@
+.gameComponent-container--levelOneLoophole {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  overflow: auto;
+  background: linear-gradient(
+    90deg,
+    var(--levelOneLoopholeSub) 0%,
+    var(--levelOneLoopholePrimary) 50%,
+    var(--levelOneLoopholeSub) 100%
+  );
+  color: var(--levelOneLoopholeTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.1rem;
+  white-space: pre-line;
+  animation: gameComponent-container--levelOneLoophole-load 1.5s linear;
+}
+
+@keyframes gameComponent-container--levelOneLoophole-load {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.gameComponent-menuBtn--levelOneLoophole {
+  position: absolute;
+  z-index: 1;
+  top: 0.5px;
+  left: 0.5px;
+  opacity: 0.5;
+  padding: 1px 7px 3px;
+  border: 1px solid var(--levelOneLoopholeSub);
+  background: var(--levelOneLoopholeAdditional);
+  color: var(--levelOneLoopholeSub);
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  animation: gameComponent-menuBtn--levelOneLoophole-load 2.5s ease-in-out;
+}
+
+@keyframes gameComponent-menuBtn--levelOneLoophole-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .gameComponent-menuBtn--levelOneLoophole {
+    top: 1px;
+    left: 5%;
+  }
+}
+
+.gameComponent-menuBtn--levelOneLoophole:hover {
+  opacity: 1;
+}
+
+.gameComponent-menuBtn--levelOneLoophole:active {
+  scale: 0.9;
+}
+
+.gameComponent-menuLink--levelOneLoophole {
+  width: 200px;
+  max-width: 85vw;
+  padding: 3px 0 6px;
+  border: 1px solid var(--levelOneLoopholeTertiary);
+  margin: 10px auto;
+  background: var(--levelOneLoopholePrimary);
+  color: var(--levelOneLoopholeTertiary);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.gameComponent-menuLink--levelOneLoophole:hover {
+  border: 1px solid var(--levelOneLoopholePrimary);
+  background: var(--levelOneLoopholeTertiary);
+  color: var(--levelOneLoopholePrimary);
+  transition: 0.5s;
+}
+
+.gameComponent-mainImage--levelOneLoophole {
+  width: 1024px;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: cover;
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  margin-bottom: 1rem;
+  animation: gameComponent-mainImage--levelOneLoophole-load 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-mainImage--levelOneLoophole-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.gameComponent-appearingMainImage--levelOneLoophole {
+  width: 1024px;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: cover;
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  margin-bottom: 1rem;
+  animation: gameComponent-appearingMainImage--levelOneLoophole 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-appearingMainImage--levelOneLoophole {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.gameComponent-topSlidingMainImage--levelOneLoophole {
+  width: 1024px;
+  max-width: 90vw;
+  max-height: 40vh;
+  object-fit: cover;
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  margin-bottom: 1rem;
+  animation: gameComponent-topSlidingMainImage--levelOneLoophole 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-topSlidingMainImage--levelOneLoophole {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.gameComponent-additionalImage--levelOneLoophole {
+  position: absolute;
+  z-index: 1;
+  top: 0.5px;
+  right: 0.5px;
+  width: 30px;
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  animation: gameComponent-additionalImage--levelOneLoophole-load 2.5s
+    ease-in-out;
+}
+
+@keyframes gameComponent-additionalImage--levelOneLoophole-load {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .gameComponent-additionalImage--levelOneLoophole {
+    top: 1.5px;
+    right: 5.1%;
+  }
+}
+
+.gameComponent-mainContent--levelOneLoophole {
+  position: relative;
+  width: 1024px;
+  max-width: 90vw;
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  animation: gameComponent-mainContent--levelOneLoophole-load 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-mainContent--levelOneLoophole-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.gameComponent-mainContent--levelOneLoophole::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 2.5%;
+  width: 95%;
+  border-top: 2px solid var(--levelOneLoopholeAdditional);
+}
+
+.gameComponent-subImage--levelOneLoophole {
+  float: right;
+  width: 200px;
+  max-width: 35vw;
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  border-left: 1px solid var(--levelOneLoopholeAdditional);
+  margin-left: 1rem;
+}
+
+.gameComponent-subText--levelOneLoophole {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+.gameComponent-characterImages--levelOneLoophole {
+  float: left;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.gameComponent-characterImage--levelOneLoophole {
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneLoopholeAdditional);
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  margin-right: 1rem;
+}
+
+.gameComponent-appearingCharacterImage--levelOneLoophole {
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneLoopholeAdditional);
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  margin-right: 1rem;
+  animation: 5s gameComponent-appearingCharacterImage--levelOneLoophole linear;
+}
+
+@keyframes gameComponent-appearingCharacterImage--levelOneLoophole {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 0;
+  }
+
+  100% {
+    width: 200px;
+  }
+}
+
+.gameComponent-disappearingCharacterImage--levelOneLoophole {
+  width: 0;
+  max-width: 0;
+  border-right: 1px solid var(--levelOneLoopholeAdditional);
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  margin-right: 1rem;
+  animation: 5s gameComponent-disappearingCharacterImage--levelOneLoophole linear;
+}
+
+@keyframes gameComponent-disappearingCharacterImage--levelOneLoophole {
+  0% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  50% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  100% {
+    width: 0;
+    max-width: 0;
+  }
+}
+
+.gameComponent-additionalCharacterImage--levelOneLoophole {
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneLoopholeAdditional);
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  margin-right: 1rem;
+}
+
+.gameComponent-disappearingAdditionalCharacterImage--levelOneLoophole {
+  width: 0;
+  max-width: 0;
+  border-right: 1px solid var(--levelOneLoopholeAdditional);
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  margin-right: 1rem;
+  animation: 5s
+    gameComponent-disappearingAdditionalCharacterImage--levelOneLoophole linear;
+}
+
+@keyframes gameComponent-disappearingAdditionalCharacterImage--levelOneLoophole {
+  0% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  50% {
+    width: 200px;
+    max-width: 35vw;
+  }
+
+  100% {
+    width: 0;
+    max-width: 0;
+  }
+}
+
+.gameComponent-text--levelOneLoophole {
+  padding: 0 1rem;
+}
+
+.gameComponent-buttons--levelOneLoophole {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 900px;
+  max-width: 90vw;
+  padding: 1vh 0;
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  margin-bottom: 1rem;
+  background: linear-gradient(
+    0deg,
+    var(--levelOneLoopholeSub) 0%,
+    var(--levelOneLoopholePrimary) 50%,
+    var(--levelOneLoopholeSub) 100%
+  );
+  animation: gameComponent-buttons--levelOneLoophole-load 0.5s ease-in-out;
+}
+
+@keyframes gameComponent-buttons--levelOneLoophole-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.gameComponent-buttons--levelOneLoophole::before {
+  content: "";
+  position: absolute;
+  top: -0.3rem;
+  left: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 15px;
+  max-width: 95vw;
+  border-top: 1px solid var(--levelOneLoopholeAdditional);
+  border-right: 1px solid var(--levelOneLoopholeAdditional);
+  border-left: 1px solid var(--levelOneLoopholeAdditional);
+}
+
+.gameComponent-buttons--levelOneLoophole::after {
+  content: "";
+  position: absolute;
+  right: -0.3rem;
+  bottom: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 15px;
+  max-width: 95vw;
+  border-right: 1px solid var(--levelOneLoopholeAdditional);
+  border-bottom: 1px solid var(--levelOneLoopholeAdditional);
+  border-left: 1px solid var(--levelOneLoopholeAdditional);
+}
+
+.gameComponent-btn--levelOneLoophole {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneLoopholeTertiary);
+  margin: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--levelOneLoopholeTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gameComponent-btn--levelOneLoophole:hover {
+  border: 1px solid var(--levelOneLoopholePrimary);
+  background: var(--levelOneLoopholeTertiary);
+  color: var(--levelOneLoopholePrimary);
+  transition: 0.5s;
+}
+
+.gameComponent-btn--levelOneLoophole:active {
+  scale: 0.9;
+}
+
+.gameComponent-optionalBtn--levelOneLoophole {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  margin: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--levelOneLoopholeAdditional);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gameComponent-optionalBtn--levelOneLoophole:hover {
+  border: 1px solid var(--levelOneLoopholePrimary);
+  background: var(--levelOneLoopholeAdditional);
+  color: var(--levelOneLoopholePrimary);
+  transition: 0.5s;
+}
+
+.gameComponent-optionalBtn--levelOneLoophole:active {
+  scale: 0.9;
+}
+
+.gameComponent-appearingSwitchBtn--levelOneLoophole {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneRealTertiary);
+  margin: 0.75rem;
+  background: linear-gradient(
+    90deg,
+    var(--levelOneRealSub) 0%,
+    var(--levelOneRealPrimary) 50%,
+    var(--levelOneRealSub) 100%
+  );
+  color: var(--levelOneRealTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  animation: gameComponent-appearingSwitchBtn-load 1.5s ease-in-out;
+}
+
+@keyframes gameComponent-appearingSwitchBtn-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.gameComponent-appearingSwitchBtn--levelOneLoophole:hover {
+  border: 1px solid var(--levelOneRealSub);
+  background: linear-gradient(
+    90deg,
+    var(--levelOneRealSub) 0%,
+    var(--levelOneRealTertiary) 50%,
+    var(--levelOneRealSub) 100%
+  );
+  color: var(--levelOneRealSub);
+  transition: 0.5s;
+}
+
+.gameComponent-appearingSwitchBtn--levelOneLoophole:active {
+  scale: 0.9;
+}
+
+.gameComponent-switchBtn--levelOneLoophole {
+  width: 250px;
+  max-width: 90vw;
+  min-height: 50px;
+  max-height: 20vh;
+  padding-bottom: 5px;
+  border: 1px solid var(--levelOneRealTertiary);
+  margin: 0.75rem;
+  background: linear-gradient(
+    90deg,
+    var(--levelOneRealSub) 0%,
+    var(--levelOneRealPrimary) 50%,
+    var(--levelOneRealSub) 100%
+  );
+  color: var(--levelOneRealTertiary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gameComponent-switchBtn--levelOneLoophole:hover {
+  border: 1px solid var(--levelOneRealSub);
+  background: linear-gradient(
+    90deg,
+    var(--levelOneRealSub) 0%,
+    var(--levelOneRealTertiary) 50%,
+    var(--levelOneRealSub) 100%
+  );
+  color: var(--levelOneRealSub);
+  transition: 0.5s;
+}
+
+.gameComponent-switchBtn--levelOneLoophole:active {
+  scale: 0.9;
+}
