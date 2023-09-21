@@ -2664,6 +2664,7 @@ const gameContents = [
       {
         text: `You win.`,
         nextText: 101,
+        btnEffect: "glowing",
       },
     ],
   },
@@ -3035,6 +3036,7 @@ const gameContents = [
       {
         text: `You win.`,
         nextText: 112,
+        btnEffect: "glowing",
       },
     ],
   },
