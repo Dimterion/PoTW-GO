@@ -2434,12 +2434,25 @@ const gameContents = [
     mainImageAlt: "Yellow-green futuristic corridor.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Let’s visit Nnif.”`,
-    text: `To be continued...`,
+    subText: `“Let’s pay Nnif a visit. Una said she might help.”`,
+    text: `“Our friendly owner of Dixie's shop?”
+
+    Even raises one ear.
+
+    “Sure, why not. She knew Deo, so maybe we’ll be able to get some info on how to proceed with the first level zerOne. She’s not at her shop at the moment. I’ve just checked. So, we’re going to her life-capsule.”
+
+    While you head over there it continues talking.
+
+    “I guess we have Nnif to thank for my activation. Technically she did that, even though she might not fully understand what it was. Anyway,” - Even points at the door in the corridor once you arrive. - “Knock-knock digitally or in that brave real world or theirs?”`,
     options: [
       {
         text: `Start anew.`,
         nextText: 0,
+      },
+      {
+        text: `Start anew.`,
+        nextText: 0,
+        btnEffect: "switch",
       },
     ],
   },
@@ -3214,7 +3227,7 @@ const gameContents = [
 
     Sane exits his place and you decide to go to Nnif as Una suggested.
 
-    “She might not be at her shop at the moment.” - Even notices thoughtfully. - “I’ve just checked. She’s in her life-capsule.” - While you go there it continues talking. - “I keep thinking about Sane. Child of two worlds this one. Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
+    “I keep thinking about Sane.” - Even says thoughtfully. - “Child of two worlds this one. Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
     options: [
       {
         text: `“Let’s go to Nnif.”`,
