@@ -2397,10 +2397,10 @@ const gameContents = [
   {
     id: 91,
     style: "levelOneVirtual",
-    mainImage: levelOneImage02,
+    mainImage: deoVirtualApartment,
     subImage: characterImage,
     additionalImage: evenPortrait,
-    mainImageAlt: "Yellow-green futuristic corridor.",
+    mainImageAlt: "Virtual futuristic apartment.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Thanks, Sane, but maybe some other time. I’ve had enough loops for now. Take care, mate. Have a good zerOne.”`,
@@ -2408,7 +2408,7 @@ const gameContents = [
 
     “Have a good zerOne? Seriously? We need to work on your intended puns, master Soai. Next time ask me first, I’ll provide you with a variety of options.”
 
-    You head over to the Shrike arena, pondering about Sane.
+    While it’s talking you keep pondering about Sane.
 
     “Child of two worlds this one.” - As usual, Even follows your thoughts. - “Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
     options: [
@@ -2428,6 +2428,7 @@ const gameContents = [
   {
     id: 92,
     style: "levelOneVirtual",
+    mainImageEffect: "topSlidingMainImage",
     mainImage: levelOneImage02,
     subImage: characterImage,
     additionalImage: evenPortrait,
@@ -2446,12 +2447,12 @@ const gameContents = [
     “I guess we have Nnif to thank for my activation. Technically she did that, even though she might not fully understand what it was. Anyway,” - Even points at the door in the corridor once you arrive. - “Knock-knock digitally or in that brave real world or theirs?”`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `Digital shadow.`,
+        nextText: 119,
       },
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `Reality check.`,
+        nextText: 120,
         btnEffect: "switch",
       },
     ],
@@ -3235,6 +3236,36 @@ const gameContents = [
       },
     ],
   },
+  {
+    id: 119,
+    style: "levelOneVirtual",
+    mainImage: nnifVirtualApartment,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `To be continued.`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 120,
+    style: "levelOneReal",
+    mainImage: nnifApartment,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Tiny futuristic apartment.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `To be continued.`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
 ];
 
 import prologueImage from "../assets/images/prologue_image.jpg";
@@ -3259,5 +3290,7 @@ import shrikeLockers from "../assets/images/shrike_lockers.jpg";
 import evrenPortrait from "../assets/images/evren_portrait.jpg";
 import orangePortal from "../assets/images/orange_portal.jpg";
 import shrikeLoophole from "../assets/images/shrike_loophole.jpg";
+import nnifVirtualApartment from "../assets/images/nnif_virtual_apartment.jpg";
+import nnifApartment from "../assets/images/nnif_apartment.jpg";
 
 export default gameContents;
