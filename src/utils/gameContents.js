@@ -3240,14 +3240,35 @@ const gameContents = [
     id: 119,
     style: "levelOneVirtual",
     mainImage: nnifVirtualApartment,
+    characterImage: nnifPortrait,
+    subImage: characterImage,
     additionalImage: evenPortrait,
     mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
+    subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `To be continued.`,
+    subText: `“I’ll ping her in zerOne. No need for real world interaction.”`,
+    text: `You call Nnif. After a few minutes she finally replies.
+
+    “Soai? Didn’t expect to see you today.” - She sounds a bit surprised. - “Come in, let’s talk inside.”
+
+    You enter Nnif’s digital apartment.
+
+    “I’m feeling some retro vibes here.” - Even glances around. - “As if she’s a fan of different century furniture and aesthetics. Never thought her to be much of the old times kind of person, with all the tech and gadgets in her shop.” - It then looks at Nnif. - “Hm, why does she look different?”
+
+    You also notice Nnif’s face. No more glowing tattoos and one side of the head shaven.
+
+    “Almost feels like her face’s missing something…” - Even continues guessing.
+
+    “Stop staring at me already.” - Nnif interrupts your thought process. - “I’m working on a new look, ok? Felt like I want some changes in my life, hence this.” - She points at her face. - “It’s a work in progress thingy and you’ve come just in the middle of me doing some tinkering. So, no judging, deal?” - Seeing no objections, she continues. - “What brings you here, Soai? Event Horizon issues? You’ve demonstrated some weird behavior during the last Writers Fight. Was it because of it?”`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `“I’m a virtual boy…”`,
+        nextText: 121,
+      },
+      {
+        text: `“Need a ride to the first level.”`,
+        nextText: 122,
       },
     ],
   },
@@ -3258,6 +3279,46 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Tiny futuristic apartment.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    text: `To be continued.`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 121,
+    style: "levelOneVirtual",
+    mainImage: nnifVirtualApartment,
+    characterImage: nnifPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
+    text: `To be continued.`,
+    options: [
+      {
+        text: `Start anew.`,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 122,
+    style: "levelOneVirtual",
+    mainImage: nnifVirtualApartment,
+    characterImage: nnifPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
     text: `To be continued.`,
     options: [
       {
@@ -3292,5 +3353,6 @@ import orangePortal from "../assets/images/orange_portal.jpg";
 import shrikeLoophole from "../assets/images/shrike_loophole.jpg";
 import nnifVirtualApartment from "../assets/images/nnif_virtual_apartment.jpg";
 import nnifApartment from "../assets/images/nnif_apartment.jpg";
+import nnifPortrait from "../assets/images/nnif_portrait.jpg";
 
 export default gameContents;
