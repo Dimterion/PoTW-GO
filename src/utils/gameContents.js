@@ -3298,6 +3298,46 @@ const gameContents = [
     characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Well, sort of… It turned out that EH is now a part of me. On top of that I’m a former arena character…”`,
+    text: `You tell Nnif your story and all its details. Once you finish, she looks at you silently for a moment.
+
+    “Huh.”
+
+    “Huh?” - Even stares back at her. - “That’s it? Her reaction is just “huh”? I expected…”
+
+    “Shut up, rabbit.”
+
+    There is a pause during which Even stares at Nnif with its mouth open.
+
+    “She can…”
+
+    “Yes, I can hear you.” - Nnif replies irritatedly. - “I’m scanning you now, Soai and can see this Even part of you. Also, it was me who installed it, so, yeah, with a bit of tweaking, I can hear what it says as well.”
+
+    “We need to…” - Even’s voice gets cut off.
+
+    “We don’t. I’ve muted it for now. Can’t turn it off completely, as you said it’s a part of you now. Deo didn’t tell me much, to be honest. Looked like he was in a rush. He just gave me the module with EH and said that I should install it once someone comes and mentions his name. Couldn’t really check it in its turned off state and I didn’t want to test it on me, but now as it’s active and you, well, being you, I can dive a little bit deeper.” - She notices Even’s panicking gestures. - “No, I can’t make you be heard by others, you are part of Soai’s digital brain, so you have to deal with him in that regard. The only reason I can see and hear you is that Deo gave me admin access to the module for installing it. And I can’t transfer it to anyone else.” - After a silent sigh from Even’s side, she continues. - “As for you, Soai, my zerOne friend, I’d say I expected something like this coming from Deo. Old man kept talking about creating artificial life and all. What are you going to do now?”`,
+    options: [
+      {
+        text: `“You don’t want to talk to Even?”`,
+        nextText: 123,
+      },
+      {
+        text: `“Need a ride to the first level.”`,
+        nextText: 122,
+      },
+    ],
+  },
+  {
+    id: 122,
+    style: "levelOneVirtual",
+    mainImage: nnifVirtualApartment,
+    characterImage: nnifPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: ``,
     text: `To be continued.`,
     options: [
@@ -3308,7 +3348,7 @@ const gameContents = [
     ],
   },
   {
-    id: 122,
+    id: 123,
     style: "levelOneVirtual",
     mainImage: nnifVirtualApartment,
     characterImage: nnifPortrait,
