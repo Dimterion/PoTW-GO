@@ -23,6 +23,16 @@ function AboutScreen() {
           .
         </h3>
         <h3>WORK IN PROGRESS</h3>
+        <h4>
+          <a
+            href="https://medium.com/@dimterion/using-developer-skills-to-tell-a-story-5cbe9f0b3cca"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="aboutScreen-link"
+          >
+            Additional Info
+          </a>
+        </h4>
         <Link className="aboutScreen-link" to="/">
           START SCREEN
         </Link>
