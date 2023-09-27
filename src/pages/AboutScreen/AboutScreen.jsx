@@ -24,14 +24,25 @@ function AboutScreen() {
         </h3>
         <h3>WORK IN PROGRESS</h3>
         <h4>
+          Additional info can be found{" "}
           <a
             href="https://medium.com/@dimterion/using-developer-skills-to-tell-a-story-5cbe9f0b3cca"
             target="_blank"
             rel="noopener noreferrer"
             className="aboutScreen-link"
           >
-            Additional Info
+            here
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://medium.com/@dimterion/learning-from-a-personal-project-afbf34e506d0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="aboutScreen-link"
+          >
+            here
           </a>
+          .
         </h4>
         <Link className="aboutScreen-link" to="/">
           START SCREEN
