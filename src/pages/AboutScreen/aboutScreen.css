@@ -71,4 +71,9 @@
 
 .aboutScreen-link {
   color: var(--sub);
+  text-decoration: none;
+}
+
+.aboutScreen-link:hover {
+  text-decoration: underline;
 }

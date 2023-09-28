@@ -45,9 +45,19 @@ function AboutScreen() {
           .
         </h4>
         <Link className="aboutScreen-link" to="/">
-          START SCREEN
+          {">>> "}START SCREEN{" <<<"}
         </Link>
       </article>
+      <footer>
+        <a
+          href="https://dimterion.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="aboutScreen-link"
+        >
+          Made by Dimterion
+        </a>
+      </footer>
     </section>
   );
 }
