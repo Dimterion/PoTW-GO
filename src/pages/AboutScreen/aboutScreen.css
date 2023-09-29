@@ -77,3 +77,9 @@
 .aboutScreen-link:hover {
   text-decoration: underline;
 }
+
+.aboutScreen-footer {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 1rem;
+}

@@ -48,7 +48,15 @@ function AboutScreen() {
           {">>> "}START SCREEN{" <<<"}
         </Link>
       </article>
-      <footer>
+      <footer className="aboutScreen-footer">
+        <a
+          href="https://github.com/Dimterion/PoTW-GO"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="aboutScreen-link"
+        >
+          GitHub Repo
+        </a>
         <a
           href="https://dimterion.github.io/"
           target="_blank"
