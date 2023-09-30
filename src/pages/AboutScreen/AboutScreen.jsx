@@ -22,7 +22,7 @@ function AboutScreen() {
           </a>
           .
         </h3>
-        <h3>WORK IN PROGRESS</h3>
+        <h3 className="aboutScreen-infoTitle">WORK IN PROGRESS</h3>
         <h4>
           Additional info can be found{" "}
           <a

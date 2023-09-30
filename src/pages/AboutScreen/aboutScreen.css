@@ -70,6 +70,7 @@
 }
 
 .aboutScreen-link {
+  margin: 0.25rem auto;
   color: var(--sub);
   text-decoration: none;
 }
@@ -78,8 +79,13 @@
   text-decoration: underline;
 }
 
+.aboutScreen-infoTitle {
+  font-size: 2rem;
+}
+
 .aboutScreen-footer {
   display: flex;
   flex-flow: column nowrap;
   margin-top: 1rem;
+  font-weight: bold;
 }
