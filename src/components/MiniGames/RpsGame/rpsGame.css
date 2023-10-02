@@ -12,12 +12,18 @@
     var(--levelOneVirtualPrimary) 50%,
     var(--levelOneVirtualSub) 100%
   );
-  animation: rpsGame-container-load 0.5s ease-in-out;
+  animation: rpsGame-container-load 1.5s ease-in-out;
 }
 
 @keyframes rpsGame-container-load {
   0% {
+    opacity: 0;
     transform: translateX(-100%);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateX(5%);
   }
 
   100% {
