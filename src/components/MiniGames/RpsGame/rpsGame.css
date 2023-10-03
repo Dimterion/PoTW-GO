@@ -36,6 +36,7 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
 }
 
 .rpsGame-playerInfo {
@@ -53,7 +54,6 @@
   width: 100px;
   max-width: 30vw;
   border-right: 1px solid var(--levelOneVirtualAdditional);
-  border-bottom: 1px solid var(--levelOneVirtualAdditional);
 }
 
 @media (max-width: 500px) {
@@ -97,7 +97,6 @@
 .rpsGame-opponentImg {
   width: 100px;
   max-width: 30vw;
-  border-bottom: 1px solid var(--levelOneVirtualAdditional);
   border-left: 1px solid var(--levelOneVirtualAdditional);
 }
 
@@ -217,7 +216,11 @@
 }
 
 .rpsGame-rollButtons {
-  margin-bottom: 1rem;
+  width: 350px;
+  max-width: 80vw;
+  padding: 0.5rem;
+  border: 1px solid var(--levelOneVirtualAdditional);
+  margin: 1rem auto;
 }
 
 .rpsGame-rollBtn {
