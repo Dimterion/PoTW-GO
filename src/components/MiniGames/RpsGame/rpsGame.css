@@ -37,6 +37,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .rpsGame-playerInfo {
@@ -64,10 +65,11 @@
 
 .rpsGame-playerScore {
   width: 30px;
-  padding-bottom: 8px;
+  padding: 5px 0;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin-left: 5px;
   background: rgba(0, 0, 0, 0.5);
+  font-family: "Tektur", cursive;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -75,7 +77,6 @@
 @media (max-width: 500px) {
   .rpsGame-playerScore {
     width: 20px;
-    padding-bottom: 5px;
     margin-left: 1px;
     font-size: 1rem;
   }
@@ -108,10 +109,11 @@
 
 .rpsGame-opponentScore {
   width: 30px;
-  padding-bottom: 8px;
+  padding: 5px 0;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin-right: 5px;
   background: rgba(0, 0, 0, 0.5);
+  font-family: "Tektur", cursive;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -119,7 +121,6 @@
 @media (max-width: 500px) {
   .rpsGame-opponentScore {
     width: 20px;
-    padding-bottom: 5px;
     margin-right: 1px;
     font-size: 1rem;
   }
@@ -220,7 +221,8 @@
   max-width: 80vw;
   padding: 0.5rem;
   border: 1px solid var(--levelOneVirtualAdditional);
-  margin: 1rem auto;
+  margin: 0 auto 1rem;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .rpsGame-rollBtn {
@@ -237,11 +239,11 @@
 }
 
 .rpsGame-rollBtn:hover {
-  scale: 1.1;
+  scale: 0.9;
 }
 
 .rpsGame-rollBtn:active {
-  scale: 0.9;
+  scale: 0.8;
 }
 
 .rpsGame-title {
