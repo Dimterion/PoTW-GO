@@ -217,12 +217,39 @@
 }
 
 .rpsGame-rollButtons {
+  position: relative;
   width: 350px;
-  max-width: 80vw;
+  max-width: 75vw;
   padding: 0.5rem;
   border: 1px solid var(--levelOneVirtualAdditional);
   margin: 0 auto 1rem;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.rpsGame-rollButtons::before {
+  content: "";
+  position: absolute;
+  top: -0.3rem;
+  left: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 5px;
+  max-width: 90vw;
+  border-top: 1px solid var(--levelOneVirtualAdditional);
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-left: 1px solid var(--levelOneVirtualAdditional);
+}
+
+.rpsGame-rollButtons::after {
+  content: "";
+  position: absolute;
+  right: -0.3rem;
+  bottom: -0.3rem;
+  width: calc(100% + 0.5rem);
+  height: 5px;
+  max-width: 90vw;
+  border-right: 1px solid var(--levelOneVirtualAdditional);
+  border-bottom: 1px solid var(--levelOneVirtualAdditional);
+  border-left: 1px solid var(--levelOneVirtualAdditional);
 }
 
 .rpsGame-rollBtn {
@@ -231,7 +258,6 @@
   padding: 0 45px 45px 0;
   border: 1px solid var(--levelOneVirtualTertiary);
   margin: 10px;
-  box-shadow: 2px 2px var(--levelOneVirtualSub);
   background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
   cursor: pointer;
