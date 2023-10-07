@@ -85,7 +85,6 @@
 .rpsGame-stateText {
   width: 150px;
   font-weight: bold;
-  text-shadow: 3px 3px var(--levelOneVirtualSub);
 }
 
 @media (max-width: 500px) {
@@ -202,13 +201,13 @@
 }
 
 .rpsGame-winImg {
-  border: 2px solid var(--levelOneVirtualTertiary);
-  animation: rpsGame-winImg 0.5s linear;
+  border: 3px solid var(--levelOneVirtualTertiary);
+  animation: rpsGame-winImg 1.5s linear;
 }
 
 @keyframes rpsGame-winImg {
   0% {
-    scale: 1.1;
+    scale: 1.2;
   }
 
   100% {
@@ -273,10 +272,14 @@
 }
 
 .rpsGame-title {
+  font-size: 2rem;
   text-shadow: 3px 3px var(--levelOneVirtualSub);
 }
 
 .rpsGame-subTitle {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-style: italic;
   text-shadow: 3px 3px var(--levelOneVirtualSub);
 }
 
