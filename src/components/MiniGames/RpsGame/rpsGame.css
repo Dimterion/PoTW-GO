@@ -85,6 +85,7 @@
 .rpsGame-stateText {
   width: 150px;
   font-weight: bold;
+  font-style: italic;
 }
 
 @media (max-width: 500px) {
@@ -268,7 +269,7 @@
 }
 
 .rpsGame-rollBtn:active {
-  scale: 0.9;
+  scale: 0.7;
 }
 
 .rpsGame-title {
@@ -312,7 +313,7 @@
 }
 
 .rpsGame-startBtn:active {
-  scale: 0.9;
+  scale: 0.7;
 }
 
 .rpsGame-restartBtn {
@@ -337,5 +338,5 @@
 }
 
 .rpsGame-restartBtn:active {
-  scale: 0.9;
+  scale: 0.7;
 }
