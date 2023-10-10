@@ -3187,6 +3187,7 @@ const gameContents = [
       {
         text: `Enter the portal.`,
         nextText: 105,
+        btnEffect: "glowing",
       },
     ],
   },
@@ -3207,7 +3208,7 @@ const gameContents = [
     “Sadly, my inner knowledge base is silent and doesn’t provide any useful data. So, I’m kinda lacking info on the topic. But I also don’t see any better ideas on how we can get to the first level. We need to find Deo’s place after all. And it’s down below. One of the portals should take us there.”`,
     options: [
       {
-        text: `To be continued.`,
+        text: `TO BE CONTINUED.`,
         nextText: 0,
       },
     ],
@@ -3275,15 +3276,31 @@ const gameContents = [
   {
     id: 120,
     style: "levelOneReal",
+    characterImageEffect: "appearingCharacterImage",
     mainImage: nnifApartment,
+    characterImage: nnifRealPortrait,
+    subImage: characterImage,
     additionalImage: evenPortrait,
     mainImageAlt: "Tiny futuristic apartment.",
+    characterImageAlt: "A tired-looking woman with dark hair and brown eyes.",
+    subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `To be continued.`,
+    subText: `“Always wanted to meet Nnif in real life. How about a little surprise for her?”`,
+    text: `“Well, I am here to obey.” - Even says. - “Though, we might want to call her first.”
+
+    You call Nnif. After a few minutes she finally replies.
+
+    “Soai? Didn’t expect to see you today.” - She sounds tired and you barely recognize her voice. - “Why are you calling me outside zerOne?”
+
+    “Wow, she looks…” - Even pauses, searching for a proper word, observing her pale face and dark circles around her eyes. - “Different. Like for real different. Older and like she doesn’t sleep at all… Have to admit though, life-capsule kinda matches her style.”
+
+    “I’d really prefer a virtual talk.” - Nnif says with a long sigh.
+
+    “There’s some explanation needed.” - Even notices. - “So it’s your time to shine. Gonna reveal our little secret?”`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `“I’m not quite real.”`,
+        nextText: 127,
       },
     ],
   },
@@ -3320,10 +3337,12 @@ const gameContents = [
       {
         text: `“You don’t want to talk to Even?”`,
         nextText: 123,
+        btnEffect: "optional",
+        condition: 14,
       },
       {
         text: `“Need a ride to the first level.”`,
-        nextText: 122,
+        nextText: 124,
       },
     ],
   },
@@ -3338,17 +3357,173 @@ const gameContents = [
     characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: ``,
-    text: `To be continued.`,
+    subText: `“Listen, Nnif, I need to go to the first level. Want to check something there.”`,
+    text: `“What?”
+
+    Nnif stares at you, brows flying up.
+
+    “Wait a sec.” - She gets silent and her lenses start glowing. - “Huh…”
+
+    “Soai I think she’s…” - Even’s voice gets cut off.
+
+    “Thought I wouldn’t see it, sneaky AI-boy?” - Nnif chuckles. - “I’ve admin access to Event Horizon, you know? Was me who installed it after all. So, based on your logs you’re Deo’s little side project. Can’t say I’m surprised...”
+
+    You notice Even’s panicking gestures.
+
+    “I’ve muted it for now.” - Nnif says. - “Can’t turn it off completely, it’s a part of you after all. Deo didn’t tell me much, to be honest. Looked like he was in a rush. He just gave me the module with EH and said that I should install it once someone comes and mentions his name. Couldn’t really check it in its turned off state and I didn’t want to test it on me, but now as it’s active and you, well, being you, I can dive a little bit deeper.” - She glances at Even. - “No, I can’t make you be heard by others, you are part of Soai’s digital brain, so you have to deal with him in that regard. The only reason I can see and hear you is that Deo gave me admin access to the module for installing it. And I can’t transfer it to anyone else.” - After a silent sigh from Even’s side, she continues. - “As for you, Soai, my zerOne friend, I’d say I expected something like this coming from Deo. Old man kept talking about creating artificial life and all. Whatever.” - She waves it off and looks at you. - “So, you were saying…”`,
     options: [
       {
-        text: `Start anew.`,
-        nextText: 0,
+        text: `“You don’t want to talk to Even?”`,
+        nextText: 123,
+        btnEffect: "optional",
+        condition: 14,
+      },
+      {
+        text: `“Need a ride to the first level.”`,
+        nextText: 124,
       },
     ],
   },
   {
     id: 123,
+    style: "levelOneVirtual",
+    mainImage: nnifVirtualApartment,
+    characterImage: nnifPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Except for me, you are the only one being able to talk to Even, yet you don’t want to do it?”`,
+    text: `“Nah, dude. That’s your task and burden.”
+
+    Nnif waves her hand at you.
+
+    “If Deo made you and EH in such a way, it means he wanted you two to deal with each other yourselves. I’m not about to intervene. Besides, I don’t specialize in cheats and exploits. Dancing on the thin red line, but not crossing it. Meaning, if others don’t see and hear it, I’m not supposed to do that as well. That’s that.”
+
+    She raises a brow.
+
+    “So, getting back to my question. What are you going to do now?”`,
+    options: [
+      {
+        text: `“Need a ride to the first level.”`,
+        nextText: 124,
+      },
+    ],
+  },
+  {
+    id: 124,
+    style: "levelOneVirtual",
+    mainImage: nnifVirtualApartment,
+    characterImage: nnifPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Well, I kinda need to go to the first level. Deo spent his final hours there, so maybe I’ll find something or get the idea of where to go next.”`,
+    text: `“Hm-m…”
+
+    Nnif taps her lip with her finger.
+    
+    “If you were real, I’d just tell you to forget such a wonderful idea and keep doing your usual routine stuff. But you’re somewhat not real, so it seems like no harm in telling you that you can take a virtual peek at other levels, or even visit them.”
+    
+    She glances at Even.
+    
+    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science, but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
+
+    Nnif starts turning the knob and you hear clicking sounds produced by the device. In a moment it gets louder and the knob turns red.
+
+    “Ok, this is your first portal, got it?”
+
+    Seeing you nodding, she continues turning the knob, and in a few seconds, it turns green.
+
+    “Second portal.” - Nnif whispers as if some ritual is happening.
+
+    Barely moving and making any sounds, all three of you keep staring at the square device and Nnif starts turning the knob once again.
+
+    After a bit of clicking and glowing the knob becomes blue.
+
+    “Here’s the third one. There are usually four portals. We need one more.” - Nnif touches the knob, but it doesn’t turn. - “Ah, yeah, I forgot. They’ve changed their payment model recently and I haven’t yet paid for the current month subscription, so we can only use it three times per day. Sorry, Soai, but you have to figure out the last portal on your own.”`,
+    options: [
+      {
+        text: `“Thanks, Nnif.”`,
+        nextText: 125,
+      },
+    ],
+  },
+  {
+    id: 125,
+    style: "levelOneVirtual",
+    mainImage: nnifVirtualApartment,
+    characterImage: nnifPortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic apartment.",
+    characterImageAlt: "A girl with purple hair and futuristic blue goggles.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“No worries. We’ll figure it out somehow. Thanks for the help Nnif, really appreciate it.”`,
+    text: `“Go get dem portals, wandering spirit.”
+
+    Nnif smiles.
+
+    “Was nice meeting you, Soai. The real virtual you I mean. Even can talk again by the way.” - She adds in the end.
+
+    “Can but doesn’t really want to.” - It replies in a grumpy voice.
+
+    Nnif shrugs indifferently.
+
+    “Anywho… Good luck to you both. Now, kindly leave me be as my makeup session needs to be resumed. Till next time, Soai.”
+
+    You exit Nnif’s apartment and Even starts talking.
+
+    “The only person who I can interact with… Except for you my merciless owner.” - It adds, noticing your silent question, then continues. - “Nevermind, I mean, she can see and hear me and decides to shut me up! Ugh… The life of a digital rabbit is full of disappointment, Soai. Giving it 6.5 out of 10 and I don’t recommend it.” - It sighs loudly, then looks around. - “Let’s continue our arena run now.”`,
+    options: [
+      {
+        conditionMatch: 13,
+        text: `“Let’s go to the arena.”`,
+        nextText: 94,
+      },
+      {
+        conditionMatch: 12,
+        text: `“Let’s go to the arena.”`,
+        nextText: 126,
+      },
+    ],
+  },
+  {
+    id: 126,
+    style: "levelOneVirtual",
+    mainImage: shrikeMainEntrance,
+    characterImage: sanePortrait,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual futuristic arena.",
+    characterImageAlt: "Big man wearing post-apocalyptic clothes.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Let’s go to the arena. Sane is waiting for us there.”`,
+    text: `“Let’s just fast-travel.” - Even yawns. - “Here, allow me to port you, sir.”
+
+    After the sound of snapping fingers you appear near the Shrike arena and see Sane standing there.
+
+    “Hi again, Soai.” - He exclaims happily. - “All good? I guess we can go now. Actually I’ve never been inside of the arena. Not really interested in going alone. Guess, I’m more of a single-player type of person. Don’t mind a bit of a co-op though, but it’s hard to find a party suited to my personality… No idea why.”
+
+    “I know why.” - Even says, once Sane stops talking. - “I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird. But that explains why he’s having difficulties in finding friends and keeps pretending that he’s a big chunk of muscled rock and not a young fellow.”
+
+    “Should we enter?” Sane asks while you’re listening to Even talking.`,
+    options: [
+      {
+        text: `“Let’s go.”`,
+        nextText: 95,
+      },
+    ],
+  },
+  {
+    id: 127,
     style: "levelOneVirtual",
     mainImage: nnifVirtualApartment,
     characterImage: nnifPortrait,
@@ -3394,5 +3569,6 @@ import shrikeLoophole from "../assets/images/shrike_loophole.jpg";
 import nnifVirtualApartment from "../assets/images/nnif_virtual_apartment.jpg";
 import nnifApartment from "../assets/images/nnif_apartment.jpg";
 import nnifPortrait from "../assets/images/nnif_portrait.jpg";
+import nnifRealPortrait from "../assets/images/nnif_real_portrait.jpg";
 
 export default gameContents;

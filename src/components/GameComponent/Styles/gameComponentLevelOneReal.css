@@ -195,6 +195,30 @@
   margin-right: 1rem;
 }
 
+.gameComponent-appearingCharacterImage--levelOneReal {
+  float: left;
+  width: 200px;
+  max-width: 35vw;
+  border-right: 1px solid var(--levelOneRealAdditional);
+  border-bottom: 1px solid var(--levelOneRealAdditional);
+  margin-right: 1rem;
+  animation: 5s gameComponent-appearingCharacterImage--levelOneReal linear;
+}
+
+@keyframes gameComponent-appearingCharacterImage--levelOneReal {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 0;
+  }
+
+  100% {
+    width: 200px;
+  }
+}
+
 .gameComponent-disappearingCharacterImage--levelOneReal {
   float: left;
   opacity: 0;
