@@ -3741,7 +3741,7 @@ const gameContents = [
     mainImageAlt: "Virtual structure with orange portals.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: ``,
-    text: ``,
+    text: `Now we're thinking with portals.`,
     options: [
       {
         text: `TO BE CONTINUED.`,

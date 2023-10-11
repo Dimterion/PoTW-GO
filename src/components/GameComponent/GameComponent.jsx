@@ -44,7 +44,7 @@ function GameComponent({ content, setOptionId }) {
               return [...prevMiniGames, option.miniGame];
             });
           console.log(miniGames);
-          playerWins === miniGameWinCondition &&
+          (playerWins === miniGameWinCondition || playerWins === 1) &&
             (setPlayerWins(0), setOpponentWins(0), setMiniGames([]));
         }}
       >
@@ -126,7 +126,14 @@ function GameComponent({ content, setOptionId }) {
           )}
         </>
       ) : miniGames.includes("portalsGame") ? (
-        <PortalsGame />
+        <>
+          <PortalsGame setPlayerWins={setPlayerWins} text={content.text} />
+          {playerWins === 1 && (
+            <div className={`gameComponent-buttons--${content.style}`}>
+              {buttons}
+            </div>
+          )}
+        </>
       ) : (
         <>
           <article className={`gameComponent-mainContent--${content.style}`}>

@@ -50,3 +50,26 @@ export function rpsGameRoll(
     setOpponentWins((prevOpponentWins) => prevOpponentWins + 1);
   }
 }
+
+export function portalClick(
+  color,
+  colors,
+  setColors,
+  setPlayerWins,
+  setResetPortals
+) {
+  if (colors.length === 4 && color === "red") {
+    setColors((prevColors) => prevColors.slice(1));
+  } else if (colors.length === 3 && color === "green") {
+    setColors((prevColors) => prevColors.slice(1));
+  } else if (colors.length === 2 && color === "blue") {
+    setColors((prevColors) => prevColors.slice(1));
+  } else if (colors.length === 1 && color === "alpha") {
+    setColors((prevColors) => prevColors.slice(1));
+  } else if (colors.length === 0 && color === "rgba") {
+    setPlayerWins(1);
+  } else {
+    setColors(["red", "green", "blue", "alpha"]);
+    setResetPortals(true);
+  }
+}
