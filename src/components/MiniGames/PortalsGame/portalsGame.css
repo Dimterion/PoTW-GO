@@ -43,6 +43,7 @@
 }
 
 .portalsGame-portalBtn {
+  opacity: 0.7;
   width: 150px;
   max-width: 30vw;
   height: 300px;
@@ -52,15 +53,11 @@
   border-radius: 50%;
   margin: 1.5rem auto;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .portalsGame-portalBtn:hover {
-  scale: 1.1;
-}
-
-.portalsGame-portalBtn:active {
-  scale: 0.9;
+  opacity: 1;
 }
 
 .portalsGame-portalAlphaBtn {
@@ -70,14 +67,17 @@
 
 @keyframes portalsGame-portalAlphaBtn {
   0% {
+    scale: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   }
 
   50% {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    scale: 0.9;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
   }
 
   100% {
+    scale: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   }
 }
@@ -89,14 +89,17 @@
 
 @keyframes portalsGame-portalBlueBtn {
   0% {
+    scale: 1;
     box-shadow: 0 0 10px blue;
   }
 
   50% {
-    box-shadow: 0 0 20px blue;
+    scale: 0.9;
+    box-shadow: 0 0 30px blue;
   }
 
   100% {
+    scale: 1;
     box-shadow: 0 0 10px blue;
   }
 }
@@ -108,14 +111,17 @@
 
 @keyframes portalsGame-portalGreenBtn {
   0% {
+    scale: 1;
     box-shadow: 0 0 10px green;
   }
 
   50% {
-    box-shadow: 0 0 20px green;
+    scale: 0.9;
+    box-shadow: 0 0 30px green;
   }
 
   100% {
+    scale: 1;
     box-shadow: 0 0 10px green;
   }
 }
@@ -127,14 +133,17 @@
 
 @keyframes portalsGame-portalRedBtn {
   0% {
+    scale: 1;
     box-shadow: 0 0 10px red;
   }
 
   50% {
-    box-shadow: 0 0 20px red;
+    scale: 0.9;
+    box-shadow: 0 0 30px red;
   }
 
   100% {
+    scale: 1;
     box-shadow: 0 0 10px red;
   }
 }
@@ -142,6 +151,10 @@
 .portalsGame-portalRgbaBtn {
   background: rgba(255, 255, 255, 0.7);
   animation: portalsGame-portalRgbaBtn 3s linear infinite;
+}
+
+.portalsGame-portalRgbaBtn:hover {
+  animation: portalsGame-portalRgbaBtn 1s linear infinite;
 }
 
 @keyframes portalsGame-portalRgbaBtn {
@@ -157,7 +170,7 @@
 
   50% {
     scale: 1.1;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
   }
 
   75% {
