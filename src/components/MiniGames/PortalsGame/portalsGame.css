@@ -6,11 +6,11 @@
   text-align: center;
   border: 1px solid var(--levelOneLoopholeAdditional);
   margin-bottom: 1rem;
-  background: linear-gradient(
-    0deg,
-    var(--levelOneLoopholeSub) 0%,
-    var(--levelOneLoopholePrimary) 50%,
-    var(--levelOneLoopholeSub) 100%
+  background: radial-gradient(
+    circle,
+    var(--levelOneLoopholePrimary) 0%,
+    var(--levelOneLoopholeSecondary) 50%,
+    var(--levelOneLoopholePrimary) 100%
   );
   animation: portalsGame-container-load 1.5s ease-in-out;
 }
@@ -31,6 +31,11 @@
   }
 }
 
+.portalsGame-text {
+  padding: 5px;
+  font-style: italic;
+}
+
 .portalsGame-portalsButtons {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -47,24 +52,176 @@
   border-radius: 50%;
   margin: 1.5rem auto;
   cursor: pointer;
+  transition: 1s;
+}
+
+.portalsGame-portalBtn:hover {
+  scale: 1.1;
+}
+
+.portalsGame-portalBtn:active {
+  scale: 0.9;
 }
 
 .portalsGame-portalAlphaBtn {
-  background-color: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
+  animation: portalsGame-portalAlphaBtn 2s linear infinite;
+}
+
+@keyframes portalsGame-portalAlphaBtn {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  }
+
+  100% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
 }
 
 .portalsGame-portalBlueBtn {
-  background-color: blue;
+  background: blue;
+  animation: portalsGame-portalBlueBtn 2s linear infinite;
+}
+
+@keyframes portalsGame-portalBlueBtn {
+  0% {
+    box-shadow: 0 0 10px blue;
+  }
+
+  50% {
+    box-shadow: 0 0 20px blue;
+  }
+
+  100% {
+    box-shadow: 0 0 10px blue;
+  }
 }
 
 .portalsGame-portalGreenBtn {
-  background-color: green;
+  background: green;
+  animation: portalsGame-portalGreenBtn 2s linear infinite;
+}
+
+@keyframes portalsGame-portalGreenBtn {
+  0% {
+    box-shadow: 0 0 10px green;
+  }
+
+  50% {
+    box-shadow: 0 0 20px green;
+  }
+
+  100% {
+    box-shadow: 0 0 10px green;
+  }
 }
 
 .portalsGame-portalRedBtn {
-  background-color: red;
+  background: red;
+  animation: portalsGame-portalRedBtn 2s linear infinite;
+}
+
+@keyframes portalsGame-portalRedBtn {
+  0% {
+    box-shadow: 0 0 10px red;
+  }
+
+  50% {
+    box-shadow: 0 0 20px red;
+  }
+
+  100% {
+    box-shadow: 0 0 10px red;
+  }
 }
 
 .portalsGame-portalRgbaBtn {
-  background-color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
+  animation: portalsGame-portalRgbaBtn 3s linear infinite;
+}
+
+@keyframes portalsGame-portalRgbaBtn {
+  0% {
+    scale: 0.9;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+
+  25% {
+    scale: 1;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  }
+
+  50% {
+    scale: 1.1;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+
+  75% {
+    scale: 1;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  }
+
+  100% {
+    scale: 0.9;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+}
+
+.portalsGame-img {
+  width: 200px;
+  max-width: 50vw;
+  border: 5px solid var(--levelOneLoopholeTertiary);
+  border-radius: 50%;
+  margin: 1rem auto 2rem;
+  animation: portalsGame-img-load 1.5s ease-in-out;
+}
+
+@keyframes portalsGame-img-load {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+
+  80% {
+    opacity: 0.9;
+    width: 100px;
+    max-width: 25vw;
+  }
+
+  90% {
+    opacity: 1;
+    width: 220px;
+    max-width: 60vw;
+  }
+
+  100% {
+    width: 200px;
+    max-width: 50vw;
+  }
+}
+
+.portalsGame-backBtn {
+  width: 100px;
+  max-width: 50vw;
+  padding-bottom: 10px;
+  border: 5px solid var(--levelOneLoopholeAdditional);
+  margin: 1rem auto 3rem;
+  box-shadow: 1px 1px 1px var(--levelOneLoopholeTertiary);
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--levelOneLoopholeTertiary);
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.portalsGame-backBtn:hover {
+  scale: 0.9;
+}
+
+.portalsGame-backBtn:active {
+  scale: 0.7;
 }

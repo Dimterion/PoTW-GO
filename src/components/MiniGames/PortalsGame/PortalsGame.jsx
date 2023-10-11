@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import { portalClick } from "../../../utils/miniGamesFunctions";
+import smilingRabbit from "../../../assets/images/smiling_rabbit.jpg";
 import "./portalsGame.css";
 
 function PortalsGame({ setPlayerWins, text }) {
@@ -70,7 +71,23 @@ function PortalsGame({ setPlayerWins, text }) {
           )}
         </div>
       ) : (
-        <button onClick={() => setResetPortals(false)}>Try again.</button>
+        <>
+          <h2 className="portalsGame-text">
+            Turn back, stranger!<br></br>This isn’t the portal you’re looking
+            for.
+          </h2>
+          <img
+            className="portalsGame-img"
+            src={smilingRabbit}
+            alt="Smiling cat-looking rabbit."
+          />
+          <button
+            className="portalsGame-backBtn"
+            onClick={() => setResetPortals(false)}
+          >
+            ☚
+          </button>
+        </>
       )}
       {colors.length === 0 && showAlphaPortal && (
         <button
