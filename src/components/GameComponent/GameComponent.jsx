@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { scrollToTop, gameConditions } from "../../utils/gameCompFunctions";
 import MenuModal from "../../components/Modals/MenuModal/MenuModal";
 import RpsGame from "../MiniGames/RpsGame/RpsGame";
+import PortalsGame from "../MiniGames/PortalsGame/PortalsGame";
 import "./Styles/gameComponentPrologue.css";
 import "./Styles/gameComponentLevelOneReal.css";
 import "./Styles/gameComponentLevelOneVirtual.css";
@@ -124,6 +125,8 @@ function GameComponent({ content, setOptionId }) {
             </div>
           )}
         </>
+      ) : miniGames.includes("portalsGame") ? (
+        <PortalsGame />
       ) : (
         <>
           <article className={`gameComponent-mainContent--${content.style}`}>

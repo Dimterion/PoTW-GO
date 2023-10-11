@@ -3208,8 +3208,9 @@ const gameContents = [
     “Sadly, my inner knowledge base is silent and doesn’t provide any useful data. So, I’m kinda lacking info on the topic. But I also don’t see any better ideas on how we can get to the first level. We need to find Deo’s place after all. And it’s down below. One of the portals should take us there.”`,
     options: [
       {
-        text: `TO BE CONTINUED.`,
-        nextText: 0,
+        text: `Approach the portals.`,
+        nextText: 133,
+        miniGame: "portalsGame",
       },
     ],
   },
@@ -3728,6 +3729,23 @@ const gameContents = [
         conditionMatch: 12,
         text: `“Let’s go to the arena.”`,
         nextText: 126,
+      },
+    ],
+  },
+  // Level One, Part Three (+ IDs: 105 & 117)
+  {
+    id: 133,
+    style: "levelOneLoophole",
+    mainImage: shrikeLoophole,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Virtual structure with orange portals.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: ``,
+    text: ``,
+    options: [
+      {
+        text: `TO BE CONTINUED.`,
+        nextText: 0,
       },
     ],
   },
