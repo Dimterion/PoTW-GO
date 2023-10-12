@@ -3779,7 +3779,28 @@ const gameContents = [
     Even bows theatrically and stretches its hand, showing you the glowing portal in the distance.`,
     options: [
       {
-        text: `TO BE CONTINUED.`,
+        text: `To be continued…`,
+        nextText: 135,
+      },
+    ],
+  },
+  {
+    id: 135,
+    style: "levelOneLoophole",
+    mainImage: portalsRoom,
+    mainImageAlt: "Glowing orange portal.",
+    text: `Thank you for playing/reading through my text-adventure and spending your precious time with it.
+
+    The story might continue one day, but for now some polishing is needed and, as it’s started to get too long, I’ve decided to end the current chapter here.
+
+    Of course, you can try replaying. Perhaps there are some different choices along the way, who knows. Or maybe some additions will appear in the future.
+
+    In any case, thank you once again. If you’re reading this, I’m really grateful that you’ve reached this point.
+
+    Regardless of who or where you are I hope you’re having a good (or at least more or less fine) time.`,
+    options: [
+      {
+        text: `Play again.`,
         nextText: 0,
       },
     ],
