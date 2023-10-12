@@ -3740,8 +3740,43 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Virtual structure with orange portals.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: ``,
-    text: `Now we're thinking with portals.`,
+    text: `The final portal marks your path,
+    The current chapter ended.
+    Some may experience a bit of a cliffhanger wrath,
+    But so is life which is a pun intended.
+    
+    Perhaps one day the story will move on,
+    And maybe it will go for a new exciting wild run.
+    Though, it’s already too many promises to live upon,
+    So let us just pretend that we all had a little bit of fun.`,
+    options: [
+      {
+        text: `“Now wait a second.”`,
+        nextText: 134,
+      },
+    ],
+  },
+  {
+    id: 134,
+    style: "levelOneLoophole",
+    mainImage: portalsRoom,
+    subImage: characterImage,
+    additionalImage: evenPortrait,
+    mainImageAlt: "Glowing orange portal.",
+    subImageAlt: "Man looking away.",
+    additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
+    subText: `“Wait a second… What was that? Some poetry after entering the last portal.”`,
+    text: `“What?” - Even raises one rabbit's ear upwards. - “I haven’t noticed anything…”
+
+    It waves it off.
+
+    “I’m glad to inform you that now we’re thinking with portals, Soai.”
+
+    It then looks around.
+
+    “Seems like there’s our passage. Final portal to the first level. I can feel it. I guess we can now say adieu to our home level and go explore the tower further down. Perhaps we can find some answers… Or not. But something tells me this is going to be a whole different story one day.”
+    
+    Even bows theatrically and stretches its hand, showing you the glowing portal in the distance.`,
     options: [
       {
         text: `TO BE CONTINUED.`,
@@ -3778,5 +3813,6 @@ import nnifApartment from "../assets/images/nnif_apartment.jpg";
 import nnifPortrait from "../assets/images/nnif_portrait.jpg";
 import nnifRealPortrait from "../assets/images/nnif_real_portrait.jpg";
 import nnifPreviousPortrait from "../assets/images/nnif_previous_portrait.jpg";
+import portalsRoom from "../assets/images/portals_room.jpg";
 
 export default gameContents;
