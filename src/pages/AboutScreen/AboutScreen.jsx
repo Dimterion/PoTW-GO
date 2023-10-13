@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import structureDiagram from "../../assets/PoTW - Game_On(e)-flowchart.pdf";
 import "./aboutScreen.css";
 
 function AboutScreen() {
@@ -23,6 +24,9 @@ function AboutScreen() {
           .
         </h3>
         <h3 className="aboutScreen-infoTitle">WORK IN PROGRESS</h3>
+        <i>
+          {"("}but can be completed now{")"}
+        </i>
         <h4>
           Additional info can be found{" "}
           <a
@@ -58,6 +62,14 @@ function AboutScreen() {
           GitHub Repo
         </a>
         <a
+          href={structureDiagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="aboutScreen-link"
+        >
+          Game structure
+        </a>
+        <a
           href="https://dimterion.github.io/"
           target="_blank"
           rel="noopener noreferrer"
@@ -65,6 +77,7 @@ function AboutScreen() {
         >
           Made by Dimterion
         </a>
+        <span className="aboutScreen-versionInfo">Version 1.0</span>
       </footer>
     </section>
   );

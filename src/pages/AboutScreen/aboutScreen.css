@@ -89,3 +89,8 @@
   margin-top: 1rem;
   font-weight: bold;
 }
+
+.aboutScreen-versionInfo {
+  margin-top: 0.5rem;
+  color: var(--secondary);
+}

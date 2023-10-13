@@ -3438,7 +3438,7 @@ const gameContents = [
     
     She glances at Even.
     
-    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science, but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
+    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science, but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. - “It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
 
     Nnif starts turning the knob and you hear clicking sounds produced by the device. In a moment it gets louder and the knob turns red.
 
@@ -3487,7 +3487,7 @@ const gameContents = [
 
     You exit Nnif’s apartment and Even starts talking.
 
-    “The only person who I can interact with… Except for you my merciless owner.” - It adds, noticing your silent question, then continues. - “Nevermind, I mean, she can see and hear me and decides to shut me up! Ugh… The life of a digital rabbit is full of disappointment, Soai. Giving it 6.5 out of 10 and I don’t recommend it.” - It sighs loudly, then looks around. - “Let’s continue our arena run now.”`,
+    “The only person who I can interact with… Except for you, my merciless owner.” - It adds, noticing your silent question, then continues. - “Nevermind, I mean, she can see and hear me and decides to shut me up! Ugh… The life of a digital rabbit is full of disappointment, Soai. Giving it 6.5 out of 10 and I don’t recommend it.” - It sighs loudly, then looks around. - “Let’s continue our arena run now.”`,
     options: [
       {
         conditionMatch: 13,
@@ -3669,7 +3669,7 @@ const gameContents = [
 
     She glances at Even.
 
-    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science, but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
+    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science, but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. - “It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
 
     Nnif starts turning the knob and you hear clicking sounds produced by the device. In a moment it gets louder and the knob turns red.
 
@@ -3718,7 +3718,7 @@ const gameContents = [
 
     You exit Nnif’s apartment and Even starts talking.
 
-    “The only person who I can interact with… Except for you my merciless owner.” - It adds, noticing your silent question, then continues. - “Nevermind, I mean, she can see and hear me and decides to shut me up! Ugh… The life of a digital rabbit is full of disappointment, Soai. Giving it 6.5 out of 10 and I don’t recommend it.” - It sighs loudly, then looks around. - “Let’s continue our arena run now.”`,
+    “The only person who I can interact with… Except for you, my merciless owner.” - It adds, noticing your silent question, then continues. - “Nevermind, I mean, she can see and hear me and decides to shut me up! Ugh… The life of a digital rabbit is full of disappointment, Soai. Giving it 6.5 out of 10 and I don’t recommend it.” - It sighs loudly, then looks around. - “Let’s continue our arena run now.”`,
     options: [
       {
         conditionMatch: 13,
