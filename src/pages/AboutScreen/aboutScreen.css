@@ -79,6 +79,26 @@
   text-decoration: underline;
 }
 
+.aboutScreen-startScreenLink {
+  padding: 5px 10px 7px;
+  border: 1px solid var(--secondary);
+  margin: 0.25rem auto;
+  background: linear-gradient(
+    90deg,
+    var(--primary) 0%,
+    var(--tertiary) 50%,
+    var(--primary) 100%
+  );
+  color: var(--secondary);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.aboutScreen-startScreenLink:hover {
+  border: 1px solid var(--sub);
+  color: var(--sub);
+}
+
 .aboutScreen-infoTitle {
   font-size: 2rem;
 }
