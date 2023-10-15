@@ -139,7 +139,8 @@
   object-fit: cover;
   border: 1px solid var(--levelOneLoopholeAdditional);
   margin-bottom: 1rem;
-  animation: gameComponent-topSlidingMainImage--levelOneLoophole 0.5s ease-in-out;
+  animation: gameComponent-topSlidingMainImage--levelOneLoophole 0.5s
+    ease-in-out;
 }
 
 @keyframes gameComponent-topSlidingMainImage--levelOneLoophole {
@@ -270,7 +271,8 @@
   border-right: 1px solid var(--levelOneLoopholeAdditional);
   border-bottom: 1px solid var(--levelOneLoopholeAdditional);
   margin-right: 1rem;
-  animation: 5s gameComponent-disappearingCharacterImage--levelOneLoophole linear;
+  animation: 5s gameComponent-disappearingCharacterImage--levelOneLoophole
+    linear;
 }
 
 @keyframes gameComponent-disappearingCharacterImage--levelOneLoophole {

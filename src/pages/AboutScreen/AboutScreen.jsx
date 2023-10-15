@@ -27,35 +27,38 @@ function AboutScreen() {
         <i>
           {"("}but can be completed now{")"}
         </i>
-        <h4>
-          -{" "}
-          <a
-            href="https://medium.com/@dimterion/making-a-text-adventure-game-7e43df823f80"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="aboutScreen-link"
-          >
-            General description
-          </a>
-          <br></br>-{" "}
-          <a
-            href="https://medium.com/@dimterion/using-developer-skills-to-tell-a-story-5cbe9f0b3cca"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="aboutScreen-link"
-          >
-            Tech details
-          </a>
-          <br></br>-{" "}
-          <a
-            href="https://medium.com/@dimterion/learning-from-a-personal-project-afbf34e506d0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="aboutScreen-link"
-          >
-            Additional info
-          </a>
-        </h4>
+        <ul className="aboutScreen-links">
+          <li>
+            <a
+              href="https://medium.com/@dimterion/making-a-text-adventure-game-7e43df823f80"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aboutScreen-link"
+            >
+              General description
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://medium.com/@dimterion/using-developer-skills-to-tell-a-story-5cbe9f0b3cca"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aboutScreen-link"
+            >
+              Tech details
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://medium.com/@dimterion/learning-from-a-personal-project-afbf34e506d0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aboutScreen-link"
+            >
+              Additional info
+            </a>
+          </li>
+        </ul>
         <Link className="aboutScreen-startScreenLink" to="/">
           START SCREEN
         </Link>

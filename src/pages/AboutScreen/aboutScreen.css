@@ -69,6 +69,14 @@
   font-size: 1.5rem;
 }
 
+.aboutScreen-links {
+  width: 300px;
+  max-width: 80vw;
+  text-align: start;
+  margin: 1rem auto 3rem;
+  list-style-type: square;
+}
+
 .aboutScreen-link {
   margin: 0.25rem auto;
   color: var(--sub);
