@@ -1,0 +1,24 @@
+.aboutScreenLoader {
+  position: absolute;
+  top: 50%;
+  rotate: 45deg;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: var(--secondary);
+  animation: aboutScreenLoader 1s ease-in infinite;
+}
+
+@keyframes aboutScreenLoader {
+  0% {
+    box-shadow: 0 0 0 0px var(--primary), 0 0 0 10px var(--secondary),
+      0 0 0 20px var(--tertiary), 0 0 0 30px var(--additional),
+      0 0 0 40px var(--secondary);
+  }
+
+  100% {
+    box-shadow: 0 0 0 40px var(--secondary), 0 0 0 30px var(--additional),
+      0 0 0 20px var(--tertiary), 0 0 0 10px var(--secondary),
+      0 0 0 0px var(--primary);
+  }
+}
