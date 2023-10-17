@@ -50,7 +50,7 @@
   scale: 1.1;
   background-position: 50%;
   background-size: cover;
-  animation: startScreen-slide-switch 30s linear infinite;
+  animation: startScreen-slide-switch 15s linear infinite;
 }
 
 @keyframes startScreen-slide-switch {
@@ -74,12 +74,12 @@
 
 .startScreen-slide:nth-child(2) {
   background-image: url("../../assets/images/start_screen_image_02.jpg");
-  animation-delay: 10s;
+  animation-delay: 5s;
 }
 
 .startScreen-slide:nth-child(3) {
   background-image: url("../../assets/images/start_screen_image_03.jpg");
-  animation-delay: 20s;
+  animation-delay: 10s;
 }
 
 .startScreen-title {
