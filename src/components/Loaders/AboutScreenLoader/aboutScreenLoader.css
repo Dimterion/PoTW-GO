@@ -5,13 +5,13 @@
   display: inline-block;
   width: 5px;
   height: 5px;
-  background: var(--secondary);
+  background: var(--sub);
   animation: aboutScreenLoader 1s ease-in infinite;
 }
 
 @keyframes aboutScreenLoader {
   0% {
-    box-shadow: 0 0 0 0px var(--primary), 0 0 0 5px var(--secondary),
+    box-shadow: 0 0 0 0px var(--sub), 0 0 0 5px var(--secondary),
       0 0 0 10px var(--tertiary), 0 0 0 15px var(--additional),
       0 0 0 20px var(--secondary);
   }
@@ -19,6 +19,6 @@
   100% {
     box-shadow: 0 0 0 20px var(--secondary), 0 0 0 15px var(--additional),
       0 0 0 10px var(--tertiary), 0 0 0 5px var(--secondary),
-      0 0 0 0px var(--primary);
+      0 0 0 0px var(--sub);
   }
 }

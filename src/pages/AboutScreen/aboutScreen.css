@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   overflow: auto;
-  padding: 10vh 2vw 0;
+  padding: 1vh 2vw 0;
   background: radial-gradient(
     circle,
     var(--primary) 0%,
@@ -43,6 +43,15 @@
   }
 }
 
+.aboutScreen-img {
+  width: 500px;
+  height: 500px;
+  max-width: 90vw;
+  max-height: 40vh;
+  border: 1px solid var(--sub);
+  margin-top: 2rem;
+}
+
 .aboutScreen-subTitle {
   color: var(--sub);
   text-shadow: 1px 1px var(--secondary);
@@ -61,7 +70,9 @@
 }
 
 .aboutScreen-mainContent {
-  width: fit-content;
+  width: 500px;
+  max-width: 95vw;
+  padding-top: 1.5rem;
   padding-bottom: 2.5rem;
   border-top: 1px solid var(--sub);
   border-bottom: 1px solid var(--sub);
@@ -109,13 +120,15 @@
 }
 
 .aboutScreen-infoTitle {
-  font-size: 2rem;
+  margin: 1rem 0;
+  font-size: 1.75rem;
+  text-shadow: 2px 2px var(--tertiary);
 }
 
 .aboutScreen-footer {
   display: flex;
   flex-flow: column nowrap;
-  margin-top: 1rem;
+  margin: 1rem auto;
   font-weight: bold;
 }
 
