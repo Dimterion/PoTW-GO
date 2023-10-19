@@ -1,0 +1,120 @@
+.creditsScreenSlider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.creditsScreenSlider-slides {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.creditsScreenSlider-img {
+  display: block;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.creditsScreenSlider-btn {
+  all: unset;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: block;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out;
+}
+
+.creditsScreenSlider-btn:hover,
+.creditsScreenSlider-btn:focus-visible {
+  background: rgb(0, 0, 0, 0.2);
+}
+
+.creditsScreenSlider-btn > * {
+  font-weight: bold;
+}
+
+@keyframes creditsScreenSlider-btnHover {
+  50% {
+    scale: 1.5 0.5;
+  }
+}
+
+.creditsScreenSlider-dotButtons {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  display: flex;
+  translate: -50%;
+  gap: 0.25rem;
+}
+
+.creditsScreenSlider-dotBtn {
+  all: unset;
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  padding: 5px;
+  cursor: pointer;
+  transition: scale 100ms ease-in-out;
+}
+
+.creditsScreenSlider-dotBtn:hover,
+.creditsScreenSlider-dotBtn:focus-visible {
+  scale: 1.2;
+}
+
+.creditsScreenSlider-dotBtn > * {
+  height: 100%;
+  width: 100%;
+}
+
+.creditsScreenSlider-btn:focus-visible,
+.creditsScreenSlider-dotBtn:focus-visible {
+  outline: auto;
+}
+
+.creditsScreenSlider-skipLink {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+.creditsScreenSlider-skipLink:focus-visible {
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 0;
+  background: white;
+  color: black;
+  text-decoration: none;
+  clip: unset;
+}
+
+@media not (prefers-reduced-motion) {
+  .creditsScreenSlider-img {
+    transition: translate 300ms ease-in-out;
+  }
+
+  .creditsScreenSlider-btn:hover > *,
+  .creditsScreenSlider-btn:focus-visible > * {
+    animation: creditsScreenSlider-btnHover 200ms ease-in-out;
+  }
+}

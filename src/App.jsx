@@ -3,6 +3,7 @@ import StartScreen from "./pages/StartScreen/StartScreen";
 import StoryScreen from "./pages/StoryScreen/StoryScreen";
 import GameScreen from "./pages/GameScreen/GameScreen";
 import AboutScreen from "./pages/AboutScreen/AboutScreen";
+import CreditsScreen from "./pages/CreditsScreen/CreditsScreen";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/story" element={<StoryScreen />} />
         <Route path="/game" element={<GameScreen />} />
         <Route path="/about" element={<AboutScreen />} />
+        <Route path="/credits" element={<CreditsScreen />} />
       </Routes>
     </Router>
   );
