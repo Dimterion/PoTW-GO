@@ -1,7 +1,11 @@
 .creditsScreenSlider-container {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: 500px;
+  max-width: 95vw;
+  max-height: 50vh;
+  border: 1px solid var(--sub);
+  margin: auto;
 }
 
 .creditsScreenSlider-slides {
@@ -27,7 +31,7 @@
   bottom: 0;
   display: block;
   padding: 1rem;
-  color: white;
+  color: var(--secondary);
   font-size: 2rem;
   cursor: pointer;
   transition: background-color 100ms ease-in-out;
@@ -65,6 +69,14 @@
   padding: 5px;
   cursor: pointer;
   transition: scale 100ms ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .creditsScreenSlider-dotBtn {
+    width: 0.4rem;
+    height: 0.4rem;
+    padding: 0;
+  }
 }
 
 .creditsScreenSlider-dotBtn:hover,

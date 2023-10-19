@@ -74,9 +74,9 @@ function CreditsScreenSlider({ images }: CreditsScreenSliderProps) {
             onClick={() => setImageIndex(index)}
           >
             {index === imageIndex ? (
-              <div aria-hidden style={{ background: "white" }}></div>
+              <div aria-hidden style={{ background: "var(--tertiary)" }}></div>
             ) : (
-              <div aria-hidden style={{ background: "black" }}></div>
+              <div aria-hidden style={{ background: "var(--secondary)" }}></div>
             )}
           </button>
         ))}

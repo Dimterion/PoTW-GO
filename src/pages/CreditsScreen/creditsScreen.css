@@ -1,6 +1,15 @@
 .creditsScreen-container {
-  aspect-ratio: 10 / 6;
-  max-width: 90vw;
-  width: 100%;
-  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  background: linear-gradient(
+    0deg,
+    var(--primary) 0%,
+    var(--tertiary) 50%,
+    var(--primary) 100%
+  );
+  text-align: center;
 }
