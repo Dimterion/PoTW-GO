@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CreditsScreenSlider from "../../components/Sliders/CreditsScreenSlider/CreditsScreenSlider";
 import prologueImage from "../../assets/images/prologue_image.jpg";
 // import arikaPortrait from "../../assets/images/arika_portrait.jpg";
@@ -51,7 +52,10 @@ function CreditsScreen() {
   return (
     <section className="creditsScreen-container">
       <CreditsScreenSlider images={creditsScreenSlides} />
-      <a href="/credits">Refresh</a>
+      <h1 className="creditsScreen-title">Thank you for playing</h1>
+      <Link className="creditsScreen-startScreenLink" to="/">
+        START SCREEN
+      </Link>
     </section>
   );
 }

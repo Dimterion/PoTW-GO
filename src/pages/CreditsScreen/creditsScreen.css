@@ -13,3 +13,32 @@
   );
   text-align: center;
 }
+
+.creditsScreen-title {
+  margin-bottom: 3rem;
+  color: var(--secondary);
+  font-family: "Tektur", cursive;
+  font-size: 2rem;
+  text-shadow: 2px 2px var(--primary);
+}
+
+.creditsScreen-startScreenLink {
+  padding: 5px 15px 6px;
+  border: 1px solid var(--secondary);
+  background: linear-gradient(
+    90deg,
+    var(--primary) 0%,
+    var(--tertiary) 50%,
+    var(--primary) 100%
+  );
+  color: var(--secondary);
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.creditsScreen-startScreenLink:hover {
+  border: 1px solid var(--sub);
+  color: var(--sub);
+}
