@@ -5,7 +5,7 @@
   max-width: 95vw;
   max-height: 50vh;
   border: 1px solid var(--sub);
-  margin: auto;
+  margin: 0 auto;
 }
 
 .creditsScreenSlider-slides {

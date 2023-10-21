@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import CreditsScreenSlider from "../../components/Sliders/CreditsScreenSlider/CreditsScreenSlider";
 import prologueImage from "../../assets/images/prologue_image.jpg";
@@ -49,10 +50,19 @@ const creditsScreenSlides = [
 ];
 
 function CreditsScreen() {
+  const [openList, setOpenList] = useState(false);
+
   return (
     <section className="creditsScreen-container">
       <CreditsScreenSlider images={creditsScreenSlides} />
       <h1 className="creditsScreen-title">Thank you for playing</h1>
+      <button
+        className="creditsScreen-btn"
+        onClick={() => setOpenList(!openList)}
+      >
+        {!openList ? "CHARACTERS" : "CLOSE"}
+      </button>
+      {openList && <article>Characters list.</article>}
       <Link className="creditsScreen-startScreenLink" to="/">
         START SCREEN
       </Link>
