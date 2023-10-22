@@ -13,6 +13,7 @@
     var(--tertiary) 50%,
     var(--primary) 100%
   );
+  font-family: "Ysabeau SC", sans-serif;
   text-align: center;
 }
 
@@ -54,6 +55,24 @@
   scale: 0.8;
 }
 
+.creditsScreen-subTitle {
+  color: var(--secondary);
+  text-shadow: 2px 2px var(--primary);
+}
+
+.creditsScreen-images {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.creditsScreen-img {
+  width: 200px;
+  max-width: 35vw;
+  border: 1px solid var(--sub);
+  margin: 5px;
+}
+
 .creditsScreen-startScreenLink {
   width: 200px;
   max-width: 90vw;
@@ -67,7 +86,6 @@
     var(--primary) 100%
   );
   color: var(--secondary);
-  font-family: "Ysabeau SC", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
   transition: 0.5s;
