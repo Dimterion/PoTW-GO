@@ -182,6 +182,14 @@ function GameComponent({ content, setOptionId }) {
           <div className={`gameComponent-buttons--${content.style}`}>
             {buttons}
           </div>
+          {content.id === 135 && (
+            <Link
+              className={`gameComponent-link--${content.style}`}
+              to="/credits"
+            >
+              CREDITS
+            </Link>
+          )}
         </>
       )}
     </section>

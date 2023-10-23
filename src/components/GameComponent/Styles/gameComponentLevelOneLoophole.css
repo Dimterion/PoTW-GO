@@ -528,3 +528,23 @@
 .gameComponent-switchBtn--levelOneLoophole:active {
   scale: 0.9;
 }
+
+.gameComponent-link--levelOneLoophole {
+  padding: 5px 15px 7px;
+  border: 1px solid var(--levelOneLoopholeTertiary);
+  margin-bottom: 1rem;
+  background: linear-gradient(
+    90deg,
+    var(--levelOneLoopholeSub) 0%,
+    var(--levelOneLoopholePrimary) 50%,
+    var(--levelOneLoopholeSub) 100%
+  );
+  color: var(--levelOneLoopholeTertiary);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.gameComponent-link--levelOneLoophole:hover {
+  border: 1px solid var(--levelOneLoopholeAdditional);
+  color: var(--levelOneLoopholeAdditional);
+}
