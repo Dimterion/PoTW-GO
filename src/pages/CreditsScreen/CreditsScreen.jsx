@@ -107,6 +107,16 @@ function CreditsScreen() {
       <Link className="creditsScreen-startScreenLink" to="/">
         START SCREEN
       </Link>
+      <footer>
+        <a
+          href="https://dimterion.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="creditsScreen-link"
+        >
+          Made by Dimterion
+        </a>
+      </footer>
     </section>
   );
 }

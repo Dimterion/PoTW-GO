@@ -95,3 +95,8 @@
   border: 1px solid var(--sub);
   color: var(--sub);
 }
+
+.creditsScreen-link {
+  color: var(--sub);
+  text-decoration: none;
+}
