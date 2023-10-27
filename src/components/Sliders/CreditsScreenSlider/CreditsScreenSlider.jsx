@@ -1,15 +1,8 @@
-import React from "react";
 import { useState } from "react";
+import PropTypes from "prop-types";
 import "./creditsScreenSlider.css";
 
-type CreditsScreenSliderProps = {
-  images: {
-    url: string;
-    alt: string;
-  }[];
-};
-
-function CreditsScreenSlider({ images }: CreditsScreenSliderProps) {
+function CreditsScreenSlider({ images }) {
   const [imageIndex, setImageIndex] = useState(0);
 
   function showPreviousSlide() {
@@ -85,5 +78,9 @@ function CreditsScreenSlider({ images }: CreditsScreenSliderProps) {
     </article>
   );
 }
+
+CreditsScreenSlider.propTypes = {
+  images: PropTypes.array,
+};
 
 export default CreditsScreenSlider;
