@@ -66,10 +66,10 @@ const gameContents = [
     mainImageAlt: "Toxic clouds above the surface.",
     characterImageAlt: "Futuristic girl with yellow hair.",
     subImageAlt: "Man looking away.",
-    subText: `“What am I, Arika? Well, I know that I’m an artificial being, created by Deo. And I guess I’m sort of self-aware… But I don’t feel like it. I don’t see any difference between me before the old man told me the truth and me after that. It’s like I’m still human Soai, a poet that’s trying to get good and climb to the higher levels.”`,
+    subText: `“What am I, Arika? Well, I know that I’m an artificial being created by Deo. And I guess I’m sort of self-aware… But I don’t feel like it. I don’t see any difference between me before the old man told me the truth and me after that. It’s like I’m still human Soai, a poet that’s trying to get good and climb to the higher levels.”`,
     text: `Arika smiles.
 
-    “Isn’t that a good thing? Having doubts, being not sure. That’s what life is all about. You don’t see any difference, because there is none.” - She chuckles. - “Well, apart from the fact that you seem way less interested in winning the Writers Fights. But we all shift our perspectives from time to time.”
+    “Isn’t it a good thing? Having doubts, being not sure. That’s what life is all about. You don’t see any difference because there is none.” - She chuckles. - “Well, apart from the fact that you seem way less interested in winning the Writers Fights. But we all shift our perspectives from time to time.”
 
     Arika tilts her head, looking at you, like trying to figure something out. A brief moment of hesitation hangs between the two of you, then she continues.
 

@@ -33,6 +33,17 @@
   font-family: "Tektur", cursive;
   font-size: 2.5rem;
   letter-spacing: 2px;
+  animation: aboutScreen-title-load 0.5s ease-in-out;
+}
+
+@keyframes aboutScreen-title-load {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 400px) {
@@ -43,6 +54,11 @@
   }
 }
 
+.aboutScreen-subTitle {
+  color: var(--sub);
+  text-shadow: 1px 1px var(--secondary);
+}
+
 .aboutScreen-img {
   width: 500px;
   height: 500px;
@@ -50,17 +66,34 @@
   max-height: 40vh;
   border: 1px solid var(--sub);
   margin-top: 2rem;
+  animation: aboutScreen-img-load 0.5s ease-in-out;
 }
 
-.aboutScreen-subTitle {
-  color: var(--sub);
-  text-shadow: 1px 1px var(--secondary);
+@keyframes aboutScreen-img-load {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .aboutScreen-additionalTitle {
   color: var(--secondary);
   font-size: 2rem;
   text-shadow: 2px 2px var(--primary);
+  animation: aboutScreen-additionalTitle-load 0.5s ease-in-out;
+}
+
+@keyframes aboutScreen-additionalTitle-load {
+  0% {
+    transform: translateY(25px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 400px) {
@@ -79,6 +112,17 @@
   margin: auto;
   color: var(--secondary);
   font-size: 1.5rem;
+  animation: aboutScreen-mainContent-load 1.5s linear;
+}
+
+@keyframes aboutScreen-mainContent-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .aboutScreen-links {
