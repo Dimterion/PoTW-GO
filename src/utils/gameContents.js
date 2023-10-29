@@ -73,7 +73,7 @@ const gameContents = [
 
     Arika tilts her head, looking at you, like trying to figure something out. A brief moment of hesitation hangs between the two of you, then she continues.
 
-    “As for the philosophical question of what you are, how about being what you want to be?” - She winks. - “I mean, I’m artificial here, in zerOne. Same as you are. And, look down, you’re seeing the real world projection now, so you can take a peek at it too. Same as me. Pretty cool, huh? This is the feed from the camera I was able to install at this same spot back there, in reality. Man, that was a scary day. I still can’t believe I climbed here all by my very own limbs.” - She sounds sad for a moment. - “I hope that was worth it. It’s a long way down. Almost makes you feel like flying before reaching the surface. But at times a leap of faith is all we need, hoping for some soft landing spot which may not be there.”`,
+    “As for the philosophical question of what you are, how about being what you want to be?” - She winks. - “I mean, I’m artificial here, in zerOne. Same as you are. And look down, you’re seeing the real-world projection now, so you can take a peek at it too. Same as me. Pretty cool, huh? This is the feed from the camera I was able to install at this same spot back there, in reality. Man, that was a scary day. I still can’t believe I climbed here all by my very own limbs.” - She sounds sad for a moment. - “I hope that was worth it. It’s a long way down. Almost makes you feel like flying before reaching the surface. But at times a leap of faith is all we need, hoping for some soft-landing spot which may not be there.”`,
     options: [
       {
         text: `“You went outside?”`,
