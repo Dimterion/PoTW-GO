@@ -8,6 +8,8 @@ Interactive Text Adventure
 
 [First chapter of the story](https://poets-of-tomorrows-world.vercel.app/)
 
+Articles:
+
 [Description](https://medium.com/@dimterion/making-a-text-adventure-game-7e43df823f80)
 
 [Tech details](https://medium.com/@dimterion/using-developer-skills-to-tell-a-story-5cbe9f0b3cca)
@@ -18,9 +20,9 @@ Interactive Text Adventure
 
 - An interactive story made with React
 - The story can be completed (some future changes/adjustments are still possible)
-- First chapter of the story linked above (brief summary is also provided in the current one)
+- First chapter of the story is linked above (brief summary is also provided in the current one)
 - To be continued...
 
 ## Built with
 
-Vite, React, React Router, CSS, Night Cafe (images), Netlify (current deployment)
+Vite, React, React Router, JavaScript, CSS, HTML, Night Cafe (images), Netlify (current deployment)
