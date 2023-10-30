@@ -1,0 +1,22 @@
+.creditsScreenLoader {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border: 5px solid var(--sub);
+  background: var(--secondary);
+  animation: creditsScreenLoader 1.5s linear infinite alternate-reverse;
+}
+
+@keyframes creditsScreenLoader {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.5);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(0);
+  }
+}

@@ -97,7 +97,7 @@ const gameContents = [
     subText: `“Wait a second. You went outside? Outside the tower? How is that possible?”`,
     text: `Arika avoids your gaze.
 
-    “Well… There are ways. Not for everyone, obviously. But with the right equipment and, first of all, enough credits, you can apply a bit of an open doors policy. Way too dangerous also. It’s one thing when rich folk fly between the towers using the machines, but going out wearing a protective suit all by yourself and, what’s more, jumping over the metal pieces like this one, that’s a completely different endeavor.”
+    “Well… There are ways. Not for everyone, obviously. But with the right equipment and, first of all, enough credits, you can apply a bit of an open doors policy. Way too dangerous also. It’s one thing when rich folk fly between the towers using the machines but going out wearing a protective suit all by yourself and, what’s more, jumping over the metal pieces like this one, that’s a completely different endeavor.”
 
     She suddenly turns to you, looking straight into your eyes.
 
@@ -197,7 +197,7 @@ const gameContents = [
 
     Arika sighs, looking into the distance.
 
-    “I’ve tried to reach it, but didn’t manage. It’s rather far away in the real world and quite well protected in zerOne. Deo was able to approach it once, but all he saw was a blurry silhouette. Now he’s gone, Soai, and I need all the help I can get to try again. I want to understand why they don’t do anything, why they’ve isolated themselves while the whole world is on its final countdown.”
+    “I’ve tried to reach it but didn’t manage. It’s rather far away in the real world and quite well protected in zerOne. Deo was able to approach it once, but all he saw was a blurry silhouette. Now he’s gone, Soai, and I need all the help I can get to try again. I want to understand why they don’t do anything, why they’ve isolated themselves while the whole world is on its final countdown.”
 
     She stops talking and stares in front of her, head sunk in her shoulders.`,
     options: [
@@ -226,7 +226,7 @@ const gameContents = [
 
     Arika suddenly gets quiet, as if she doesn’t want to tell you something, then continues.
 
-    “Later on I finally got the news about him reaching the bottom. So I moved back here, to the Bridge, and some time after we met at the arena at last. Voila.”`,
+    “Later on, I finally got the news about him reaching the bottom. So, I moved back here, to the Bridge, and sometime after we met at the arena at last. Voila.”`,
     options: [
       {
         text: `“Got any plan in mind?”`,

@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import CreditsScreenLoader from "../../components/Loaders/CreditsScreenLoader/CreditsScreenLoader";
 import CreditsScreenSlider from "../../components/Sliders/CreditsScreenSlider/CreditsScreenSlider";
 import prologueImage from "../../assets/images/prologue_image.jpg";
 import arikaPortrait from "../../assets/images/arika_portrait.jpg";
@@ -75,7 +76,14 @@ const charactersImages = [
 ];
 
 function CreditsScreen() {
+  const [loading, setLoading] = useState(true);
   const [openList, setOpenList] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+  }, []);
 
   const characters = charactersImages.map((img) => {
     return (
@@ -90,33 +98,39 @@ function CreditsScreen() {
 
   return (
     <section className="creditsScreen-container">
-      <CreditsScreenSlider images={creditsScreenSlides} />
-      <h1 className="creditsScreen-title">Thank you for playing</h1>
-      <button
-        className="creditsScreen-btn"
-        onClick={() => setOpenList(!openList)}
-      >
-        {!openList ? "CHARACTERS" : "CLOSE"}
-      </button>
-      {openList && (
-        <article>
-          <h2 className="creditsScreen-subTitle">Characters List</h2>
-          <article className="creditsScreen-images">{characters}</article>
-        </article>
+      {loading ? (
+        <CreditsScreenLoader />
+      ) : (
+        <>
+          <CreditsScreenSlider images={creditsScreenSlides} />
+          <h1 className="creditsScreen-title">Thank you for playing</h1>
+          <button
+            className="creditsScreen-btn"
+            onClick={() => setOpenList(!openList)}
+          >
+            {!openList ? "CHARACTERS" : "CLOSE"}
+          </button>
+          {openList && (
+            <article>
+              <h2 className="creditsScreen-subTitle">Characters List</h2>
+              <article className="creditsScreen-images">{characters}</article>
+            </article>
+          )}
+          <Link className="creditsScreen-startScreenLink" to="/">
+            START SCREEN
+          </Link>
+          <footer>
+            <a
+              href="https://dimterion.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="creditsScreen-link"
+            >
+              Made by Dimterion
+            </a>
+          </footer>
+        </>
       )}
-      <Link className="creditsScreen-startScreenLink" to="/">
-        START SCREEN
-      </Link>
-      <footer>
-        <a
-          href="https://dimterion.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="creditsScreen-link"
-        >
-          Made by Dimterion
-        </a>
-      </footer>
     </section>
   );
 }
