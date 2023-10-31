@@ -6,6 +6,17 @@
   max-height: 50vh;
   border: 1px solid var(--sub);
   margin: 0 auto;
+  animation: creditsScreenSlider-container-load 500ms ease-in;
+}
+
+@keyframes creditsScreenSlider-container-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .creditsScreenSlider-slides {

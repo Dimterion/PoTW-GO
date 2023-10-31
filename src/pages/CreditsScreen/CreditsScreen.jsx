@@ -103,23 +103,25 @@ function CreditsScreen() {
       ) : (
         <>
           <CreditsScreenSlider images={creditsScreenSlides} />
-          <h1 className="creditsScreen-title">Thank you for playing</h1>
-          <button
-            className="creditsScreen-btn"
-            onClick={() => setOpenList(!openList)}
-          >
-            {!openList ? "CHARACTERS" : "CLOSE"}
-          </button>
-          {openList && (
-            <article>
-              <h2 className="creditsScreen-subTitle">Characters List</h2>
-              <article className="creditsScreen-images">{characters}</article>
-            </article>
-          )}
-          <Link className="creditsScreen-startScreenLink" to="/">
-            START SCREEN
-          </Link>
-          <footer>
+          <article className="creditsScreen-article">
+            <h1 className="creditsScreen-title">Thank you for playing</h1>
+            <button
+              className="creditsScreen-btn"
+              onClick={() => setOpenList(!openList)}
+            >
+              {!openList ? "CHARACTERS" : "CLOSE"}
+            </button>
+            {openList && (
+              <>
+                <h2 className="creditsScreen-subTitle">Characters List</h2>
+                <article className="creditsScreen-images">{characters}</article>
+              </>
+            )}
+            <Link className="creditsScreen-startScreenLink" to="/">
+              START SCREEN
+            </Link>
+          </article>
+          <footer className="creditsScreen-footer">
             <a
               href="https://dimterion.github.io/"
               target="_blank"

@@ -55,6 +55,22 @@
   scale: 0.8;
 }
 
+.creditsScreen-article {
+  display: flex;
+  flex-flow: column nowrap;
+  animation: creditsScreen-article-load 1.1s ease-in;
+}
+
+@keyframes creditsScreen-article-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .creditsScreen-subTitle {
   color: var(--secondary);
   text-shadow: 2px 2px var(--primary);
@@ -94,6 +110,20 @@
 .creditsScreen-startScreenLink:hover {
   border: 1px solid var(--sub);
   color: var(--sub);
+}
+
+.creditsScreen-footer {
+  animation: creditsScreen-footer-load 500ms ease-in;
+}
+
+@keyframes creditsScreen-footer-load {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .creditsScreen-link {
