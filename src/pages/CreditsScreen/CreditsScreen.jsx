@@ -105,6 +105,10 @@ function CreditsScreen() {
           <CreditsScreenSlider images={creditsScreenSlides} />
           <article className="creditsScreen-article">
             <h1 className="creditsScreen-title">Thank you for playing</h1>
+            <p className="creditsScreen-text">
+              In case you want to check the images used in the game, here is a
+              slider with them and also a list of all characters.
+            </p>
             <button
               className="creditsScreen-btn"
               onClick={() => setOpenList(!openList)}

@@ -276,7 +276,7 @@ const gameContents = [
 
     Arika giggles, then continues.
 
-    “Sorry, got a bit distracted. About meeting the grumpy genius. You’ve probably guessed it already. It happened during one of the Writers Fights. I was doing the arena, or, better say, messing around. Didn’t aim at winning. Was just, dunno, having fun maybe. Knocked out one dude, then stopped, went back and healed him up, pushed forward again, knocked out another one, that kind of stuff. The one that makes everyone else angry. I was just bored. Was sitting at the finish line after the arena, looking at the empty track, when Deo approached me. Word by word he dragged me in. Once I realized what he was aiming at, I made up my mind and asked if I could join. Hearing no objections from the old fellow, I’ve begun helping him with all that.” - She waves her hand at you. - “Though at last he became quite a secretive companion, so I got more time on my own and kept irritating folk in various arenas. That’s a short version for ya, my newly acquired friend.”
+    “Sorry, got a bit distracted. About meeting the grumpy genius. You’ve probably guessed it already. It happened during one of the Writers Fights. I was doing the arena, or, better say, messing around. Didn’t aim at winning. Was just, dunno, having fun maybe. Knocked out one dude, then stopped, went back, and healed him up, pushed forward again, knocked out another one, that kind of stuff. The one that makes everyone else angry. I was just bored. Was sitting at the finish line after the arena, looking at the empty track, when Deo approached me. Word by word he dragged me in. Once I realized what he was aiming at, I made up my mind and asked if I could join. Hearing no objections from the old fellow, I’ve begun helping him with all that.” - She waves her hand at you. - “Though at last he became quite a secretive companion, so I got more time on my own and kept irritating folk in various arenas. That’s a short version for ya, my newly acquired friend.”
 
     Arika chuckles and looks away.`,
     options: [
@@ -346,11 +346,11 @@ const gameContents = [
     subImageAlt: "Character falling down from the tower.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code compilation in a digital world.
     
-    You get up, close your eyes and take a step into the emptiness in front of you.
+    You get up, close your eyes, and take a step into the emptiness in front of you.
 
-    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
+    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye, you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
 
-    A bit shaken by such experience, you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
+    A bit shaken by such experience you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.
 
     There must be some other way out.`,
     options: [
@@ -494,11 +494,11 @@ const gameContents = [
     subImageAlt: "Character falling down from the tower.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code compilation in a digital world.
 
-    You get up, close your eyes and take a step into the emptiness in front of you.
+    You get up, close your eyes, and take a step into the emptiness in front of you.
 
-    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
+    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye, you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
 
-    A bit shaken by such experience, you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
+    A bit shaken by such experience you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
     options: [
       {
         text: `Cry and scream.`,
@@ -553,11 +553,11 @@ const gameContents = [
     subImageAlt: "Character falling down from the tower.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code compilation in a digital world.
 
-    You get up, close your eyes and take a step into the emptiness in front of you.
+    You get up, close your eyes, and take a step into the emptiness in front of you.
 
-    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
+    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye, you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
 
-    A bit shaken by such experience, you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
+    A bit shaken by such experience you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
     options: [
       {
         text: `Hm-m-m…`,
@@ -574,11 +574,11 @@ const gameContents = [
     subImageAlt: "Character falling down from the tower.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code compilation in a digital world.
 
-    You get up, close your eyes and take a step into the emptiness in front of you.
+    You get up, close your eyes, and take a step into the emptiness in front of you.
 
-    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
+    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye, you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
 
-    A bit shaken by such experience, you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
+    A bit shaken by such experience you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
     options: [
       {
         text: `Climb up the wall.`,
@@ -629,11 +629,11 @@ const gameContents = [
     subImageAlt: "Character falling down from the tower.",
     text: `You only live once. Or, in your case, it’s hard to tell if you lived at all. You’re a mere code compilation in a digital world.
 
-    You get up, close your eyes and take a step into the emptiness in front of you.
+    You get up, close your eyes, and take a step into the emptiness in front of you.
 
-    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
+    Having both a wonderful and terrifying feeling of a free fall for a few seconds, you suddenly realize that nothing changes. You open your eyes and see the same metal bar underneath. In the next moment you smash right into it, your arms and legs hanging loosely from its sides. Not able to catch balance, you slide off the bar and fly down again. In a blink of an eye, you end up being on the cold metal once more. This falling loop repeats a couple more times until you finally manage to grab the bar and sit on it.
 
-    A bit shaken by such experience, you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
+    A bit shaken by such experience you begin to understand that the whole place is similar to Deo's rabbit hole where you went to talk with him during the last Writers Fight. It’s just a virtual space surrounded by digital walls. Upon reaching any of them, you’re simply being thrown away to the other side endlessly.`,
     options: [
       {
         text: `Hm-m-m…`,
