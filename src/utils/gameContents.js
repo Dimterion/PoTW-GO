@@ -371,7 +371,7 @@ const gameContents = [
     subImage: prologueSubImage02,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Wall of the futuristic tower.",
-    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty, and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
 
     You try jumping a few times, but that also doesn’t really bring any results except for the metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant and disturbing, like a nail scratching the glass slowly, firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.`,
     options: [
@@ -392,7 +392,7 @@ const gameContents = [
     subImage: prologueSubImage03,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Yellow-green clouds and sky.",
-    text: `You feel lonely, lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
+    text: `You feel lonely, lost, and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds come out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
 
@@ -415,7 +415,7 @@ const gameContents = [
     subImage: prologueSubImage02,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Wall of the futuristic tower.",
-    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty, and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
 
     You try jumping a few times, but that also doesn’t really bring any results except for the metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant and disturbing, like a nail scratching the glass slowly, firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.
     
@@ -434,7 +434,7 @@ const gameContents = [
     subImage: prologueSubImage03,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Yellow-green clouds and sky.",
-    text: `You feel lonely, lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
+    text: `You feel lonely, lost, and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds come out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
 
@@ -456,7 +456,7 @@ const gameContents = [
     subImage: prologueSubImage03,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Yellow-green clouds and sky.",
-    text: `You feel lonely, lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
+    text: `You feel lonely, lost, and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds come out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
 
@@ -475,7 +475,7 @@ const gameContents = [
     subImage: prologueSubImage02,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Wall of the futuristic tower.",
-    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty, and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
 
     You try jumping a few times, but that also doesn’t really bring any results except for the metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant and disturbing, like a nail scratching the glass slowly, firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.`,
     options: [
@@ -513,7 +513,7 @@ const gameContents = [
     subImage: prologueSubImage03,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Yellow-green clouds and sky.",
-    text: `You feel lonely, lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
+    text: `You feel lonely, lost, and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
     
     You scream like a madman, sounds come out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
     
@@ -532,7 +532,7 @@ const gameContents = [
     subImage: prologueSubImage03,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Yellow-green clouds and sky.",
-    text: `You feel lonely, lost and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
+    text: `You feel lonely, lost, and hopeless. You don’t know who you are and what you are supposed to do in this life. An impostor in a digital world, pretending to be a real being.
 
     You scream like a madman, sounds come out of your artificial throat in bursts and disappear in the nothingness that surrounds you.
     
@@ -593,7 +593,7 @@ const gameContents = [
     subImage: prologueSubImage02,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Wall of the futuristic tower.",
-    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty, and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
 
     You try jumping a few times, but that also doesn’t really bring any results except for the metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant and disturbing, like a nail scratching the glass slowly, firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.`,
     options: [
@@ -610,7 +610,7 @@ const gameContents = [
     subImage: prologueSubImage02,
     mainImageAlt: "Toxic clouds above the surface.",
     subImageAlt: "Wall of the futuristic tower.",
-    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
+    text: `You turn around and crawl to the Bridge wall behind. You slowly get up and start climbing. Well, it’s not really climbing. More like moving your hands all over the wall and trying to find something to hold on to. Yet the whole surface is smooth and there is nothing to grab in order to lift yourself up. The tower may look old, rusty, and full of sticking pieces from a distance (and in the real world most likely), but, as soon as you touch the wall, it gets flat and slippery like a block of ice.
 
     You try jumping a few times, but that also doesn’t really bring any results except for the metal bar squeaking. The sound makes you nervous. The kind of nervous you get after hearing something unpleasant and disturbing, like a nail scratching the glass slowly, firmly, getting further and further until you start itching and twitching, not able to focus on anything else until the sound stops.`,
     options: [
@@ -655,7 +655,7 @@ const gameContents = [
 
     The creature tilts its head, observing you with its red glowing eyes. This silent scene lasts for a brief moment.
 
-    “No way up or down, huh?” - It speaks in a familiar voice, yet you can’t figure out where you heard it. - “It’s your voice, dude. Can’t you hear it? I’m EH, by the way. Remember the name? A mode for the arena to sort of predict things? I’m inside of your artificial digital brain. In fact, I’m a part of you. Always have been. Nnif activated me when you asked her about Deo, and then, once you entered the shortcut in the Shrike, I got turned on completely.” - It chuckles. - “So, we’re both one whole Soai now. But you can call me Even, heh. Don’t like EH, you know. And Event Horizon is too official, sounds like first and last name. As for the T at the end… Meh, who cares. If you spell it backwards it gives you never without an R.” - The creature winks. - “And thus we got T removed from one end and R - from the other. My little trademark of a sort. Long story short, I want you to call me Even, ok? And, as I’m basically you, it means that you want it as well.”`,
+    “No way up or down, huh?” - It speaks in a familiar voice, yet you can’t figure out where you heard it. - “It’s your voice, dude. Can’t you hear it? I’m EH, by the way. Remember the name? A mode for the arena to sort of predict things. I’m inside of your artificial digital brain. In fact, I’m a part of you. Always have been. Nnif activated me when you asked her about Deo, and then, once you entered the shortcut in the Shrike, I got turned on completely.” - It chuckles. - “So, we’re both one whole Soai now. But you can call me Even, heh. Don’t like EH, you know. And Event Horizon is too official, sounds like first and last name. As for the T at the end… Meh, who cares. If you spell it backwards it gives you never without an R.” - The creature winks. - “And thus, we got T removed from one end and R - from the other. My little trademark of a sort. Long story short, I want you to call me Even, ok? And, as I’m basically you, it means that you want it as well.”`,
     options: [
       {
         text: `“A part of me?”`,
@@ -689,7 +689,7 @@ const gameContents = [
 
     After another spin around you Even continues.
 
-    “Feels good to be finally out. Decided to wait till your little talk with Arika is over. Dunno why she’s disappeared though. Also, I’ve no idea what our goal is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
+    “Feels good to be finally out. Decided to wait till your little talk with Arika is over. Dunno why she’s disappeared though. Also, I’ve no idea what our goal is and why we were created in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
     options: [
       {
         text: `“What’s with all the names?”`,
@@ -715,7 +715,7 @@ const gameContents = [
     subText: `“You’re really obsessed with the names, aren’t you?”`,
     text: `Even flies closer to you, looking into your eyes.
 
-    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still something else as well. A personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
+    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering various names at times. To amuse myself or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. A personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
     options: [
       {
         text: `“A part of me?”`,
@@ -745,7 +745,7 @@ const gameContents = [
 
     Then it waves its hand and smiles.
 
-    “Just kidding. I suggest getting out of here. Was enough sightseeing for us both. Can’t deny, I had some fun watching you trying all directions. But when you run out of options, it’s a good indicator that you need to make a pause, take a deep breath and focus on the situation at hand. Which translates to: there’s an exit button right under your nose.”
+    “Just kidding. I suggest getting out of here. Was enough sightseeing for us both. Can’t deny, I had some fun watching you trying all directions. But when you run out of options, it’s a good indicator that you need to make a pause, take a deep breath, and focus on the situation at hand. Which translates to: there’s an exit button right under your nose.”
 
     Even points at the metal bar you’re sitting on.
 
@@ -776,7 +776,7 @@ const gameContents = [
     subText: `“You’re really obsessed with the names, aren’t you?”`,
     text: `Even flies closer to you, looking into your eyes.
 
-    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering various names at times. To entertain myself, or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still something else as well. A personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
+    “Listen, I was a silent observer of your daily loops back then, so I had to entertain myself somehow. Watching you doing your precious Writers Fights is fun and all, but sooner or later you get bored. Thus, I was pondering various names at times. To amuse myself or have some sort of a hobby. And besides, I like names. Makes you feel… you, I guess. As if I am something. Part of you, but still, something else as well. A personality inside of your personality. You’re a nice piece of code, which makes me a nice one, but I just want to be me regardless.”`,
     options: [
       {
         text: `“So, what’s next?”`,
@@ -800,7 +800,7 @@ const gameContents = [
 
     After another spin around you Even continues.
 
-    “Feels good to be finally out. Decided to wait till your little talk with Arika is over. Dunno why she’s disappeared though. Also, I’ve no idea what our goal is and why we were created, in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
+    “Feels good to be finally out. Decided to wait till your little talk with Arika is over. Dunno why she’s disappeared though. Also, I’ve no idea what our goal is and why we were created in case you’re wondering and think that I know. I’m as clueless as you are. Perhaps we can find it out together.”`,
     options: [
       {
         text: `“So, what’s next?”`,
@@ -838,7 +838,7 @@ const gameContents = [
     subText: `“Any idea where we are, Even? This place looks strangely familiar, yet I don’t recall ever being here.”`,
     text: `Even’s voice suddenly changes, it sounds like several different one’s mixed together.
 
-    “We are in the Bridge, Soai. The real Bridge, not the virtual one in zerOne. Every tower’s corner is surveilled, so cameras and all sorts of recording devices are everywhere, thus we can see it all.” - It gets quiet for a moment. - “Wait. How do I know this? Like it’s always been in my memory, I just didn’t need to access it. And once I did, it just popped out. Weird…”
+    “We are in the Bridge, Soai. The real Bridge, not the virtual one in zerOne. Every tower’s corner is surveilled, so cameras and all sorts of recording devices are everywhere, thus we can see it all.” - It makes a pause. - “Wait. How do I know this? Like it’s always been in my memory, I just didn’t need to access it. And once I did, it just popped out. Weird…”
 
     Even keeps observing the surroundings, then adds.
 
@@ -897,7 +897,7 @@ const gameContents = [
 
     “I feel like some storage device, keeping stuff inside me, but not knowing what’s actually there. Then, the moment I see something… or we see something, it’s like I’ve known it all along. A strange real world side effect or whatever.”
 
-    It gets quiet for a moment and you notice a man going through the corridor. He wears old-fashioned black glasses, has a beard, long hair and a never fading rebel-youth expression on his face despite the not so young age.
+    It gets quiet for a moment, and you notice a man going through the corridor. He wears old-fashioned black glasses, has a beard, long hair and a never fading rebel-youth expression on his face despite the not so young age.
 
     “Well, look at this individual.” - Even produces a sound of clicking its tongue. - “Una Ek, the one and only owner of the Mnemonic bar and also a friend of ours. Exactly the same in both worlds. True to himself as ever.”
 
@@ -978,7 +978,7 @@ const gameContents = [
     
     Seeing your face, it adds in a less mocking tone.
 
-    “Fine, fine. I’ll be less humoristic. Correction, I’ll try to be less humoristic. But seriously, ping him already. Or let’s go check our apartment here in zerOne, if you’ve changed your mind.”`,
+    “Fine, fine. I’ll be less humoristic. Correction, I’ll try to be less humoristic. But seriously, ping him already. Or let’s go check our apartment here in zerOne if you’ve changed your mind.”`,
     options: [
       {
         text: `Call Una.`,
@@ -1064,7 +1064,7 @@ const gameContents = [
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `You enter the apartment and see Una on the couch, holding an old-looking guitar in his hands, playing some simple tune.
 
-    The place is quite different from the corridor outside. Warm lights illuminate the room, everything is clean and the furniture is almost like new.
+    The place is quite different from the corridor outside. Warm lights illuminate the room, everything is clean, and the furniture is almost like new.
 
     “Wow.” - Even glances around. - “How did he manage to get a life-capsule like this?”
 
@@ -1096,7 +1096,7 @@ const gameContents = [
     subText: `“Even is right here, with us. I don’t think anyone except for me can see or hear it.”`,
     text: `“Too bad.” - Una keeps playing the guitar. - “Don’t like invisible friends, makes me nervous.”
 
-    “Well, if it’s any consolation, I can’t do much about this either.” - Even shrugs. - “I wish I…”
+    “Well, if it’s any consolation, I can’t do much about it either.” - Even shrugs. - “I wish I…”
 
     “If it’s talking right now,” - Una unintentionally interrupts again. - “Tell it to shut up.”
 
@@ -1138,7 +1138,7 @@ const gameContents = [
 
     Una stops talking for a moment, focusing on his guitar again.
 
-    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
+    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk once former inhabitants either switch levels or sing their literal last songs? From time-to-time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
 
     He gets silent and rubs his forehead.
 
@@ -1241,7 +1241,7 @@ const gameContents = [
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `You connect to the video call and enter the apartment. You see Una on the couch, holding an old-looking guitar in his hands, playing some simple tune.
 
-    The place is quite different from the corridor outside. Warm lights illuminate the room, everything is clean and the furniture is almost like new.
+    The place is quite different from the corridor outside. Warm lights illuminate the room, everything is clean, and the furniture is almost like new.
 
     “Wow.” - Even glances around. - “How did he manage to get a life-capsule like this?”
 
@@ -1284,7 +1284,7 @@ const gameContents = [
 
     Una stops talking for a moment, focusing on his guitar again.
 
-    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk once former inhabitants either switch levels or sing their literal last songs? From time to time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
+    “There are some benefits though. Nobody’s telling me what to do, nobody’s preventing me from taking stuff from the empty life-capsules. Did you know that they are not really being refilled with new folk once former inhabitants either switch levels or sing their literal last songs? From time-to-time new faces arrive, but that rarely happens, almost never, to be precise. So, I’m free to take whatever I want. Not like anyone needs it anyway, and I like spending time trying to make my piece of reality a little bit cozier.”
 
     He gets silent and rubs his forehead.
 
@@ -1495,9 +1495,9 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Tiny futuristic apartment.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `You go inside the apartment. The place looks quite close to what you’d expect based on the exterior of the corridor. It is tiny, cramped and old.
+    text: `You go inside the apartment. The place looks quite close to what you’d expect based on the exterior of the corridor. It is tiny, cramped, and old.
 
-    “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
+    “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner, and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
 
     Even notices your puzzled face.
     
@@ -1552,7 +1552,7 @@ const gameContents = [
     mainImageAlt: "Tiny futuristic apartment.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Are you sure this is Sane? We’re talking about the same Sane, right? Huge guy, a bit crazy when it comes to post apocalyptic topics. Always talks in a low thunderous voice and keeps saying how important it is to not be mediocre?”`,
+    subText: `“Are you sure this is Sane? We’re talking about the same Sane, right? Huge guy, a bit crazy when it comes to post-apocalyptic topics. Always talks in a low thunderous voice and keeps saying how important it is to not be mediocre?”`,
     text: `“Oh what a day…” - Even shakes its head skeptically. - “What a lovely day to not believe me. Have I said something that isn’t true so far? Yes, it’s that kind of Sane. You do remember that you only met him in zerOne and only when you were a loopy boy? Now we’re seeing him in reality. I do admit though, this scrawny young man doesn’t look like his virtual image at all. He’s surely spent all his experience points on strength and brutality, if you get my meaning.”
 
     Even gets closer to Sane.
@@ -1637,7 +1637,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Sane, I need to tell you something…”`,
-    text: `You decide to tell Sane everything, but, the moment you start, he interrupts you with excitement.
+    text: `You decide to tell Sane everything, but the moment you start, he interrupts you with excitement.
 
     “Cool! So, it finally happened.”
 
@@ -1677,7 +1677,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Wait a minute. You know Deo?”`,
-    text: `“Yeah, since he let me live in his place.” - Sane replies as if it was obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. Since you took part in the last Writers Fight actually. Perhaps he was busy with your tuning or whatever.”
+    text: `“Yeah, since he let me live in his place.” - Sane replies as if it were obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. Since you took part in the last Writers Fight actually. Perhaps he was busy with your tuning or whatever.”
 
     “Soai…” - Even says quietly. - “He doesn’t know that Deo’s gone. I remember now. Same as with the projection you talked to in the arena loophole, once you’ve figured it all out and I was loaded into you, all Deo’s connections to the world have been cut off. In fact, I was the one doing the cutting, as it was no longer needed. In other words, Sane never talked to the real Deo. Old man probably left something similar to his arena version here. A projection of a sort, to keep an eye on the life-capsule. And now it’s also gone. I guess we should tell him.”`,
     options: [
@@ -1722,13 +1722,13 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“You live alone? No relatives or friends?”`,
-    text: `“Nah, man…” - Sane waves his hand. - “Well, except for you, Una… and Deo I guess. Have you seen the real Bridge? Everything is like some grim bunker with nobody inside. Once I settled here, I’ve been mostly hanging out with you in zerOne or figuring out how to not go further down to the first level. Speaking of the first level…” - Sane rubs his chin. - “Deo, or his projection, said that you might want to go there. Don’t know why exactly, he didn’t tell. What he did tell is to help you install an additional module to your companion.”
+    text: `“Nah, man…” - Sane waves his hand. - “Well, except for you, Una… and Deo, I guess. Have you seen the real Bridge? Everything is like some grim bunker with nobody inside. Once I settled here, I’ve been mostly hanging out with you in zerOne or figuring out how to not go further down to the first level. Speaking of the first level…” - Sane rubs his chin. - “Deo, or his projection, said that you might want to go there. Don’t know why exactly, he didn’t tell. What he did tell is to help you install an additional module to your companion.”
 
     “That’s me, rabbit with a dragon soul.” - Even sounds wary. - “I already have enough of the unknown inside. What’s that supposed to be? Damn it,” - It adds in the end. - “Keep forgetting that nobody except you sees or hears me.”
 
     Having no notion of Even’s words, Sane keeps talking. - “I don’t know much, he just told me to show you this. Looks ancient.”
 
-    He snaps his fingers and you see a red square with a gray circle in the middle. It’s floating in front of you, slowly turning around.
+    He snaps his fingers, and you see a red square with a gray circle in the middle. It’s floating in front of you, slowly turning around.
 
     “It’s called a floppy disk.” - Even explains to you. - “People used to store information on them in the old times. I mean, we are in zerOne, so it’s just a visual appearance. Old man had some strange way of expressing himself. Especially given the fact that he was born not even close to the time when this was still in use. Well, who cares. I don’t think we have any other option except for installing it. Go ahead.”`,
     options: [
@@ -1840,7 +1840,7 @@ const gameContents = [
     subText: `“Let’s have a look around. See anything we could use here?”`,
     text: `“Unless you’ve learnt how to grow a pair of material hands, no.” - Even walks around the room. - “One perfectly standard life-capsule. A place to sleep, eat and connect to zerOne. Everything one could wish for. As long as your wishes are related to living in a digital world.”
 
-    You observe the place, yet can’t find anything of use. Besides, as Even said, you are not able to physically interact with real objects.
+    You observe the place yet can’t find anything of use. Besides, as Even said, you are not able to physically interact with real objects.
 
     “Apartments got slightly bigger several years ago.” - Even starts talking in a multitude of voices. - “They couldn’t fill them all anymore, so it was decided to increase the size to make levels look more populated. Can you imagine how small they were before? Anyway, based on the current state, they might need to consider a new wave of renovations. By rough calculation, less than half of the level is occupied.”
 
@@ -1903,7 +1903,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Wait a minute. You know Deo?”`,
-    text: `“Yeah, since he let me live in his place.” - Sane replies as if it was obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. Since you took part in the last Writers Fight actually. Perhaps he was busy with your tuning or whatever.”
+    text: `“Yeah, since he let me live in his place.” - Sane replies as if it were obvious. - “I was… let’s say, in need of an apartment, his wasn’t occupied, so I kinda slipped in. Then he contacted me in zerOne, told me about you and said that I can stay here. I haven’t heard from him for a while. Since you took part in the last Writers Fight actually. Perhaps he was busy with your tuning or whatever.”
 
     “Soai…” - Even says quietly. - “He doesn’t know that Deo’s gone. I remember now. Same as with the projection you talked to in the arena loophole, once you’ve figured it all out and I was loaded into you, all Deo’s connections to the world have been cut off. In fact, I was the one doing the cutting, as it was no longer needed. In other words, Sane never talked to the real Deo. Old man probably left something similar to his arena version here. A projection of a sort, to keep an eye on the life-capsule. And now it’s also gone. I guess we should tell him.”`,
     options: [
@@ -1947,7 +1947,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“You live alone? No relatives or friends?”`,
-    text: `“Nah, man…” - Sane waves his hand. - “Well, except for you, Una… and Deo I guess. Have you seen the real Bridge? Everything is like some grim bunker with nobody inside. Once I settled here, I’ve been mostly hanging out with you in zerOne or figuring out how to not go further down to the first level. Speaking of the first level…” - Sane rubs his chin. - “Deo, or his projection, said that you might want to go there. Don’t know why exactly, he didn’t tell. What he did tell is to help you install an additional module to your companion.”
+    text: `“Nah, man…” - Sane waves his hand. - “Well, except for you, Una… and Deo, I guess. Have you seen the real Bridge? Everything is like some grim bunker with nobody inside. Once I settled here, I’ve been mostly hanging out with you in zerOne or figuring out how to not go further down to the first level. Speaking of the first level…” - Sane rubs his chin. - “Deo, or his projection, said that you might want to go there. Don’t know why exactly, he didn’t tell. What he did tell is to help you install an additional module to your companion.”
 
     “That’s me, rabbit with a dragon soul.” - Even sounds wary. - “I already have enough of the unknown inside. What’s that supposed to be? Damn it,” - It adds in the end. - “Keep forgetting that nobody except you sees or hears me.”
 
@@ -1971,7 +1971,7 @@ const gameContents = [
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     text: `Sane’s zerOne character stands nearby, his loud voice rumbling. - “I don’t know much, Deo just told me to show you this. Looks ancient.”
 
-    He snaps his fingers and you see a red square with a gray circle in the middle. It’s floating in front of you, slowly turning around.
+    He snaps his fingers, and you see a red square with a gray circle in the middle. It’s floating in front of you, slowly turning around.
     
     “It’s called a floppy disk.” - Even explains to you. - “People used to store information on them in the old times. I mean, we are in zerOne, so it’s just a visual appearance. Old man had some strange way of expressing himself. Especially given the fact that he was born not even close to the time when this was still in use. Well, who cares. I don’t think we have any other option except for installing it. Go ahead.”`,
     options: [
@@ -2188,9 +2188,9 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Tiny futuristic apartment.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `The place looks quite close to what you’d expect based on the exterior in the corridor. It is tiny, cramped and old.
+    text: `The place looks quite close to what you’d expect based on the exterior in the corridor. It is tiny, cramped, and old.
 
-    “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
+    “Well, a certain level of neatness is still present.” - Even smirks. - “Strange though. Old man is long gone, yet it kinda feels like someone is living here. Wait, there.” - It points at the corner, and you suddenly notice that someone is sleeping there. - “Hmm… Who would have thought… I mean, you do realize who that is, right?”
 
     Even notices your puzzled face.
     
@@ -2245,7 +2245,7 @@ const gameContents = [
     mainImageAlt: "Tiny futuristic apartment.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Are you sure this is Sane? We’re talking about the same Sane, right? Huge guy, a bit crazy when it comes to post apocalyptic topics. Always talks in a low thunderous voice and keeps saying how important it is to not be mediocre?”`,
+    subText: `“Are you sure this is Sane? We’re talking about the same Sane, right? Huge guy, a bit crazy when it comes to post-apocalyptic topics. Always talks in a low thunderous voice and keeps saying how important it is to not be mediocre?”`,
     text: `“Oh what a day…” - Even shakes its head skeptically. - “What a lovely day to not believe me. Have I said something that isn’t true so far? Yes, it’s that kind of Sane. You do remember that you only met him in zerOne and only when you were a loopy boy? Now we’re seeing him in reality. I do admit though, this scrawny young man doesn’t look like his virtual image at all. He’s surely spent all his experience points on strength and brutality, if you get my meaning.”
 
     Even gets closer to Sane.
@@ -2277,7 +2277,7 @@ const gameContents = [
     subText: `“Let’s have a look around. See anything we could use here?”`,
     text: `“Unless you’ve learnt how to grow a pair of material hands, no.” - Even walks around the room. - “One perfectly standard life-capsule. A place to sleep, eat and connect to zerOne. Everything one could wish for. As long as your wishes are related to living in a digital world.”
 
-    You observe the place, yet can’t find anything of use. Besides, as Even said, you are not able to physically interact with real objects.
+    You observe the place yet can’t find anything of use. Besides, as Even said, you are not able to physically interact with real objects.
 
     “Apartments got slightly bigger several years ago.” - Even starts talking in a multitude of voices. - “They couldn’t fill them all anymore, so it was decided to increase the size to make levels look more populated. Can you imagine how small they were before? Anyway, based on the current state, they might need to consider a new wave of renovations. By rough calculation, less than half of the level is occupied.”
 
