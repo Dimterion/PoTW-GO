@@ -2130,7 +2130,7 @@ const gameContents = [
     characterImageAlt: "Big man wearing post-apocalyptic clothes.",
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    subText: `“Remember the companion you mentioned? I’m talking to it. Nobody else can see or hear it. Its name is Even and it looked like a rabbit once. Now it’s more like a distant humanoid-type relative of a rabbit.”`,
+    subText: `“Remember the companion you mentioned? I’m talking to it. Nobody else can see or hear it. Its name is Even, and it looked like a rabbit once. Now it’s more like a distant humanoid-type relative of a rabbit.”`,
     text: `“Now wait a second!” - Even crosses its arms on its chest. - “What do you mean by that humanoid relative comparison?” - It looks at its hands. - “Oh… I thought I had paws… Hm… Have I performed a digital mutation?”
 
     “Awesome!” - Sane can’t hide his excitement. - “Not as cool as a dragon, but still nice!”
@@ -2379,7 +2379,7 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“Alright, I should be going now…”`,
-    text: `“Listen, Soai…” - Sane interrupts you. - “About the rewinding module I mentioned earlier... I mean, maybe it serves some purpose after all. Some hidden feature perhaps? Deo, or his projection, gave it to me for some reason. He said to remind you about it once you know who you are, if I get the chance. I still have it installed. So, dunno why, but if you want to use it again, let me know.”
+    text: `“Listen, Soai…” - Sane interrupts you. - “About the rewinding module I mentioned earlier... I mean, maybe it serves some purpose after all. Some hidden feature perhaps? Deo, or his projection, gave it to me for some reason. He said to remind you about it once you know who you are if I get the chance. I still have it installed. So, dunno why, but if you want to use it again, let me know.”
 
     “Ok, friendo.” - Even looks you in the eye. - “Based on what he said earlier, this thing will send you to the very beginning of our little adventure here, got it? Your progress will be reset permanently. You’re at the driver’s seat of course, and I’m just a concerned passenger, but do consider my warning please.”`,
     options: [
@@ -2410,7 +2410,7 @@ const gameContents = [
 
     While it’s talking you keep pondering about Sane.
 
-    “Child of two worlds this one.” - As usual, Even follows your thoughts. - “Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
+    “Child of two worlds this one.” - As usual, Even follows your thoughts. - “Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers’ guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
     options: [
       {
         text: `“Let’s go to the arena, Even.”`,
@@ -2617,7 +2617,7 @@ const gameContents = [
 
     “We do this like real poets. You…” - A tiny forefinger stabs at you. - “Versus me.” - A tiny thumb beats her chest. - “A duel!”
 
-    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets three rounds wins. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
+    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets three rounds wins. I’d go for five, but, since you’re so-called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
     options: [
       {
         text: `“Rock, paper, what?”`,
@@ -2763,7 +2763,7 @@ const gameContents = [
 
     “We do this like real poets. You…” - A tiny forefinger stabs at you. - “Versus me.” - A tiny thumb beats her chest. - “A duel!”
 
-    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets three rounds wins. I’d go for five, but, since you’re so called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
+    Ev makes a pause, then announces. - “We’re gonna play Rock, paper, scissors, lizard, Spock! First one who gets three rounds wins. I’d go for five, but, since you’re so-called friend of Noru, I’ll cut you some slack. Consider this a professional courtesy.”`,
     options: [
       {
         text: `“Rock, paper, what?”`,
@@ -3230,7 +3230,7 @@ const gameContents = [
 
     Sane exits his place and you decide to go to Nnif as Una suggested.
 
-    “I keep thinking about Sane.” - Even says thoughtfully. - “Child of two worlds this one. Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
+    “I keep thinking about Sane.” - Even says thoughtfully. - “Child of two worlds this one. Wondering why at his age he talks and acts like this? Try surviving in the tower all by yourself. He’s not in any of the writers’ guilds, doesn’t take part in the fights, and yet manages to stay on the second level. That’s a hell of an achievement for a young man. I took a peek at him, well, I mean my multi-voiced unknown feature did that, to be precise. He’s the youngest inhabitant on our level. Can you imagine that? There’s nobody younger than him here. Weird.”`,
     options: [
       {
         text: `“Let’s go to Nnif.”`,
