@@ -2823,13 +2823,13 @@ const gameContents = [
     subImageAlt: "Man looking away.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
     subText: `“See you, Noru. Have fun.”`,
-    text: `“Hm, what do you know… Our buddy Sane Snacks has a real name and no less real friend.” - Even says while you look at the two of them going away. - “Weird… Something’s off about that gnome lady. Can’t see her in real life. Maybe cause she’s moved here recently and I can’t access her feed due to some updates in progress or whatever, dunno. I guess, we’ll see… Or not.”
+    text: `“Hm, what do you know… Our buddy Sane Snacks has a real name and no less real friend.” - Even says while you look at the two of them going away. - “Weird… Something’s off about that gnome lady. Can’t see her in real life. Maybe cause she’s moved here recently, and I can’t access her feed due to some updates in progress or whatever, dunno. I guess, we’ll see… Or not.”
 
     You go to the arena, listening to Even talking.
 
     “No fighting today, the track is almost empty, so let’s just go to the so-called place where it’s all begun.”
 
-    You cross the start line of the race track and reach the point where you entered the shortcut during the last Fight.
+    You cross the start line of the racetrack and reach the point where you entered the shortcut during the last Fight.
 
     “Voila.” - You hear the sound of fingers snapping. - “One entrance for you, my restless master.”
 
@@ -2848,7 +2848,7 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Virtual structure with orange portals.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `Once you enter the portal you see a new place. It doesn’t look like the loophole you were in the last time. You don’t see the race track or any connection to the Shrike.
+    text: `Once you enter the portal you see a new place. It doesn’t look like the loophole you were in the last time. You don’t see the racetrack or any connection to the Shrike.
 
     “What?” - Even sounds puzzled. - “Why is this place different now? Wait, this time I’ve ported us directly, while before you first used the shortcut. Still, where’s the sphere where you talked to Deo?”
 
@@ -3172,13 +3172,13 @@ const gameContents = [
     additionalImage: evenPortrait,
     mainImageAlt: "Glowing orange portal.",
     additionalImageAlt: "Silver creature with red eyes and rabbit ears.",
-    text: `“Weird… ” - Even says while you look at Evren going away. - “Something’s off about that gnome lady. Can’t see her in real life. Maybe cause she’s moved here recently and I can’t access her feed due to some updates in progress or whatever, dunno. I guess, we’ll see… Or not.”
+    text: `“Weird… ” - Even says while you look at Evren going away. - “Something’s off about that gnome lady. Can’t see her in real life. Maybe cause she’s moved here recently, and I can’t access her feed due to some updates in progress or whatever, dunno. I guess, we’ll see… Or not.”
 
     You go to the arena, listening to Even talking.
 
     “No fighting today, the track is almost empty, so let’s just go to the so-called place where it’s all begun.”
 
-    You cross the start line of the race track and reach the point where you entered the shortcut during the last Fight.
+    You cross the start line of the racetrack and reach the point where you entered the shortcut during the last Fight.
 
     “Voila.” - You hear the sound of fingers snapping. - “One entrance for you, my restless master.”
 
@@ -3291,7 +3291,7 @@ const gameContents = [
 
     You call Nnif. After a few minutes she finally replies.
 
-    “Soai? Didn’t expect to see you today.” - She sounds tired and you barely recognize her voice. - “Why are you calling me outside zerOne?”
+    “Soai? Didn’t expect to see you today.” - She sounds tired, and you barely recognize her voice. - “Why are you calling me outside zerOne?”
 
     “Wow, she looks…” - Even pauses, searching for a proper word, observing her pale face and dark circles around her eyes. - “Different. Like for real different. Older and like she doesn’t sleep at all… Have to admit though, life-capsule kinda matches her style.”
 
@@ -3368,7 +3368,7 @@ const gameContents = [
 
     Nnif stares at you, brows flying up.
 
-    “Wait a sec.” - She gets silent and her lenses start glowing. - “Huh…”
+    “Wait a sec.” - She gets silent, and her lenses start glowing. - “Huh…”
 
     “Soai I think she’s…” - Even’s voice gets cut off.
 
@@ -3438,9 +3438,9 @@ const gameContents = [
     
     She glances at Even.
     
-    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science, but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. - “It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
+    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. - “It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
 
-    Nnif starts turning the knob and you hear clicking sounds produced by the device. In a moment it gets louder and the knob turns red.
+    Nnif starts turning the knob and you hear clicking sounds produced by the device. In a moment it gets louder, and the knob turns red.
 
     “Ok, this is your first portal, got it?”
 
@@ -3450,7 +3450,7 @@ const gameContents = [
 
     Barely moving and making any sounds, all three of you keep staring at the square device and Nnif starts turning the knob once again.
 
-    After a bit of clicking and glowing the knob becomes blue.
+    After a bit of clicking and glowing the knob turns blue.
 
     “Here’s the third one. There are usually four portals. We need one more.” - Nnif touches the knob, but it doesn’t turn. - “Ah, yeah, I forgot. They’ve changed their payment model recently and I haven’t yet paid for the current month subscription, so we can only use it three times per day. Sorry, Soai, but you have to figure out the last portal on your own.”`,
     options: [
@@ -3669,9 +3669,9 @@ const gameContents = [
 
     She glances at Even.
 
-    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science, but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. - “It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
+    “Yeah, yeah, I see your functionality to access cameras and that you can’t check zerOne on other levels yet.” - She lowers her voice. - “There’s a system of portals hidden beneath the Shrike arena. I’ve a feeling you’ve been near it once you talked with Deo and your rabbit was activated. You can go back there and use them. It’s not rocket science but may take some time to get the right sequence of them. However, I can make your life a little bit easier. Here.” - She shows you a strange looking square-shaped device with a knob on it. - “It’s a Volumetric Portals Navigator. With it we can check today's sequence.”
 
-    Nnif starts turning the knob and you hear clicking sounds produced by the device. In a moment it gets louder and the knob turns red.
+    Nnif starts turning the knob and you hear clicking sounds produced by the device. In a moment it gets louder, and the knob turns red.
 
     “Ok, this is your first portal, got it?”
     
@@ -3681,7 +3681,7 @@ const gameContents = [
     
     Barely moving and making any sounds, all three of you keep staring at the square device and Nnif starts turning the knob once again.
     
-    After a bit of clicking and glowing the knob becomes blue.
+    After a bit of clicking and glowing the knob turns blue.
     
     “Here’s the third one. There are usually four portals. We need one more.” - Nnif touches the knob, but it doesn’t turn. - “Ah, yeah, I forgot. They’ve changed their payment model recently and I haven’t yet paid for the current month subscription, so we can only use it three times per day. Sorry, Soai, but you have to figure out the last portal on your own.”`,
     options: [
