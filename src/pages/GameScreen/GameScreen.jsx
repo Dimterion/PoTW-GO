@@ -4,7 +4,7 @@ import GameComponent from "../../components/GameComponent/GameComponent";
 import gameContents from "../../utils/gameContents";
 
 function GameScreen() {
-  // LOCAL STORAGE SAVE TO ADD LATER
+  // Local storage save - consider adding at some point + buttons to save/reset progress (set state to the initial one).
   // --->
   // const [optionId, setOptionId] = useState(
   //   localStorage.getItem("optionId") || gameContents[0].id
@@ -12,9 +12,8 @@ function GameScreen() {
   //
   // localStorage.setItem("optionId", optionId);
   // <---
-  // + TO ADD: BUTTONS TO SAVE/RESET PROGRESS (SET STATE TO THE INITIAL ONE); REPLACE STATE ON THE LINE BELOW WITH THIS ONE
+  // Replace state with the one above; need to add various conditions to the state as well (to track conditions match during the game).
   const [loading, setLoading] = useState(true);
-
   const [optionId, setOptionId] = useState(gameContents[0].id);
 
   useEffect(() => {

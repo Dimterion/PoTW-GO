@@ -349,6 +349,6 @@ function GameComponent({ content, setOptionId }) {
 
 That will make optional dialogs visible if they are present (they will replace the main options). Once they are all clicked, the main options will be shown (to continue the game).
 
-Might not need this mechanic. Leaving as comments for reference.
+Might not need this mechanic. Leaving as a reference as the structure has changed since then.
 
 */
