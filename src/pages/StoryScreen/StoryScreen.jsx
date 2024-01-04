@@ -31,6 +31,13 @@ function StoryScreen() {
     }));
   }
 
+  function closeIntro() {
+    setText((prevText) => ({
+      ...prevText,
+      introText: false,
+    }));
+  }
+
   function resetText() {
     setText({
       introText: false,
@@ -61,12 +68,9 @@ function StoryScreen() {
             <IntroModal
               style="storyScreen-introText"
               openIntro={text.introText}
-              closeIntro={() => showText("introText")}
+              closeIntro={closeIntro}
             >
-              <button
-                className="storyScreen-xBtn"
-                onClick={() => showText("introText")}
-              >
+              <button className="storyScreen-xBtn" onClick={closeIntro}>
                 ✖
               </button>
               <p>{storyScreenIntroText}</p>
@@ -82,10 +86,7 @@ function StoryScreen() {
                 </a>
                 . Just saying. No pressure...
               </p>
-              <button
-                className="storyScreen-closeBtn"
-                onClick={() => showText("introText")}
-              >
+              <button className="storyScreen-closeBtn" onClick={closeIntro}>
                 CLOSE
               </button>
             </IntroModal>
