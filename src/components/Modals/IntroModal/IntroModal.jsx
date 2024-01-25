@@ -13,7 +13,7 @@ function IntroModal({ openIntro, closeIntro, children, style }) {
   }, [openIntro]);
 
   return (
-    <dialog ref={ref} onCancel={closeIntro} className={style}>
+    <dialog ref={ref} onClose={closeIntro} className={style}>
       {children}
     </dialog>
   );

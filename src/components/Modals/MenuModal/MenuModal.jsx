@@ -19,7 +19,7 @@ function MenuModal({ title, openMenu, closeMenu, children, style }) {
   return (
     <dialog
       ref={ref}
-      onCancel={closeMenu}
+      onClose={closeMenu}
       className={`menuModal-container--${style}`}
     >
       <h2 className={`menuModal-title--${style}`}>{title}</h2>
